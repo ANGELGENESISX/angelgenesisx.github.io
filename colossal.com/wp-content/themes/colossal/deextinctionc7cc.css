@@ -1,0 +1,754 @@
+.head {margin-top: 4vw; margin-bottom: 4vw;}
+.head .box {width: 100%; display: block; text-align: center;}
+.head .slashes {width: 100%;}
+.head .arkitect {display: inline-block; white-space: nowrap;}
+
+.line .disc {left: clamp(-88px,-4.7vw,10px); top: clamp(10px,1.4vw,28px);}
+
+p {font-size: clamp(10px,1vw,20px);}
+p.large {}
+
+#hero {color: #FFF;}
+#hero .adjuster {top: 34vh; position: absolute; width: 100%;}
+#hero h1 {color: #FFF; margin: 0 0 1vw; padding: 0; top: 0; left: 0; position: relative; font-size: clamp(10px,11.5vw,233px); white-space: nowrap;}
+#hero .line {position: relative; left: 0; top: 0; width: 100%; }
+#hero p {text-transform: none;}
+#hero .intro {position: absolute; top: 68vh; width: 100%; left: 0;}
+#hero h3 {font-size: clamp(10px,1.2vw,24px); font-family: 'Telegraf'; text-transform: uppercase; margin-bottom: 2vw;}
+#hero .slashes {position: absolute; right: 1vw; font-family: 'NB Architekt Std';}
+#hero .text.a {position: absolute; bottom: clamp(10px,2vw,20px); top: auto; left: calc(50% + 15px);}
+#hero .mark {position: absolute; left: 55%; top: 20%; background: transparent; width: 30vw; opacity: 0.4;}
+
+#section-1 {}
+#section-1 .iris {width: 90%;  margin-top: clamp(-270px,-14vw,10px);}
+#section-1 ul {padding: 0; margin: 0; border-bottom: 1px solid #000; padding-bottom: clamp(-40px,2vw,40px)}
+#section-1 ul li {font-size: clamp(10px,2.3vw,38px); padding-right: 20%; list-style: none; margin-top: clamp(10px,1.7vw,34px); border-top: 1px solid #000; padding-top: clamp(10px,1.7vw,34px); line-height: 1.1;}
+#section-1 .head .slashes {margin-left: 1%; width: 110%; max-width: 110%;}
+#section-1 .logo {width: 40%;}
+
+#section-2 {background: #000; background-size: cover; color: #FFF; padding: 2vw 0; overflow: hidden;}
+#section-2 h2 {font-family: 'NB Architekt Std'; font-size:clamp(10px,9.5vw,180px); white-space: nowrap; line-height: 2.1;}
+#section-2 p {margin-top: clamp(10px,6.5vw,120px);}
+#section-2 .disc {left: 50%; top: 65%; position: absolute;}
+#section-2 .arkitect {transform: rotate(90deg); position: absolute; left: 49.5%; top: 80%;}
+#section-2 .square.a {left: 50%; top: 9vw;}
+#section-2 .square.b {left: 58%; top: 20vw;}
+#section-2 .square.c {top: 60%; right: 2vw;}
+#section-2 .square.d {top: 60%; right: 10vw;}
+#section-2 .bg {position: absolute; left: 0; top: 0; height: 120%; object-fit: cover;}
+#section-2 .extra-bits {position: absolute; top:7vw; left: 47%; width: 50%}
+
+
+#section-3 {background: linear-gradient(180deg, rgba(255,255,255,1) 40%, #b770ef 100%); padding: 6vw 0 clamp(-200px,10vw,200px); }
+#section-3 .head {margin-top: 0;}
+#section-3 .left {position: relative; z-index: 5;}
+#section-3 .dying-out {width: 140%; max-width: 200%; margin-top: 25%;}
+/*#section-3 h2 {background: rgb(215,69,195); background: linear-gradient(62deg, rgba(215,69,195,1) 0%, rgba(128,222,68,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-family: 'Telegraf'; text-transform: uppercase; font-size: 4vw; white-space: nowrap; line-height: 1; overflow: visible; width: 100%w;}*/
+#section-3 .earth {margin: 1vw auto 3vw; display: block; width: 90%;}
+
+
+
+
+#section-quote {padding: clamp(-60px,3vw,60px) 0 clamp(-140px,7vw,140px)}
+#section-quote .inner {background: #FFF; width: 40%; padding: clamp(-80px,4vw,80px) clamp(-80px,4vw,80px) 0 0; position: relative;  margin-top: clamp(-100px,5vw,100px)}
+#section-quote p.normal {font-size: clamp(-24px,1.2vw,24px)}
+#section-quote img {}
+#section-quote .img-container {width: 80%; position: absolute; right: 0; top: clamp(-120px,-6vw,120px)}
+#section-quote .tag-1 {position: relative; width: 20%; left: 0; top: 0; z-index: 5; text-transform: uppercase;}
+#section-quote .tag-1 .line {width: 40%; display: inline-block; margin-left: 5%; text-transform: uppercase; vertical-align: middle;}
+#section-quote .author {position: absolute; bottom: -10vw; left: 25%; width: 75%}
+#section-quote .dot {position: absolute; left: clamp(-40px,-2vw,40px); top: 0vw; width: clamp(-20px,1vw,20px); height: clamp(-20px,1vw,20px)}
+#section-quote h4 {font-size: clamp(-40px,2vw,40px); font-family: 'NB Architekt Std'}
+#section-quote .tag-3 {position: absolute; right: clamp(-100px,-5vw,100px); top: clamp(-20px,1vw,20px); text-transform: uppercase; letter-spacing: clamp(-4px,0.2vw,4px);font-family: 'NB Architekt Std'; transform:rotate(-90deg)}
+#section-quote .author .tag-2 {white-space: nowrap; font-size: clamp(-16px,0.8vw,16px)}
+
+
+
+
+#section-4 {background: #000; color: #FFF;  padding: clamp(10px,6vw,120px) 0 clamp(10px,17vw,340px); }
+
+
+
+
+
+
+#section-5 {background: url(https://colossal.com/wp-content/themes/colossal/img/deextinction-section-5-bg.jpg); background-size: cover; color: #FFF; position: relative;}
+#section-5 .head {color: #FFF; margin-bottom: 0vw;}
+#section-5 .head p {font-size:clamp(10px, 1.5vw,30px); padding: 0;}
+#section-5 .head .icon-un {width: clamp(10px,3.5vw,70px); display: block; margin: 0 auto;}
+#section-5 .container-fluid {margin-top: clamp(-320px,-16vw,10px);}
+#section-5 .title {font-size: clamp(10px,16vw,320px); font-family: 'NB Architekt Light'; text-align: center; white-space: nowrap; line-height: 1; margin-bottom: clamp(10px,3vw,60px); color: #a15cdb;}
+#section-5 .text-1 {margin-top: clamp(10px,2vw,40px); margin-bottom: clamp(10px,2vw,40px); font-size: clamp(10px,2.4vw,48px); text-transform: uppercase; line-height: 1;}
+#section-5 .text-2 {font-size: clamp(10px,2.3vw,46px); font-family: 'NB Architekt Std';}
+#section-5 .text-4 {font-size: clamp(10px,2.7vw,52px); font-family: 'NB Architekt Std'; display: inline-block;}
+#section-5 .icon {vertical-align: middle; display: inline-block; margin: -1.5vw 0 0 1vw; }
+#section-5 p {font-size: clamp(10px,1vw,20px); padding-top: clamp(10px,1vw,20px);}
+#section-5 .text-3 {font-size: clamp(10px,4vw,80px); font-family: 'NB Architekt Light'; line-height: 1.2; margin: clamp(10px,4vw,80px) 0;}
+#section-5 .vertebrate {position: absolute; width:15%; right: 15% ;top: 30%;}
+#section-5 .green {color: #8cfa59;}
+#section-5 .bg {width: 130%; height: 130%; margin-left: -15%; max-width: 130%;}
+#section-5 .bg-container {position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden;}
+
+
+#section-6 {padding: clamp(10px,4vw,80px) 0 clamp(10px,6vw,120px); position: relative;}
+#section-6 .num {font-size: clamp(10px,3.3vw,66px); font-family: 'NB Architekt Light';}
+#section-6 sup {position: absolute; font-size: clamp(10px,1vw,20px); top:clamp(10px, 0.5vw,10px);}
+#section-6 .bar {background: #000; color: #FFF; font-size: 0.8vw; padding: 0.2vw 0.5vw; margin-bottom: 0.7vw;}
+#section-6 .icon {width: 21%; position: absolute; right: 15px; top: 1%;}
+#section-6 .num.right {float: right; letter-spacing: -0.3vw; line-height: 0.9;}
+#section-6 .num.left {float: left; margin-right: 1.5vw; line-height: 0.9; }
+#section-6 .dna {position: absolute; width: clamp(10px,53vw,1060px); top: 69%; left: 0;}
+#section-6 .text-6 {font-family: 'NB Architekt Std'; font-size: clamp(10px,1.3vw,26px); letter-spacing: clamp(-2px,-0.1vw,1px); line-height: 1;}
+
+
+#section-7 {padding-bottom: clamp(10px,17vw,340px);}
+#section-7 .title {font-size: clamp(10px,2vw,40px); text-transform: uppercase; line-height: 1; padding: clamp(10px,3vw,60px) 0;}
+#section-7 .gases {width: 130%; max-width: 115%; margin-left: -25%; margin-top: -5%;}
+#section-7 .wildfires {margin-top: -22%; width: 80%;}
+#section-7 p {padding: 15% 10%;}
+#section-7 .text-1 {font-family: 'NB Architekt Std'; font-size: clamp(10px,16vw,320px); line-height: 0.8;}
+#section-7 .sixth {width: 80%;}
+#section-7 .text-2 {font-size: clamp(10px,3.5vw,70px); text-align: left;}
+
+
+#section-8 {background: linear-gradient(62deg, #96d89e 0%, #72de77 70%);}
+#section-8 #gorillas {margin-top: clamp(-300px,-15.5vw,10px); margin-bottom: 4vw; position: relative;}
+#section-8 #gorillas .gorillas {width: 100%; display: block;}
+#section-8 #gorillas .v-align {height: 100%; position: absolute; left: 0; width: 100%; padding: 0 5%;}
+#section-8 #gorillas p {font-size: clamp(10px,1.9vw,38px); margin: 0; color: #FFF;}
+#section-8 #gorillas .big-button {border-color: #d4313f; text-align: center; padding: clamp(10px,3vw,60px) clamp(10px,6vw,120px);}
+#section-8 #gorillas .big-button:hover {background: #d4313f; color: #222;}
+
+#section-8 .line.dark {border-bottom-color: #68496f;}
+#section-8 p.large {font-size: clamp(10px,2vw,40px);}
+#section-8 p {margin-bottom: 0; color: #643f6b;}
+#section-8 .text-1 {font-family: 'NB Architekt Light'; font-size: clamp(10px,10vw,200px); line-height: 0.8; color: #7f3e8b;}
+#section-8 .text-2 {font-family: 'NB Architekt Light'; font-size: clamp(10px,5vw,100px); line-height:1.35; color: #7f3e8b;}
+#section-8 .text-3 {font-size: clamp(10px,3vw,60px); color: #701d7f;}
+#section-8 .img-1 {margin-top: clamp(10px,1.5vw,30px); width: 95%;} 
+#section-8 .img-2 {opacity: 0.7; margin: clamp(-50px,-2.5vw,10px) auto 0; display: block; width: 90%;}
+#section-8 .co {mix-blend-mode: darken; margin-left: -12%;}
+#section-8 h2 {font-family: 'Telegraf'; color: #E958FF; font-size: clamp(10px,4.8vw,96px); text-transform: uppercase; line-height: 0.85; mix-blend-mode: difference; position: relative; z-index: 10;}
+
+#section-8 .xray {margin-top: clamp(-340px,-17vw,10px);}
+#section-8 .img-scroll-container .inner img {margin-top: 0;}
+
+
+
+#section-9 {background: url(https://colossal.com/wp-content/themes/colossal/img/deextinction-section-9-bg.jpg) center center; color: #FFF; padding: clamp(10px,5vw,100px) 0 0;}
+#section-9 .head {margin-top: 0;}
+#section-9 h2 {font-size: clamp(10px,3.5vw,70px); font-family: 'NB Architekt Std';}
+#section-9 .portrait {margin-left: -15px; width: calc(100% + 15px); max-width: 200%;}
+#section-9 h3 {font-family: Telegraf; text-transform: uppercase; font-size: clamp(10px,2.5vw,50px); line-height: 1;}
+
+
+
+
+#section-10 {padding: clamp(10px,5vw,100px) 0 clamp(10px,5vw,200px);}
+#section-10 .img-1 {position: absolute; top: clamp(-54px,2.7vw,54px); right: clamp(-70px,3.5vw,70px); width: clamp(-1200px,60vw,1200px);}
+#section-10 .upper {position: relative;}
+#section-10 .tag {position: absolute; right: 0; top: 50%; transform-origin: bottom right; transform: rotate(-90deg);}
+#section-10 .big-button {border-color: #9941dd; background: #FFF; position: relative; z-index: 5;}
+#section-10 .big-button .plus {color: #9941dd;}
+#section-10 .big-button:hover {background: #9941dd; color: #FFF;}
+#section-10 .big-button:hover .plus {color: #FFF;}
+#section-10 p.medium {font-size: clamp(10px,1.5vw,32px);}
+
+.video-element {width: 92%; object-fit: cover;}
+
+
+#section-10 .title {font-size: clamp(10px,1.8vw,36px); line-height: 1.1;}
+#section-10 ul {padding: 0; margin: 0; border-top: 1px solid #000; margin: clamp(10px,4vw,80px) 0;}
+#section-10 ul li {list-style: none; border-bottom: 1px solid #000; padding: clamp(10px,1.5vw,30px) 0; font-size: clamp(10px,2vw,40px); text-transform: uppercase;}
+#section-10 ul li span {margin-right: 5%}
+#section-10 .purple-mammoth {width: 130%; max-width: 130%; margin-left: -30%;}
+#section-10 .author {font-family: 'NB Architekt Std'; font-size: 1.6vw;}
+#section-10 h2 {font-size:clamp(10px, 3.5vw,70px); font-family: 'NB Architekt Std';}
+#section-10 h2.small {font-size:clamp(10px, 2.6vw,55px);;}
+#section-10 .siberian-map {margin-top: -27%;}
+
+
+
+#section-11 {background: linear-gradient(62deg, #b5c8b1 0%, #81d368 70%); padding-bottom: clamp(10px,7vw,140px); position: relative;}
+#section-11 .range {margin-top: clamp(-280px,-14vw,10px);}
+#section-11 h2 {font-size: clamp(10px,3.4vw,68px); font-family: 'NB Architekt Std'; white-space: nowrap;}
+#section-11 .circles {width: clamp(-120px,6vw,120px); margin-bottom: clamp(-160px,8vw,160px);}
+#section-11 .bg {position: absolute; width:clamp(-1400px,70vw,1400px); top: clamp(-440px,22vw,440px); right: 0;}
+#section-11 p.extends {padding-left: clamp(-100px,5vw,100px);}
+#section-11 a.big-button {position: absolute; right: clamp(-260px,13vw,260px); bottom: clamp(-80px,4vw,80px); z-index: 10; border-color: #000;}
+#section-11 .square-2 {bottom: clamp(-60px,3vw,60px);}
+#section-11 .plus-2 {bottom: clamp(-60px,3vw,60px); right: clamp(-100px,5vw,100px);}
+#section-11 .box-1 {width: clamp(-600px,30vw,600px); position: absolute; right: clamp(-60px,3vw,60px); bottom: clamp(-340px,17vw,340px);}
+#section-11 .box-1 h3 {font-family: 'NB Architekt Std';}
+
+#section-12 {background:url(https://colossal.com/wp-content/themes/colossal/img/dissolve-2.jpg) center center; background-size: cover; color: #FFF;}
+#section-12 .text-1 {font-size: clamp(10px,11vw,220px); font-family: 'NB Architekt Std'; color: #7DEA13; line-height: 1.7; margin-top: -12%; mix-blend-mode: difference;}
+#section-12 .line-1 {position: absolute; left: 8vw; top: 20%; text-transform: uppercase;}
+#section-12 .box {position: absolute; left: clamp(10px,8vw,160px); top: 60%;}
+#section-12 .outline {position: absolute; bottom: -4%; width: 80%; right: 0;}
+
+
+#section-13 {padding: clamp(10px,4vw,80px) 0 clamp(10px,20vw,400px); background: linear-gradient(180deg, rgba(255,255,255,1) 40%, #ef8449 100%);}
+#section-13 h2 {font-size: clamp(10px,3.4vw,68px); font-family: 'NB Architekt Std';}
+#section-13 .rotate {white-space: nowrap; transform: rotate(-90deg); transform-origin: bottom right; position: absolute; top: 0; right: 63%;}
+
+
+#section-13-5 {background: #000112 url(https://colossal.com/wp-content/themes/colossal/img/dextinction-section-13-5-bg.jpg) no-repeat center top; background-size: 100% auto;}
+#section-13-5 .caveman {margin-top: clamp(-260px,-13vw,10px);}
+#section-13-5 .lower {margin-top: clamp(7px,27vw,540px);}
+#section-13-5 .head .plus {left: clamp(-40px,-2vw,100px); top:clamp(-14px, -0.7vw, 100px);}
+#section-13-5 .slashes {width: clamp(7px,30vw,600px);}
+#section-13-5 h2 {color: #dc65ff; font-size: clamp(7px,3.8vw,76px); font-family: "telegraf";}
+#section-13-5 p {font-size: clamp(7px,1.5vw,30px);}
+#section-13-5 .img-1 {margin-left: clamp(-200px,-10vw,400px); max-width: none; width:clamp(7px,45vw,900px);}
+
+#section-14 {background: #000; color: #FFF; z-index: 4;}
+#section-14 .img-2 {position: absolute; top: clamp(-110px,5.5vw,110px); right: clamp(-140px,7vw,120px); width: clamp(-140px,7vw,140px);}
+#section-14 .mammoth {position: absolute; right: 0; top:13%; opacity: 0.6;}
+#section-14 .mammoth img {width: clamp(7px,90vw,1800px);}
+#section-14 h2 {font-size: clamp(10px,8.5vw,170px); white-space: nowrap; line-height: 2.2; padding: clamp(10px,2vw,40px) 0;}
+#section-14 .v-align {height: 100%;}
+#section-14 .v-align div {width: 100%;}
+#section-14 .square {top: 13%; position: absolute; left: 0;}
+#section-14 .plus.a {top: 44%; position: absolute;}
+#section-14 .plus.b {top: 84%; position: absolute;}
+#section-14 .circles {position: absolute; right: 0; top: 84%; width: 30%;}
+
+#section-14 #lower {background: url(https://colossal.com/wp-content/themes/colossal/img/crispr-cas9.webp) no-repeat; background-size: 95% auto; background-position: 10vw -30%; position: relative;}
+#section-14 #lower h3 {font-size: clamp(10px,3.3vw,66px); font-family: 'NB Architekt Std';}
+#section-14 #lower p {font-size: clamp(10px,1.2vw,24px); padding-left: 15%;}
+#section-14 .baby-mammoth {width: 60%; margin: 20% 0 0;}
+#section-14 .big-button {position: absolute; top: 60%; left: 10%;}
+
+
+#section-15 {background: #000 url(https://colossal.com/wp-content/themes/colossal/img/dextinction-section-15-bg.jpg) no-repeat center top; background-size: cover; color: #FFF; padding: clamp(7px,5vw,100px) 0; margin-top: clamp(-60px,-3vw,100px);}
+#section-15 .img-1 {position: absolute; width: clamp(7px,5vw,100px); top: clamp(-36px,-1.8vw,100px);}
+#section-15 h2 {font-size: clamp(7px,10vw,200px); text-align: center;}
+#section-15 h2 span {color: #caea21;}
+#section-15 h4 {text-align: right; color: #caea21;}
+#section-15 .box-1 {margin-top: clamp(7px,36.5vw,720px); width: clamp(7px,30vw,600px);}
+#section-15 .box-1 p {font-size: clamp(7px,1.5vw,30px);}
+#section-15 .box-1 .big-button {background: #c9e923;}
+#section-15 .box-1 .big-button:hover {color: #000; background: #FFF;}
+#section-15 .box-1 .big-button:hover .dark {color: #000;}
+
+#section-15 .circles {position: absolute; width: clamp(7px,12vw,240px); right: clamp(7px,8vw,160px); bottom: clamp(7px,10vw,200px);}
+#section-15 .slashes {position: absolute; right: clamp(7px,8vw,160px); bottom: clamp(7px,3vw,60px);}
+
+
+.resource-link {color: #000;}
+.resource-link .title {padding: clamp(10px,1vw,20px) 0 clamp(10px,4vw,80px); font-size: clamp(10px,1.4vw,27px); line-height: 1.3; text-decoration: underline; height: 30%;}
+.resource-link .box {padding-left: 7%; padding-right: 7%; margin-top: 4%;}
+.resource-link .line {margin-bottom: 2%;}
+.resource-link .plus {position: relative;}
+.resource-link:hover {color: #000;}
+.resource-link .dot {left: 2%; top: -1%;}
+.resource-link img {width: 100%; mix-blend-mode: multiply; transition: all .3s ease;}
+.resource-link:hover img {mix-blend-mode: normal;}
+
+.downloadable .item {color: #000; display: block; padding: 0 6% 12% 0; position: relative;}
+.downloadable .item .title {font-size: 1.5vw; line-height: 1; position: relative; padding-bottom: 3%; border-bottom: 1px solid #000; margin-bottom: 3%; padding-right: 25%; transition: all .3s ease;}
+.downloadable .item .title img {position: absolute; right: 0;}
+.downloadable .item .box {opacity: 0.4; transition: all .3s ease;}
+.downloadable .item .filesize {opacity: 0.4; text-transform: uppercase; position: absolute; right: 6%;}
+.downloadable .item:hover .title {color: #ef854b;}
+.downloadable .item:hover .box {color: #000; opacity: 1;}
+
+
+.sep .square {margin-top: 6%;}
+.sep .arkitect {margin-left: 25%; white-space: nowrap;}
+
+
+
+.stats .v-align {position: absolute; left: 0; top: 0; height: 100%; width: 100%;}
+.stats .graph {width: 100%;}
+.stats .text-1 {font-size: clamp(10px,1.7vw,35px);}
+.stats .inside {display: inline-block;}
+.stats .stat {font-family: 'NB Architekt Std'; font-size: clamp(10px,3vw,60px); border-bottom: 1px solid #979797; margin-bottom: clamp(10px,1vw,20px);}
+.stats p {font-size: clamp(10px,1vw,20px); margin-bottom: 0; color: #979797;}
+.stats sup {position: absolute; font-size: clamp(10px,1vw,20px);}
+.stats .stat-icons {width: clamp(10px,5vw,100px);}
+.stats .text-2 {font-size: clamp(10px,8vw,160px); font-family: 'NB Architekt Std';}
+.stats .text-3 {font-size: clamp(10px,3.5vw,70px); line-height: 1;}
+.stats .text-5 {font-size: clamp(10px,6vw,120px); font-family: 'NB Architekt Light'; line-height: 1.3;}
+.stats .line.dark {background: #979797; border-bottom-color: #979797;}
+.stats .globe {width: 130%; max-width: 130%; margin-left: -30%;}
+.stats .subtext {font-family: 'NB Architekt Std'; margin-top: clamp(-50px,2.5vw,50px); font-size: 1vw}
+.stats .subtext a {color: #c463fe}
+
+#video-module {position: relative; margin: 5vw 0; }
+#video-module a {cursor: pointer;}
+#video-module img.video-thumb {width: 80vw; display: block;}
+#video-module .big-button img {}
+#video-module .arkitect.a {position: absolute; right: -5vw; top: 0; transform-origin: bottom right; transform: rotate(-90deg);}
+#video-module .arkitect.b {position: absolute; right: -5vw; bottom: 5vw; transform-origin: bottom right; transform: rotate(-90deg); font-weight: 700;}
+
+
+
+
+
+.vlines .vline {border-left: 1px solid #EEE; position: absolute; width: 100%; height: 100%}
+.vlines .vline {position: absolute; left: 25%; top: 0; height: 100%; background: transparent;}
+.vlines .vline:nth-child(2) {left: 50%;}
+.vlines .vline:nth-child(3) {left: 75%;}
+
+
+#section-16 {}
+#section-16 .large {font-size: clamp(-130px,6.5vw,130px); line-height: 1.1}
+
+/*#section-16 img {position: absolute;}*/
+#section-16 .img-4 {left: 8%; top: 5%; width: 10%; position: absolute;}
+#section-16 .img-9 {left: 22%; top: 3%; width: 2%; position: absolute;}
+#section-16 .img-18 {left: 12%; top: 20%; width: 6%; position: absolute;}
+#section-16 .img-13 {left: 28%; top: 6%; width: 5%; position: absolute;}
+#section-16 .img-15 {left: 44%; top: 13%; width: 12%; position: absolute;}
+#section-16 .img-11 {left: 64%; top: 7%; width: 2%; position: absolute;}
+#section-16 .img-20 {left: 69%; top: 11%; width: 8%; position: absolute;}
+#section-16 .img-6 {left: 88%; top: 5%; width: 5%; position: absolute;}
+#section-16 .img-7 {left: 89%; top: 27%; width: 10%; position: absolute;}
+#section-16 .img-8 {left: 0%; top: 37%; width: 12%; position: absolute;}
+#section-16 .img-19 {left: 10%; top: 58%; width: 6%; position: absolute;}
+#section-16 .img-12 {left: 89%; top: 50%; width: 3%; position: absolute;}
+#section-16 .img-1 {left: 0%; top: 78%; width: 5%; position: absolute;}
+#section-16 .img-10 {left: 3%; top: 93%; width: 2%; position: absolute;}
+#section-16 .img-17 {left: 15%; top: 86%; width: 6%; position: absolute;}
+#section-16 .img-2 {left: 26%; top: 72%; width: 8%; position: absolute;}
+#section-16 .img-14 {left: 36%; top: 86%; width: 6%; position: absolute;}
+#section-16 .img-5 {left: 51%; top: 76%; width: 12%; position: absolute;}
+#section-16 .img-16 {left: 79%; top: 70%; width: 5%; position: absolute;}
+#section-16 .img-3 {left: 90%; top: 74%; width: 10%; position: absolute;}
+
+
+#section-17 {background: #705d31; position: relative; z-index: 10; overflow: hidden;}
+#section-17 .upper {background: url(https://colossal.com/wp-content/themes/colossal/img/deextinction/section-17-bg.jpg) no-repeat center top; height: clamp(-880px,44vw,880px); background-size: 100% auto; font-family: NB Architekt Light}
+#section-17 .upper .one {position: absolute; font-size: clamp(-220px,11vw,220px); right: 75%; top: 0; line-height: 1}
+#section-17 .upper .two {position: absolute; font-size: clamp(-220px,11vw,220px); right: 7%; top: 0; line-height: 1; color: #d8d8d8;}
+#section-17 .upper .three {position: absolute; font-size: clamp(-86px,4.3vw,86px); left: 7%; top: clamp(-220px,11vw,220px); line-height: 1;}
+#section-17 .upper .four {position: absolute; font-size: clamp(-86px,4.3vw,86px); right: 7%; top: clamp(-220px,11vw,220px); line-height: 1; text-align: right; color: #ff7b31}
+#section-17 .upper .five {position: absolute; font-size: clamp(-16px,0.8vw,16px); right: 7%; top: clamp(-440px,22vw,440px); line-height: 1; text-align: right; color: #FFF}
+
+
+#section-17 .vlines {top: clamp(-710px,35.5vw,710px); position: absolute; width: 100%; height: calc(100% - clamp(-710px,35.5vw,710px)); opacity: 0.3; overflow: hidden;}
+#section-17 .lower {color: #FFF; position: relative;}
+#section-17 .lower {padding-left: clamp(-100px,5vw,100px); padding-right: clamp(-100px,5vw,100px)}
+#section-17 .lower .medium {font-size: clamp(-50px,2.5vw,50px); line-height: 1.1}
+#section-17 .lower .tag {font-size: clamp(-16px,0.8vw,16px); transform: rotate(-90deg); transform-origin: center center; position: absolute; left: clamp(-60px,3vw,60px); margin-top: 10%}
+#section-17 .lower .plus.a {right: clamp(-160px,8vw,160px)}
+#section-17 .lower .plus.b {left: clamp(-100px,5vw,100px); top: clamp(-660px,33vw,660px)}
+
+#section-17 .walk {position: absolute; bottom: clamp(-100px,5vw,100px);}
+
+
+#section-18 {padding: clamp(-100px,5vw,100px); background: url(https://colossal.com/wp-content/themes/colossal/img/deextinction/section-18-bg.jpg) no-repeat center top; background-size: cover;}
+#section-18 .upper {background: rgba(255,255,255,0.3); padding: clamp(-80px,4vw,80px); border-radius: 10px; backdrop-filter: blur(15px); color: #FFF; z-index: 40; position: relative;}
+#section-18 .upper .medium {line-height: 1.1}
+#section-18 .circle,
+#section-18 .container-fluid {z-index: 50}
+#section-18 .container-fluid {z-index: 60}
+#section-18 .plussquare {color: #FFF; border: 1px solid #FFF; text-align: center; width: clamp(-30px,1.5vw,30px); line-height: clamp(-30px,1.5vw,30px)}
+#section-18 h2 {color: #FFF; font-size: clamp(-80px,4vw,80px); line-height: 1}
+#section-18 .indicator-1 {position: absolute; top: 83%; width: 90%; right: 12%}
+#section-18 .circle {position: absolute; width: clamp(-1200px,60vw,1200px); left: clamp(-400px,20vw,400px); top: clamp(-80px,4vw,80px)}
+#section-18 .lower {color: #FFF; padding-left: clamp(-100px,5vw,100px)}
+#section-18 .lower .large {font-size: clamp(-50px,2.5vw,50px)}
+#section-18 .bg {position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover;}
+#section-18 .mask {position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 20;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 36.11%, #715F31 101.45%);
+/*	mix-blend-mode: difference;*/
+}
+#section-18 .square {left: clamp(-80px,4vw,80px); top: clamp(-80px,4vw,80px); z-index: 100}
+#section-18 .plus.a {left: clamp(-80px,4vw,80px); bottom: clamp(-200px,10vw,200px); z-index: 100}
+#section-18 .plus.b {right: clamp(-80px,4vw,80px); top: clamp(-80px,4vw,80px); z-index: 100}
+#section-18 .wiki small {line-height: 1.3; display: block;}
+
+#section-19 {background: #000; color: #FFF; position: relative; z-index: 100}
+#section-19 h3 {font-size: clamp(-80px,4vw,80px); text-align: center; line-height: 1; }
+#section-19 h3.top {margin-top: clamp(-200px,-10vw,200px);}
+#section-19 .vlines {opacity: 0.3}
+#section-19 h2 {font-size: clamp(-228px,11.4vw,228px); white-space: nowrap; line-height: 1; text-align: center;}
+#section-19 .slide {width: 100%;}
+#section-19 p strong {font-weight: 900; font-family: 'Telegraf Bold';}
+
+#section-20 {background: #ff7b31}
+#section-20 .definition {background: #FFF; border-radius: 15px; padding: clamp(-120px,6vw,120px) clamp(-120px,6vw,120px) 0vw; position: relative;}
+#section-20 .mask {position: absolute; background: #000; top: 0; left: 0; width: 100%; height: clamp(-1000px,50vw,1000px)}
+#section-20 strong {font-family: 'Telegraf Bold';}
+#section-20 p {font-size:clamp(-320px,1.8vw,320px); line-height: 1.2}
+#section-20 p.large {font-size: clamp(-70px,3.5vw,70px); line-height: 1.1}
+#section-20 a.speaker {display: inline-block; margin-left: clamp(-30px,1.5vw,30px); padding: clamp(-20px,1vw,20px); border: 1px solid #000; border-radius: 1000px; width: clamp(-60px,3vw,60px); line-height: clamp(-60px,3vw,60px); height: clamp(-60px,3vw,60px); vertical-align: middle;}
+#section-20 img {display: block;}
+#section-20 a.speaker:hover {border-color: #CCC; background: #CCC}
+#section-20 .square {position: absolute; left: clamp(-60px,3vw,60px); top: clamp(-60px,3vw,60px);}
+
+#section-20 .gant-container {position: relative; padding: clamp(-80px,4vw,80px) 0vw clamp(-120px,6vw,120px)}
+#section-20 .gant-container .wheel {position: absolute; left:-4%; top: clamp(-10px,-0.5vw,10px); width: 108%; max-width: none;
+	animation-name: spin;
+	animation-duration: 200000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear; 
+}
+#section-20 .gant {background: #000; position: relative; z-index: 10; padding: clamp(-60px,3vw,60px); color: #FFF; filter: drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.25));}
+#section-20 .gant .arkitect {display: inline-block; background: #FFF; color: #000; padding: clamp(-10px,0.5vw,10px)}
+#section-20 .gant .circles {display: inline-block;}
+
+#section-20 .gant .circle {width: clamp(-680px,34vw,680px); height: clamp(-680px,34vw,680px); margin: 0 auto; background: rgba(255,255,255,0.1); border-radius: 1000px; border: 1px solid #777; position: relative; vertical-align: top}
+#section-20 .gant .circle-1 {margin-bottom: clamp(-280px,-14vw,280px)}
+#section-20 .gant .circle-2 {display: inline-block; margin-right: clamp(-240px,-12vw,240px)}
+#section-20 .gant .circle-3 {display: inline-block;}
+
+#section-20 .gant .circle p {font-size: clamp(-20px,1vw,20px);}
+#section-20 .gant .circle img {display: block; margin: 0 auto clamp(-10px,0.5vw,10px)}
+#section-20 .gant .circle .inner {max-width: 70%; margin-left: 15%;}
+#section-20 .gant .circle-1 .inner {margin-top: clamp(-90px,4.5vw,90px)}
+#section-20 .gant .circle-2 .inner {margin-top: clamp(-270px,13.5vw,270px); width: 50%; margin-left:15%}
+#section-20 .gant .circle-3 .inner {margin-top: clamp(-270px,13.5vw,270px); width: 50%; margin-left:35%}
+#section-20 .gant .middle {width: clamp(-140px,7vw,140px); position: absolute; top: clamp(-780px,39vw,780px); left: 50%; margin-left: clamp(-70px,-3.5vw,70px);}
+
+#section-20 .lower {position: relative; padding-bottom: clamp(-60px,3vw,60px);}
+#section-20 .lower .bg {position: absolute; left: 0; top: 0}
+#section-20 .lower p {padding: 0 15%}
+#section-20 .lower p.medium-large {font-size: clamp(-50px,2.5vw,50px)}
+#section-20 .lower .square {left: 0; top: 0}
+#section-20 .lower .plus.a {left: 0; bottom: 0}
+#section-20 .lower .plus.b {right: 0; top: 0}
+#section-20 .lower .tag {right: 0; bottom: 0; position: absolute;}
+
+
+#section-21 .mask {background: #ff7b31; width: 50%; height: clamp(-220px,11vw,220px); position: absolute; top: 0; right: 0;}
+#section-21 .top {max-width: 70%}
+#section-21 h2 {font-size: clamp(-120px,6vw,120px); line-height: 1}
+#section-21 p.large {padding-left: 15%; font-size: clamp(-50px,2.5vw,50px); color: #979797}
+#section-21 p.large span {color: #000}
+#section-21 .lower {color: #979797}
+#section-21 .line.grey {border-color: #CCC}
+
+
+#section-22 {background: #000 url(https://colossal.com/wp-content/themes/colossal/img/deextinction/section-22-bg.png) no-repeat center bottom; background-size: 100% auto; color: #FFF; padding: 5vw 0 20vw}
+#section-22 .vlines {opacity: 0.4}
+#section-22 h2 {font-size: clamp(-220px,11vw,220px); white-space: nowrap; line-height: 1.45; margin-top: clamp(-60px,-3vw,60px)}
+#section-22 .img-1 {position: absolute; top: clamp(-280px,14vw,280px); width: 50%}
+#section-22 .right p {padding-left: 17%}
+#section-22 .img-3 {float: right; margin-top: clamp(-200px,-10vw,200px); position: relative; z-index: 10}
+
+
+#section-23 {padding: clamp(-20px,1vw,20px) 0 clamp(-100px,5vw,100px)}
+#section-23 .main {margin-top: clamp(-50px,-2.5vw,50px)}
+#section-23 .big-button {background: #e0b2fa}
+#section-23 .big-button:hover {background: #450731}
+
+
+
+@media (min-width: 2000px) {
+}
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+	p {font-size: 3.2vw;}
+	p.medium {font-size: 4vw;}
+	p.large {font-size: 4.3vw;}
+	.sep .square {margin-top: 3%;}
+
+	#hero .intro {top: 55vh;}
+	#hero h1 {line-height: 1;}
+	#hero .line {margin-top: 10vw;}
+	#hero .slashes {display: none;}
+	#hero h3 {font-size: 4vw; max-width: 70vw;}
+	#hero p {max-width: 80%;}
+	#hero .text.a {display: none;}
+
+	#section-1 {padding-bottom: 5vw;}
+	#section-1 .iris {position: relative; z-index: 10; margin-top: -5vw;}
+	#section-1 .logo {max-width: 35vw; margin: 3vw 0 0;}
+	#section-1 ul li {font-size: 3vw;}
+	#section-1 .disc {left: -10vw; top: 4.5vw;}
+	#section-1 .line {margin-left: 10vw; margin-bottom: 5vw;}
+	#section-1 .head .slashes {margin-left: -10%;}
+
+	#section-2 .disc {display: none;}
+	#section-2 .extra-bits {display: none}
+
+	#section-3 .dying-out {margin-top: 35%; width: 180%;}
+	#section-3 .earth {width: 130%; max-width: 150%; margin-left: 30%; margin-bottom: 8vw;}
+
+
+	.stats .disc {display: none;}
+	.stats .text-1 {font-size: 5vw; line-height: 1.1; padding: 3vw 0;}
+	.stats .stat-icons {width: 30vw; margin-bottom: 8vw;}
+	.stats .stat {font-size: 10vw;}
+	.stats sup {font-size: 4vw;}
+	.stats p {font-size: 3.5vw !important; margin-bottom: 10vw;}
+
+	.stats .graph {left: 0; max-width: 80%; margin: 8vw auto; display: block;}
+	.stats .text-2 {font-size: 30vw;}
+	.stats .text-3 {font-size: 6vw;}
+	.stats .text-5 {font-size: 10vw;}
+
+	.stats .globe {width: 80%; margin: 0 auto; display: block;}
+	.stats .subtext {font-size: 2.8vw; margin-top: 9vw}
+
+
+	#section-5 .head p {font-size: 6vw;}
+	#section-5 .head .icon-un {width: 140%; max-width: 200%;}
+	#section-5 .text-1 {font-size: 5vw; margin-bottom: 4vw;}
+	#section-5 .text-2 {font-size: 8vw; margin-bottom: 5vw;}
+	#section-5 .text-4 {font-size: 14vw;}
+	#section-5 .icon {margin: -3vw 0 4vw 3vw; width: 10vw; height: 15vw;}
+	#section-5 p {font-size: 4vw;}
+	.braille {width: 50%; margin-left: 17vw; margin-bottom: 5vw;}
+	#section-5 .text-3 {font-size: 7vw;}
+	#section-5 .green {color: #FFF;}
+
+	#section-6 {padding: 8vw 0;}
+	#section-6 p.large {font-size: 7vw;}
+	#section-6 .num {font-size: 10vw;}
+	#section-6 .dna {width: 200vw; max-width: 200%; left: 50vw;}
+	#section-6 sup {font-size: 3vw; line-height: 0.3; position: relative; bottom: -2vw; top: auto;}
+	#section-6 .icon {display: none;}
+	#section-6 .num.right {font-size: 6vw;}
+
+	#section-6 .bar {font-size: 2.5vw; padding: 0.8vw 2vw;}
+
+
+	#section-7 .title {font-size: 4.3vw; line-height: 1.1;}
+	#section-7 .wildfires {width: 120%; display: none;}
+	#section-7 .gases {max-width: 200%; height: 67vw; object-fit: cover;}
+	#section-7 p {padding: 7vw 0 0;}
+	#section-7 .sixth {width: 60%; margin-left: 40%;}
+
+	#section-8 p {color: #222;}
+	#section-8 #gorillas {text-align: center;}
+	#section-8 #gorillas p {font-size: 3.5vw; text-align: center; margin-bottom: 2vw !important;}
+	#section-8 .text-1 {color: #000; font-size: 19vw; margin-bottom: 2.5vw;}
+	#section-8 p.large {font-size: 3.4vw; margin-bottom: 2vw;}
+	#section-8 p.large br {display: none;}
+	#section-8 .img-1 {max-width: 130%; width: 103%; margin-left: 5%; margin-bottom: 8vw;}
+	#section-8 .text-2 {font-size: 13vw; color: #000; line-height: 1;}
+	#section-8 p {line-height: 1.2;}
+	#section-8 p.large.z-10 {font-size: 6vw; text-align: center; margin-bottom: 10vw;}
+	#section-8 .img-2 {width: 70%; margin-bottom: 10vw;}
+	#section-8 .co {margin: 0 0 7vw;}
+	#section-8 p.b {font-size: 5vw; text-align: center;}
+	#section-8 .text-3 {color: #222; font-size: 12vw; text-transform: uppercase; text-align: center;}
+	#section-8 h2 {font-size: 7.3vw;}
+	#section-8 .xray {margin-top: -25vw;}
+
+	#section-9 {background: #000; padding-bottom: 28vw;}
+	#section-9 .portrait {margin-left: 0; width: 100%; height: 80vw; object-fit: cover; object-position: center top;}
+	#section-9 h2 {font-size: 7vw;}
+	#section-9 h3 {font-size: 5vw;}
+
+
+	#section-10 .title {font-size: 5vw; max-width: 70vw; top: 13vw; position: absolute; z-index: 5; color: #FFF; font-size: 8vw;}
+	#section-10 .purple-mammoth {margin-left: -40%; height: 54vw; object-fit: cover; margin-bottom: 5vw;}
+	#section-10 ul li {font-size: 5vw;}
+	#section-10 .alta {width: 80%; float: right; margin-bottom: 7vw;}
+	#section-10 .author {font-size: 6vw;}
+	#section-10 p.medium {}
+	#section-10 .siberian-map {margin: 0;}
+	#section-10 h2 {font-size: 8vw;}
+
+
+	.video-element {height: 40vw;}
+
+
+	#section-10 .img-1 {position: static; width: 140vw; max-width: 220vw; margin: -25vw 0 5vw -60vw;}
+	#section-10 .tag {top: -2vw; right:2vw; font-size: 2.5vw;}
+	#section-10 h2.small {font-size: 5.5vw;}
+	#section-10 p.medium {font-size: 3.2vw;}
+	#section-10 p.medium br {display: none;}
+
+
+	#section-11 h2 {font-size: 7vw;}
+	#section-12 .text-1 {font-size: 11.5vw; margin-top: -18%;}
+	#section-12 .line-1 {font-size: 3vw; left: 6vw; top: 15%;}
+	#section-12 .box {display: none;}
+
+	#section-11 {padding-bottom: 145vw;}
+	#section-11 .box-1 {width: 70vw; top: 249vw; bottom: auto;}
+	#section-11 .box-1 h3 {font-size: 6vw;}
+	#section-11 .box-1 p {font-size: 2.4vw;}
+	#section-11 .bg {top: 169vw; width: 160vw; max-width: 200vw;}
+	#section-11 a.big-button {left: 10vw; right: auto; bottom: 18vw; font-size: 5vw; color: #000; padding-right: 20vw;}
+	#section-11 p.extends {padding-left: 0;}
+	#section-11 .circles {width: 14vw;}
+
+	#section-13 {padding: 7vw 0 20vw;}
+	#section-13 h2 {font-size: 8vw;}
+
+
+	.downloadable .item {margin-bottom: 8vw; display: block;}
+	.downloadable .item .title {font-size: 3.5vw; padding-right: 20%;}
+	.downloadable .item .title img {bottom: 15%; width: 10%;}
+	.downloadable .item .filesize {font-size: 2vw; line-height: 5vw;}
+
+	.resource-link {margin-bottom: 8vw; display: block;}
+	.resource-link .title {font-size: 3vw;}
+	.box, .arkitect {font-size: 2.3vw;}
+
+	#section-13-5 h2 {position: absolute; top: -34vw; right: 0; font-size: 5.8vw; width: 50vw;}
+	#section-13-5 h2 br {display: none;}
+	#section-13-5 .slashes {display: none;}
+	#section-13-5 p {font-size: 3vw;}
+	#section-14 .img-2 {width: 12vw; right: 3vw;}
+
+	#section-14 {padding-bottom: 10vw;}
+	#section-14 h2 {font-size: 14vw; line-height: 1.5;}
+	#section-14 .circles {top: 0; right: 5vw; width: 25vw;}
+	#section-14 .square {display: none;}
+	#section-14 .plus {display: none;}
+	#section-14 #lower h3 {font-size: 8vw;}
+	#section-14 #lower p {font-size: 4vw; padding-left: 0;}
+	#section-14 .baby-mammoth {width: 80%; margin: 0;}
+	#section-14 .big-button {left: 0;}
+
+	#section-15 .img-1 {width: 10vw; top: -4vw}
+	#section-15 h4 {font-size: 3vw;}
+	#section-15 .box-1 {width: 100%; margin-top: 50vw;}
+	#section-15 .box-1 p {font-size: 4vw; width: 100%;}
+	#section-15 .slashes {display: none;}
+
+	#video-module .arkitect.a {display: none;}
+	#video-module .arkitect.b {display: none;}
+	#video-module img.video-thumb {width: 100vw; margin-bottom: 10vw;}
+
+
+
+	#section-3 {padding-bottom: 20vw}
+	#section-quote .tag-1 {width: 100%; font-size: 2.5vw; display: none}
+	#section-quote .inner {width: 70%; margin-top: 25vw}
+	#section-quote .img-container {width: 120%; max-width: 300%; top: -40vw; left: 0vw}
+	#section-quote p.normal {font-size: 4vw; width: 150%; white-space: normal;}
+	#section-quote .author {position: static; width: 150%;}
+	#section-quote .author p.normal {width: 100%; margin-bottom: 3vw !important}
+	#section-quote .author .text-right {text-align: left !important; font-size: 3vw}
+	#section-quote .author p.normal {margin-bottom: 0}
+	#section-quote h4 {font-size: 7vw}
+	#section-quote .dot {width: 5vw; height: 5vw; top: -3vw; left: -7vw}
+	#section-quote .tag-3 {display: none}
+
+
+
+
+	#section-16 {padding: 0 0}
+	#section-16 p {position: relative;}
+	#section-16 img {transform: scale(1.6)}
+
+
+	#section-16 .img-4 {left: 3%; top: 0%; width: 10%; position: absolute;}
+	#section-16 .img-9 {left: 22%; top: 0%; width: 2%; position: absolute; display: none}
+	#section-16 .img-18 {left: 12%; top: 15%; width: 6%; position: absolute;}
+	#section-16 .img-13 {left: 28%; top: 3%; width: 5%; position: absolute;}
+	#section-16 .img-15 {left: 44%; top: 13%; width: 12%; position: absolute;}
+	#section-16 .img-11 {left: 64%; top: 7%; width: 2%; position: absolute;}
+	#section-16 .img-20 {left: 69%; top: 11%; width: 8%; position: absolute;}
+	#section-16 .img-6 {left: 88%; top: 5%; width: 5%; position: absolute;}
+	#section-16 .img-7 {left: 89%; top: 27%; width: 10%; position: absolute;}
+	#section-16 .img-8 {left: -5%; top: 37%; width: 12%; position: absolute;}
+	#section-16 .img-19 {left: 10%; top: 58%; width: 6%; position: absolute;display: none}
+	#section-16 .img-12 {left: 89%; top: 50%; width: 3%; position: absolute;}
+	#section-16 .img-1 {left: 0%; top: 78%; width: 5%; position: absolute;}
+	#section-16 .img-10 {left: 3%; top: 93%; width: 2%; position: absolute;}
+	#section-16 .img-17 {left: 15%; top: 86%; width: 6%; position: absolute;}
+	#section-16 .img-2 {left: 26%; top: 72%; width: 8%; position: absolute;}
+	#section-16 .img-14 {left: 36%; top: 86%; width: 6%; position: absolute;}
+	#section-16 .img-5 {left: 60%; top: 76%; width: 12%; position: absolute;}
+	#section-16 .img-16 {left: 79%; top: 70%; width: 5%; position: absolute; display: none}
+	#section-16 .img-3 {left: 90%; top: 74%; width: 10%; position: absolute;}
+
+	#section-17 .upper {background: url(https://colossal.com/wp-content/themes/colossal/img/deextinction/section-17-bg-mobile.jpg) no-repeat center top; background-size: 100% auto; height: 400vw}
+	#section-17 .upper .one {font-size:35vw; left: 0;}
+	#section-17 .upper .three {font-size:14vw; top: 45vw; left: 6vw;}
+	#section-17 .upper .two {font-size: 32vw; top: 128vw; left: 0;}
+	#section-17 .upper .four {font-size: 13vw; top: 168vw; left: 14vw; text-align: left;}
+	#section-17 .upper .five {font-size: 3vw; top: 218vw; left: 14vw; text-align: left;}
+	#section-17 {padding-bottom: 15vw}
+	#section-17 .lower .tag {font-size: 2vw; left: 0}
+	#section-17 .vline {opacity: 0.4}
+	#section-17 .lower .medium {font-size: 4vw}
+	#section-17 .lower p {padding-left: 3vw; padding-right: 3vw; font-size: 5vw}
+	#section-17 .vlines {top: 310vw}
+
+	#section-18 {padding: 10vw 2vw}
+	#section-18 h2 {font-size: 8vw}
+	#section-18 .wiki-logo {width: 50%; margin: 5vw 0}
+	#section-18 .lower {padding-left: 0;}
+	#section-18 .lower p {font-size: 4vw}
+	#section-18 .lower .large {font-size: 6vw}
+
+	#section-19 h3.top {margin-top: -20vw}
+	#section-19 h3 {font-size: 8vw; }
+	#section-19 .slide {margin: 2vw 0 6vw; height: 50vw; object-fit: cover}
+	#section-19 p {font-size: 5vw}
+	#section-19 .vlines {opacity: 0.2}
+
+	#section-20 p.large {font-size: 8vw; padding-bottom: 0}
+	#section-20 p {font-size: 5vw}
+	#section-20 a.speaker {width: 10vw; height: 10vw; padding: 2vw}
+	#section-20 .gant-container .wheel {display: none;}
+
+	#section-20 .gant {padding: 10vw 2vw; text-align: center;}
+	#section-20 .gant .circle {width: 70vw; height: 70vw}
+	#section-20 .gant .circle h4 {font-size: 4vw}
+	#section-20 .gant .circle img {width: 10vw; margin-bottom: 3vw;}
+	#section-20 .gant .circle-1 {display: block; margin: 0 auto}
+	#section-20 .gant .circle-2 {display: block; margin: -11vw auto}
+	#section-20 .gant .circle-3 {display: block; margin: 0 auto}
+	#section-20 .gant .circle p {font-size: 3vw}
+
+	#section-20 .gant .circle .inner {margin: 8vw auto 0 !important; width: 80%}
+	#section-20 .gant .circle-3 .inner {margin-top: 15vw !important}
+
+
+	#section-20 .lower .bg {display: none;}
+
+	#section-20 .lower p {padding: 0 5%}
+	#section-20 .lower p.medium-large {font-size: 7vw;}
+
+	#section-21 .top {max-width: 40%}
+	#section-21 h2 {font-size: 12vw; padding-top: 10vw}
+	#section-21 .img-2 {width: 50%; float: right; margin-top: -10vw; margin-bottom: 10vw}
+	#section-21 p.large {font-size: 5vw; padding-left: 0;; margin-top: -5vw; margin-bottom: 10vw}
+	#section-21 .lower p {font-size: 4vw}
+
+	#section-22 {background-size: 500% auto}
+	#section-22 h2 {font-size: 18vw}
+	#section-22 .vlines {opacity: 0.2}
+	#section-22 .img-1 {width: 80%; top: 20vw}
+	#section-22 .right p.medium {padding-left: 0; font-size: 5.5vw}
+	#section-22 p {font-size: 4vw}
+
+	#section-23 {padding-bottom: 14vw}
+	#section-23 p.medium {font-size: 6vw;}
+	#section-23 .main {margin-top: -12vw; width: 110%; max-width: none; margin-left: -9%}
+	#section-23 .big-button {font-size: 5vw; padding: 4vw 20vw 4vw 8vw; display: block;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

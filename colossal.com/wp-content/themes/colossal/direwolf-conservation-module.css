@@ -1,0 +1,4468 @@
+
+
+/* body {position: relative; right: 0; font-family: 'Telegraf'; -webkit-font-smoothing: antialiased; background: #eeeeee;} */
+
+/* #wrap {max-width: 2000px; background: #FFF; margin: 0 auto;} */
+
+/* .section-hero h1 {color: #FFF; position: absolute; font-family: 'NB Architekt Light'; font-size: 5.5vw; text-align: center; top: 27vw; width: 100%;} */
+
+
+.rst-container{
+	max-width: 90.3%;
+	margin: 0px auto;
+	margin-left: 4.9vw;
+	margin-right: 4.9vw;
+	width: 100%;
+}
+.rst-section1 .rst-line2{
+	width: 9.792vw;
+	position: absolute;
+	right: 4.792vw;
+	top: 57.708vw;
+}
+.rst-section1 .rst-line1{
+	width: 56.319vw;
+	position: absolute;
+	right: 4.514vw;
+	top: 5.347vw;
+}
+.rst-section1{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/bg_section1.jpg) no-repeat top center / cover;
+	padding-top: 4.931vw;
+	padding-left: 10.417vw;
+	padding-right: 10.417vw;
+	padding-bottom: 59.028vw;
+	position: relative; 
+}
+.rst-section1-partner span{
+	font-size: 1.414vw;
+	line-height: 1.375;
+	font-family: 'Telegraf';
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0;
+	padding-top: 0.764vw;
+}
+.rst-section1-partner{
+	display: flex;
+	gap: 3.403vw;
+	position: absolute;
+	right: 8.056vw;
+	top: 10.694vw;
+}
+.rst-section1-partner img{
+	width: 37.979vw;
+	display: block;
+}
+.rst-section1 h1{
+	color: #fff;
+	font-size: 10.417vw;
+    line-height: 0.8666666667;
+	letter-spacing: 0em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	margin-top: 5.139vw;
+	margin-bottom: 4.375vw;
+}
+.rst-section1-label{
+	display: flex;
+	    width: fit-content;
+	border: 1px solid #fff;
+}
+.rst-section1-label span{
+	height: 1.074vw;
+	display: flex;
+	align-items: center;
+	padding-left: 0.519vw;
+	padding-right: 0.519vw;
+	font-size: 0.617vw;
+	line-height: 1;
+	letter-spacing: 0em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+}
+.rst-section1-label span.active{
+	color: #000C19;
+	background: #fff;
+}
+.rst-section1-content{
+	width: 46.25vw;
+}
+.rst-section1-content h3{
+	font-size: 2.083vw;
+	line-height: 1.333333333;
+	font-family: 'Telegraf';
+	color: #7DEA13;
+	letter-spacing: 0em;
+	margin: 0 0 2.083vw 0;
+	text-transform: uppercase;
+}
+.rst-section1-content p{
+	font-size: 1.042vw;
+	line-height: 1.66666666667;
+	font-family: 'Telegraf';
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0 0 1.736vw 0;
+}
+.rst-section1-content p:last-child{
+	margin: 0;
+}
+.rst-section1-line{
+	height: 1px;
+	width: 23.056vw;
+	background: #fff;
+	margin-left: 2.153vw;
+	    margin-top: 2.153vw;
+    margin-bottom: 4.861vw;
+}
+.rst-section1-content-bottom{
+	width: 40.694vw;
+}
+.rst-section1-content-bottom p{
+	font-size: 2.778vw;
+	line-height: 1;
+	font-style: italic;
+	font-family: 'Telegraf';
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0 0 0.347vw 0;
+}
+.rst-section1-content-bottom p span{
+	color: #9940DD;
+	text-transform: uppercase;
+	font-family: 'Telegraf Bold';
+	font-weight: 700;
+	    font-size: 3.472vw;
+}
+.rst-section1-content-bottom > span{
+	font-size: 1.042vw;
+	line-height: 1;
+	letter-spacing: 0em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	display: block;
+}
+.rst-section1 .rst-plus1{
+	left: 4.861vw;
+	top: 5.208vw;
+	position: absolute;
+	z-index: 1;
+}
+.rst-section1 .rst-plus2{
+	right: 4.861vw;
+	top: 11.806vw;
+	position: absolute;
+	z-index: 1;
+}
+.rst-section1 .rst-plus3{
+	left: 4.861vw;
+	top: 57.222vw;
+	position: absolute;
+	z-index: 1;
+}
+.rst-section1 .rst-plus4{
+	right: 4.861vw;
+	top: 69.722vw;
+	position: absolute;
+	z-index: 1;
+}
+.rst-section1 .rst-square1{
+	left: 4.861vw;
+	top: 21.25vw;
+	position: absolute;
+	z-index: 1;
+}
+.rst-section1 .rst-square2{
+	right: 4.861vw;
+	top: 36.875vw;
+	position: absolute;
+	z-index: 1;
+}
+.rst-section-communication {
+	position: relative;
+}
+.rst-section-communication img{
+	display: block;
+	width: 100%;
+}
+.rst-section-communication-label{
+	font-size: 2.222vw;
+	line-height: 1.4;
+	letter-spacing: 0.1em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	display: block;
+	width: 24.097vw;
+	padding: 1.042vw 1.181vw;
+	border: 2px solid #fff;
+	text-align: center;
+	position: absolute;
+	right: 4.444vw;
+	bottom: 7.847vw;
+	
+}
+.rst-section-communication-text{
+	position: relative;
+	padding-left: 12.569vw;
+	padding-right: 10.556vw;
+	padding-top: 6.736vw;
+	padding-bottom: 12.153vw;
+	background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/bg_dot.png) no-repeat bottom center / cover;
+}
+.rst-section-communication-text > p{
+	font-size: 2.361vw;
+	line-height: 1.058823;
+	font-family: 'Telegraf';
+	color: #000;
+	letter-spacing: 0em;
+	margin: 0 0 4.792vw 0;
+}
+.text-left-source{
+	position: absolute;
+	left: 4.861vw;
+	top: 12.014vw;
+	z-index: 1;
+}
+.rst-section-communication-text .rst-plus{
+	position: absolute;
+	left: 4.861vw;
+	bottom: 15vw;
+	z-index: 1;
+}
+.rst-section-communication-text-wrap{
+	display: flex;
+	gap: 2.153vw;
+}
+.rst-section-communication-text-column{
+	width: 50%;
+}
+.rst-section-communication-text-column p{
+	font-size: 1.25vw;
+	line-height: 1.3333333333;
+	font-family: 'Telegraf';
+	color: #666666;
+	letter-spacing: 0em;
+	margin: 0;
+}
+.rst-section-historic-red{
+	background: #EDEDED;
+	padding-bottom: 7.292vw;
+	padding-left: 8.452vw;
+	padding-right: 6.687vw;
+}
+.rst-section-historic-red-wrap{
+	display: flex;
+	justify-content: space-between;
+
+}
+.rst-section-historic-red-left{
+	width: 41.125vw;
+	padding-top: 4.953vw;
+}
+.rst-section-historic-red-right{
+	width: 37.778vw;
+	margin-top: -2.431vw;
+}
+.rst-section-historic-red-right-img{
+	position: relative;
+}
+.historic-red1{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 4.841vw;
+}
+.rst-section-historic-red{
+	position: relative;
+}
+.rst-section-historic-red-right-img img{
+	display: block;
+	width: 100%;
+}
+.rst-section-historic-red-right-img span{
+	font-size: 0.764vw;
+	line-height: 1;
+	letter-spacing: 0.1em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	display: block;
+	height: 2.569vw;
+	align-items: center;
+	display: flex;
+	padding: 0 1.389vw;
+	position: absolute;
+}
+.rst-section-historic-red-right-img span.text-black{
+	background: #000000;
+	left: 0;
+	top: 0;
+}
+.rst-section-historic-red-right-img span.text-red{
+	background: #FF7B31;
+	right: 0;
+	color: #000;
+	bottom: 0;
+}
+.rst-section-historic-red-left h3{
+	font-size: 2.778vw;
+	line-height: 1;
+	font-family: 'Telegraf Bold';
+	font-weight: 700;
+	color: #000;
+	letter-spacing: -0.02em;
+	margin: 0 0 1.35vw 0;
+	    text-transform: uppercase;
+}
+.rst-section-historic-red-left .square{
+	width: 1.44vw;
+	height: 1.44vw;
+	background: #000;
+	display: block;
+	margin-bottom: 1.528vw;
+	position: static;
+}
+
+.rst-section-historic-red-left p{
+	font-size: 1.25vw;
+	line-height: 1.6666666667;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #000;
+	letter-spacing: 0em;
+	margin: 0 0 0 0;
+}
+.rst-section-historic-red:before{
+	content:"";
+	left: 0;
+	bottom: 100%;
+	height: 2.431vw;
+	width: 26.91vw;
+	background: #EDEDED;
+	position: absolute;
+}
+.rst-section-historic-red-right-des{
+	background: #fff;
+	padding-top: 1.667vw;
+	padding-left: 1.667vw;
+	padding-right: 2.361vw;
+	padding-bottom: 0.764vw;
+}
+.rst-section-historic-red-right-des p{
+	font-size: 0.833vw;
+	line-height: 1.6666666667;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #000;
+	letter-spacing: 0em;
+	margin: 0 0 1.389vw 0;
+}
+.rst-section-historic-red-right-des p:last-child{
+	margin: 0;
+}
+.rst-section-gulf-coast-canid{
+	position: relative;
+}
+.rst-line-vertical{
+	background: rgba(181,181,181,0.15);
+    width: 1px;
+    top: 0;
+    height: 100%;
+    left: 50vw;
+    position: absolute;
+}
+.rst-line-vertical.rst-line-bg-1{
+	left: 25vw;
+}
+.rst-line-vertical.rst-line-bg-3{
+	left: 75vw;
+}
+	
+.rst-section-gulf-coast-canid{
+	background: #000;
+	position: relative;
+	padding-left: 5.069vw;
+	padding-right: 4.931vw;
+}
+.rst-section-gulf-coast-canid:before{
+	content:"";
+	position: absolute;
+	right: 0;
+	width: 25.139vw;
+	bottom: 100%;
+	height: 3.403vw;
+	background: #000;
+}
+.gulf-coast-canid1{
+	width: 50.069vw;
+	position: absolute;
+	display: block;
+	top: 11.389vw;
+	left: 0;
+}
+.gulf-coast-canid-arrow{
+	width: 9.931vw;
+	position: absolute;
+	display: block;
+	bottom: 4.097vw;
+	left: 0;
+}
+.rst-section-gulf-coast-canid-left,.rst-section-gulf-coast-canid-right{
+	width: 50%;
+}
+.rst-section-gulf-coast-canid-left h2{
+	color: #fff;
+	font-size: 12.5vw;
+    line-height: 1.2;
+	letter-spacing: 0.01em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	margin-top: 2.222vw;
+	margin-bottom: 2.708vw;
+
+}
+.rst-section-gulf-coast-canid-wrap{
+	display: flex;
+	position: relative;
+	z-index: 99;
+}
+.rst-section-gulf-coast-canid-left p{
+	font-size: 1.25vw;
+	line-height: 1.5;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0 0 0 4.861vw;
+	width: 36.389vw;
+}
+.rst-section-gulf-coast-canid-right-content{
+	width: 36.389vw;
+	margin-right: 0;
+	margin-left: auto;
+	margin-bottom: 5.903vw;
+}
+.rst-section-gulf-coast-canid-right-content h4{
+	font-size: 2.222vw;
+	line-height: 1.1;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0 0 2.222vw 0;
+	width: 35.694vw;
+}
+.rst-section-gulf-coast-canid-right-content p{
+	font-size: 1.25vw;
+	line-height: 1.5;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0;
+}
+.rst-section-gulf-coast-canid-right-content p strong{
+	font-family: 'Telegraf Bold';
+	font-weight: 700;
+}
+.rst-section-gulf-coast-canid-right img{
+	width: 28.125vw;
+	display: block;
+	margin-left: 11.806vw;
+	margin-bottom: -4.653vw;
+}
+.rst-section-gulf-coast-canid-right{
+	position: relative;
+}
+.rst-section-gulf-coast-canid-right > span{
+	position: absolute;
+	font-size: 0.694vw;
+	line-height: 1.2;
+	letter-spacing: 0.1em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #C3C3C3;
+	display: block;
+	left: 3.472vw;
+	bottom: 4.167vw;
+}
+.rst-section-gulf-coast-canid-right-line{
+	display: flex;
+	gap: 3.403vw;
+	align-items: center;
+	margin-bottom: 4.583vw;
+	margin-left: -3.646vw;
+}
+.rst-section-gulf-coast-canid-right{
+	padding-top: 5.208vw;
+}
+.rst-section-gulf-coast-canid-right-line span{
+	font-size: 0.694vw;
+	line-height: 1;
+	letter-spacing: 0.045em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	display: flex;
+	height: 1.458vw;
+	align-items: center;
+	padding: 0 2.083vw;
+	border: 1px solid #fff;
+}
+
+.rst-section-gulf-coast-canid-right-line div{
+	height: 0.486vw;
+	width: 29.028vw;
+	background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/line3.png) repeat-x left center / cover;
+}
+.rst-section-colossal-biosciences{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/bg-colossal-biosciences.jpg) no-repeat bottom center / cover;
+	position: relative;
+	padding-top: 10.764vw;
+	padding-left: 9.931vw;
+	padding-right: 4.861vw;
+	padding-bottom: 24.931vw;
+	margin-bottom: 4.861vw;
+}
+.rst-section-colossal-biosciences .rst-plus1{
+	position: absolute;
+	z-index: 1;
+	left: 4.861vw;
+	top: 8.958vw;
+}
+.rst-section-colossal-biosciences .rst-plus1{
+	position: absolute;
+	z-index: 1;
+	left: 4.861vw;
+	top: 8.958vw;
+}
+.rst-section-colossal-biosciences .rst-square1{
+	position: absolute;
+	z-index: 1;
+	left: 4.861vw;
+	bottom: 23.75vw;
+	width: 8px;
+}
+.rst-section-colossal-biosciences-content p{
+	color: #fff;
+	font-size: 4.444vw;
+    line-height: 1.09375;
+	letter-spacing: 0em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+}
+.rst-section-colossal-biosciences .rst-square2{
+	position: absolute;
+	z-index: 1;
+	right: 4.861vw;
+	width: 8px;
+	bottom: 20.278vw;
+}
+.rst-section-colossal-biosciences-bottom{
+	position: absolute;
+	bottom: 0;
+	left: 9.931vw;
+	width: 40.625vw;
+	z-index: 9;
+}
+.rst-section-colossal-biosciences-bottom p{
+	font-size: 1.25vw;
+	line-height: 1.666666666;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #000;
+	letter-spacing: 0em;
+	margin: 0;
+}
+.rst-section-colossal-biosciences .rst-line-vertical{
+	height: calc( 100% + 4.861vw );
+}
+.rst-section-colossal-biosciences-line{
+	display: flex;
+	width: 90.625vw;
+	align-items: center;
+	gap: 1.25vw;
+	position: absolute;
+	left: 3.819vw;
+	bottom: 10.278vw;
+}
+.rst-section-colossal-biosciences-content{
+	position: relative;
+	z-index: 9;
+}
+.rst-section-colossal-biosciences-line span{
+	width: 3.194vw;
+	height: 3.194vw;
+	border: 1px solid #000;
+	border-radius: 50%;
+	display: block;
+	position: relative;
+}
+.rst-section-colossal-biosciences-line div{
+	height: 1px;
+	background: #000;
+	width: calc( 100% - 3.194vw - 1.25vw );
+}
+.rst-section-colossal-biosciences-line span:after {
+    width: 0.625vw;
+    height: 0.625vw;
+    background: #91ED0D;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+.rst-section-communication-strategy{
+	background: #FF7B31;
+	position: relative;
+	padding-top: 5.486vw;
+	
+}
+.rst-section-communication-strategy-container{
+	padding-left: 4.375vw;
+	padding-right: 5.486vw;
+}
+.communication-strategy-img{
+	width: 62.986vw;
+	position: absolute;
+	top: 20.694vw;
+	left: 0;
+}
+.rst-communication-strategy-top{
+	position: relative;
+	z-index: 1;
+}
+.rst-communication-strategy-top{
+	display: flex;
+	justify-content: space-between;
+}
+.rst-communication-strategy-top-left{
+	width: 45.17vw;
+}
+.rst-communication-strategy-top-right{
+	width: 28.819vw;
+}
+.rst-section-communication-strategy .rst-line-vertical {
+	background: rgba(255,255,255, 0.15);
+}
+.rst-communication-strategy-top-left h2{
+	font-size: 6.944vw;
+	line-height: 1.05em;
+	letter-spacing: 0em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	color: #fff;
+}
+.rst-communication-strategy-top-right-phases h3{
+	font-size: 2.778vw;
+	line-height: 1.05;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0 0 0.972vw 0;
+	text-transform: uppercase;
+}
+.rst-item-phases h4{
+	font-size: 1.25vw;
+	line-height: 1.33333333;
+	font-family: 'Telegraf Bold';
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0 0 1.042vw 0; 
+	text-transform: uppercase;
+}
+.rst-item-phases p{
+	font-size: 1.25vw;
+	line-height: 1.33333333;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0;
+}
+.rst-communication-strategy-top-right-phases span{
+	font-size: 1.25vw;
+	line-height: 1.33333333;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0;
+	display: block;
+	margin-bottom: 1.042vw;
+}
+.rst-communication-strategy-bottom{
+	display: flex;
+	gap: 1.597vw;
+	margin-top: 1.944vw;
+	padding-bottom: 10.764vw;
+}
+.rst-communication-strategy-top-left-sub{
+	display: flex;
+	align-items: center;
+	gap: 1.736vw;
+	margin-bottom: 1.982vw;
+}
+.rst-communication-strategy-top-left-sub p{
+	font-size: 0.694vw;
+	line-height: 1;
+	letter-spacing: 0.045em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	margin: 0;
+}
+.rst-communication-strategy-top-left-sub div{
+	height: 0.486vw;
+    width: 23.889vw;
+    background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/line3.png) repeat-x left center;
+}
+.rst-communication-strategy-top-left-sub span{
+	font-size: 0.694vw;
+	line-height: 1;
+	letter-spacing: 0.045em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	display: flex;
+	height: 1.458vw;
+	align-items: center;
+	padding: 0 1.181vw;
+	border: 1px solid #fff;
+}
+.rst-section-communication-strategy .rst-square1{
+	width: 8px;
+	position: absolute;
+	left: 4.375vw;
+	top: 52.431vw;
+}
+.rst-communication-strategy-top-right-line{
+	display: flex;
+}
+.rst-communication-strategy-top-right-line {
+    display: flex;
+    width: calc( 100% + 6.458vw );
+	margin-left: -6.458vw;
+    align-items: center;
+    gap: 0;
+	margin-top: 1px;
+	margin-bottom: 2.5vw;
+}
+.rst-communication-strategy-top-right-line span {
+    width: 3.194vw;
+    height: 3.194vw;
+    border: 1px solid #979797;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+}
+.rst-communication-strategy-top-right-line span:after {
+    width: 0.625vw;
+    height: 0.625vw;
+    background: #91ED0D;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+.rst-communication-strategy-top-right-line div {
+    height: 1px;
+    background: #fff;
+    width: calc(100% - 3.194vw);
+}
+.rst-communication-strategy-bottom-column{
+	width: 33.333%;
+}
+.rst-communication-strategy-top-right-phases .rst-item-phases + span{ 
+	margin: 1.042vw 0 0 0;
+}
+.rst-section-red-wolf-top .rst-line-vertical{
+	background: rgba(255,255,255, 0.15);
+}
+.rst-section-red-wolf{
+	background: #181C1F;
+}
+.rst-section-red-wolf-container{
+	background: #FF6B00;
+}
+.rst-section-red-wolf-container-top {
+	border-bottom: 1px solid rgba(255,255,255,0.7);
+	padding-left: 5.208vw;
+	padding-right: 5.208vw;
+	display: flex;
+	position: relative;
+    align-items: flex-end;
+}
+.rst-section-red-wolf-container-top-left{
+	width: 50%;
+}
+.rst-section-red-wolf-container-top-right{
+	width: 50%;
+}
+.rst-section-red-wolf-container-bottom{
+	padding-left: 5.208vw;
+	padding-right: 5.208vw;
+	padding-top: 5.139vw;
+	padding-bottom: 2.569vw;
+	display: flex;
+}
+.rst-section-red-wolf-container-bottom-left,.rst-section-red-wolf-container-bottom-right{
+	width: 50%;
+}
+.rst-section-red-wolf-container-bottom-left{
+	padding-right: 1.042vw;
+}
+.rst-section-red-wolf-container-bottom-right{
+	padding-left: 1.25vw;
+    padding-top: 0.069vw;
+}
+.rst-section-red-wolf-container-top .plus-white1{
+	position: absolute;
+	bottom: 5.625vw;
+	right: 5.625vw;
+	    z-index: 9;
+}
+.rst-section-red-wolf-container-bottom-right li .text-right {
+    margin-right: 0.556vw;
+}
+.rst-section-red-wolf-container-top .plus-white2{
+	position: absolute;
+	bottom: -5.833vw;
+	right: 5.556vw;
+	    z-index: 9;
+}
+.rst-section-red-wolf-container-top .square-white1{
+	position: absolute;
+	left: 5.556vw;
+	bottom: 8.125vw;
+	    z-index: 9;
+}
+.rst-section-red-wolf-container-top .square-white2{
+	position: absolute;
+	top: 6.389vw;
+	    z-index: 9;
+	right: 5.556vw;
+}
+.rst-section-red-wolf-top{
+	position: relative;
+	margin-top: -51.944vw;
+}
+.rst-section-red-wolf-top .rst-line-vertical{
+	background: rgba(0, 0, 0, 0.15);
+}
+.rst-section-red-wolf-container-bottom{
+	position: relative;
+	background: #FF6B00;
+}
+.rst-section-red-wolf-container-top-left{
+	padding-top: 5.139vw;
+}
+.rst-section-red-wolf-container-top-left h2{
+	line-height: 1;
+	letter-spacing: 0em;
+	font-size: 6.944vw;
+	font-family: 'NB Architekt Light';
+	font-weight: 300;
+	margin: 0 0 0.764vw 0;
+	color: #fff;
+	position: relative;
+	z-index: 1;
+}
+.rst-section-red-wolf-container-top-left h3{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+    font-size: 2.778vw;
+    margin-bottom: 2.361vw;
+	position: relative;
+	z-index: 1;
+}
+.rst-section-red-wolf-container-top-right{
+	padding-left: 4.444vw;
+	padding-right: 3.264vw;
+	padding-top: 2.847vw;
+}
+.rst-section-red-wolf-container-top-right img{
+	width: 100%;
+	display: block;
+}
+.rst-section-red-wolf-container-top-left-img{
+	padding-left: 5.4vw;
+	position: relative;
+	z-index: 1;
+}
+.rst-section-red-wolf-container-top-left-img img{
+	width: 100%;
+}
+.rst-section-red-wolf-container-bottom-left .rst-line-1{
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	opacity: 0.4;
+    margin-top: 1.458vw;
+    margin-bottom: 2.5vw;
+}
+.rst-section-red-wolf-2 .rst-section-red-wolf-container-bottom-left .rst-line-1{
+	    margin-top: 2vw;
+    margin-bottom: 2.53vw;
+}
+.rst-section-red-wolf-container-bottom-left-column{
+	display: flex;
+	gap: 4.653vw;
+	align-items: center;
+}
+
+.rst-section-red-wolf-container-bottom-left-column-img{
+	width: 12.083vw;
+	min-width: 12.083vw;
+}
+.rst-section-red-wolf-container-bottom-left-column-img img{
+	width: 100%;
+	height: auto;
+}
+.rst-section-red-wolf-container-bottom-left-column-text{
+	width: calc( 100% - 12.083vw - 4.653vw );
+}
+.rst-section-red-wolf-container-bottom-left-column-text p{
+	display: block;
+	line-height: 1.333333;
+	letter-spacing: 0em;
+	font-size: 0.833vw;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	margin: 0.486vw 0 1.736vw 0.278vw;
+	color: #fff;
+}
+
+.rst-section-red-wolf-container-bottom-right img {
+    margin-left: -0.208vw;
+    width: 37.917vw;
+}
+.rst-section-red-wolf-container-bottom-left-column-text span{
+	display: block;
+	line-height: 1.333333;
+	letter-spacing: 0em;
+	font-size: 0.833vw;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	margin: 0;
+	color: #fff;
+}
+
+.rst-section-red-wolf-container-bottom-right ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.rst-section-red-wolf-container-bottom-right ul li{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.292;
+    font-size: 1.667vw;
+	border-top: 1px solid rgba(255,255,255, 0.4);
+	padding: 0.972vw 0 0.486vw 0;
+}
+.rst-section-red-wolf-container-bottom-right ul li:first-child{
+	width: 90.8%;
+}
+.rst-section-red-wolf-container-bottom-right .rst-custom-line-sub{
+	max-width: 100%;
+    margin: 0px auto;
+    display: block;
+    background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/rst-line8.png) repeat-x left center;
+    height: 0.694vw;
+    margin-top: 1.875vw;
+    margin-bottom: 1.806vw;
+}
+.rst-section-red-wolf-container2{
+	display: flex;
+	position: relative;
+	padding-bottom: 4.306vw;
+}
+.rst-section-red-wolf-container2 .plus-white1{
+	position: absolute;
+	top: 15.694vw;
+	left: 0;
+}
+.rst-section-red-wolf-container2 .plus-white2{
+	position: absolute;
+	right: 0;
+	top: 14.097vw;
+}
+.rst-section-red-wolf-container2 .square-white1{
+	position: absolute;
+	right: 0;
+	bottom: 12.153vw;
+}
+.rst-section-red-wolf-bottom{
+	position: relative;
+}
+.rst-section-red-wolf-bottom .rst-line-vertical{ 
+	background: rgba(255,255,255, 0.15);
+}
+
+.rst-section-red-wolf-container2-left{
+	width: 50%;
+	padding-top: 5.764vw;
+}
+.rst-section-red-wolf-container2-right{
+	width: 50%;
+	padding-left: 8.681vw;
+	padding-right: 5.625vw;
+	    margin-top: -9.444vw;
+}
+.rst-section-red-wolf-container2-right img{
+	width: 100%;
+}
+.rst-section-red-wolf-container2-left-sub{
+	display: flex;
+	align-items: center;
+	    justify-content: space-between;
+		margin-bottom: 2.986vw;
+}
+.rst-section-red-wolf-2 .rst-section-red-wolf-container2-left-sub{
+	margin-bottom: 3.286vw;
+}
+.rst-section-red-wolf-container2-left-sub span{
+	color: #fff;
+    border: 1px solid #fff;
+    font-size: 0.6944444vw;
+    line-height: 1;
+    display: inline-block;
+    padding: 0.347vw 0.972vw;
+    letter-spacing: 0.05em;
+    margin: 0;
+    font-family: 'NB Architekt Std';
+}
+.rst-section-red-wolf-container2-left-sub div{
+	width: 20.972vw;
+    display: block;
+    background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/rst-line9.png) repeat-x left center;
+    height: 0.694vw;
+	margin-right: 0.972vw;
+}
+.rst-section-red-wolf-container2-left h2{
+    color: #fff;
+    font-family: 'Telegraf Bold';
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+    font-size: 2.778vw;
+    letter-spacing: 0;
+    margin-bottom: 2.986vw;
+    margin-left: -0.278vw;
+}
+.rst-section-red-wolf-container2-left p{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.38888888889;
+    font-size: 1.25vw;
+    margin-top: 2.222vw;
+    letter-spacing: -0.005em;
+}
+.rst-section-red-wolf-container2-left .rst-line-1{
+	width: 92.3%;
+	height: 1px;
+	background: #fff;
+	margin-left: auto;
+}
+
+.nekada-kayda{
+	padding-bottom: 4.514vw;
+	padding-left: 4.514vw;
+	padding-right: 5.208vw;
+	padding-top: 4.248vw;
+	background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/nekada_kayda_bg.jpg) no-repeat center center / cover;
+	width: 90.278vw;
+	margin: 0px auto;
+	position: relative;
+}
+.nekada-kayda-img{
+	position: absolute;
+	top: 1.528vw;
+	width: 33.278vw;
+	display: block;
+	z-index: 2;
+	left: 25.347vw;
+}
+.nekada-kayda-wrap{
+	position: relative;
+    z-index: 2;
+}
+.nekada-kayda .rst-plus1{
+	position: absolute;
+	left: 5.556vw;
+	bottom: 6.25vw;
+}
+.nekada-kayda .rst-plus2{
+	position: absolute;
+	right: 7.431vw;
+	bottom: 0.417vw;
+}
+
+.nekada-kayda-sub-top{
+	color: #FF7B31;
+    font-size: 1.111vw;
+    line-height: 1;
+    display: flex;
+	align-items: center;
+    padding: 0;
+	gap: 0.486vw;
+	width: 100%;
+	border-top: 1px solid #FF6B00;
+    letter-spacing: 0.13em;
+    margin: 0;
+    font-family: 'NB Architekt Std';
+	padding-top: 1.597vw;
+	margin-bottom: 3.264vw;
+}
+.nekada-kayda-wrap-flex{
+	display: flex;
+	justify-content: space-between;
+}
+.nekada-kayda-left{
+	width: 27.431vw;
+	padding-bottom: 5.9vw;
+}
+.nekada-kayda:before{
+	height: 1px;
+	position: absolute;
+	top: 47.3vw;
+	content:"";
+	background: #fff;
+	left: 4.514vw;
+	right: 5.208vw;
+}
+.nekada-kayda-right{
+	width: 22.222vw;
+	margin-top: -0.417vw;
+}
+.rst-section-communication-strategy .rst-line-vertical{
+	z-index: 1;
+}
+.nekada-kayda-sub-top span{
+	width: 0.903vw;
+	height: 0.903vw;
+	display: block;
+	background: #FF7B31;
+}
+.nekada-kayda-left h2{
+	color: #fff;
+    font-size: 4.444vw;
+    line-height: 0.9;
+    padding: 0;
+    letter-spacing: 0.2em;
+    margin: 0 0 1.944vw 0;
+	font-weight: 400;
+    font-family: 'NB Architekt Std';
+}
+.nekada-kayda-left > span{
+	color: #000000;
+    font-size: 1.767vw;
+    line-height: 1;
+    padding: 0;
+    letter-spacing: 0.1em;
+    margin: 0;
+	font-weight: 300;
+	background: #5A5A5A;
+	width: 100%;
+	height: 2.778vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    font-family: 'NB Architekt Light';
+}
+.nekada-kayda-info{
+	width: 15.278vw;
+	margin-top: 4.861vw;
+}
+.nekada-kayda-info-item{
+	border-top: 1px solid #636363;
+	padding-top: 0.486vw;
+	padding-bottom: 2.38vw;
+}
+.nekada-kayda-info-item label{
+	color: #fff;
+    font-size: 0.694vw;
+    line-height: 1;
+    padding: 0;
+    letter-spacing: 0.07em;
+    margin: 0;
+	font-weight: 400;
+    font-family: 'NB Architekt Std';
+	display: block;
+	margin-bottom: 1.25vw;
+}
+.nekada-kayda-info-item div{
+	display: flex;
+	gap: 0.278vw;
+}
+.nekada-kayda-info-item div span{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+    font-size: 1.181vw;
+    margin-top: 0;
+    letter-spacing: 0.01em;
+	border-radius: 1.667vw;
+	border: 1px solid #fff;
+	padding: 0 0.764vw;
+	height: 1.875vw;
+	display: flex;
+	align-items: center;
+	width: max-width;
+}
+.nekada-kayda-right h3{
+	color: #fff;
+    font-family: 'Telegraf Bold';
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.4;
+    font-size: 1.667vw;
+    margin-bottom: 1.389vw;
+    letter-spacing: 0em;
+}
+.nekada-kayda-right p{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.4;
+    font-size: 1.25vw;
+	margin-bottom: 2.639vw;
+    letter-spacing: 0em;
+}
+.nekada-kayda-right > span{
+	color: #fff;
+    font-size: 0.833vw;
+    line-height: 1.333333333;
+    padding: 0;
+    letter-spacing: 0em;
+    margin: 0;
+	font-weight: 400;
+    font-family: 'NB Architekt Std';
+	display: block;
+	text-align: left;
+	padding-left: 2.014vw;
+	    transform: rotate(180deg);
+}
+.nekada-kayda-right-line span{
+	width: 5px;
+	height: 5px;
+	background: #707070;
+	margin-bottom: 5px;
+	display: block;
+}
+.nekada-kayda-right-line{
+	border-bottom: 1px solid #707070;
+	margin-bottom: 1.042vw;
+}
+.rst-section-indigenous-coalition{
+	padding-bottom:  4.931vw;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 8.472vw;
+	background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/indigenous-coalition-bg.jpg) no-repeat center center / cover;
+	position: relative;
+}
+.rst-section-indigenous-coalition:after{
+	content:"";
+	width: 26.319vw;
+	height: 5.625vw;
+	background: #000;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.indigenous-coalition-logo{
+	display: flex;
+	align-items: center;
+	gap: 2.986vw;
+	justify-content: flex-end;
+	padding-left: 4.861vw;
+	padding-right: 4.861vw;
+}
+.indigenous-coalition-logo-wrap{
+	display: flex;
+	gap: 2.153vw;
+	align-items: center;
+}
+.indigenous-coalition-text{
+	width: 100%;
+	display: block;
+	margin-bottom: 7.083vw;
+}
+.indigenous-coalition-logo-wrap img{
+	height: 7.222vw;
+}
+.indigenous-coalition-logo span{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+    font-size: 1.414vw;
+    letter-spacing: 0em;
+}
+.rst-section-human-conflict{
+	position: relative;
+	padding-left: 10.486vw; 
+	padding-right: 10.486vw; 
+	padding-bottom: 24.653vw;
+	padding-top: 2.89vw;
+}
+.rst-section-human-conflict .rst-plus1{
+	position: absolute;
+	z-index: 1;
+	left: 4.792vw;
+	top: 3.472vw;
+}
+
+.rst-section-human-conflict .rst-plus2{
+	position: absolute;
+	z-index: 1;
+	top: 19.444vw;
+	right: 4.792vw;
+}
+.rst-section-human-conflict .rst-plus3{
+	position: absolute;
+	z-index: 1;
+	right: 4.792vw;
+	top: 67.778vw;
+}
+.rst-section-human-conflict .rst-square1{
+	position: absolute;
+	z-index: 1;
+	right: 4.792vw;
+	top: 3.889vw;
+}
+.rst-section-human-conflict .rst-square2{
+	position: absolute;
+	z-index: 1;
+	right: 4.792vw;
+	top: 39.306vw;
+}
+.rst-section-human-conflict h2{
+	color: #FE0000;
+    font-size: 3.819vw;
+    line-height: 1.2727;
+    padding: 0;
+    letter-spacing: 0em;
+    margin: 0;
+	font-weight: 400;
+    font-family: 'NB Architekt Std';
+	display: block;
+}
+.human-conflict-source{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 2.361vw;
+	margin-bottom: 2.431vw;
+}
+
+.human-conflict-source span{
+	color: #CCCCCC;
+    font-size: 1.042vw;
+    line-height: 1;
+    padding: 0;
+    letter-spacing: 0em;
+    margin: 0;
+	font-weight: 400;
+    font-family: 'NB Architekt Std';
+	display: block;
+}	
+.human-conflict-source div{
+	height: 1px;
+	width: 61.528vw;
+	background: #000;
+}	
+.rst-section-human-conflict-top{
+	display: flex;
+	gap: 5vw;
+}
+.rst-section-human-conflict-top-left{
+	width: 46.25vw;
+}
+.rst-section-human-conflict-top-left p{
+	color: #000;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1.389vw;
+    letter-spacing: 0em;
+	text-align: justify;
+}
+.rst-section-human-conflict-bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3.403vw;
+}
+.rst-section-human-conflict-bottom-left{
+	width: 27.5vw;
+	margin-left: -18px;
+}
+.rst-section-human-conflict-bottom-right{
+	width: 41.625vw;
+	padding-top: 2.222vw;
+}
+.rst-section-human-conflict-top-right{
+	width: 25.694vw;
+	padding-top: 0.833vw;
+}
+.rst-section-human-conflict-top-right a.rst-btn-icon-plus {
+    border: none;
+    border-radius: 5.556vw;
+    padding: 4.132vw 4.132vw;
+    background: #7DEA13;
+    font-size: 1.217vw;
+    line-height: 1.14155;
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+    gap: 1.389vw;
+    color: #000000;
+    text-decoration: none !important;
+    width: 100%;
+}
+.rst-section-human-conflict-top-right a.rst-btn-icon-plus span + span {
+    font-size: 1.736vw;
+}
+.rst-section-human-conflict-bottom-left img{
+	display: block;
+	width: 100%;
+}
+.rst-section-human-conflict-bottom-right p{
+	color: #FF27F6;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0 0 3.611vw 0;
+    line-height: 1.555555555;
+    font-size: 1.563vw;
+    letter-spacing: 0em;
+	text-align: left;
+}
+.rst-section-human-conflict-bottom-right h3{
+	color: #000;
+    font-size: 2.778vw;
+    line-height: 0.875;
+    padding: 0;
+    letter-spacing: 0em;
+    margin: 0 0 2.083vw 0;
+	font-weight: 400;
+    font-family: 'NB Architekt Std';
+	display: block;
+}
+.rst-section-human-conflict-bottom-right span{
+	color: #000;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.4666666666;
+    font-size: 1.042vw;
+    letter-spacing: 0em;
+	text-align: left;
+	opacity: 0.6;
+	display: block;
+}
+.rst-section-significance{
+	position: relative;
+	padding-bottom: 9.028vw;
+}
+
+.rst-section-trophic-downgrading{
+	position: relative;
+	padding-bottom:  3.669vw;
+	padding-left: 4.861vw;
+	padding-right: 4.861vw;
+	padding-top: 5vw;
+	background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/bg_trophic.jpg) no-repeat bottom center / cover;
+}
+.trophic1{
+	width: 32.917vw;
+	position: absolute;
+	display: block;
+	top: -3.403vw;
+	right: 10.417vw;
+}
+.rst-woods3{
+	width: 28.681vw;
+	position: absolute;
+	display: block;
+	bottom: -1.123vw;
+	right: 5.417vw;
+}
+.rst-section-trophic-downgrading .rst-plus1{
+	position: absolute;
+	z-index: 1;
+	left: 4.861vw;
+	top: 11.806vw;
+}
+.rst-section-trophic-downgrading .rst-plus2{
+	position: absolute;
+	z-index: 1;
+	top: 36.458vw;
+	right: 4.861vw;
+}
+
+.rst-section-trophic-downgrading .rst-plus3{
+	position: absolute;
+	z-index: 1;
+	right: 4.861vw;
+	bottom: 24.861vw;
+}
+
+
+.rst-section-trophic-downgrading .rst-square1{
+	position: absolute;
+	z-index: 1;
+	top: 49.444vw;
+	left: 4.861vw;
+}
+.rst-section-trophic-downgrading .rst-square2{
+	position: absolute;
+	z-index: 1;
+	bottom: 21.181vw;
+	left: 4.861vw;
+}
+.rst-section-trophic-downgrading .rst-square3{
+	position: absolute;
+	z-index: 1;
+	right: 4.861vw;
+	top: 55.903vw;
+}
+.rst-section-trophic-downgrading .rst-square4{
+	position: absolute;
+	z-index: 1;
+	top: 12.222vw;
+	right: 4.861vw;
+}
+.rst-section-trophic-downgrading h2{
+	color: #fff;
+    font-size: 5.556vw;
+    line-height: 1.125;
+    padding: 0;
+    letter-spacing: 0em;
+    margin: 10.417vw 0 2.326vw 0;
+
+    font-family: 'NB Architekt Light';
+	display: block;
+	font-weight: 300;
+}
+@media (min-width: 768px){
+	.rst-section-trophic-downgrading h2{
+		padding-left: 5.486vw;
+	}	
+	.rst-trophic-downgrading-out-of-the-woods{
+		margin-left: 5.347vw;
+	}
+}
+.rst-section-trophic-downgrading .line{
+	width: 23.125vw;
+	height: 1px;
+	background: #fff;
+	margin-bottom: 3.021vw;
+}
+.rst-trophic-downgrading-wrap-text{
+	display: flex;
+	gap: 2.014vw;
+	padding-left: 5.556vw;
+	padding-right: 2.556vw;
+}
+.rst-trophic-downgrading-column-text{
+	width: 50%;
+}
+.rst-trophic-downgrading-column-text p{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.666666666;
+    font-size: 1.042vw;
+    letter-spacing: 0em;
+	text-align: justify;
+}
+.rst-trophic-downgrading-wrap-trophic{
+	display: flex;
+	gap: 5.069vw;
+	padding-left: 3.472vw;
+	padding-right: 0;
+}
+.rst-trophic-downgrading-column-trophic-text{
+	width: 31.069vw;
+	padding-top: 1.667vw; 
+}
+.rst-trophic-downgrading-column-trophic-text h3{
+	color: #FEA500;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0 0 1.111vw 0;
+    line-height: 1.2857;
+    font-size: 2.431vw;
+    letter-spacing: 0em;
+	    text-transform: uppercase;
+}
+.rst-trophic-downgrading-column-trophic-text ul{
+	list-style: none;
+	margin: 0 0 0 2.083vw;
+	padding: 0;
+}
+.rst-trophic-downgrading-column-trophic-text ul li{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 2;
+    font-size: 1.389vw;
+    letter-spacing: 0em;
+	padding-left: 2.575vw;
+	position: relative;
+}
+.rst-trophic-downgrading-column-trophic-text ul li:before{
+	background: #FEA500;
+	width: 0.556vw;
+	height: 0.556vw;
+	content:"";
+	left: 0;
+	top: 50%;
+	border-radius: 50%;
+	margin-top: -0.278vw;
+	position: absolute;
+}
+.rst-trophic-downgrading-column-trophic{
+	width: 48.333vw;
+}
+.rst-trophic-downgrading-out-of-the-woods{
+	position: relative;
+	width: 46.25vw;
+}
+.rst-trophic-downgrading-out-of-the-woods h3{
+	color: #7DEA13;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 0.8;
+    font-size: 3.472vw;
+    letter-spacing: 0em;
+	margin-bottom: 2.539vw;
+}
+.rst-trophic-downgrading-out-of-the-woods p{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0 0 1.944vw 0;
+    line-height: 1.5;
+    font-size: 1.389vw;
+    letter-spacing: 0em;
+}
+.rst-trophic-downgrading-out-of-the-woods{
+	margin-top: 6.658vw;
+}
+.rst-line-woods{
+	height: 0.486vw;
+    width: 22.153vw;
+	position: absolute;
+	left: 32.5vw;
+	top: 10px;
+    background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/line3.png) repeat-x left center;
+}
+.rst-section-trophic-cascading-wrap-left-drag {
+    
+    border-bottom-right-radius: 0;
+    padding-left: 1.389vw;
+    padding-right: 1.389vw;
+    padding-top: 1.389vw;
+    margin-bottom: 0;
+	position: relative;
+}
+.rst-section-trophic-cascading-wrap-left-drag:after{
+	background: rgba(84, 69, 33, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content:"";
+	mix-blend-mode: soft-light
+	
+}
+.rst-section-trophic-cascading-wrap-left-drag img {
+    width: 100%;
+}
+.rst-trophic-downgrading-column-trophic{
+	padding-top: 0.694vw;
+	padding-left: 0.694vw;
+	position: relative;
+}
+.rst-trophic-downgrading-column-trophic:before{
+	height: 0.694vw;
+	content:"";
+	left: 0;
+	top: 0;
+	background: #FEA500;
+	width: 13.128vw;
+	position: absolute;
+}
+.rst-trophic-downgrading-column-trophic:after{
+	height: 7.014vw;
+	content:"";
+	left: 0;
+	top: 0;
+	background: #FEA500;
+	width: 0.694vw;
+	position: absolute;
+}
+.rst-section-trophic-cascading-wrap-left-drag-text {
+    padding-top: 1.875vw;
+    padding-bottom: 1.806vw;
+    padding-left: 2.153vw;
+    position: relative;
+}
+.rst-section-trophic-cascading-wrap-left-drag-text span {
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    line-height: 1;
+    font-size: 0.694vw;
+    margin: 0;
+    letter-spacing: 0;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 1.042vw;
+	color: #fff;
+}
+.rst-section-trophic-cascading-wrap-left-drag-text div {
+    font-size: 0.764vw;
+    line-height: 1.636363636363636;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+    padding: 8px;
+    padding-left: 22px;
+    width: 32.986vw;
+    border-left: 3px solid #fff;
+}
+.rst-trophic-downgrading-out-of-the-woods p:last-child{
+	margin: 0;
+}
+.rst-trophic-downgrading-wrap-trophic{
+	margin-top: 4.653vw;
+}
+.rst-trophic-downgrading-label{
+	display: flex;
+	align-items: center;
+	gap: 6.181vw;
+	
+}
+.rst-trophic-downgrading-label span{
+	font-family: 'NB Architekt Std';
+    font-weight: 400;
+    line-height: 1;
+    font-size: 0.694vw;
+    margin: 0;
+	color: #fff;
+    letter-spacing: 0;
+    display: block;
+}
+.rst-trophic-downgrading-label div{
+	height: 0.486vw;
+    width: 34.653vw;
+    background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/line3.png) repeat-x left center;
+}
+.rst-section-significance{
+	padding-left: 4.861vw;
+	padding-right: 4.861vw;
+	padding-top: 6.736vw;
+	position: relative;
+	 background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/bg_significance.jpg) repeat-x top center;
+	 background-size: 100% auto;
+}
+.rst-section-significance .rst-square1{
+	position: absolute;
+	left: 4.861vw;
+	top: 7.222vw;
+	z-index: 1;
+}
+.rst-section-significance-top{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2.847vw;
+}
+.rst-section-significance-top h2{
+	width: 40.278vw;
+	font-family: 'NB Architekt Std';
+    font-weight: 400;
+    line-height: 1;
+    font-size: 2.889vw;
+    margin: 0 0 0 2.778vw;
+	color: #fff;
+    letter-spacing: 0;
+}
+.rst-section-significance-top p{
+	font-size: 1.111vw;
+    line-height: 1.2;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 5px 0 0 0;
+    color: #fff;
+	width: 35.833vw;
+}
+.rst-section-significance-center{
+	border-top:1px solid #929292;
+	position: relative;
+	border-bottom:1px solid #929292;
+	display: flex;
+	justify-content: space-between;
+}
+.significance3{
+	position: absolute;
+	width: 45.208vw;
+	display: block;
+	top: 13.056vw;
+	left: 21.458vw;
+	z-index: 2;
+}
+.rst-section-significance-center1{
+	position: relative;
+	width: 28.611vw;
+	padding-right: 0.694vw;
+	padding-top: 0.625vw;
+	padding-bottom: 0.694vw;
+	border-right:1px solid #929292;
+}
+.relative{
+	position: relative;
+}
+.rst-section-significance-center1 span{
+	width: 100%;
+	font-family: 'NB Architekt Std';
+    font-weight: 400;
+    line-height: 1;
+    font-size: 0.833vw;
+    margin: 0;
+	    text-align: center;
+	color: #fff;
+    letter-spacing: 0.115em;
+	position: absolute;
+	left: 0;
+	top: 2.292vw;
+	
+}
+.rst-section-significance-img-text{
+	width: 28.264vw;
+	display: flex;
+	gap: 3.056vw;
+	position: relative;
+	align-items: flex-start;
+	position: absolute;
+	z-index: 1;
+	left: 29.722vw;
+	top: 1.528vw;
+}
+.rst-section-significance-img-text.rst-bottom{
+	right: 29.722vw;
+	left: auto;
+	top: auto;
+	bottom: 2.083vw;
+	    flex-direction: row-reverse;
+}
+.rst-section-significance-img-text img{
+	width: 6.806vw;
+	display: block;
+}
+.rst-section-significance-img-text .rst-square{
+	width: 8px;
+	height: 8px;
+	background: #AEAEAE;
+	position: absolute;
+	left: 8.125vw;
+	top: 4.306vw;
+}
+.rst-section-significance-img-text .rst-plus{
+	font-family: 'NB Architekt Std';
+    font-weight: 400;
+    line-height: 1;
+    font-size: 1.389vw;
+    margin:  0;
+	color: #000;
+	position: absolute;
+	top: 0.833vw;
+	left: 8.125vw;
+	    opacity: 0.5;
+}
+.rst-section-significance-img-text div{
+	width: calc( 100% - 6.806vw - 3.056vw );
+	padding-top: 1.25vw;
+}
+.rst-section-significance-img-text div p{
+	width: 100%;
+	font-family: 'NB Architekt Std';
+    font-weight: 400;
+    line-height: 0.975;
+    font-size: 0.833vw;
+    margin: 0 0 1.389vw 0;
+	text-align: left;
+	color: #AEAEAE;
+}
+.rst-section-significance-img-text.rst-bottom div p{
+	text-align: right;
+}
+.rst-section-significance-img-text.rst-bottom .rst-plus{
+	left: auto;
+	right: 8.125vw;
+	top: 0;
+}
+.rst-section-significance-img-text.rst-bottom .rst-square {
+	left: auto;
+    right: 8.125vw;
+	top: 3.264vw;
+}
+.rst-section-significance-img-text.rst-bottom div {
+    padding-top: 0;
+}
+.rst-section-significance-img-text div p:last-child{
+	margin: 0;
+}
+.rst-section-significance-center1 img{
+	width: 100%;
+	display: block;
+	border-radius: 1.389vw;
+}
+.rst-section-significance-center2{
+	position: relative;
+	width: 28.611vw;
+	padding-left: 0.694vw;
+	padding-top: 0.625vw;
+	padding-bottom: 0.694vw;
+	border-left: 1px solid #929292;
+}
+.relative{
+	position: relative;
+}
+.rst-section-significance-center2 span{
+	width: 100%;
+	font-family: 'NB Architekt Std';
+	    text-align: center;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 0.833vw;
+    margin: 0;
+	color: #000;
+    letter-spacing: 0.115em;
+	position: absolute;
+	left: 0;
+	top: 2.292vw;
+	
+}
+.rst-section-significance-center2 img{
+	width: 100%;
+	display: block;
+	border-radius: 1.389vw;
+}
+.rst-section-significance-quote{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 6.736vw;
+}
+.rst-section-significance-quote-img{
+	width: 45.069vw;
+}
+.rst-section-significance-quote-content-sub {
+	display: flex;
+	align-items: center;
+	gap: 1.25vw;
+	margin-left: -5.347vw;
+	margin-top: 3.75vw;
+	margin-bottom: 3.958vw;
+}
+.rst-section-significance-abc-bio{
+	margin-top: 12.014vw;
+	border: 1px solid #929292;
+	display: flex;
+	flex-wrap: wrap;
+}
+.rst-section-significance-abc-bio-left{
+	width: 37%;
+}
+.rst-section-significance-abc-bio-bottom{
+	border-top: 1px solid #929292;
+}
+.rst-section-significance-abc-bio-bottom.one-column{
+	padding: 1.111vw;
+}
+.rst-section-significance-abc-bio-des {
+	text-align: center;
+	padding: 2.153vw;
+}
+.rst-section-significance-abc-bio-des span{
+	font-size: 0.833vw;
+    line-height: 1;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    margin: 0 0 2.708vw 0; 
+    color: #000000;
+	display: block;
+	text-align: center;
+    text-transform: uppercase;
+}
+.rst-section-significance-abc-bio-des p{
+	font-size: 1.389vw;
+    line-height: 1.6;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    margin: 0; 
+    color: #000000;
+	display: block;
+	letter-spacing: 0.03em;
+	text-align: center;
+    text-transform: uppercase;
+}		
+.two-column{
+	display: flex;
+	flex-wrap: wrap;
+}
+.rst-section-significance-abc-bio img{
+	width: 100%;
+	
+}
+.two-column > div{
+	width: 50%;
+	padding: 1.111vw 1.111vw;
+}
+.two-column > div + div{
+	border-left: 1px solid #929292;
+}
+.one-column{
+	padding: 1.111vw 1.111vw;
+}
+.top-bottom > div{
+	padding: 1.111vw 1.111vw;
+}
+.top-bottom > div + div{
+	border-top: 1px solid #929292;
+}
+.rst-section-significance-abc-bio-center{
+	width: calc( 100% - 38% - 37% );
+	border-left: 1px solid #929292;
+	border-right: 1px solid #929292;
+}
+.top-bottom{
+	padding: 0 !important;
+}
+.rst-section-significance-abc-bio-des{
+	flex: 1;
+}
+.one-column{
+	
+}
+.rst-section-significance-abc-bio-des {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.rst-section-significance-abc-bio-right{
+	width: 38%;
+}
+.rst-section-significance-abc-bio-center{
+	display: flex;
+    flex-direction: column;
+}
+.rst-section-significance-quote-content-sub span{
+	font-size: 0.833vw;
+    line-height: 1;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+	text-transform: uppercase;
+}
+.rst-section-significance-quote-content-sub div{
+	height: 1px;
+	width: 14.097vw;
+	background: #fff;
+}
+.rst-section-significance-quote-content{
+	width: 39.861vw;
+}
+.rst-section-significance-quote-content p{
+	font-size: 1.806vw;
+    line-height: 1.4;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0px 0 3.194vw 0;
+    color: #fff;
+}
+.rst-section-significance-quote-content img{
+	width: 12.778vw;
+	display: block;
+	margin-bottom: 1.319vw;
+}
+.rst-section-significance-quote-content h5{
+	font-size: 1.883vw;
+    line-height: 1;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    color: #929292;
+}
+.rst-section-significance-quote-img img{
+	width: 100%;
+	display: block;
+}
+.rst-section-video-gallery{
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 5.833vw;
+	position: relative;
+	 background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/bg_video.png) no-repeat top 94px center;
+	 background-size: 100% auto;
+	 background-color: #000;
+}
+.rst-section-video-gallery-top{
+	display: flex;
+	padding-left: 7.778vw;
+	padding-right: 7.292vw;
+	justify-content: space-between;
+	margin-bottom: 98px;
+}
+.rst-section-video-gallery-top-left{
+	width: 38.681vw;
+}
+.rst-section-video-gallery-top-left .rst-line{
+    height: 0.486vw;
+    width: 100%;
+	margin-bottom: 3.611vw;
+	margin-top: 10px;
+    background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/line3.png) repeat-x left center;
+}
+.rst-section-video-gallery-top-left p{
+	font-size: 1.25vw;
+    line-height: 1.333333333333;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+	width: 35.903vw;
+    color: #fff;
+}
+.video-module-text{
+	position: absolute;
+	left: 7.431vw;
+	top: 12.986vw;
+}
+.rst-section-video-main-label{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 0.903vw;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 2.5vw;
+}
+.rst-section-video-main-label span{
+	font-size: 0.556vw;
+    line-height: 1.25;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    margin: 0; 
+    color: #fff;
+	display: block;
+	letter-spacing: 0em;
+}
+.rst-section-video-main{
+	padding-bottom: 10.417vw;
+}
+.line-gallery{
+	display: block;
+	width: 100%;
+}
+.rst-section-gallery-main{
+	position: relative;
+	padding-bottom: 8.533vw;
+}
+.rst-section-gallery-main .label-gallery{
+	font-size: 1.667vw;
+    line-height: 1;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    margin: 0; 
+    color: #fff;
+	display: block;
+	letter-spacing: 0em;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	text-align: center;
+	top: 4.375vw;
+}
+.rst-section-gallery-main .label-source{
+	font-size: 1.667vw;
+    line-height: 1;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    margin: 0; 
+    color: #7E7E7E;
+	display: block;
+	letter-spacing: 0em;
+	position: absolute;
+	left: 4.54vw;
+	top: 4.375vw;
+}
+.rst-section-video-main-img{
+	padding-left: 4.306vw;
+	padding-right: 2.986vw;
+	position: relative;
+}
+.rst-section-video-main-img .play {
+	position: absolute;
+	width: 6%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.rst-section-video-main-img video {
+	width: 100%;
+	aspect-ratio: 16 / 6.5;
+	object-fit: cover;
+	border-radius: 1000px;
+}
+.rst-section-video-main{
+	position: relative;
+	padding-left: 7.431vw;
+	padding-right: 7.569vw;
+}
+.rst-section-video-gallery-top-right{
+	width: 44.097vw;
+}
+.vt-naming-wolf-slider .swiper-wrapper {
+    align-items: center;
+}
+.vt-naming-wolf-item {
+    max-width: 30.278vw !important;
+    aspect-ratio: 436 / 527.39;
+    border-radius: 1.111vw;
+  
+}
+.rst-section-gallery-dess{
+	margin-top: 1.389vw;
+}
+.rst-section-gallery-dess h4{
+	font-size: 1.111vw;
+    line-height: 1.2;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    margin: 0; 
+    color: #fff;
+	display: block;
+	text-align: center;
+	letter-spacing: 0.05625em;
+}
+.rst-section-gallery-dess p{
+	font-size: 1.111vw;
+    line-height: 1.2;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    margin: 0 0 1.389vw 0; 
+    color: #737373;
+	display: block;
+	text-align: center;
+	letter-spacing: 0.05625em;
+}
+.rst-section-gallery-dess a{
+	width: 8.125vw;
+	height: 2.431vw;
+	border: 1px solid #fff;
+	border-radius: 1.667vw;
+	font-size: 1.111vw;
+    line-height: 1;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0 auto;
+	text-decoration: none !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    color: #fff;
+}
+.vt-naming-wolf-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1.111vw;
+	display: block;
+	box-shadow: 0px 0px 76px rgba(0, 0, 0, 0.95);
+}
+.vt-naming-wolf-item .vt-num {
+    display: block;
+    color: #5E5E5E;
+    font-family: 'NB Architekt Std';
+    font-size: 0.556vw;
+    line-height: 120%;
+    letter-spacing: 0.9px;
+	text-align: center;
+	margin-top: 1.528vw;
+	    transform: scale(1.1);
+}
+.vt-naming-wolf-item.swiper-slide-active .vt-num{
+	color: #FF6B00;
+	font-size: 0.694vw;
+	margin-top: 2.361vw;
+	transform: scale(1);
+}
+.vt-naming-wolf-swiper{
+	padding-bottom: 3.2183vw;
+}
+.vt-naming-wolf-slider{
+	margin-top: 5.694vw;
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left .rst-line-1 {
+    width: 41.563vw;
+    height: 1px;
+    background: #fff;
+    margin-left: 0;
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left > span{
+	color: #fff;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.666666667;
+    font-size: 1.042vw;
+    margin-top: 1.285vw;
+    letter-spacing: 0em;
+	display: block;
+	
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left img{
+	width: 37.361vw;
+	display: block;
+	margin-top: 2.739vw;
+	margin-left: -1.042vw;
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left-sub div {
+    width: 33.056vw;
+    display: block;
+    background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/rst-line9.png) repeat-x left center;
+    height: 0.694vw;
+    margin-right: 0;
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-right {
+    width: 48.5%;
+    padding-left: 7.361vw;
+    padding-right: 5.625vw;
+    margin-top: 0;
+}
+.rst-section-red-wolf-container2-right img {
+    width: 100%;
+    display: block;
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 {
+    padding-bottom: 10.66vw;
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left {
+    width: 51.5%;
+    padding-bottom: 6.528vw;
+    padding-top: 6.736vw;
+	border-bottom: 1px solid #fff;
+}
+@media (min-width: 768px){	
+	.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left{
+		padding-left: 1.25vw;
+	}
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .plus-white2 {
+    position: absolute;
+    right: 0;
+    top: 30.097vw;
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .square-white1 {
+    position: absolute;
+    right: 0;
+    bottom: 30.153vw;
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left h2 {
+    margin-bottom: 1.458vw;
+    margin-left: 0;
+}
+.rst-section-red-wolf.rst-section-gray-wolf{
+	padding-bottom: 0;
+	background: #fff;
+}
+.rst-section-red-wolf.rst-section-gray-wolf .rst-section-red-wolf-container-top {
+    padding-left: 1.389vw;
+    padding-right: 1.389vw;
+    flex-direction: row-reverse;
+}
+.rst-section-red-wolf-space{
+	position: relative;
+	padding-bottom: 58.993vw;
+    background: #fff;
+	width: 100%;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-top .rst-line-vertical {
+    background: rgba(255, 255,255, 0.15);
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-top-left h3 {
+    color: #9940DD;
+	margin-left: 6.319vw;
+	margin-bottom: 4.514vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-top-left {
+    padding-top: 10vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-bottom {
+    position: relative;
+    background: #1E1E28;
+	padding-top: 5.139vw;
+	padding-left: 5.486vw;
+	padding-right: 5.625vw;
+	padding-bottom: 3.2vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-top .plus-white2 {
+    position: absolute;
+    bottom: -5.433vw;
+    right: auto;
+	left: 50%;
+    z-index: 9;
+	margin-left: -1.667vw;
+}
+.rst-section-red-wolf-container-bottom-right .status{
+	width: 33.889vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-bottom-left-column-text p {
+    
+    margin: 1.25vw 0 2.917vw 0;
+    color: #fff;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-bottom-right ul{
+	    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-bottom-right .rst-custom-line-sub{
+	    margin-top: 2.917vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-bottom-right {
+    padding-left: 0;
+    padding-right: 0.833vw;
+    padding-top: 0;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-bottom-left {
+    padding-right: 0;
+    padding-left: 0.833vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-top-left h2{
+	margin-left: 6.319vw;
+	margin-bottom: 0.625vw;
+}
+@media (min-width: 768px){	
+	.rst-section-gray-wolf .rst-section-red-wolf-container-top-left h2{
+		word-spacing: -2.083vw;
+	}
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-top-left-img {
+    padding-left: 0;
+    width: 34.722vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container-top .square-white2 {
+    position: absolute;
+    top: 24.514vw;
+    z-index: 9;
+    right:auto;
+	left: 5.556vw;
+}
+.rst-section-red-wolf-container-top .square-white1 {
+    position: absolute;
+    left: 5.556vw;
+    bottom: 7.847vw;
+    z-index: 9;
+}
+.rst-section-red-wolf-container-top .plus-white1 {
+    position: absolute;
+    bottom: 7.847vw;
+    right: 5.556vw;
+    z-index: 9;
+}
+.wolf-1-1{
+	width: 48.229vw;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container {
+    background: #1E1E28;
+}
+.rst-rings{
+	width: 1.736vw;
+	position: absolute;
+	left: 4.028vw;
+	top: 5.486vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left > span,.rst-section-gray-wolf .rst-section-red-wolf-container2-left h2{
+	color: #000;
+}
+.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left-sub span{
+	padding: 0.25vw 0.519vw 0.15vw 0.519vw;
+	letter-spacing: 0em;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container2-left-sub span{
+	color: #000;
+    border: 1px solid #000;
+	
+    
+}
+.rst-section-gray-wolf .rst-section-red-wolf-container2-left-sub{
+	margin-bottom: 3.333vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left-sub div {
+    width: 33.056vw;
+    display: block;
+    background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/rst-line9-back.png) repeat-x left center;
+    height: 0.694vw;
+    margin-right: 0;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left .rst-line-1 {
+    
+    background: #000;
+   
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .plus-white3 {
+    position: absolute;
+    right: 0;
+    top: 13.819vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .square-white1 {
+    position: absolute;
+    right: auto;
+	left: 0;
+    bottom: 3.403vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .plus-white2 {
+    position: absolute;
+    right: auto;
+	left: 0;
+    top: 24.931vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-right {
+    width: 49.9%;
+    padding-left: 5.625vw;
+    padding-right: 8.681vw;
+    padding-bottom: 10.729vw;
+    margin-top: -9.514vw;
+	position: relative;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left {
+    width: 50.1%;
+	padding-bottom: 4.097vw;
+    padding-top: 5.833vw;
+    border-bottom: 1px solid #000;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left img {
+    width: 46.528vw;
+	max-width: fit-content !important;
+    display: block;
+    margin-top: 2.739vw;
+    margin-left: -1.319vw;
+}
+.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 {
+    padding-bottom: 0;
+    align-items: flex-start;
+}
+.wolf-extra-1{
+	width: 20.417vw !important;
+	display: block;
+	right: 4.236vw !important;
+	position: absolute !important;
+	bottom: 0 !important;
+}
+.show-mb{
+	display: none !important;
+}
+@media (max-width: 767px){	
+	.rst-container {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+		max-width: 100% !important;
+		padding-left: 4.103vw !important;
+		padding-right: 4.103vw !important;
+	}
+	.show-mb{
+		display: block !important;
+	}
+	.hidden-mb{
+		display: none !important;
+	}
+	.rst-section1-header-inner{
+		display: flex !important;
+		justify-content: space-between;
+		border-bottom: 1px solid #fff;
+		padding-bottom: 3.077vw;
+		padding-top: 5.128vw;
+		align-items: flex-start;
+        width: 100%;
+	}
+	.rst-section1-label span {
+		height: 2.797vw;
+		display: flex
+	;
+		align-items: center;
+		padding-left: 1.41vw;
+		padding-right: 1.41vw;
+		font-size: 1.682vw;
+		padding-top: 1px;
+	}
+	.rst-section1-label {
+        position: absolute;
+        top: 104.272vw;
+       
+		left: 6.923vw;
+    }
+	.rst-section1 {
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/bg_section1.jpg) no-repeat top center / cover;
+		padding-top: 22.308vw;
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+		padding-bottom: 10.256vw;
+		position: relative;
+	}
+	.rst-section-red-wolf-top {
+		position: relative;
+		margin-top: 0;
+	}
+	.rst-section1-header{
+		        width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 0px 6.923vw;
+	}
+	.rst-logo{
+		display: block;
+		width: 9.231vw;
+	}
+	.rst-menu{
+		margin-top: 4.103vw;
+	}
+	.rst-menu img{
+		width: 9.744vw;
+		display: block;
+	}
+	.rst-section1 .rst-line1 {
+		width: 50.513vw;
+		height: 7px;
+		object-fit: cover;
+		object-position: left center;
+		position: absolute;
+		right: 7.692vw;
+		top: 58.11vw;
+	}
+	.rst-section1 .rst-plus1,.rst-section1 .rst-plus2,.rst-section1 .rst-plus3{
+		display: none;
+	}
+	.rst-section1 .rst-square2{
+		display: none;
+	}
+	.rst-section1 h1 {
+		color: #fff;
+		font-size: 13.462vw;
+		line-height: 1.0171428;
+		margin-top: 0;
+		margin-bottom: 6.331vw;
+	}
+	.rst-section1 .rst-square1 {
+		left: 6.923vw;
+		top: 21.282vw;
+		
+		width: 4px;
+	}
+	.rst-section1-partner {
+	
+		gap: 4.615vw;
+		position: static;
+		flex-direction: column;
+	}
+	.rst-section1 .rst-line2 {
+		display: none;
+		}
+	.rst-section1-content {
+		width: 100%;
+		margin-top: 46.136vw;
+		
+	}	
+	.rst-section1-line {
+		height: 1px;
+		width: 100%;
+		background: #fff;
+		margin-left: 0;
+		margin-top: 8.462vw;
+		margin-bottom: 6.667vw;
+	}
+	.rst-section1-partner img {
+		width: 100%;
+		display: block;
+	}
+	.rst-section1-partner span {
+		font-size: 3.554vw;
+		line-height: 1.375;
+		font-family: 'Telegraf';
+		color: #fff;
+		letter-spacing: 0em;
+		margin: 0;
+		padding-top: 0.764vw;
+	}
+	.rst-section1-content h3 {
+		font-size: 5.641vw;
+		line-height: 1.81818181;
+		margin: 0 0 2.308vw 0;
+	}
+	.rst-section1-content p {
+		font-size: 2.564vw;
+		line-height: 1.3;
+		margin: 0 0 3.333vw 0;
+		margin-right: -4px;
+	}
+	.rst-section1-content-bottom {
+		width: 100%;
+	}
+	.rst-section1-content-bottom p {
+		font-size: 5.897vw;
+		margin: 0 0 0.569vw 0;
+		        
+	}
+	.rst-section1 .rst-plus4 {
+		right: auto;
+		left: 6.923vw;
+		top: 115.385vw;
+		position: absolute;
+		z-index: 1;
+		width: 7px;
+	}
+	.rst-section1-content-bottom p span{
+		font-size: 7.692vw;
+	}
+	.rst-section1-content-bottom > span {
+		font-size: 2.197vw;
+	
+	}
+	.rst-section-communication-label {
+		font-size: 4.226vw;
+		width: 45.81vw;
+		padding: 1.979vw 2.244vw;
+		border: 1px solid #fff;
+		right: 17.326vw;
+		bottom: 14.918vw;
+	}
+	.rst-section-communication-text > p {
+		font-size: 4.49vw;
+		margin: 0 0 6.41vw 0;
+		line-height: 1.08;
+	}
+	.rst-section-communication-text-column p {
+		font-size: 2.377vw;
+		line-height: 1.33764;
+	}
+	.rst-section-communication-text-column {
+		width: 100%;
+	}
+	.rst-section-communication-text .rst-plus {
+		position: absolute;
+		left: 2.564vw;
+		bottom: auto;
+		top: 64.818vw;
+		z-index: 1;
+		width:6px;
+	}
+	.text-left-source {
+		position: absolute;
+		left: 2.564vw;
+		top: 22.749vw;
+		z-index: 1;
+		width: 5px;
+	}
+	.rst-section-communication-text-wrap {
+		flex-direction: column;
+		gap: 3.377vw;
+		padding-left: 7.985vw;
+		padding-right: 9.126vw;
+	}
+	.rst-section-communication-text {
+		position: relative;
+		padding-left: 7.323vw;
+		padding-right: 6.803vw;
+		padding-top: 12.797vw;
+		padding-bottom: 21.285vw;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/bg_dot.png) no-repeat bottom center / cover;
+	}
+	.rst-section-historic-red:before {
+		height: 4.662vw;
+		width: 51.156vw;
+	}
+	.historic-red1 {
+		position: absolute;
+		left: 0;
+		bottom: 30.256vw;
+		width:  6.923vw;
+	}
+	.rst-section-historic-red-wrap {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.rst-section-historic-red-left {
+		width: 77.228vw;
+		padding-top: 9.472vw;
+	}
+	.rst-section-historic-red-left .square {
+		width: 2.736vw;
+		height: 2.736vw;
+		background: #000;
+		display: block;
+		margin-bottom: 2.821vw;
+	}
+	.rst-section-historic-red-right-img span {
+		font-size: 1.451vw;
+		line-height: 1;
+		height: 4.885vw;
+		padding: 0 2.641vw;
+	}
+	.rst-section-historic-red-left h3 {
+		font-size: 5.279vw;
+		margin: 0 0 2.405vw 0;
+	}
+	.rst-section-historic-red-left p {
+		font-size: 2.377vw;
+		line-height: 1.661272923;
+
+	}
+	.rst-section-historic-red {
+		padding-bottom: 13.636vw;
+		padding-left: 7.128vw;
+		padding-right: 7.128vw;
+	}
+	.rst-section-historic-red-right {
+		width: 71.815vw;
+		margin-top: 20px;
+		margin-left: 5.949vw;
+	}
+	.rst-section-historic-red-right-des {
+		background: #fff;
+		padding-top: 2.897vw;
+		padding-left: 3.169vw;
+		padding-right: 4.487vw;
+		padding-bottom: 1.377vw;
+	}
+	.rst-section-gulf-coast-canid:before {
+		width: 45.705vw;
+		height: 6.187vw;
+	}
+	.gulf-coast-canid-arrow {
+		width: 14.615vw;
+		bottom: auto;
+		top: 84.838vw;
+	}
+	.rst-section-gulf-coast-canid-left h2 {
+		font-size: 22.726vw;
+		margin-top: 3.031vw;
+		margin-bottom: 5.197vw;
+	}
+	.rst-section-gulf-coast-canid-right-content h4 {
+		font-size: 4.041vw;
+		line-height: 1.1;
+
+		letter-spacing: 0em;
+		margin: 0 0 4.041vw 0;
+		width: 99%;
+	}
+	.rst-section-gulf-coast-canid-right > span {
+		font-size: 1.262vw;
+		left: 4.872vw;
+		bottom: 7.969vw;
+	}
+	.rst-section-gulf-coast-canid-right-line span {
+		font-size: 1.262vw;
+		height: 2.651vw;
+		padding: 0 3.718vw;
+		padding-top: 0.718vw;
+	}
+	.rst-section-gulf-coast-canid-right {
+		padding-top: 6.667vw;
+	}
+	.rst-section-colossal-biosciences-content p {
+		color: #fff;
+		font-size: 5.536vw;
+		line-height: 1.0931;
+	
+	}
+	.rst-section-colossal-biosciences-bottom {
+		position: absolute;
+		bottom: 3.846vw;
+		left: 17.949vw;
+		width: 48.718vw;
+		z-index: 9;
+	}
+	.rst-section-colossal-biosciences-bottom p {
+		font-size: 2.272vw;
+		line-height: 1.6704289;
+	
+	}
+	.rst-section-colossal-biosciences {
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/bg-colossal-biosciences.png) no-repeat bottom center / cover;
+		position: relative;
+		padding-top: 23.333vw;
+		padding-left: 8.205vw;
+		padding-right: 8.205vw;
+		padding-bottom: 63.077vw;
+		margin-bottom: 6.769vw;
+	}
+	.rst-section-gulf-coast-canid-right-line div {
+		height:5px;
+		width: 52.821vw;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/line1_mb.png) repeat-x left center;
+	}
+	.rst-section-communication-strategy .rst-square1{
+		display: none;
+	}
+	.rst-section-gulf-coast-canid-right-line {
+		
+		gap: 6.185vw;
+		align-items: center;
+		margin-bottom: 4.528vw;
+		margin-left: -0;
+	}
+	.rst-section-gulf-coast-canid-right img {
+		width: 51.125vw;
+		display: block;
+		margin-left: 22.806vw;
+		margin-bottom: -8.121vw;
+	}
+	.rst-section-gulf-coast-canid-right-content p {
+		font-size: 2.272vw;
+	}
+	.rst-line-vertical.rst-line-bg-1 {
+		left: 6.923vw;
+	}
+	.rst-line-vertical.rst-line-bg-3 {
+		left: auto;
+		right: 6.923vw;
+	}
+	.rst-section-historic-red-right-des p {
+		font-size: 1.585vw;
+		margin: 0 0 2.821vw 0;
+	}
+	.rst-section-gulf-coast-canid-left p {
+		font-size: 2.272vw;
+		margin: 0 0 0 8.836vw;
+		width: 66.156vw;
+	}
+	.gulf-coast-canid1 {
+		width: 87.692vw;
+		top: 19.695vw;
+	}
+	.rst-section-gulf-coast-canid {
+		background: #000;
+		position: relative;
+		padding-left: 6.921vw;
+		padding-right: 6.921vw;
+	}
+	.rst-section-gulf-coast-canid-right-content {
+		width: 66.156vw;
+		margin-right: 0;
+		margin-left: auto;
+		margin-bottom: 9.549vw;
+	}
+	.rst-section-gulf-coast-canid-left, .rst-section-gulf-coast-canid-right {
+		width: 100%;
+	}
+	.rst-section-gulf-coast-canid-wrap {
+		
+		flex-direction: column;
+	}
+	.rst-section-colossal-biosciences .rst-plus1 {
+		width: 6px;
+		left: 6.923vw;
+		top: 16.287vw;
+	}
+	.rst-section-colossal-biosciences .rst-square2 {
+		right: 6.923vw;
+		width: 5px;
+		bottom: 53.605vw;
+	}
+	.rst-section-colossal-biosciences-line div {
+		height: 1px;
+		background: #000;
+		width: calc(100% - 5.808vw - 2.397vw);
+		opacity: 0.37;
+	}
+	.rst-section-colossal-biosciences-line span:after {
+		width: 1.136vw;
+		height: 1.136vw;
+	}
+	.rst-section-colossal-biosciences-line span {
+		width: 5.808vw;
+		height: 5.808vw;
+	}
+	.rst-section-colossal-biosciences-line {
+		width: 86.154vw;
+		align-items: center;
+		gap: 2.397vw;
+		position: absolute;
+		left: 6.923vw;
+		bottom: 28.808vw;
+	}
+	.rst-section-colossal-biosciences .rst-square1 {
+		
+		left: 6.923vw;
+		bottom: 53.605vw;
+		width: 5px;
+	}
+	.rst-communication-strategy-top {
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.rst-section-communication-strategy {
+		
+		padding-top: 8.305vw;
+	}
+	.rst-section-communication-strategy-container {
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+	}
+	.rst-communication-strategy-top-left h2 {
+		font-size: 10.249vw;
+		
+	}
+	.rst-communication-strategy-top-right {
+		width: 100%;
+		        margin-top: 31.538vw;
+	}
+	.rst-communication-strategy-top-right-phases{
+		width: 62.962vw;
+		margin-left: 9.428vw;
+	}
+	.rst-communication-strategy-top-right-line {
+		
+		width: 100%;
+		margin-left: 0;
+		align-items: center;
+		gap: 0;
+		margin-top: 0px;
+		margin-bottom:3.205vw;
+	}
+	.rst-communication-strategy-top-right-line span {
+		width: 7.849vw;
+		height: 7.849vw;
+		
+	}
+	.rst-communication-strategy-top-right-line span:after {
+		width: 1.536vw;
+		height: 1.536vw;
+		
+	}
+	.rst-communication-strategy-top-right-line div {
+		
+		width: calc(100% - 7.849vw);
+	}
+	.rst-communication-strategy-bottom-column {
+		width: 100%;
+	}
+	.communication-strategy-img {
+		width: 92.962vw;
+		position: absolute;
+		top: 30.5vw;
+		left: 0;
+	}
+	.rst-communication-strategy-top-right-phases h3 {
+		font-size: 6.097vw;
+		
+		margin: 0 0 2.564vw 0;
+		text-transform: uppercase;
+	}
+	.rst-communication-strategy-top-right-phases span {
+		font-size: 3.049vw;
+		
+		margin-bottom: 2.051vw;
+	}
+	.rst-communication-strategy-top-right-phases .rst-item-phases + span {
+		margin:  2.051vw 0 0 0;
+	}
+	.rst-item-phases h4 {
+		font-size: 2.744vw;
+
+		margin: 0 0 2.564vw 0;
+		text-transform: uppercase;
+	}
+	.rst-item-phases p {
+		font-size: 2.744vw;
+		
+	}
+	.rst-communication-strategy-top-left-sub p {
+		font-size: 1.026vw;
+	
+	}
+	.rst-communication-strategy-top-left-sub {
+	
+		gap: 2.562vw;
+		margin-bottom: 2.926vw;
+	}
+	.rst-communication-strategy-top-left-sub span {
+		font-size: 1.026vw;
+	
+		height: 2.151vw;
+		align-items: center;
+		padding: 0 1.741vw;
+		padding-top: 1px;
+
+	}
+	.rst-communication-strategy-top-left-sub div {
+		height: 5px;
+		width: 35.385vw;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/line1_mb.png) repeat-x left center;
+	}
+	.rst-communication-strategy-bottom {
+		flex-direction: column;
+		gap: 10.867vw;
+		margin-top: 6.433vw;
+		padding-bottom: 10.782vw;
+		width: 62.962vw;
+		margin-left: 9.428vw;
+	}
+	.rst-communication-strategy-top-left {
+		width: 100%;
+	}
+	.rst-section-indigenous-coalition:after {
+	
+		width: 54.359vw;
+		height: 11.795vw;
+		
+	}
+	.indigenous_logo_mb {
+		width: 45.369vw;
+		display: block;
+	}
+	.indigenous-coalition-logo span {
+		font-size: 2.269vw;
+		padding-top: 2.172vw;
+	}
+	.rst-section-indigenous-coalition {
+		padding-bottom: 4vw;
+	}
+	.indigenous-coalition-text {
+		margin-bottom: 7.949vw;
+	}
+	.indigenous-coalition-logo {
+	
+		align-items: flex-start;
+		gap: 5.469vw;
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+	}
+	.rst-section-significance {
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+		padding-top: 13.715vw;
+		position: relative;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/bg_significance.jpg) repeat-x top center;
+		background-size: 100% auto;
+		padding-bottom: 17.949vw;
+	}
+	.rst-section-significance-top h2 {
+		width: 100%;
+		font-size: 5.962vw;
+		margin-bottom: 5.515vw;
+		margin-left: 0;
+	}
+	.rst-section-significance-top {
+		flex-direction: column;
+		margin-bottom: 5.641vw;
+		padding-bottom: 9.744vw;
+		border-bottom: 1px solid #929292;
+		padding-left: 5.733vw;
+	}
+	.rst-section-significance-top p {
+		font-size: 2.292vw;
+		margin: 0;
+		width: 73.949vw;
+	}
+	.rst-section-significance-center1 {
+		position: relative;
+		width: 57.692vw;
+		padding-right: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		border-right: 0px solid #929292;
+	}
+	.rst-section-significance-center{
+		padding-bottom: 5.641vw;
+		position: relative;
+	}
+	.rst-section-significance-img-text div {
+		width: 100%;
+		padding-top: 0;
+	}
+	.rst-section-significance-img-text img {
+		width: 14.044vw;
+		display: block;
+		margin-left: 1.113vw;
+	}
+	.rst-section-significance-img-text div p {
+		
+		font-size: 1.721vw;
+		line-height: 1;
+		margin: 0 0 3.077vw 0;
+		
+	}
+	.rst-section-significance-abc-bio-des {
+		text-align: center;
+		padding: 5.328vw;
+	}
+	.rst-section-significance-abc-bio-des span {
+		font-size: 1.721vw;
+		
+		margin: 0 0 6vw 0;
+		
+	}
+	.rst-section-significance-abc-bio{
+		border-left: none;
+		border-right: none;
+	}
+	.rst-section-significance-abc-bio-bottom.one-column {
+		padding: 2.308vw;
+	}
+	.rst-section-significance-abc-bio-des p {
+		font-size: 2.867vw;
+		width: 34.826vw;
+		margin: 0px auto;
+	}
+	.top-bottom > div {
+		padding: 2.308vw;
+	}
+	.two-column {
+		align-items: center;
+	}
+	.one-column {
+		padding: 2.308vw;
+	}
+	.two-column > div {
+		padding: 2.308vw;
+	}
+	.rst-section-significance-img-text.rst-bottom div p {
+		text-align: left;
+	}
+	.rst-section-significance-img-text .rst-plus {
+		font-size: 2.867vw;
+		top: 17.436vw;
+		left: -12px;
+	}
+	.rst-section-significance-img-text .rst-square {
+		width: 5px;
+		height: 5px;
+		background: #AEAEAE;
+		position: absolute;
+		left: -12px;
+		top: 24.615vw;
+	}
+	.rst-section-significance-img-text{
+		width: 22.821vw;
+		
+		gap: 4.418vw;
+		
+		left: auto;
+		right: 0;
+		top: 0;
+		flex-direction: column;
+	}
+	.rst-section-significance-img-text.rst-bottom {
+		right: auto;
+		left: 0;
+		top: auto;
+		bottom: 5.641vw;
+		gap: 19.303vw;
+		flex-direction: column-reverse;
+	}
+	.rst-section-significance-img-text.rst-bottom .rst-plus {
+		left: 0;
+		right: auto;
+		top: 32.051vw;
+	}
+	.rst-section-significance-img-text.rst-bottom .rst-square{
+		display:none;
+	}
+	.rst-section-significance-img-text.rst-bottom img {
+        width: 14.044vw;
+        display: block;
+        margin-left: 4.328vw;
+    }
+	.significance3 {
+		max-width: max-content;
+		width: 93.223vw;
+		display: block;
+		top: 50.513vw;
+		left: -3.077vw;
+		z-index: 2;
+	}
+	.rst-section-significance-center2 {
+		position: relative;
+		width: 57.692vw;
+		padding-left: 0;
+		padding-top: 00;
+		padding-bottom: 0;
+		border-left: 0px solid #929292;
+	}
+	.rst-section-significance-center2 span ,.rst-section-significance-center1 span{
+		
+		font-size: 1.721vw;
+	
+		top: 4.728vw;
+	}
+	.rst-section-significance-center2 span{
+		top: auto;
+		bottom: 4.728vw;
+	}
+	.rst-section-significance-center2{
+		margin-top: 15.641vw;
+		        margin-left: auto;
+	}
+	.rst-section-significance-quote-content p {
+		font-size: 3.726vw;
+		margin: 0px 0 6.41vw 0;
+	}
+	.rst-section-significance-quote-content-sub div {
+		height: 9.744vw;
+		width: 1px;
+		background: #fff;
+	}
+	.rst-section-significance-quote-content-sub {
+		
+		align-items: flex-end;
+		gap: 2.564vw;
+		margin-left: 0;
+		margin-top: 0;
+		margin-bottom: 4.359vw;
+	}
+	.rst-section-significance-quote-content-sub span {
+		font-size: 1.721vw;
+	
+	}
+	.rst-section-significance-quote-content h5 {
+		font-size: 2.854vw;
+		
+		display: inline-block;
+		margin-left: 3.846vw;
+	}
+	.rst-section-significance-quote-content img {
+		width: 20vw;
+		display: inline-block;
+		margin-bottom: 0;
+	}
+	.rst-section-significance-quote-img {
+		width: 100%;
+	}
+	.rst-section-significance-quote-content {
+		width: 100%;
+	}
+	.rst-section-significance-quote {
+		flex-direction: column;
+		margin-top: 5.641vw;
+	}
+	.rst-section-significance .rst-square1 {
+		position: absolute;
+		left: 6.923vw;
+		top: 14.974vw;
+		z-index: 1;
+		width: 5px;
+	}
+	.rst-section-significance-abc-bio {
+		margin-top: 12.014vw;
+		flex-direction: column;
+	}
+	.rst-section-significance-abc-bio-left {
+		width: 100%;
+	}
+	.rst-section-significance-abc-bio-right {
+		width: 100%;
+	}
+	.rst-section-significance-center {
+		border-top: 0px solid #929292;
+		
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.rst-section-significance-abc-bio-center {
+		width: 100%;
+		border: none;
+		border-top: 1px solid #929292;
+		border-bottom: 1px solid #929292;
+	}
+	.rst-section-trophic-downgrading {
+		padding-bottom: 27.315vw;
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+		padding-top: 44.359vw;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/bg_trophic.jpg) no-repeat bottom center / cover;
+	}
+	.rst-section-trophic-downgrading h2 {
+		font-size: 10.592vw;
+		margin: 0 0 5.251vw 0;
+	}
+	.rst-trophic-downgrading-wrap-text {
+		
+		gap: 3.777vw;
+		padding-left: 0;
+		padding-right: 0;
+		flex-direction: column;
+	}
+	.rst-section-trophic-downgrading .line {
+		width: 77.021vw;
+	
+		margin-bottom: 12.697vw;
+		margin-left: -6.923vw;
+	}
+	.rst-trophic-downgrading-column-trophic {
+		padding-top: 2.564vw;
+		padding-left: 2.564vw;
+		    width: 100%;
+		position: relative;
+	}
+	.rst-trophic-downgrading-column-trophic-text {
+		width:100%;
+		padding-top: 0;
+	}
+	.rst-section-trophic-cascading-wrap-left-drag-text {
+		padding-top: 1.875vw;
+		padding-bottom: 1.806vw;
+		padding-left: 2.153vw;
+		position: relative;
+	}
+	.rst-trophic-downgrading-wrap-trophic {
+		margin-top: 18.841vw;
+	}
+	.rst-section-trophic-cascading-wrap-left-drag-text span {
+		
+		font-size: 2.313vw;
+		top: 2.742vw;
+		color: #fff;
+	}
+	.rst-section-trophic-cascading-wrap-left-drag img {
+		width: 100%;
+		height: 203px;
+		object-fit: cover;
+	}
+	.rst-trophic-downgrading-out-of-the-woods {
+		position: relative;
+		width: 69.744vw;
+		margin-top: 13.333vw;
+		margin-left: 6.923vw;
+	}
+	.rst-trophic-downgrading-out-of-the-woods h3 {
+		
+		line-height: 0.8;
+		font-size: 7.077vw;
+		letter-spacing: 0em;
+		margin-bottom: 5.128vw;
+	}
+	.rst-line-woods {
+		height: 5px;
+		width: 17.179vw;
+		position: absolute;
+		left: auto;
+		right: -15.897vw;
+		top: 10px;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/line1_mb.png) repeat-x left center;
+	}
+	.rst-trophic-downgrading-column-trophic-text{
+		margin-top: 21.795vw;
+	}
+	.rst-trophic-downgrading-column-trophic-text h3 {
+
+		margin: 0 0 2.428vw 0;
+		font-size: 4.777vw;
+		width: 80%;
+	}
+	.rst-trophic-downgrading-column-trophic-text ul li {
+		
+		font-size: 2.728vw;
+		letter-spacing: 0em;
+		padding-left: 5.051vw;
+		position: relative;
+	}
+	.rst-trophic-downgrading-column-trophic-text ul li:before {
+		width: 1.092vw;
+		height: 1.092vw;
+		margin-top: -0.546vw;
+		position: absolute;
+	}
+	.rst-woods3 {
+		width: 36.41vw;
+		
+		bottom: 25.128vw;
+		right: 0;
+	}
+	.rst-trophic-downgrading-column-trophic-text ul {
+		list-style: none;
+		margin: 0 0 0 3.846vw;
+		padding: 0;
+	}
+	.rst-trophic-downgrading-out-of-the-woods p {
+		
+		margin: 0 0 4.615vw 0;
+		line-height: 1.5;
+		font-size: 2.831vw;
+		letter-spacing: 0em;
+	}
+	.rst-section-trophic-cascading-wrap-left-drag-text div {
+		font-size: 2.544vw;
+		line-height: 1.636363636363636;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		margin: 0;
+		color: #fff;
+		padding: 1.928vw 0 0 5.128vw;
+		padding-left: 5.128vw;
+		width: 47.692vw;
+		border-left: 0px solid #fff;
+		position: relative;
+	}
+	.rst-section-trophic-cascading-wrap-left-drag-text div:before{
+		height: 12.259vw;
+		width: 3px;
+		content:"";
+		left: 0;top: 0;
+		position: absolute;
+		background: #fff;
+	}
+	.rst-section-trophic-cascading-wrap-left-drag-text {
+		padding-top: 6.277vw;
+		padding-bottom: 4.672vw;
+		padding-left: 0;
+		position: relative;
+		z-index: 1;
+	}
+	.rst-section-trophic-downgrading .rst-plus1 {
+		
+		left: 6.923vw;
+		top: 91.026vw;
+		width: 6px;
+	}
+	.rst-section-trophic-downgrading .rst-plus2,.rst-section-trophic-downgrading .rst-square3,.rst-section-trophic-downgrading .rst-square4{
+		display: none;
+	}
+	.rst-section-trophic-downgrading .rst-square1 {
+		position: absolute;
+		z-index: 1;
+		top: 152.564vw;
+		left: 6.923vw;
+		width: 5px;
+	}
+	.rst-section-trophic-downgrading .rst-square2 {
+		
+		bottom: 135.641vw;
+		left: 6.923vw;
+		width: 5px;
+	}
+	.rst-trophic-downgrading-column-trophic:before{
+		    height: 2.564vw;
+			width: 43.726vw;
+	}
+	.rst-trophic-downgrading-column-trophic:after {
+		height: 23.362vw;
+		content: "";
+		left: 0;
+		top: 0;
+		background: #FEA500;
+		width: 2.564vw;
+		position: absolute;
+	}
+	.rst-section-trophic-cascading-wrap-left-drag {
+		border-bottom-right-radius: 0;
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		padding-top: 4.103vw;
+		margin-bottom: 0;
+		position: relative;
+	}
+	.rst-trophic-downgrading-wrap-trophic {
+		flex-direction: column;
+		gap: 13.333vw;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.rst-trophic-downgrading-label {
+		
+		align-items: center;
+		justify-content: space-between;
+		gap: 6.181vw;
+		position: absolute;
+		left: 5.897vw;
+		top: 15.303vw;
+		right: 0;
+	}
+	.trophic1 {
+		width: 39.208vw;
+		position: absolute;
+		display: block;
+		top: -9.231vw;
+		right: 11.049vw;
+	}
+	.rst-trophic-downgrading-column-text {
+		width: 100%;
+	}
+	.rst-trophic-downgrading-column-text p {
+		color: #fff;
+		font-family: 'Telegraf';
+		font-weight: 300;
+		margin: 0;
+		line-height: 1.666666666;
+		font-size: 2.305vw;
+		letter-spacing: 0em;
+		text-align: justify;
+		        margin-right: -7px;
+	}
+	.rst-section-human-conflict {
+		position: relative;
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+		padding-bottom: 22.451vw;
+		padding-top: 0;
+	}
+	.rst-section-human-conflict-bottom-right {
+		width: 65.233vw;
+		padding-top: 5.885vw;
+		margin-left: 15.385vw;
+	}
+	.rst-section-human-conflict-bottom-right p {
+		
+		margin: 0 0 5.482vw 0;
+		line-height: 1.555555555;
+		font-size: 2.387vw;
+	}
+	.rst-section-human-conflict-bottom-right span {
+		
+		font-size: 1.592vw;
+
+	}
+	.rst-section-human-conflict-top-left {
+		width: 100%;
+	}
+	.rst-section-human-conflict-top-left p {
+		
+		font-size: 2.603vw;
+		letter-spacing: 0em;
+		text-align: justify;
+	}	
+	.rst-section-human-conflict-top-right a.rst-btn-icon-plus {
+		border: none;
+		border-radius: 13.323vw;
+		padding: 9.99vw 9.838vw;
+		font-size: 2.918vw;
+		
+	}
+	.human-conflict-source {
+		
+		justify-content: space-between;
+	margin-top: 12.744vw;
+        margin-bottom: 5.385vw;
+	}
+	.human-conflict-source span {
+		font-size: 1.951vw;
+	}
+	.rst-section-human-conflict .rst-plus3{
+		display: none;
+	}
+	.rst-section-human-conflict .rst-square1 {
+	
+		right: 6.923vw;
+		top: 57.472vw;
+		width: 4px;
+	}
+	.rst-section-human-conflict .rst-square2 {
+	
+		right: 6.923vw;
+		top: auto;
+		bottom: 63.846vw;
+		width: 4px;
+	}
+	.rst-section-human-conflict .rst-plus2 {
+		width: 5px;
+		top: auto;
+		bottom: 18.974vw;
+		right: 6.923vw;
+	}
+	.rst-section-video-gallery-top {
+		
+		flex-direction: column;
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+		justify-content: space-between;
+		margin-bottom: 11.987vw;
+	}
+	.rst-section-video-gallery-top-right {
+		width: 100%;
+		margin-top: 8.085vw;
+	}
+	.rst-section-video-gallery-top-left .rst-line {
+		height: 4px;
+		width: 100%;
+		margin-bottom: 7.992vw;
+		margin-top: 0px;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/line3.png) repeat-x left center;
+	}
+	.rst-section-video-gallery {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0;
+		position: relative;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/bg_video.png) no-repeat top 70.256vw center;
+		background-size: 100% auto;
+		background-color: #000;
+	}
+	.rst-section-video-gallery-top-left p {
+		font-size: 2.854vw;
+		
+		width: 82vw;
+		color: #fff;
+	}
+	.rst-section-video-gallery-top-left {
+		width: 100%;
+	}
+	.rst-section-human-conflict .rst-plus1 {
+		
+		left: 6.923vw;
+		top: 59.472vw;
+		width: 5px;
+	}
+	.rst-section-human-conflict .rst-plus1 {
+		
+		left: 6.923vw;
+		top: 59.472vw;
+		width: 5px;
+	}
+	.human-conflict-source div {
+		width: 66.154vw;
+		opacity: 0.5;
+	}
+	.rst-section-human-conflict h2 {
+		font-size: 6.736vw;
+		line-height: 1.32;
+		        margin-top: -12.821vw;
+	}
+	
+	.rst-section-human-conflict-top-right {
+		width: 61.621vw;
+		padding-top: 0;
+		margin-left: 11.2vw;
+	}
+	.rst-section-human-conflict-bottom-right h3 {
+		font-size: 4.244vw;
+		margin: 0 0 3.049vw 0;
+	}
+	.rst-section-human-conflict-bottom-left {
+		width: 41.459vw;
+		margin-left: 0;
+	}
+	.rst-section-human-conflict-top {
+		gap: 5.897vw;
+		flex-direction: column;
+	}
+	.rst-section-human-conflict-bottom {
+		
+		justify-content: space-between;
+		margin-top: 14.379vw;
+		flex-direction: column;
+	}
+	.rst-trophic-downgrading-label span {
+		
+		font-size: 2.313vw;
+		
+	}
+	.rst-trophic-downgrading-label div {
+		height: 6px;
+		width: 36.41vw;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/line3.png) repeat-x left center;
+	}
+	.rst-section-video-main-img {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.rst-section-human-conflict-top-right a.rst-btn-icon-plus span + span{
+		font-size: 3.997vw;
+	}
+	.rst-section-video-main-label {
+		padding-bottom: 1.949vw;
+		border-bottom: 1px solid rgba(255,255,255,0.31);
+		margin-bottom: 5.641vw;
+	}
+	.rst-section-video-main {
+		padding-bottom: 30.341vw;
+	}
+	.video-module-text {
+		position: absolute;
+		left: 3.077vw;
+		top: 27.986vw;
+	}
+	.rst-section-video-main-label span {
+		font-size: 1.269vw;
+	
+	}
+	.rst-section-video-main {
+		position: relative;
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+	}
+	.rst-section-gallery-dess h4 {
+		font-size: 2.538vw;
+	}
+	.rst-section-gallery-dess p {
+		font-size: 2.538vw;
+		margin: 0 0 3.3vw 0;
+		
+	}
+	.rst-section-gallery-main {
+		position: relative;
+		padding-bottom: 15.533vw;
+	}
+	.rst-section-gallery-dess a {
+		width: 18.49vw;
+		height: 5.418vw;
+		border-radius: 3.808vw;
+		font-size: 2.538vw;
+	}
+	.vt-naming-wolf-item.swiper-slide-active .vt-num {
+		color: #FF6B00;
+		font-size: 1.587vw;
+		margin-top: 8.205vw;
+		transform: scale(1);
+	}
+	.vt-naming-wolf-item .vt-num {
+		font-size: 1.282vw;
+		margin-top: 6.667vw;
+	}
+	.rst-section-gallery-main .label-gallery {
+		font-size: 1.831vw;
+		top: 6.075vw;
+	}
+	.vt-naming-wolf-item {
+		max-width: 33.278vw !important;
+		border-radius: 1.205vw;
+		aspect-ratio: 235.6 / 281.3;
+	}
+	.rst-section-gallery-main .label-source {
+		font-size: 1.831vw;
+		
+		left: 6.923vw;
+		top: 6.375vw;
+	}
+	.vt-naming-wolf-slider {
+		margin-top: 15.694vw;
+	}
+	.vt-naming-wolf-swiper {
+		padding-bottom: 11.2183vw;
+	}
+	.rst-section-red-wolf-space {
+		padding-bottom: 11.377vw;
+	}
+	.rst-section-red-wolf-top > .rst-container{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-top-right {
+		display: none;
+	}
+	.rst-section-gray-wolf  .rst-section-red-wolf-container-top-left {
+		width: 100%;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-top-left h2{
+		font-size: 15.531vw;
+		margin: 0 0 5px 0;
+		
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-top-left {
+		padding-top: 0;
+		padding-left: 5.128vw;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-top-left h3 {
+		    font-size: 6.213vw;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-top-left-img {
+		padding-left: 0;
+		width: 77.656vw;
+	}
+	.rst-section-red-wolf.rst-section-gray-wolf .rst-section-red-wolf-container-top {
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+		flex-direction: column;
+		padding-bottom: 76.123vw;
+	}
+	.wolf-1-1 {
+		width: 93.077vw;
+		position: absolute;
+		left: auto;
+		right: 0;
+		z-index: 2;
+		bottom: 0;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container {
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/bg_gray.jpg) no-repeat top center / cover;
+	}
+	.rst-rings {
+		width: 3.882vw;
+		position: absolute;
+		left: 7.949vw;
+		top: auto;
+		bottom: 25.787vw;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-top .square-white2 {
+		top: 110.256vw;
+		z-index: 9;
+		width: 5px;
+		right: auto;
+		left: 7.949vw;
+	}
+	.rst-section-gray-wolf  .rst-section-red-wolf-container-top .square-white1 {
+		position: absolute;
+		left: 7.949vw;
+		bottom: 19.436vw;
+		z-index: 9;
+		width: 5px;
+	}
+	.rst-section-gray-wolf  .rst-section-red-wolf-container-top .plus-white1 {
+		bottom: 17.436vw;
+		right: 7.949vw;
+		z-index: 9;
+		width: 5px;
+	}
+	.rst-section-red-wolf-container-bottom-right ul li {
+		font-size: 3.728vw;
+		padding: 2.051vw 0 1.026vw 0;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-bottom-right .rst-custom-line-sub {
+		margin-top: 6.417vw;
+        height: 5px;
+        margin-bottom: 5.128vw;
+	}
+	.rst-section-red-wolf-container-bottom-right .status {
+		width: 75.703vw;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-bottom-left{
+		display: none;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-bottom {
+		position: relative;
+		background: none;
+		padding-top: 11.756vw;
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+		padding-bottom: 27.251vw;
+	}
+	.rst-section-red-wolf-container-bottom-left, .rst-section-red-wolf-container-bottom-right {
+		width: 100%;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-top .plus-white2 {
+		position: absolute;
+		bottom: -12.433vw;
+		right: 6.923vw;
+		left: auto;
+		z-index: 9;
+		margin-left: 0;
+		width: 6px;
+	}
+	.rst-section-red-wolf-bottom.rst-section-red-wolf-bottom-3 .rst-container{
+		padding-left: 6.923vw !important; 
+		padding-right: 6.923vw !important;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-right {
+		width: 68.805vw;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom:23.846vw;
+		margin-top: -21.282vw;
+		position: relative;
+		margin-left: 8.205vw;
+	}
+	.wolf-extra-1 {
+		width: 45.662vw !important;
+		display: block;
+		right: -9.167vw!important;
+		position: absolute !important;
+		bottom: 0 !important;
+	}
+	.rst-section-red-wolf-container2 {
+		flex-direction: column;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left {
+		width: 100%;
+		padding-bottom: 4.141vw;
+		padding-top: 4.126vw;
+		border-bottom: 1px solid #000;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left img {
+		width: 100%;
+		max-width: fit-content !important;
+		display: block;
+		margin-top: 5.792vw;
+		margin-left: 0
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .square-white1{
+		display: none;
+	}
+	.rst-section-red-wolf-container2-left h2 {
+		
+		font-size: 6.213vw;
+		letter-spacing: 0;
+		margin-bottom: 2.644vw;
+		margin-left: 0;
+	}
+	.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left h2 {
+		margin-bottom: 2.644vw;
+		margin-left: 0;
+	}
+	.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left .rst-line-1 {
+		width: 81.072vw;
+	}
+	.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left-sub span {
+		padding:  0.547vw 1.026vw 0.261vw;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left-sub div {
+		width: 58.718vw;
+		height: 5px;
+	
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .plus-white2 {
+		position: absolute;
+		right: auto;
+		left: 0;
+		top: 80.931vw;
+		width: 6px;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .plus-white3 {
+		position: absolute;
+		right: 0;
+		top: 113.819vw;
+		width: 6px;
+	}
+	.rst-section-red-wolf-container2-left-sub span {
+		
+		font-size: 1.379vw;
+		line-height: 1;
+		display: inline-block;
+		padding: 0.547vw 1.026vw 0.261vw;
+		letter-spacing: 0;
+		
+	}
+	.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left > span {
+		
+		font-size: 2.331vw;
+		margin-top: 2.874vw;
+		letter-spacing: 0em;
+		display: block;
+	}
+	.rst-section-red-wolf-container-top {
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+		padding-top: 11.777vw;
+		padding-bottom: 0;
+		flex-direction: column;
+	}
+	.rst-section-red-wolf-container-bottom {
+		padding-left: 6.923vw;
+		padding-right: 6.923vw;
+		padding-top: 12.169vw;
+		padding-bottom: 9.169vw;
+		flex-direction: column-reverse;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-right {
+		width:100%;
+		padding-left: 7.436vw;
+		padding-right: 6.331vw;
+		margin-top: 0;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 {
+		padding-bottom: 12.692vw;
+	}
+	.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left {
+		width: 100%;
+		padding-bottom: 6.528vw;
+		padding-top: 6.736vw;
+		border-bottom: 1px solid #fff;
+	}
+	.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left img {
+		width: 100%;
+		display: block;
+		margin-top: 2.739vw;
+		margin-left: -1.042vw;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-top-left-img{
+		display: none;
+	}
+	.rst-section-red-wolf-container-top-left {
+		width: 100%;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left-sub div {
+		width: 53.077vw;
+		height: 5px;
+		margin-right: 0;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left-sub span {
+        padding: 0.797vw 1.026vw 0.581vw;
+		        letter-spacing: 0.05em;
+        font-size: 1.659vw;
+    }
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-bottom-left-column-text p {
+		font-size: 1.862vw;
+		margin: 0;
+		color: #fff;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-bottom-left-column-text span {
+		
+		font-size: 1.862vw;
+		
+	}
+	.rst-section-red-wolf-container-top-left {
+		padding-top: 0;
+	}
+	.rst-section-red-wolf-container-top-left h2 {
+		font-size: 15.503vw;
+		margin: 0 0 0.764vw 0;
+	}
+	.rst-section-red-wolf-container-top-left h3 {
+		font-size: 6.2vw;
+		margin-bottom: 2.361vw;
+		position: relative;
+		z-index: 1;
+	}
+	.rst-section-red-wolf-container-top-right {
+		width: 100%;
+	}
+	.rst-section-red-wolf-container-top-right {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0;
+	}
+	.rst-section-red-wolf-container-bottom-right .rst-custom-line-sub {
+		
+		height: 5px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.rst-section-red-wolf-container-bottom-right img {
+		margin-left: 0;
+		width: 100%;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-bottom-left-column {
+		
+		justify-content: space-between;
+	}
+	.rst-section-red-wolf-container-bottom-left-column-text {
+		width: 48.523vw;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-bottom-left-column-img {
+		width: 27.077vw;
+		min-width: 27.077vw;
+	}
+	.nekada-kayda {
+		padding-bottom: 5.385vw;
+		padding-left: 10.256vw;
+		padding-right: 0;
+		padding-top: 9.703vw;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/nekada_kayda_bg.png) no-repeat bottom center / cover;
+		width: 92.821vw;
+		margin-right: 0;
+		position: relative;
+	}
+	.rst-section-gallery-dess {
+		margin-top: 2.389vw;
+	}
+	.nekada-kayda:before{
+		width: 100%;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 107.492vw;
+        opacity: 0.4;
+        z-index: 1;
+	}
+	.rst-section-communication-strategy .rst-line-vertical {
+		height: calc(100% - 33.333vw);
+	}
+	.nekada-kayda .rst-plus1 {
+		position: absolute;
+		left: 11.556vw;
+		bottom: 49.25vw;
+		width: 6px;
+	}
+	.rst-section-communication-strategy{
+		margin-bottom: -33.333vw;
+	}
+	.rst-section-video-gallery-top{
+		padding-top: 33.333vw;
+	}
+	.nekada-kayda-img {
+		position: absolute;
+		top: 20vw;
+		width: 55.278vw;
+		display: block;
+		z-index: 2;
+		left: auto;
+		right: 0;
+	}
+	.nekada-kayda .rst-plus2 {
+		position: absolute;
+		right: 6.923vw;
+		bottom: 29.417vw;
+		width: 6px;
+	}
+	.nekada-kayda-sub-top {
+		font-size: 2.538vw;
+		gap: 1.11vw;
+		padding-top: 3.333vw;
+		margin-bottom: 15.897vw;
+	}
+	.nekada-kayda-sub-top span {
+		width: 2.062vw;
+		height: 2.062vw;
+		display: block;
+		background: #FF7B31;
+	}
+	.nekada-kayda-left h2 {
+		font-size: 8.249vw;
+		margin: 0 0 10.351vw 0;
+	}
+	.nekada-kayda-info {
+		width: 100%;
+		margin-top: 0;
+	}
+	.nekada-kayda-info-item {
+
+		padding-top: 1.11vw;
+		padding-bottom: 10.9vw;
+	}
+	.nekada-kayda-info-item label {
+		font-size: 1.587vw;
+		margin-bottom: 2.854vw;
+	}
+	.nekada-kayda-info-item div {
+	
+		gap: 0.633vw;
+	}
+	.nekada-kayda-info-item div span {
+		font-size: 2.697vw;
+		border-radius: 3.808vw;
+		padding: 0 1.744vw;
+		height: 3.808vw;
+		padding-top: 2px;
+		
+	}
+	.nekada-kayda-wrap{
+		border: none;
+	}
+	.nekada-kayda-right {
+		width: 56.941vw;
+		margin-top: 0;
+	}
+	
+	.nekada-kayda-right > span {
+		font-size: 1.903vw;
+		padding-right: 0;
+		position: absolute;
+		right: 6.923vw;bottom: 4.128vw;
+		transform: rotate(180deg);
+	}
+	.nekada-kayda-right-line {
+		margin-bottom: 2.308vw;
+	}
+	.nekada-kayda-right-line span {
+		width: 3.09px;
+		height: 3.09px;
+		background: #707070;
+		margin-bottom: 4px;
+		display: block;
+	}
+	.nekada-kayda-right h3 {
+		        text-transform: uppercase;	
+		line-height: 0.89em;
+		font-size: 6.344vw;
+		margin-bottom: 0;
+		letter-spacing: -0.02em;
+	}
+	.nekada-kayda-wrap-flex {
+		flex-direction: column;
+	}
+	.nekada-kayda-left > span{
+		display: none;
+	}
+	.nekada-kayda-left {
+		width: 34.895vw;
+		padding-bottom: 27.692vw;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-top {
+		padding-top: 7.179vw;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container-bottom-right .rst-custom-line-sub{
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/line1_mb.png) repeat-x left center;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left-sub div{
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/line2_mb.png) repeat-x left center;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-container2-left-sub {
+		margin-bottom: 5.128vw;
+	}
+	.rst-section-gray-wolf .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left img {
+     
+        margin-top: 6vw;
+        
+    }
+	.rst-section-red-wolf-space {
+        padding-bottom: 14vw;
+    }
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-top-left h2 {
+        
+        margin: 0 0 2.1vw 0;
+    }
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-top-right img{
+		width: 72.631vw;
+		margin-left: 7.359vw;
+		margin-top: -11.538vw;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-top .square-white2 {
+		position: absolute;
+		top: 65.389vw;
+		z-index: 9;
+		right: 6.923vw;
+		width: 5px;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-top .square-white1 {
+		position: absolute;
+		left: 6.923vw;
+		bottom: 17.847vw;
+		z-index: 9;
+		width: 5px;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-top .plus-white1 {
+		position: absolute;
+		bottom: 17.847vw;
+		width: 7px;
+		right: 6.923vw;
+		z-index: 9;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-bottom-right .rst-custom-line-sub{
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/line1_mb.png) repeat-x left center;
+		        margin-top: 4.359vw;
+        margin-bottom: 4.359vw;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left-sub div{
+		background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/direwolf-module/mb/line1_mb.png) repeat-x left center;
+	}
+	.rst-section-red-wolf-2  .rst-section-red-wolf-container-bottom{
+		padding-top: 11.969vw;
+	}
+	.rst-section-red-wolf-2  .rst-section-red-wolf-container2-left-sub {
+		
+		margin-bottom: 8.986vw;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left > span {
+        margin-top: 4vw;
+	}
+	 .rst-section-red-wolf-2    .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left h2 {
+        margin-bottom: 4.644vw;
+		font-size: 7.469vw;
+    }
+	.rst-section-red-wolf-2  .rst-section-red-wolf-container-top .plus-white2 {
+		position: absolute;
+		bottom: -12.833vw;
+		right: 6.923vw;
+		z-index: 9;
+		width: 7px;
+	}
+	.rst-section-red-wolf-container-bottom-left {
+		padding-right: 0;
+		padding-top: 13.333vw;
+	}
+	.rst-section-red-wolf-container-bottom-left .rst-line-1 {
+
+		margin-top: 4.615vw;
+		margin-bottom: 6.41vw;
+	}
+	.rst-section-red-wolf-2  .rst-section-red-wolf-container-bottom {
+        
+        padding-bottom: 8.169vw;
+        flex-direction: column-reverse;
+    }
+	   .rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left {
+        
+        padding-top: 15.736vw;
+       
+    }
+	.rst-section-red-wolf-2 .rst-section-red-wolf-container-bottom-left-column-text p{
+		margin: 0 0 4.103vw 0;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left > span{
+		line-height: 2;
+		margin-top: 4.4vw;
+	}
+	.rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left img {
+        width: calc( 100% + 3.333vw + 3.333vw );
+		max-width: max-content;
+        display: block;
+               margin-top: 7.739vw;
+        margin-left: -3.333vw;
+        margin-right: -3.333vw;
+    }
+	   .rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-left {
+		   padding-bottom: 21.428vw;
+		}
+		.rst-section-red-wolf-2 .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2-right {
+			
+			margin-top: -14.872vw;
+		}
+		.rst-section-red-wolf-2  .rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .plus-white2 {
+			position: absolute;
+			right: 0;
+			top: auto;
+			width: 7px;
+			bottom: 31.795vw;
+		}
+		.rst-section-red-wolf-bottom-3 .rst-section-red-wolf-container2 .square-white1 {
+			position: absolute;
+			width: 5px;
+			right: 0;
+			bottom: 51.153vw;
+		}
+		.rst-section-gray-wolf .rst-section-red-wolf-container-top{
+			border-bottom: none;
+		}
+		.rst-section-gray-wolf .rst-section-red-wolf-container-top:after{
+			height: 1px;
+			content:"";
+			left: 6.923vw;
+			right: 6.923vw;
+			position: absolute;
+			bottom: 0;
+			background: #fff;
+			opacity: 0.7;
+		}
+}

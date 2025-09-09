@@ -1,0 +1,252 @@
+p {font-size: clamp(10px,1vw,18px);}
+p.medium {font-size: clamp(10px,1.35vw,26px);}
+
+h1, h2, h3, h4, h5 {font-family: 'NB Architekt Std'; line-height: 1;}
+
+.box.grey {border-color:#a5a5b1 }
+.line.purple {border-color: #cb49ff; border: 2px solid #cb49ff}
+.line.green {border-color: #71c528 !important; border: 2px solid #71c528}
+.line.orange {border-color: #e76922 !important; border: 2px solid #e76922}
+
+#hero {position: relative; z-index: 15;}
+#hero h1 {color: #FFF; font-size: clamp(10px,10vw,200px);}
+#hero h3 {color: #FFF; font-family: 'Telegraf'; padding-bottom: 3%; position: relative;}
+#hero h3 img {width: clamp(-160px,8vw,160px); position: absolute; right: 0; bottom: clamp(-36px,1.8vw,36px);}
+#hero p {text-transform: none;}
+
+#hero .plus.a {top: 22vh}
+#hero .plus.b {top: 61vh}
+#hero .plus.c {top: 22vh; right: clamp(-100px,5vw,100px); left: auto}
+#hero .plus.d {top: 61vh; right: clamp(-100px,5vw,100px); left: auto}
+
+#hero .text.a {top: clamp(-1200px,60vh,1200px); left:clamp(-200px,10vw,200px); border-bottom: 1px solid #CCC; width: calc(100% - clamp(-400px,20vw,400px)); position: absolute; text-align: right; padding-bottom: clamp(-10px,0.5vw,10px)}
+#hero .bg {width: 105%; height: 102vh; margin-top: -1%; right: -1%; max-width: 102%;}
+#hero .box { padding:clamp(-10px,0.5vw,10px); position: absolute; left: 0; bottom: clamp(-40px,-3vw,40px); font-size: clamp(-20px,1vw,20px)}
+
+.head .slashes {opacity: 0.5; position: relative; width: clamp(-140px,7vw,140px)}
+.head .square {right: clamp(-100px,5vw,100px); position: absolute; top: clamp(-10px,0.5vw,10px)}
+
+#section-1 {background: #000; background-size: cover; color: #FFF; z-index: 99; padding: clamp(-100px,5vw,100px) 0 clamp(-300px,15vw,300px); }
+#section-1 .img-1 {position: absolute; width: 27%; margin-top: clamp(-540px,-26.9vw,540px); left: 15%}
+#section-1 .bg {position: absolute; left: 0; top: clamp(-140px,-7vw,140px); height: 100%; width: 100%;}
+#section-1 .slashes-2 {width: 15%}
+#section-1 h2 {font-size: clamp(-160px,8vw,160px); font-family: "Telegraf"; text-transform: uppercase;}
+
+#section-1 .plus.c {left: clamp(-90px,4.5vw,90px);}
+#feed .plus.a {left: clamp(-40px,-2vw,40px); top:clamp(-10px, 0.5vw,10px);}
+#feed .plus.b {left: clamp(-30px,-1.5vw,30px); bottom: clamp(-10px,-0.5vw,10px);}
+#feed .plus.d {right: clamp(-30px,-1.5vw,30px); bottom: clamp(-10px,-0.5vw,10px);}
+
+.news-item {color: #cbcbcb; display: block; margin-bottom: clamp(-100px,5vw,100px)}
+.news-item .meta {border-top: 1px solid #777777; color: #777777; padding-top: clamp(-10px,0.5vw,10px); }
+.news-item h3 {font-family: "Telegraf"; color: #cccccc; padding: clamp(-30px,1.5vw,30px) 0 clamp(-40px,2vw,40px); height: 7.5vw; font-size: clamp(-26px,1.3vw,26px)}
+.news-item img {height: 15vw; display: block; width: 100%; object-fit: cover;}
+.news-item .big-button {color: #787881; padding: clamp(-26px,1.3vw,26px) clamp(-40px,2vw,40px); margin-top: clamp(-40px,2vw,40px); transition: all .3s ease;}
+.news-item .big-button:hover {color: #212224}
+
+#archive .row-1 {border-top: 1px solid #45454a}
+#archive .row {border-bottom: 1px solid #45454a; color: #FFF; transition: all .3s ease;}
+#archive .row .col-md-10 {border-left: 1px solid #45454a }
+#archive .row p {padding: clamp(-40px,2vw,40px) clamp(-20px,1vw,20px)}
+#archive .row .plus {font-size: clamp(-40px,2vw,40px); position: static; color: #cb49ff}
+#archive .row:hover {color: #b526e1}
+#archive .plus.e {left: clamp(-60px,-3vw,60px); top: clamp(-154px,7.7vw,154px)}
+#archive .plus.f {right: clamp(-60px,-3vw,60px); top: clamp(-154px,7.7vw,154px)}
+#archive .plus.g {left: clamp(-60px,-3vw,60px); bottom: clamp(-60px,-3vw,60px)}
+
+#faq {padding: clamp(-300px,15vw,300px) 0 clamp(-160px,8vw,160px); z-index: 125; overflow: visible; }
+#faq .plus.top {right: clamp(-100px,5vw,100px); top: clamp(-60px,3vw,60px); z-index: 10}
+#faq .img-1 {position: absolute; width: 45%; right: 0; top: clamp(-200px,-10vw,200px); z-index: 5}
+#faq .bubble {position: absolute; top: clamp(-260px,-12.9vw,260px); width: 20%; left: 10%}
+#faq .slashes {width: 10%}
+#faq h2 {font-family: "Telegraf"; font-size: clamp(-180px,9vw,180px); text-transform: uppercase; line-height: 0.9;}
+#faq h2 small {font-size: clamp(-640px,3.2vw,640px); }
+#faq .large {font-size: clamp(-40px,2vw,40px)}
+
+#faq #accordion .cat {display: block; background: transparent; border: none; font-size: clamp(-30px,1.5vw,30px)}
+#faq #accordion .cat-parent img {width: 8px; margin-right: clamp(-20px,1vw,20px); transform: rotate(90deg)}
+#faq #accordion .cat-parent.collapsed img {transform: rotate(0deg)}
+#faq #accordion .cat-child {font-size: clamp(-20px,1vw,20px);}
+#faq #accordion .cat.has-children {margin-left: -1.8vw}
+#faq #accordion .cat.no-children:not(.collapsed) {color: #e76922; text-decoration: underline;}
+#faq #accordion ul {padding: clamp(-20px,1vw,20px) clamp(-60px,3vw,60px)}
+#faq #accordion ul li {padding: 0}
+#faq #accordion ul li button:not(.collapsed) {color: #e76922; text-decoration: underline;}
+#faq #accordion .item {margin-bottom: 1vw}
+
+#faq-items button {padding: 0; margin: 0; display: block; width: 100%; background: transparent; border: none; text-align: left; font-size: clamp(-24px,1.2vw,24px); padding: 0 0 clamp(-20px,1vw,20px);}
+#faq-items button img {width: 8px; margin-left: clamp(-20px,-1vw,20px); position: relative; left: clamp(-10px,-.5vw,10px)}
+#faq-items .faq-item { margin-bottom: clamp(-40px,2vw,40px); border-bottom: 1px solid #AAA; padding-bottom: clamp(-20px,1vw,20px);; padding-left: clamp(-30px,1.5vw,30px)}
+#faq-items .faq-item button:not(.collapsed) img {transform: rotate(90deg)}
+
+#faq .tag {position: absolute; transform:rotate(90deg); left: clamp(-60px,-3vw,60px); bottom: clamp(-200px,10vw,200px)}
+#faq .square.a {left: clamp(-60px,-3vw,60px); top: clamp(-90px,4.5vw,90px)}
+#faq .plus.a {left: clamp(-40px,-2vw,40px); top: clamp(-10px,-0.5vw,10px)}
+#faq .plus.b {right: clamp(-40px,-2vw,40px); top: clamp(-10px,-0.5vw,10px)}
+#faq .plus.c {left: clamp(-40px,-2vw,40px); top: clamp(-180px,9vw,180px)}
+#faq .plus.e {left: clamp(-40px,-2vw,40px); top: clamp(-640px,32vw,640px)}
+
+
+
+
+
+#papers {padding: clamp(-360px,18vw,360px) 0; color: #FFF}
+#papers .square.f {left: clamp(-40px,2vw,40px); top: clamp(-280px,14vw,280px); z-index: 10}
+#papers .square.e {right: clamp(-120px,6vw,120px); top: clamp(-20px,1vw,20px); z-index: 10}
+
+#papers .bg {position: absolute; left: 0; top: 0; height: 100%; width: 100%; object-fit: cover; object-position: top center}
+#papers .slashes-2 {width: 15%}
+#papers h2 {font-size: clamp(-160px,8vw,160px); font-family: "Telegraf"; text-transform: uppercase; line-height: 0.9}
+#papers h2 small {font-size: clamp(-80px,4vw,80px)}
+#papers .grey {color: #b2aea5}
+#papers * {border-color: #847a60}
+#papers .news-item .meta {color:#b2aea5}
+#papers .news-item h3 {color: #EEE}
+#papers .news-item .big-button {color: #b2aea5}
+
+#papers #archive .row .col-md-10,
+#papers #archive .row {border-color: #847a60}
+#papers #archive .row:hover,
+#papers #archive .row .plus {color: #71c528}
+
+
+#papers .bottom {width:calc(100% - 10vw); z-index: 100; position:absolute; left: clamp(-100px,5vw,100px); bottom: clamp(-260px,-12.5vw,260px); }
+#papers .bottom .panel {width: 80%; margin-right: clamp(-200px,-10vw,200px); float: right;}
+#papers .bottom .slashes {width: 10%; margin-left: clamp(-60px,3vw,60px)}
+#papers .bottom .line {border-color: #434343}
+#papers .plus.a {right: clamp(-20px,-1vw,20px); left: auto}
+
+#papers .bottom .plus.b2 {left: clamp(-20px,-1vw,20px); top: 0}
+#papers .bottom .plus.b1 {left: clamp(-20px,-1vw,20px); bottom: clamp(-60px,3vw,60px);}
+#papers .bottom .plus.b3 {right: clamp(-60px,3vw,60px); top: clamp(-260px,13vw,260px);}
+
+
+
+.page-template-page-education #footer {padding-top: clamp(-300px,15vw,300px)}
+
+
+
+
+
+@media only screen and (max-height:900px) {
+
+	#hero {height: 113vh}
+	#hero .bg {height: 120vh}
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+	p.large {font-size: 8vw}
+
+
+
+	#hero .plus.a {top: 20vh; left: 6.5vw;}
+	#hero h1 {font-size: 12vw; line-height: 1; top: 25vh; left: 7vw; display: inline-block; text-align: left;}
+	#hero .arkitect {text-align: left !important; font-size: 2.5vw;}
+	#hero .line {top: 50vh; width: 88%; left: 6%;}
+	#hero .lower {left: 6vw; top: 46.5vh; width: 90%;}
+	#hero p {font-size: 3.3vw; line-height: 1.2;}
+	#hero h3 {font-size: 5vw; padding-top: 2vw}
+	#hero h3 img {display: none}
+	#hero h3 br {display: none;}
+	#hero .circles {display: none;}
+	#hero .text.a {top: 43vh; left: 5vw}
+	#hero .plus.a {display: none}
+	#hero .box {top:120%; bottom: auto; font-size: 3vw; }
+	#hero {height: 200vw}
+	#hero .bg {height: 200vw; }
+
+
+	#section-1 {padding-top: 0;}
+	#section-1 .plus.c {display: none}
+	#section-1 .bg {top: -40vw; width: 170%; max-width: none}
+	#section-1 .img-1 {width: 60%; margin-top: -60vw; left: 0%}
+	.head .slashes {width: 50%; display: none}
+	.head .square {display: none}
+
+
+	.news-item h3 {height: auto; font-size: 6vw; line-height: 1.2}
+	.news-item img {height: 50vw; margin-bottom: 5vw}
+	.news-item .big-button {margin-left: 0; font-size: 4vw; padding: 1vw 4vw}
+	.news-item {margin-bottom: 17vw}
+
+	#archive .plus {display: none}
+	#archive .row p {font-size: 4vw}
+
+
+	#section-1 {padding-bottom: 30vw}
+
+	#faq {padding-top: 40vw}
+	#faq .slashes {width: 34%}
+	#faq .bubble {display: none}
+	#faq .img-1 {width: 70%}
+
+	#faq .large {font-size: 5vw}
+	#faq-items-mobile button img {width: 4vw}
+
+
+	#faq .tag {display: none}
+	#faq .square {display: none}
+	#papers .square,
+	#faq .plus {display: none}
+
+
+
+	#faq-items-mobile button {padding: 0; margin: 0; display: block; width: 100%; background: transparent; border: none; text-align: left; font-size: 3.5vw; padding: 0 0 3vw 4vw; position: relative;}
+	#faq-items-mobile button img {position: absolute; left: 0; width: 7px; top: 1vw}
+	#faq-items-mobile .faq-item { margin-bottom: 5vw; border-bottom: 1px solid #AAA; padding-bottom: 1vw;; padding-left: 1.5vw}
+	#faq-items-mobile .faq-item button:not(.collapsed) img {transform: rotate(90deg)}
+	#faq-items-mobile .faq-answer {font-size: 3.5vw; padding-left: 7vw}
+
+	#faq #accordion-mobile .cat {display: block; background: transparent; border: none; font-size: 1.5vw}
+	#faq #accordion-mobile .cat-parent img {width: 8px; margin-right: 1vw; transform: rotate(90deg)}
+	#faq #accordion-mobile .cat-parent.collapsed img {transform: rotate(0deg)}
+	#faq #accordion-mobile .cat-child {font-size: 2.5vw; font-family: 'NB Architekt Std'; border: 1px solid #222; display: inline-block; margin: 0 2vw 2vw 0}
+	#faq #accordion-mobile .cat-child:not(.collapsed) {background: #71c529; border-color: #71c529; color: #FFF}
+	#faq #accordion-mobile ul {padding: 1vw 3vw}
+	#faq #accordion-mobile ul li {padding: 0}
+	#faq #accordion-mobile ul li button:not(.collapsed) {color: #e76922; text-decoration: underline;}
+
+
+	#papers {overflow: hidden;}
+	#papers .bg {top: -50vw; right: 0; left: auto; width: 200%; max-width: none; height: 130%;}
+	#feed .plus.a {display: none}
+	#papers .slashes-2 {width: 35%}
+	#papers h2 {font-size: 15vw}
+	p.medium {font-size: 3.5vw}
+	#papers .bottom .panel {display: none}
+	#feed .plus {display: none}
+
+}
+
+
+
+
+@media only screen and (max-height:710px) {
+
+	#hero {min-height: 700px;}
+	#hero .bg {min-height: 700px;}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

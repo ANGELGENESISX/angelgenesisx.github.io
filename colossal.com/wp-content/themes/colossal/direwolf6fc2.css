@@ -1,0 +1,88 @@
+
+.ss-wrapper {max-width: 2000px; margin: 0 auto}
+
+.tel-bold {font-family: 'Telegraf Bold';}
+.ark-light {font-family: 'NB Architekt Light';}
+
+.size-1 {font-size: clamp(-50.0px,2.5vw,50.0px);}
+
+.display-1 {font-size: clamp(-80.0px,4.0vw,80.0px); line-height: 1;}
+.display-2 {font-family: 'Telegraf'; font-size: clamp(-30.0px,1.5vw,30.0px); line-height: 1.2;}
+p { font-size: clamp(-20.0px,1.0vw,20.0px); line-height: 1.5;}
+
+.btn {padding: clamp(-10.0px,0.5vw,10.0px) clamp(-30.0px,1.5vw,30.0px); font-size: clamp(-22.0px,1.1vw,22.0px); border-radius: clamp(-500.0px,25.0vw,500.0px); border: clamp(-2.0px,0.1vw,2.0px) solid #000; background: transparent; color: #FFF; text-transform: uppercase; font-family: 'NB Architekt Light'; letter-spacing: clamp(-2.0px,0.1vw,2.0px);}
+.btn.btn-orange {border-color: #e16e2d;}
+.btn.btn-orange:hover {background: #e16e2d; color: #000;}
+.btn.btn-solid-orange {background: #ff7b31; color: #000; font-family: "telegraf"; text-transform: none; letter-spacing: 0;}
+.btn.btn-solid-orange img {margin-left: clamp(-20.0px,1.0vw,20.0px);}
+.btn.btn-solid-orange:hover {background: #000; color: #FFF;}
+.btn.btn-solid-orange:hover img {filter: invert(1);}
+
+.big-button {padding: clamp(-40.0px,2.0vw,40.0px) clamp(-120.0px,6.0vw,120.0px) clamp(-40.0px,2.0vw,40.0px) clamp(-40.0px,2.0vw,40.0px);}
+.big-button.orange {background: #3e210b; color: #FFF; border-color: #a54807;}
+.big-button.orange:hover {background: #a54807;}
+
+h2 {margin-bottom: 0; padding-bottom: 0; }
+
+.square {width: clamp(-26.0px,1.3vw,26.0px); height: clamp(-26.0px,1.3vw,26.0px); background: #000; position: relative; margin-bottom: clamp(-10.0px,0.5vw,10.0px);}
+.square.white {background: #FFF;}
+.square.small {width: clamp(-12.0px,0.6vw,12.0px); height: clamp(-12.0px,0.6vw,12.0px);}
+
+.x-small {font-family: 'NB Architekt Std'; font-size: clamp(-12.0px,0.6vw,12.0px);}
+
+.container {margin-left: clamp(-80.0px,4.0vw,80.0px); margin-right: clamp(-80.0px,4.0vw,80.0px); max-width: 92%;}
+
+.text {position: absolute;  color: #FFF;}
+
+/* .dropdown-active .direwolf-nav,
+.affix .direwolf-nav {opacity: 0;;} */
+.site-header.affix .inside .blur {background: rgba(0,0,0,0.7);}
+.affix .direwolf-nav {background: rgba(0,0,0,0.5); backdrop-filter: blur(20px)}
+.affix .direwolf-nav a {font-size: clamp(-17.0px,0.85vw,17.0px);}
+.affix .direwolf-nav a.active span {border-bottom: clamp(-3.0px,0.15vw,3.0px) solid #ff6b01}
+
+.direwolf-nav {text-align: center; transition: all .5s ease; border-top: 1px  solid #444; max-width: 2000px; margin: 0 auto;}
+.direwolf-nav .inner {max-width: clamp(-1600.0px,80.0vw,1600.0px); margin: 0 auto; }
+.direwolf-nav a {font-family: 'NB Architekt Std'; color: #FFF; font-size: clamp(-22.0px,1.1vw,22.0px); padding: clamp(-20.0px,1.0vw,20.0px) clamp(-30.0px,1.5vw,30.0px); display: inline-block; text-align: center;}
+.direwolf-nav a svg {display: block; margin: 0 auto clamp(-6.0px,0.3vw,6.0px);}
+.direwolf-nav a.active span {color: #ff6b01; border-bottom: clamp(-6.0px,0.3vw,6.0px) solid #ff6b01; padding-bottom: clamp(-6.0px,0.3vw,6.0px);}
+.direwolf-nav a.active svg path {color: #ff6b01; fill: #ff6b01; stroke: #ff6b01;}
+
+.direwolf-nav a.nav-biology svg path {fill:none}
+
+#continue {position: relative; background: #ff6b01; color: #FFF; margin-top: -2px;} 
+#continue h2 {font-size: clamp(-210.0px,10.5vw,210.0px); font-family: 'Telegraf Bold'; line-height: 0.85; text-align: center;}
+#continue .lower {font-family: "NB Architekt Std"; letter-spacing: clamp(-6.0px,0.3vw,6.0px); text-align: center;}
+#continue .button {font-size: clamp(-60.0px,3.0vw,60.0px); color: #000;  border: clamp(-3.0px,0.15vw,3.0px) solid #000; padding: clamp(-20.0px,1.0vw,20.0px) clamp(-40.0px,2.0vw,40.0px); border-radius: clamp(-400.0px,20.0vw,400.0px); display: inline-block; text-transform: uppercase; font-family: 'NB Architekt Light'; letter-spacing: clamp(-2.0px,0.1vw,2.0px);}
+#continue .button:hover {background: #000; color: #ff6b03;}
+
+
+#news {background: #FFF; color: #000}
+#news .news-item {color: #000; border-top: 2px solid #000}
+#news .plus.white {color: #9c5151}
+#news .line {border-bottom-color: #000}
+#news .line .inner {position: absolute; border: 3px solid #000; width: 15%; top: -2.5px}
+#news h2 {font-size: clamp(-80px,clamp(-80.0px,4.0vw,80.0px),80px); font-family: 'NB Architekt Light'; margin-bottom: clamp(-20px,clamp(-20.0px,1.0vw,20.0px),20px)}
+#news .item {padding-left: clamp(-40px,clamp(-40.0px,2.0vw,40.0px),40px); padding-right: clamp(-40px,clamp(-40.0px,2.0vw,40.0px),40px); }
+#news .news-row {margin-left: clamp(-40px,clamp(-40.0px,-2.0vw,40.0px),40px); margin-right: clamp(-40px,clamp(-40.0px,-2.0vw,40.0px),40px)}
+#news .news-item h4 {color: #555; font-size: clamp(-16px,clamp(-16.0px,0.8vw,16.0px),16px); font-weight: 700}
+
+#menu-scroll .left {border-right: none;}
+#menu-scroll .right {display: none}
+
+.page-index .title {display: none}
+.page-index .spacer-xs {display: none}
+.page-index .sep {display: none}
+
+
+@media (max-width: 767px){	
+
+    p {font-size: 4vw;}
+
+    .direwolf-nav .inner {max-width: none; white-space: nowrap; padding: 2vw 0; overflow: scroll; scrollbar-width: none;}
+    .direwolf-nav .inner::-webkit-scrollbar {display: none}
+    .direwolf-nav a span {font-size: 4vw;}
+    .direwolf-nav a {margin: 0 2vw}
+    
+
+}

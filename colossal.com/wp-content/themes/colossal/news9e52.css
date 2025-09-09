@@ -1,0 +1,407 @@
+p {font-size: clamp(10px,1vw,18px);}
+p.medium {font-size: clamp(10px,1.35vw,26px);}
+
+h1, h2, h3, h4, h5 {font-family: 'NB Architekt Std'; line-height: 1;}
+
+.head {position: relative;}
+.head .arkitect {font-size: clamp(10px,0.7vw,14px);}
+.head .line {margin-left: -3%;}
+.head .square {left: -5%; top: 30%;}
+
+#hero {position: relative; z-index: 15;}
+#hero h1 {color: #FFF; font-size: clamp(10px,10vw,200px); top: 19vh}
+#hero h3 {color: #FFF; font-family: 'Telegraf'; text-transform: uppercase; padding-bottom: 3%; font-size: clamp(-32px,1.6vw,32px)}
+#hero p {text-transform: none;}
+#hero .lower {top: 65vh}
+
+
+#hero .text.a {top: 58vh; left: clamp(10px,10vw,200px);}
+#hero .line {top: 60vh}
+#hero .bg {width: 105%; height: 102vh; margin-top: -1%; right: -1%; max-width: 102%;}
+#hero .plus.b {top: 50vh; display: none}
+
+#section-1 .mammoth-cave-painting {position: absolute; left: 13.5%; top: -30%; width: 26%; padding: 1.2%; border: 1px solid #85b444;}
+#section-1 {padding: clamp(10px,7vw,140px) 0 clamp(10px,2.5vw,50px); position: relative; z-index: 15;}
+#section-1 .cell {position: absolute; right: 15px; bottom: -10%; width: 40%;}
+#section-1 .plus {left: 0;}
+#section-1 .square {position: absolute; bottom: 2%;}
+#section-1 .logo {width: 50%;}
+
+
+#thinking {background: #000000; color: #FFF; padding: clamp(10px,3vw,60px) 0 0; position: relative; z-index: 10; margin-bottom: 8.5vw;}
+#thinking .container-fluid {}
+#thinking .head {margin-bottom: 5%;}
+#thinking .square.a {left: -4.5vw; top: 30%;}
+#thinking .plus.a {left: -5.2vw; top: -0.5vw;}
+#thinking h2 {font-family: 'NB Architekt Std'; font-size: clamp(10px,5.32vw,140px); white-space: nowrap;}
+#thinking p.medium {font-size: clamp(10px,2.4vw,48px); line-height: 1.2;}
+#thinking .tag {position: absolute; right: -1vw; transform: rotate(-90deg); transform-origin: top right; top: 0;}
+#thinking .tag-2 {bottom: -3vw; top: auto; color: #000;}
+#thinking .vid-thumb {margin-bottom: -6vw;}
+
+
+#thinking-2 {color: #000; padding: clamp(10px,3vw,60px) 0 0; position: relative; z-index: 10;}
+#thinking-2 .container-fluid {}
+#thinking-2 .head {margin-bottom: 5%;}
+#thinking-2 .square.a {left: -4.5vw; top: 30%;}
+#thinking-2 .plus.a {left: -5.2vw; top: -0.5vw;}
+#thinking-2 h2 {font-family: 'NB Architekt Std'; font-size: clamp(10px,5.32vw,140px); white-space: nowrap;}
+#thinking-2 .item {display: block; padding: clamp(10px,2vw,40px); color: #FFF; position: relative; background-size: cover; background-position: center center;}
+#thinking-2 .item .dot {width: clamp(10px,2vw,40px); height: clamp(10px,2vw,40px); top: clamp(-20px,-1vw,1px); right: clamp(-20px,-1vw,1px); display: none;}
+#thinking-2 .item .title {font-size: clamp(10px,1.8vw,36px); margin: clamp(-20px,1vw,20px) 0 0; display: block; line-height: 1.1;}
+#thinking-2 .item .slashes {height: 10px; object-fit: cover;}
+#thinking-2 .item p {text-transform: uppercase; margin-bottom: 30%; font-size: clamp(-30px,1.5vw,30px); line-height: 1.2; margin-bottom: clamp(-40px,2vw,40px); display: none;}
+#thinking-2 .item .more {font-size: clamp(10px,1.3vw,26px); text-transform: uppercase; white-space: nowrap; border: 1px solid #FFF; border-radius: 100px; padding: clamp(-20px,1vw,20px) clamp(-40px,2vw,40px)}
+#thinking-2 .item .publication-logo {max-width: 80%; height: auto; display: inline-block; margin: 0; max-height: 1.5vw; width: auto;}
+#thinking-2 .item .qr {width: clamp(10px,2.4vw,48px);}
+#thinking-2 .item:hover {transform:scale(1.02);}
+#thinking-2 .item.featured p {display: block;}
+#thinking-2 .item.featured .title {font-size: clamp(10px,2.8vw,50px); margin: clamp(-20px,1vw,20px) 0 0}
+#thinking-2 .item.featured .dot {display: block;}
+#thinking-2 .item .num {font-size: clamp(-28px,1.4vw,28px); font-family: 'NB Architekt Std'; text-align: right;}
+
+#thinking-2 .left .item {height: clamp(-800px,35.5vw,710px); display: flex; flex-direction: column; justify-content: space-between}
+#thinking-2 .left .item .upper {width: 100%; align-self: flex-start; display: flex;}
+#thinking-2 .left .item .lower {width: 100%; text-shadow:1px 1px 22px #000 }
+#thinking-2 .meta {padding-top:clamp(10px,0.7vw,14px); margin-bottom:clamp(10px,0.7vw,14px); text-transform: uppercase; font-size: clamp(10px,0.8vw,16px); border-top: 1px solid #000}
+
+#thinking-2 .right .item { height:15vw;  display: flex; flex-direction: column; justify-content: space-between}
+
+
+#thinking-2 .controls {margin-top: clamp(-460px,-23vw,10px); height: clamp(10px,23vw,460px); position: relative;}
+#thinking-2 .controls .circles {position: absolute; left: 55%; width: 3%; bottom: 0;}
+#thinking-2 .controls p {line-height: 1; color: #575757; font-size: 1vw; position: absolute; right: 0; text-align: right; top: 11%;}
+#thinking-2 .square.b {bottom: 20%; left: 15px;}
+#thinking-2 .plus.b {bottom: 0; left: 15px;}
+#thinking-2 .adjuster {margin-bottom: -4vw;}
+
+
+.select-features .logos {text-align: justify;}
+.select-features .logos img {max-width: 7vw; max-height: 4vw;  margin: 0 auto clamp(-40px,2vw,40px); display: block}
+.select-features .logos img.lighter {opacity: 0.4}
+.select-features h3{font-size: 2.2vw}
+.line .thicker {width: 11%; height:6px; background: #000; top: 3.4px; position: relative;}
+
+
+
+
+
+
+
+
+#news {background: #FFF; color: #000; padding-top: clamp(10px,8vw,160px); padding-bottom: clamp(10px,2vw,40px); margin-top:clamp(-40px, -2vw,1px);}
+#news .line {border-color: #000;}
+#news .title-area {display: none;}
+#news .news-item {color: #000; border-color: #000;}
+#news .news-item .plus {color: #000;}
+#news .item-5,
+#news .item-6 {display: block;}
+
+#articles a:hover {color: #c167f4;}
+/*#section-3 .item:hover .title {border-color: #c167f4 !important;}*/
+
+#section-2 {background: url(https://colossal.com/wp-content/themes/colossal/img/abstract-6.webp) no-repeat center center; background-size: cover; color: #FFF; padding: clamp(10px,7vw,40px) 0 clamp(10px,18vw,360px); overflow: hidden;}
+#section-2 h2 {font-size: clamp(10px,7vw,140px); font-family: 'NB Architekt Light'; white-space: nowrap; line-height: 1.2; position: relative; z-index: 5;}
+#section-2 .img-1 {position: absolute; width:122%; left: -30%; bottom: 60%; max-width: 130%;}
+#section-2 .plus.a {left: 8%; top: 7%; z-index: 5;}
+#section-2 .plus.b {right: 8%; top: 7%; z-index: 5;}
+#section-2 .plus.c {right: 8%; top: 50%; z-index: 5;}
+#section-2 .square.a {position: absolute; bottom: 30%; left: 8%;}
+#section-2 .square.b {position: absolute; bottom: 20%; right: 8%;}
+
+
+#as-seen-on {text-align: justify; position: relative; z-index: 10; padding-top: 0.9vw; height: 0px;}
+#as-seen-on img {max-width: 22%; margin: 0 4%; max-height: 2.6vw;}
+#as-seen-on img.first {margin-left: 0;}
+#as-seen-on .label {text-align: left; text-transform: uppercase; font-weight: 400; position: absolute; color: #FFF; top: -3.1vw; font-size: 0.8vw;}
+
+
+/*#speaking .mask {position: absolute; bottom: 0; left: 0; width: 100%; height: clamp(-500px,25vw,500px); background: linear-gradient(180deg, rgba(153,148,133,0) 0%, rgba(153,148,133,1) 100%);}
+#speaking {padding: clamp(-100px,5vw,100px) 0 clamp(-220px,11vw,220px); position: relative; z-index: 5;}
+#speaking .mark {border: none; background: none; padding: 0; position: absolute;  right: clamp(-160px,8vw,160px); width: clamp(-800px,40vw,800px); top: clamp(-60px,-3vw,60px);}
+#speaking h2 {font-size: clamp(-140px,7vw,140px); padding: clamp(-80px,4vw,80px) clamp(-40px,2vw,40px) clamp(-20px,1vw,20px); margin: clamp(-140px,-7vw,140px) 0 0; background: #FFF;}
+#speaking h3 {font-family: "Telegraf"; padding: 0 0 clamp(-30px,1.5vw,30px); font-size: clamp(-40px,2vw,40px);}
+#speaking p {max-width: 68%;}
+#speaking .arkitect {white-space: nowrap;}
+
+#speaking #select-events {padding: clamp(-40px,2vw,40px) 0; display: inline-block; white-space: nowrap;}
+#speaking #select-events img {height: clamp(-50px,2.5vw,50px); margin: 0 clamp(-40px,2vw,40px) 0 0;}
+#speaking #select-events .line {margin: clamp(-10px,0.5vw,10px) 0 clamp(-20px,1vw,20px);}
+#speaking #select-events img:last-child {margin: 0;}
+#speaking .lower img {width: 100%; height: clamp(-420px,21vw,420px); object-fit: cover;}*/
+
+
+
+#speaking {background: #000; color: #FFF; padding-bottom: 10vw}
+#speaking h2 {color: #FFF; font-size: 14vw;  font-family: 'Telegraf'; text-transform: uppercase; margin-top: -10vw}
+#speaking .mask {width: 75%; height: 10vw; position: absolute; top: -10vw; left: 0; background: #000}
+#speaking h3 {font-family: 'Telegraf'; font-size: 4.5vw}
+#speaking h4 {font-size: 2vw}
+#speaking .box {border: 1px solid #3f3f3f}
+
+#speaking .caption {color: #838383; text-transform: uppercase; font-size:clamp(-1px, 0.55vw,11px); margin-top: 1.2vw}
+#speaking .thicker {background-color: #FFF}
+#speaking .img-1 {width: 93%}
+#speaking .img-2 {float: right; width: 125%; max-width: none}
+#speaking .img-3,
+#speaking .img-4 {margin-top: -3vw}
+#speaking .img-45 {position: absolute; right: -4vw; top: 7vw; width: 100%}
+#speaking .img-5 {position: absolute; right: -15vw; max-width: none; width: 34vw}
+#speaking .img-6 {width: 75%}
+#speaking .img-7 {position: absolute; width: 20%; right: 0; top: 22vw}
+#speaking .img-8 {position: relative; left: -7vw}
+
+#speaking .plus {color: #838383; }
+#speaking .plus.c {top: -4vw}
+#speaking .plus.f {top: 0vw}
+#speaking .square {background: #838383}
+#speaking .square.a {right: 0; position: absolute;}
+#speaking .plus.a {top: -1.5vw}
+
+#speaking .plus.grey.add {left: clamp(-1100px,55vw,1100px); top: clamp(-220px,11vw,220px)}
+#speaking .add-image-1 {width: clamp(-1000px,50vw,1000px); height: auto;}
+#speaking .add-image-2 {width: clamp(-840px,42vw,840px); float: right; margin: clamp(-300px,-15vw,300px) 0 0 clamp(-900px,45vw,900px); }
+#speaking .add-image-2 .box {float: right; margin: 0 0 clamp(-60px,3vw,60px)}
+#speaking .add-image-3 {width: clamp(-900px,30vw,900px); margin-top: clamp(-140px,-7vw,140px); float: left;}
+
+#speaking .add-image-4 {width: clamp(-1200px,60vw,1200px); float: right; margin-right: clamp(-200px,-10vw,200px); margin-top: 7vw}
+#speaking .add-image-4 img {aspect-ratio: 5 / 3; object-fit: cover}
+/*#speaking .add-image-4 .caption {margin-left: clamp(-200px,10vw,200px)}*/
+#speaking .add-image-5 {width: clamp(-840px,40vw,840px); position: absolute; top: 0}
+#speaking .add-image-5 img {aspect-ratio: 5 / 3; object-position: bottom; object-fit: cover}
+
+
+#podcasts { position: relative;
+	background: rgb(255,123,48);
+	background: linear-gradient(180deg, rgba(255,123,48,1) 24%, rgba(255,255,255,1) 100%);
+}
+#podcasts .mask {position: absolute; left: 0; width: 70%; top: -4.9vw; height: 5vw}
+#podcasts h1 {font-size: 11.5vw; font-family: "Telegraf"; text-transform: uppercase; margin-top: -2vw}
+#podcasts .head {white-space: nowrap; text-transform: uppercase;}
+#podcasts h2 {font-size: 3.4vw; margin-bottom: 0; padding-left: 1.5vw}
+#podcasts .pod {color: #000; display: block;margin-bottom: 7vw}
+#podcasts .pod img {margin:0 auto 4vw; display: block; height:6vw; width: 11vw; object-fit: contain; opacity: 0.7}
+#podcasts .pod .meta {font-family: 'NB Architekt Light'; font-size: 1.3vw; border-bottom: 1px solid #222; padding-bottom: 0.4vw; margin-bottom: 0.8vw}
+#podcasts .pod p {text-transform: uppercase;}
+#podcasts .slashes {width: 37vw}
+#podcasts .box {white-space: nowrap;}
+#podcasts .top > div {display: inline-block; margin-right: 1.5vw}
+
+
+
+
+
+
+#insights {background: #000; color: #FFF; padding: 0 0 clamp(10px,12vw,240px); position: relative;}
+#insights .container-fluid {margin-top: clamp(-100px,-5vw,1px);}
+#insights .title {font-size: clamp(10px,12vw,240px); line-height: 1;}
+#insights a.item {display: block; color: #FFF;}
+#insights .item img {height: 20%; display: block; width: 100%; height: clamp(10px,10vw,200px); object-fit: cover;}
+#insights .item {border-top: 2px solid #777; margin: 0 2%;}
+#insights .item .meta {color: #777; margin-top:clamp(10px,0.7vw,14px); margin-bottom:clamp(10px,0.7vw,14px); text-transform: uppercase; font-size: clamp(10px,0.8vw,16px);}
+#insights .item p {font-size: clamp(10px,1.3vw,26px); line-height:1.2; max-width: 70%; padding: 8% 0 4%;}
+#insights .item.featured p {font-size: clamp(10px,2.3vw,46px); max-width: 90%;}
+#insights .item.featured img {max-width: 80%;}
+#insights .square {position: absolute; bottom: 13%; left: 8%;}
+#insights .plus.a {right: 0; top: 0;}
+#insights .plus.b {bottom: 13%; right: 8%;}
+
+#section-3 {padding: 0 0 clamp(10px,3vw,60px); position: relative;}
+#section-3 .header {width: 106%; max-width: 150%; margin-left:4%;}
+#section-3 .text.a {transform: rotate(-90deg); transform-origin: center; position: absolute; left: 0%; top: 12%; font-size: clamp(10px,0.8vw,15px);}
+#section-3 .container-fluid {margin-top: -7%;}
+#section-3 .item {display: block; color: #000; padding: 0 5%; margin-bottom: 24%;}
+#section-3 .item .title {font-family: 'NB Architekt Light'; font-size: clamp(10px,2.4vw,48px); border-bottom: 2px solid #000; margin-bottom: 5%; }
+#section-3 .item .title .plus {right: 7%; top: 12%;}
+#section-3 .item p {text-transform: uppercase; font-size: clamp(10px,1.2vw,24px); line-height: 1.2; height: clamp(10px,6vw,120px);}
+
+
+.page-template-page-news-insights-archive .site-header {position: static;}
+.page-template-page-news-insights-archive .site-header .line {border-bottom-color: #000;}
+.page-template-page-news-insights-archive .site-header ul li a {color: #000;}
+.page-template-page-news-insights-archive #hbg-menu {-webkit-filter: invert(1); filter: invert(1); }
+.page-template-page-news-insights-archive #logo {-webkit-filter: invert(1); filter: invert(1); }
+.page-template-page-news-insights-archive .site-header ul li a:hover {border-color: #000;}
+#archive #news .title-area {display: block;}
+#archive #news {margin-top: 1.5vw; padding-top: 0;}
+
+.list-news-item {display: block; color: #000; border-top: 2px solid #000; padding: 1vw 0; position: relative;}
+.list-news-item .col-title {height: 2.5vw;}
+.list-news-item h3 {padding-bottom: 0; margin-bottom: 0; font-family: 'Telegraf'; font-size: clamp(10px,1.4vw,36px);}
+.list-news-item .plus {right: 0 !important; position: relative; left: auto; font-size: 34px; font-size: clamp(7px,1.8vw,40px);}
+.list-news-item .date {font-size: clamp(7px,0.9vw,20px);}
+.list-news-item:hover {color: #c167f4;}
+.list-news-item.hidden {display: none;}
+.list-news-item img {max-width: 6vw; max-height: 2.5vw; margin-right: -2vw;}
+
+.page-template-page-news-insights-archive .insight-item h3 {font-size: clamp(10px,1.5vw,26px) !important;}
+.page-template-page-news-insights-archive  #news .insight-item img {height: 10vw;}
+
+@media (min-width: 2000px) {
+}
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+	.box {padding: 0 2vw;}
+
+	p {font-size: 3.5vw; line-height: 1.2;}
+	p.medium {font-size: 4vw;}
+	p.large {font-size: 6vw;}
+
+	.line .square {top: -0.7vw}
+
+	.head .arkitect {font-size: 2vw;}
+	.head .square {left: 2%;}
+	.head .plus {left: -4.5%; top:17%;}
+
+	#hero .plus.a {top: 20vh; left: 6.5vw;}
+	#hero h1 {font-size: 12vw; line-height: 1; top: 25vh;}
+	#hero .arkitect {text-align: left !important; font-size: 2.5vw;}
+	#hero .line {top: 50vh; width: 88%; left: 6%;}
+	#hero .lower {left: 6vw; top: 51.5vh; width: 90%;}
+	#hero p {font-size: 3.3vw; line-height: 1.2;}
+	#hero h3 {font-size: 5vw;}
+	#hero h3 br {display: none;}
+	#hero .circles {display: none;}
+	#hero .text.a {top: 47vh; left: 5vw}
+
+	#section-1 {padding-top: 5vw;}
+	#section-1 .wooly {width: 180%; max-width: 250%; margin-left: -20%;}
+	#section-1 p.large {font-size: 4.5vw; padding-right: 8vw;}
+	#section-1 .slashes {max-width: 200%; width: 200% !important;}
+	#section-1 .head {margin-bottom: 5vw;}
+	#section-1 .mammoth-cave-painting {width: 35%; left: 4%; top: -20%;}
+	#section-1 .grey {font-size: 2vw;}
+	#section-1 .cell {width: 70%; right: -10%;}
+
+	#thinking {padding-top: 5vw; padding-bottom: 5vw;}
+	#thinking h2 {font-size: 12vw;}
+	#thinking p.medium {font-size: 5vw; }
+	#thinking .item.featured {margin-bottom: -20vw;}
+	#thinking .item.featured .title {font-size: 4vw; height: 20vw;}
+	#thinking .item .title {font-size: 4vw; margin-top: 5vw; height: 28vw;}
+	#thinking .item p {margin-bottom: 3vw;}
+	#thinking .controls {margin-top: 0vw;}
+	#thinking .item .more {font-size: 3vw;}
+
+
+	#thinking-2 {padding-top: 5vw; padding-bottom: 5vw;}
+	#thinking-2 h2 {font-size: 12vw;}
+	#thinking-2 .item.featured {margin-bottom: -20vw;}
+	#thinking-2 .item.featured .title {font-size: 4vw; height: 20vw;}
+	#thinking-2 .item .title {font-size: 4vw; margin-top: 5vw; height: 28vw;}
+	#thinking-2 .item p {margin-bottom: 3vw;}
+	#thinking-2 .controls {margin-top: 0vw;}
+	#thinking-2 .item .more {font-size: 3vw;}
+
+
+
+	#news {padding-top: 15vw; margin-top: 0;}
+
+
+	#section-2 h2 {font-size: 9vw; white-space: normal; max-width: 60vw; margin-bottom: -3vw;}
+	#section-2 h2 br {display: none;}
+	#section-2 p {padding: 7vw 0 0 12vw; font-size: 4vw;}
+	#section-2 .square.a {bottom: 15%;}
+
+
+	#as-seen-on {padding-top: 2vw;}
+	#as-seen-on .label {position: relative; top: auto; color: #000; font-size: 2vw; margin-bottom: 2vw;}
+	#as-seen-on img {max-height: 5.5vw;}
+
+	#insights {padding-bottom: 20vw;}
+	#insights .plus.a {right: 5vw;}
+	#insights .container-fluid {margin-top: -11vw;}
+	#insights .item.featured img,
+	#insights .item img {width: 100%; max-width: 100%; height: 18vw;}
+	#insights .item {font-size: 2.5vw; margin-bottom: 14vw; position: relative;}
+	#insights .item.featured p,
+	#insights .item p {font-size: 4vw; width: 100%; padding: 5vw 0 0; max-width: 100%;}
+
+	#section-3 .container-fluid {margin-top: -16%;}
+	#section-3 h3 {font-size: 5vw;}
+	#section-3 .item .title {border-bottom: 1px solid #000; font-size: 5vw;}
+	#section-3 .item .title .plus {right: 10%; top: 6%;}
+	#section-3 .item p {font-size: 3vw; height: 12vw; text-transform: none;}
+	#section-3 .header {margin-left: 0;}
+
+	#archive #news {margin-top: 7vw;}
+	.list-news-item .col-title {height: auto;}
+
+	#speaking {padding-bottom: 20vw;}
+	#speaking h2  {padding: 4vw 0 2vw 3vw; margin-left: -3vw; margin-top: -10vw; max-width: 70%; font-size: 10vw;}
+	#speaking .mark {right: 0; top: 22vw;}
+	#speaking h3 {font-size: 4vw; padding-top: 8vw;}
+	#speaking p {max-width: 80%;}
+	#speaking #select-events img {height: 5vw; margin-right: 7vw;}
+	#speaking #select-events .line {margin: 3vw 0;}
+	#speaking .lower img {height: 30vw;}
+
+
+	.select-features h3 {font-size: 4vw}
+	.select-features .logos img {max-width: 20vw; margin: 10vw 0 0vw}
+
+
+	#thinking-2 .right .item,
+	#thinking-2 .item.featured {margin-bottom: 10vw; height: auto}
+	#thinking-2 .item.featured p {font-size: 3.4vw}
+	#thinking-2 .item {padding: 5vw; height: auto}
+	#thinking-2 .item.featured .title {font-size: 6vw}
+	#thinking-2 .item .publication-logo {max-height: 6vw}
+	#news {padding-top: 0}
+
+	.select-features .logos img {max-width: 15vw}
+	#speaking .caption {font-size: 3vw; display: none}
+	#speaking .plus {display: none}
+
+	#speaking .img-2 {width: 70%}
+	#speaking .img-3 {max-width: 70%}
+	#speaking .img-4 {margin-top: -20vw; margin-bottom: 0; max-width: 80%; float: right;}
+
+	#speaking .img-45 {position: static; margin-top: -10vw}
+
+	#speaking .img-5 {}
+	#speaking .img-5 {display: none}
+	#speaking .img-7 {width: 50%}
+	#speaking .img-8 {margin-top: 30vw; width: 70%}
+
+	#speaking .add-image-1 {width: 110vw; margin: 5vw 0 0 -30vw}
+	#speaking .add-image-2 {margin: 5vw -2vw 0 0; width: 60vw}
+	#speaking .add-image-3 {width: 50vw}
+
+
+	#podcasts .pod .meta {font-size: 3.5vw}
+	#podcasts .pod img {width: 25vw; height: 20vw}
+	#podcasts .pod .hspacer-sm {display: none}
+	#podcasts .pod p {padding-top: 5vw}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-height:900px) {
+
+	#hero .text.a {top: 55vh}
+	#hero .line {top: 57.5vh}
+	#hero .lower {top: 61vh}
+
+
+
+
+}
+
+
+
+
+
+
+

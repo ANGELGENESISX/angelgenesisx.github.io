@@ -1,0 +1,75 @@
+p {font-size: 1vw;}
+p.medium {font-size: 1.35vw;}
+
+h1, h2, h3, h4, h5 {font-family: 'NB Architekt Std'; line-height: 1;}
+
+.head {position: relative;}
+.head .arkitect {font-size: 0.7vw;}
+.head .line {margin-left: -3%;}
+.head .square {left: -5%; top: 30%;}
+
+#hero .inside {position: absolute; top: 24vh; width: 100%; text-align: center; font}
+#hero .inside .line {position: static; width: 100%;}
+#hero h1 {color: #FFF; position: static; font-size: clamp(10px,15vw,310px); line-height: 1;}
+#hero h3 {color: #FFF; font-family: 'Telegraf'; text-transform: uppercase; padding-bottom: 3%;}
+#hero .arkitect {margin-right: 10%;}
+#hero p {text-transform: none; font-size: 0.8vw;}
+#hero .lower {top: 61vh;}
+#hero .slashes {width: 90%;}
+
+
+
+#default {background: #000000;}
+
+
+#section-1 {padding: 5vw 0 0;}
+#section-1 .title {font-size: 7.2vw; line-height: 0.9;}
+#section-1 .globe {width: 155%; max-width: 200%; margin: -8% 0 0 0; right: -18%; position: relative;}
+#section-1 .plus.a {top: 12%;}
+#section-1 .plus.b {margin-left: -12%; margin-top: -1%;}
+
+#section-1 .logo {width: 10vw;}
+#section-1 .skull {position: absolute; top: -20vw; width: 35vw; left: 5vw;}
+#section-1 .img-1 {width: 42vw; margin-right: -20vw; max-width: 200%;}
+#section-1 .img-2 {position: absolute; z-index: 5; width: 25vw; bottom: -5vw; left: 5vw;}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+	p {font-size: 3.5vw;}
+	p.medium {font-size: 4vw;}
+	p.large {font-size: 6vw;}
+
+	.head .arkitect {font-size: 2vw;}
+	.head .square {left: 2%;}
+
+	#hero .plus.a {top: 20vh; left: 6.5vw;}
+	#hero h1 {font-size: 22vw;}
+	#hero .arkitect {text-align: left !important; font-size: 2.5vw;}
+	#hero .lower {left: 6vw; top: 45vh; width: 90%;}
+	#hero p {font-size: 3.3vw; line-height: 1.2;}
+	#hero h3 {font-size: 5vw;}
+	#hero h3 br {display: none;}
+	#hero .circles {display: none;}
+
+	#section-1 {padding: 10vw 0 6vw;}
+	#section-1 .img-1 {display: none;}
+	#section-1 .img-2 {display: none;}
+	#section-1 .skull {right: 0; left: auto; width: 65vw; top: -30vw;}
+	#section-1 .logo {display: none;}
+	#section-1 .spacer-lg {height: 3vw;}
+	
+}
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+#coverflow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  perspective: 100vw;
+  width: 100%;
+  height: 50vw;
+  margin: auto;
+}
+
+.coverflow-item {
+  position: absolute;
+  transform-origin: center;
+  transition: transform 0.5s ease, z-index 0.5s ease;
+  opacity: 1; /* All items are fully visible */
+  z-index: 0;
+}
+
+.coverflow-item .img-container {background: #000; border-radius: 2vw;}
+
+.coverflow-item img {
+  max-width: 30vw;
+  height: 30vw;
+  object-fit: cover;
+  border-radius: 2vw;
+  box-shadow: 0 0 2vw rgba(0, 0, 0, 0.5), 0 0 2vw rgba(0, 0, 0, 0.5), 0 0 2vw rgba(0, 0, 0, 0.5), 0 0 2vw rgba(0, 0, 0, 0.5);
+}
+
+.coverflow-item.active {
+  z-index: 6;
+  transform: scale(1.3);
+  pointer-events: auto; /* Ensure clicks are enabled */
+}
+
+.coverflow-item.previous,
+.coverflow-item.next,
+.coverflow-item.far-previous,
+.coverflow-item.far-next,
+.coverflow-item.far-previous-2,
+.coverflow-item.far-next-2,
+.coverflow-item.far-previous-3,
+.coverflow-item.far-next-3 {
+  pointer-events: auto; /* Allow clicks on all items */
+  cursor: pointer;
+}
+
+.coverflow-item.previous {
+  z-index: 5;
+  transform: translateX(-15vw) scale(1.1);
+}
+
+.coverflow-item.previous img {opacity: 0.8;}
+
+.coverflow-item.next {
+  z-index: 5;
+  transform: translateX(15vw) scale(1.1);
+}
+.coverflow-item.next img {opacity: 0.8;}
+
+.coverflow-item.far-previous {
+  z-index: 4;
+  transform: translateX(-30vw) scale(0.9);
+}
+
+.coverflow-item.far-previous img {opacity: 0.5;}
+
+.coverflow-item.far-next {
+  z-index: 4;
+  transform: translateX(30vw) scale(0.9);
+}
+
+.coverflow-item.far-next img {opacity: 0.5;}
+
+.coverflow-item.far-previous-2 {
+  z-index: 3;
+  transform: translateX(-45vw) scale(0.7);
+}
+
+.coverflow-item.far-previous-2 img {opacity: 0.3;}
+
+.coverflow-item.far-next-2 {
+  z-index: 3;
+  transform: translateX(45vw) scale(0.7);
+}
+
+.coverflow-item.far-next-2 img {opacity: 0.3;}
+
+.coverflow-item.far-previous-3 {
+  z-index: 2;
+  transform: translateX(-60vw) scale(0.6);
+}
+
+.coverflow-item.far-previous-3 img {opacity: 0.3;}
+
+.coverflow-item.far-next-3 {
+  z-index: 2;
+  transform: translateX(60vw) scale(0.6);
+}
+
+.coverflow-item.far-next-3 img {opacity: 0.3;}
+
+
+@media (max-width: 767px){	
+
+  .coverflow-item img {max-width: 60vw;}
+
+}

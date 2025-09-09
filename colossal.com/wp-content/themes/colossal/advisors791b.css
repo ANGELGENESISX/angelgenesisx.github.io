@@ -1,0 +1,683 @@
+
+
+
+.video-element {width: 93%;}
+
+#hero h1 {color: #c265f6;}
+
+.big-button.orange {background: #f99136; border: none; color: #FFF;}
+.big-button.orange:hover {background: #000}
+
+.big-button.purple {background: #7f4fda; border: none; color: #FFF;}
+.big-button.purple:hover {background: #000}
+
+.big-button.green {background: #71c527; border: none; color: #FFF;}
+.big-button.green:hover {background: #000}
+
+
+.big-button.dark-green {background: #38a768; border: none; color: #FFF;}
+.big-button.dark-green:hover {background: #000}
+
+p, li {font-size: clamp(7px,1vw,20px);}
+.small {font-size: clamp(-18px,0.9vw,18px) !important;}
+p.medium {font-size: clamp(7px,1.35vw,30px);}
+
+h1, h2, h3, h4, h5 {font-family: 'NB Architekt Std'; line-height: 1;}
+
+.sep {font-size: clamp(-20px,1vw,20px); white-space: nowrap;}
+
+.box {font-size: clamp(-12px,0.6vw,12px);}
+
+h3 {font-size: clamp(7px,1.5vw,30px);}
+h2 {font-size: clamp(7px,2.4vw,48px);;}
+
+.head {position: relative;}
+.head .arkitect {font-size: clamp(7px,0.7vw,14px);}
+.head .line {margin-left: -3%;}
+.head .square {left: -5%; top: 30%;}
+
+.arkitect {font-size: clamp(5px,0.8vw,15px);}
+
+
+#hero {max-height: 100vh; overflow: visible; min-height: 600px !important;}
+#hero .inside {position: absolute; top: clamp(-200px,10vw,200px); width: 100%; text-align: center;}
+#hero .inside .line {position: static; width: 100%;}
+#hero h1 {color: #FFF; position: static; font-size: clamp(10px,10vw,200px); line-height: 1;}
+#hero h3 {color: #c7ef00; font-family: 'Telegraf'; text-transform: uppercase; padding-bottom: 3%;}
+#hero .arkitect {margin-right: 10%;}
+#hero p {text-transform: none; font-size: clamp(7px,0.8vw,16px);}
+#hero .lower {top: clamp(-500px,25vw,500px)}
+#hero .slashes {width: 90%;}
+
+#parallax1 {overflow: hidden;}
+
+#hero .plus.b {top: clamp(-720px,36vw,720px)}
+#hero .plus.a {left: auto; right: clamp(-70px,3.5vw,70px); top: clamp(-310px,15.5vw,310px)}
+
+#hero .line-container {margin-bottom: clamp(-40px,2vw,40px)}
+#hero .line-container img {width: 40%; margin-bottom: clamp(-40px,2vw,40px)}
+#hero .line-container .line {position: static; width: 100%}
+#hero .line-container .plus {left: clamp(-60px,3vw,60px); top: clamp(-40px,2vw,40px)}
+
+#hero .dna {width: auto; max-width: none; z-index: 10; position: absolute; left: 15%; top: 0vw; height: clamp(-650px,70vh,650px)}
+
+
+#section-1 {padding: clamp(7px,5vw,100px) 0 clamp(7px,5vw,100px);}
+#section-1 .title {font-size: clamp(7px,7.6vw,195px); line-height: 0.9; white-space: nowrap; z-index: 10; position: relative; text-transform: uppercase;}
+#section-1 .plus.a {top: 34%;}
+#section-1 .plus.b {margin-left: -12%; margin-top: -1%;}
+#section-1 .square.dark.b {margin-left: -15%}
+
+#section-1 .logo {width: clamp(-200px,10vw,200px);}
+#section-1 .dna {margin-top:clamp(-500px,-25vw,500px); width: 100%; max-width: 840px}
+#section-1 .img-1 {width: clamp(7px,32vw,640px); margin-right:0; margin-left: clamp(7px,5vw,100px); max-width: 200%;}
+#section-1 .img-2 {position: absolute; z-index: 5; width: clamp(7px,25vw,500px); bottom: clamp(-120px,-6vw,120px); right: clamp(-60px,-3vw,60px);}
+#section-1 h3 {font-family: 'Telegraf'; text-transform: uppercase; margin-bottom: 3%; font-size: clamp(-40px,2vw,40px)}
+
+
+
+
+
+
+
+#stats {padding: clamp(-100px,5vw,100px) 0; position: relative; color: #FFF; overflow: hidden;}
+#stats .bg {position: absolute; top: 0;}
+#stats .head .box {border: 1px solid #a5a5b0; color: #a5a5b0; padding: 0; padding-right: clamp(-16px,0.8vw,16px)}
+#stats .head .box span {display: inline-block; background: #a5a5b0; color: #000; padding: clamp(-2px,0.1vw,2px) clamp(-1px,0.5vw,1px)}
+#stats .stat {font-family: 'NB Architekt Light'; font-size: clamp(-180px,9vw,180px); margin-top: clamp(-40px,2vw,40px)}
+#stats h3 {font-family: 'Telegraf'; color: #3EEA86; padding-left: clamp(-40px,2vw,40px)}
+#stats p {padding-left: clamp(-40px,2vw,40px)}
+#stats .inner {padding-left: clamp(-100px,5vw,100px)}
+#stats .inner .col-md-4 {position: relative;}
+
+#stats .inner .lines-1 {position: absolute; left: clamp(-40px,-2vw,40px); top: 0;}
+#stats .inner .lines-1 .line-v {height: clamp(-700px,35vw,700px); border-left: 1px solid #434449; width: 1px; position: absolute;}
+#stats .inner .lines-1 .line-h {width: clamp(-200px,10vw,200px); border-top: 1px solid #434449; position: absolute; height: 1px; top: clamp(-280px,14vw,280px)}
+
+#stats .inner .lines-2 {position: absolute; left: clamp(-40px,-2vw,40px); top: 0;}
+#stats .inner .lines-2 .line-v {height: clamp(-380px,19vw,380px); border-left: 1px solid #434449; width: 1px; position: absolute;}
+#stats .inner .lines-2 .line-h {width: clamp(-400px,10vw,400px); border-top: 1px solid #434449; position: absolute; height: 1px; top: clamp(-280px,14vw,280px)}
+
+
+#stats .inner .lines-3 {position: absolute; left: clamp(-40px,-2vw,40px); top: 0;}
+#stats .inner .lines-3 .line-v {height: clamp(-980px,49vw,980px); border-left: 1px solid #434449; width: 1px; position: absolute;}
+#stats .inner .lines-3 .line-h {width: clamp(-200px,10vw,200px); border-top: 1px solid #434449; position: absolute; height: 1px; top: clamp(-280px,14vw,280px)}
+
+#stats .slashes {position: absolute; width: clamp(-200px,10vw,200px); right: clamp(-110px,5.5vw,110px); top: clamp(-200px,10vw,200px)}
+
+#stats .plus.a {left: clamp(-100px,5vw,100px); top: clamp(-560px,28vw,560px)}
+#stats .plus.b {right: clamp(-100px,5vw,100px); top: clamp(-560px,28vw,560px)}
+#stats .square {top: clamp(-800px,40vw,800px); left: clamp(-100px,5vw,100px)}
+#stats .mask {width: clamp(-200px,10vw,200px); height: clamp(-200px,10vw,200px); background: #43b36c; position: absolute; bottom: 0; right: 0; z-index: 10}
+
+
+
+#section-header {padding: clamp(-100px,5vw,100px) 0 clamp(-200px,10vw,200px); position: relative;}
+#section-header .bg {position: absolute; top: 0; left: 0;}
+#section-header .head .line {margin: 0; left: 0; width: 109%}
+#section-header .head .plus {margin-left: clamp(-40px,-2vw,40px)}
+#section-header .head .box {border: 1px solid #000; color: #000; padding: 0; padding-right: clamp(-16px,0.8vw,16px)}
+#section-header .head .box span {display: inline-block; background: #000; color: #3dac69; padding: clamp(-20px,0.1vw,20px) clamp(-10px,0.5vw,10px)}
+#section-header h3 {margin-top: clamp(-80px,4vw,80px); margin-bottom: clamp(-40px,2vw,40px); font-family: 'Telegraf'; font-size: clamp(-50px,2.5vw,50px)}
+#section-header h2 {color: #FFF; font-size: clamp(-120px,6vw,120px); margin-bottom: clamp(-80px,4vw,80px)}
+#section-header p {max-width: clamp(-1000px,50vw,1000px); text-align: justify; line-height: 1.8;}
+#section-header p::first-letter {float: left; font-size: clamp(-68px,3.4vw,68px); line-height: 1; margin-right: 10px}
+#section-header .sep {position: relative;}
+#section-header .sep .plus {margin-left: clamp(-40px,-2vw,40px); top: clamp(-10px,-0.5vw,10px);}
+#section-header .sep .square {right: 0; top:clamp(-4px, -0.2vw,4px)}
+#section-header .sep .line {width: 98%}
+#section-header .plus.a {position: absolute; right: clamp(-120px,6vw,120px); top: clamp(-780px,39vw,780px)}
+
+
+#section-header.section-header-1 h3 {color: #c3e801}
+#section-header.section-header-1 .qr {position: absolute; top: clamp(-148px,-7.4vw,148px); width: clamp(-120px,6vw,120px); left: clamp(-180px,9vw,180px)}
+
+.page-section[data-section-title='executive advisory board'] {position: relative; z-index: 40; overflow: visible;}
+.page-section[data-section-title='executive advisory board'] .glyph {position: absolute; z-index: 50; mix-blend-mode: exclusion; margin-top: -4.7vw; width: 44vw; opacity: 0.9;}
+#section-header.section-header-2 {position: relative; z-index: 5; overflow: visible;}
+#section-header.section-header-2 .bg {width: 110%; max-width: none; left: -2%; height: 140%}
+#section-header.section-header-2 h3 {color: #ff78d9}
+#section-header.section-header-2 .qr {position: absolute; z-index: 4; width: clamp(-200px,10vw,200px); right: clamp(-140px,7vw,140px); top: clamp(-160px,-8vw,160px)}
+#section-header.section-header-2 p {color: #FFF;}
+#section-header.section-header-2 .plus.a {left: clamp(-90px,4.5vw,90px); right: auto; top: clamp(-860px,43vw,860px)}
+#section-header.section-header-2 .head .box span {color: #7c48d3; font-weight: 700}
+
+#section-header.section-header-3 {padding-bottom: clamp(-300px,15vw,300px)}
+#section-header.section-header-3 .bg {width: 100%; max-width: none; left: 0; height: 140%; object-fit: cover}
+#section-header.section-header-3 h3 {color: #ffe850}
+#section-header.section-header-3 .qr {position: absolute; top: clamp(-148px,-7.4vw,148px); width: clamp(-120px,6vw,120px); left: clamp(-140px,7vw,140px); right: auto}
+#section-header.section-header-3 p {color: #000;}
+#section-header.section-header-3 .plus.a {right: clamp(-90px,4.5vw,90px); left: auto; top: clamp(-860px,43vw,860px)}
+#section-header.section-header-3 .head .box span {color: #f88624; font-weight: 700}
+
+
+
+#group {padding-bottom: clamp(-80px,4vw,80px)}
+#group .square.a {top: clamp(-820px,41vw,820px); left: clamp(-20px,-1vw,20px)}
+#group .line.grey {border-color: #b4b4bf}
+#group .line.grey .plus {right: clamp(-40px,-2vw,40px); top: clamp(-10px,-0.5vw,10px)}
+#group .pic {max-width: none; width: 145%; margin-left: -20%}
+#group .award {padding-left: 28%; margin-top: clamp(-10px,0.5vw,10px)}
+#group .award img {width: 100%}
+#group h2 {font-size: clamp(-70px,3.5vw,70px)}
+#group .description img {width: 100%}
+#group .description img.seal {margin: 0 clamp(-40px,2vw,40px) 0 0; max-width: clamp(-100px,5vw,100px); max-height: clamp(-100px,5vw,100px); width: auto;}
+#group .description p {line-height: 1.6; margin-bottom: 0; font-size: clamp(-24px,1.2vw,24px)}
+#group .two-column {text-align: justify; margin-bottom: clamp(-100px,5vw,100px); line-height: 1.7; position: relative;}
+#group .two-column .left {padding-right: 4.5%}
+#group .two-column .left p:first-of-type:first-letter {float: left; font-size: clamp(-68px,3.4vw,68px); line-height: 1; margin-right: 10px}
+#group .two-column .left-line {width: 15%; border-bottom: 1px solid #b4b4bf; margin: clamp(-60px,3vw,60px) 0 0; position: relative;}
+#group .two-column .left-line .plus {left: clamp(-40px,-2vw,40px); top: clamp(-10px,-0.5vw,10px)}
+#group .two-column .right-lines {position: absolute; right: clamp(-40px,-2vw,40px); bottom: 0;}
+#group .two-column .right-lines .line-h {width: clamp(-200px,10vw,200px); border-bottom: 1px solid #b4b4bf;}
+#group .two-column .right-lines .line-v {border-right: 1px solid #b4b4bf; height: clamp(-120px,6vw,120px); top: clamp(-60px,-3vw,60px); position: absolute; right: 0;}
+
+#group p.large {font-size: clamp(-40px,2vw,40px); margin-bottom: clamp(-40px,2vw,40px)}
+#group .pubs li {margin-bottom: clamp(-10px,0.5vw,10px); text-decoration: underline;}
+#group .pubs li a {color: inherit;}
+#group .videos a {position: relative; display: block; cursor: pointer}
+#group .videos a .play {position: absolute; left: 50%; width: 20%; margin-left: -10%; top: 50%; margin-top: -10%}
+#group .videos a .thumb {width: 100%; height: clamp(-260px,13vw,260px); object-fit: cover}
+#group .videos .caption {margin-bottom: clamp(-60px,3vw,60px)}
+#group .more .arkitect {font-size: clamp(-15px,0.75vw,15px); white-space: nowrap;}
+#group .more .plus.side {left: -0vw; top: clamp(-60px,3vw,60px)}
+
+
+#list {position: relative;}
+#list .item-list {padding: 0 clamp(-60px,3vw,60px); position: relative;}
+#list .item {padding: clamp(-40px,2vw,40px); display: block; color: #222;}
+#list .item img {height: clamp(-400px,20vw,400px); width: 100%; object-fit: cover;}
+#list .item .title {font-size: clamp(-26px,1.3vw,26px);}
+#list .item .subtitle {font-size: clamp(-20px,1vw,20px); color: #454555}
+#list .tag {position: absolute; transform: rotate(-90deg); left:clamp(-50px, -2.5vw,50px); top: clamp(-1000px,50vw,1000px); transform-origin: top left; font-size: clamp(-14px,0.7vw,14px); font-family: 'NB Architekt Light';}
+#list .modal.exec {background: rgba(0,0,0,0.7);}
+#list .modal.exec .modal-dialog {max-width: 1000px; margin: 0 auto; max-height: none; height: auto;}
+#list .modal.exec .modal-content {padding: 0;}
+#list .modal.exec button {position: absolute; right: 0; width: 50px; height: 50px; border: none;}
+#list .modal.exec .lower {padding: 0 clamp(-80px,4vw,80px) clamp(-60px,3vw,60px); margin-top:clamp(-160px, -8vw,160px);}
+#list .modal-content .bio-image {width: 100%; margin: 0; max-height: none; padding: clamp(-20px,1vw,20px); border: 1px solid #FFF; height: clamp(-280px,14vw,280px)}
+#list .modal-content .bio-subtitle {color: #79ca40;}
+#list .plus {right: -2vw; top: 45%}
+#list .square {right: -2vw; bottom: 0}
+
+
+
+
+
+
+
+#group.group-1 {background: rgb(210,210,219); background: linear-gradient(0deg, rgba(210,210,219,1) 0%, rgba(255,255,255,1) 100%); }
+#group.group-1 .block {position: absolute; width: clamp(-180px,9vw,180px); height: clamp(-180px,9vw,180px); background: #38a768; left: 88.5%; top: clamp(-20px,1vw,20px);}
+#group.group-1 .pic {margin-left: -16%; width: 142%;}
+
+#group.group-2 {background: #000 url(https://colossal.com/wp-content/themes/colossal/img/advisors/group-2-bg.jpg) no-repeat center top; background-size: 100% auto; overflow: hidden; color: #FFF; padding-bottom: clamp(-300px,15vw,300px)}
+#group.group-2 .pic {margin-left: -34%; width: 150%; position: relative; margin-top: -4%}
+#group.group-2 .grey {color: #00c6d0}
+#group.group-2 .border-left,
+#group.group-2 .line.grey {border-color: #00c6d0 !important}
+#group.group-2 .two-column .left-line,
+#group.group-2 .two-column .right-lines .line-h {border-color: #006178 !important}
+#group.group-2 .two-column .right-lines .line-v {border-color: #006178 !important}
+#group.group-2 .line.grey .square {left: clamp(-40px,-2vw,40px); top: clamp(-4px,-0.2vw,4px)}
+#group.group-2 .plus.a {right: clamp(-80px,-4vw,80px); bottom: 0vw}
+#group.group-2 .plus {color: #FFF !important}
+#group.group-2 .block {position: absolute; width: clamp(-180px,9vw,180px); height: clamp(-180px,9vw,180px); background: #38a768; left: 1%; top: clamp(-20px,1vw,20px);}
+#group.group-2 #list .item .title {color:#FFF;}
+#group.group-2 #list .item .subtitle {color: #a1a1ab}
+
+
+#group.group-3 {background: rgb(210,210,219); background: linear-gradient(0deg, rgba(210,210,219,1) 0%, rgba(255,255,255,1) 100%); padding-bottom: clamp(-240px,12vw,240px)}
+#group.group-3 .block {position: absolute; width: clamp(-180px,9vw,180px); height: clamp(-180px,9vw,180px); background: #38a768; left: 88.5%; top: clamp(-600px,29.5vw,600px);}
+#group.group-3 .container-fluid {margin-top: clamp(-200px,-10vw,200px)}
+#group.group-3 .award img {width: 75%; display: block; margin: 0 auto}
+
+
+
+#group.group-4 {background: #534520 url(https://colossal.com/wp-content/themes/colossal/img/advisors/group-4-bg.jpg) no-repeat center top; background-size: 100% auto; color: #000; padding-bottom: clamp(-300px,7vw,140px); position: relative; z-index: 11; }
+#group.group-4 .pic {margin-left: -34%; width: 150%; position: relative; margin-top: -4%}
+#group.group-4 .container-fluid {margin-top: clamp(-200px,-10vw,200px)}
+#group.group-4 .award {padding-left: 0; }
+#group.group-4 .award img {width: 90%}
+#group.group-4 .grey {color: #464120}
+#group.group-4 .border-left,
+#group.group-4 .line.grey {border-color: #ede9b0 !important}
+#group.group-4 .two-column .left-line,
+#group.group-4 .two-column .right-lines .line-h {border-color: #ede9b0 !important}
+#group.group-4 .two-column .right-lines .line-v {border-color: #ede9b0 !important}
+#group.group-4 .line.grey .plus {left: clamp(-40px,-2vw,40px); top: clamp(-10px,-0.5vw,10px)}
+#group.group-4 .square.a {right: clamp(-80px,-4vw,80px); bottom: 0vw; position: absolute; left: auto}
+#group.group-4 .block {position: absolute; width: clamp(-180px,9vw,180px); height: clamp(-180px,9vw,180px); background: #38a768; left: 1%; top: clamp(-20px,1vw,20px);}
+#group.group-4 #list .item .title {color:#FFF;}
+#group.group-4 #list .item .subtitle {color: #92845b}
+
+
+
+#group.group-5 {overflow: visible; position: relative; z-index: 12}
+#group.group-5 .container-fluid {margin-top: clamp(-200px,-10vw,200px)}
+
+
+#group.group-6 {background: rgb(210,210,219); background: linear-gradient(0deg, rgba(210,210,219,1) 0%, rgba(255,255,255,1) 50%); padding-bottom: clamp(-180px,8vw,180px)}
+#group.group-6 .pic {margin-left: -34%; width: 150%; position: relative; margin-top: -4%}
+#group.group-6 .square.a {left: clamp(-40px,-2vw,40px);  position: absolute; top: auto}
+#group.group-6 .plus.a {right: clamp(-60px,-3vw,60px); bottom: 0vw; position: absolute; left: auto}
+#group.group-6 .block {position: absolute; width: clamp(-180px,9vw,180px); height: clamp(-180px,9vw,180px); background: #7f4fda; left: 88.5%; top: clamp(-20px,1vw,20px);}
+
+
+
+
+#group.group-7 {margin-top: clamp(-100px,-5vw,100px); background: #171a1f url(https://colossal.com/wp-content/themes/colossal/img/advisors/group-7-bg.jpg) no-repeat center top; background-size: 100% auto; color: #FFF; padding-bottom: clamp(-200px,10vw,200px)}
+#group.group-7 #list .item .title {color: #FFF; }
+#group.group-7 #list .item .subtitle {color: #9797a2}
+#group.group-7 .block {position: absolute; width: clamp(-180px,9vw,180px); height: clamp(-180px,9vw,180px); background: #7f4fda; left: 1%; top: clamp(-20px,1vw,20px);}
+#group.group-7 #list .plus {right: auto; left: -2%}
+
+
+
+
+#group.group-8 { padding-bottom: clamp(-160px,8vw,160px)}
+#group.group-8 .container-fluid {margin-top: clamp(-80px,-4vw,80px)}
+#group.group-8 .pic {margin-left: -34%; width: 150%; position: relative; margin-top: -4%}
+#group.group-8 .square.a {left: clamp(-40px,-2vw,40px);  position: absolute; top: auto}
+#group.group-8 .plus.a {right: clamp(-60px,-3vw,60px); bottom: 0vw; position: absolute; left: auto}
+#group.group-8 .block {position: absolute; width: clamp(-180px,9vw,180px); height: clamp(-180px,9vw,180px); background: #7f4fda; left: 88.5%; top: clamp(-20px,1vw,20px);}
+
+
+
+
+#group.group-9 {background: rgb(210,210,219); background: linear-gradient(0deg, rgba(210,210,219,1) 0%, rgba(255,255,255,1) 100%); position: relative; z-index: 14; padding-bottom: clamp(-220px,11vw,220px)}
+#group.group-9 .container-fluid {margin-top: clamp(-200px,-10vw,200px)}
+#group.group-9 .block {position: absolute; width: clamp(-180px,9vw,180px); height: clamp(-180px,9vw,180px); background: #f99136; left: 88.5%; top: clamp(-20px,1vw,20px);}
+#group.group-9 .award {margin-top: clamp(-60px,3vw,60px)}
+
+
+
+
+#group.group-10 {background: #534522 url(https://colossal.com/wp-content/themes/colossal/img/advisors/group-10-bg.jpg) no-repeat center top; background-size: 100% auto; color: #000; padding-bottom: clamp(-200px,15vw,300px); position: relative; z-index: 15}
+#group.group-10 .container-fluid {margin-top: clamp(-140px,-7vw,140px)}
+#group.group-10 .pic {margin-left: -34%; width: 150%; position: relative; }
+#group.group-10 .square.a {right: clamp(-40px,-2vw,40px); left: auto;  position: absolute; top: auto}
+#group.group-10 .plus.a {left: clamp(-50px,-2.5vw,50px); bottom: clamp(-10px,-0.5vw,10px); position: absolute; right:auto;}
+#group.group-10 .border-left {border-color: #000 !important}
+#group.group-10 .award {margin-top: 0; padding-left: 0}
+#group.group-10 .award img {width: 80%; margin-bottom: 5%}
+#group.group-10 #list .item .title {color: #FFF; }
+#group.group-10 #list .item .subtitle {color: #8d7f57}
+#group.group-10 .mask {position: absolute; bottom: 0; left: 0; width: 100%; height: clamp(-600px,30vw,600px); background: #483714}
+#group.group-10 .circles {position: absolute; right: clamp(-160px,8vw,160px); width: 15%; bottom: clamp(-80px,-4vw,80px)}
+#group.group-10 .lower-lines {position: absolute; right: clamp(-80px,4vw,80px); bottom: clamp(-800px,40vw,800px);}
+#group.group-10 .lower-lines .line-h {width: clamp(-200px,10vw,200px); border-bottom: 1px solid #82734c;}
+#group.group-10 .lower-lines .line-v {border-right: 1px solid #82734c; height: clamp(-200px,10vw,200px); top: clamp(-60px,-3vw,60px); position: absolute; right: 0;}
+#group.group-10 .block {position: absolute; width: clamp(-180px,9vw,180px); height: clamp(-180px,9vw,180px); background: #f99136; left: 1%; top: clamp(-20px,1vw,20px);}
+
+
+#group.group-11 {position: relative; z-index: 20; background: rgb(210,210,219); background: linear-gradient(0deg, rgba(210,210,219,1) 0%, rgba(255,255,255,1) 100%); padding-bottom: 40vw;}
+#group.group-11 .container-fluid {margin-top: clamp(-220px,-10.5vw,220px)}
+#group.group-11 .award {margin-top: clamp(-20px,1vw,20px)}
+#group.group-11 .skipwith-2 {max-width: none; width: 120%}
+
+
+
+#alta {position: relative; z-index: 20; padding-bottom: clamp(-140px,7vw,140px)}
+#alta .container-fluid {margin-top: clamp(-660px,-33vw,660px)}
+#alta .alta {max-width: none; width: 110%}
+#alta h1 {font-family: Telegraf; font-size: clamp(-150px,7.5vw,150px); margin: 0; padding: 0; line-height: 0.5;}
+#alta h2 {font-size: clamp(-70px,3.5vw,70px)}
+#alta .left .inside {padding-right: 6%}
+#alta p {text-align: justify;}
+#alta .line.grey {border-color: #dee2e6}
+#alta .upper {margin-top: clamp(-330px,-16.5vw,330px)}
+#alta .circles {width: 13%}
+#alta .plus {position: absolute; left: clamp(-70px,3.5vw,70px); top: clamp(-500px,25vw,500px)}
+#alta .square {position: absolute; right: clamp(-70px,3.5vw,70px); top: clamp(-440px,22vw,440px)}
+
+
+
+#section-header.section-header-3.youth .bg {object-position: center left}
+#section-header.section-header-3.youth {padding-top: 15vw; margin-top: -12vw}
+#section-header.section-header-3.youth h3 {color: #FFF;}
+#section-header.section-header-3.youth .head .box span {color: #6e3ac4}
+
+#news {background: #191f1f; background: rgb(25,31,31); background: linear-gradient(180deg, rgba(25,31,31,1) 18%, rgba(0,0,0,1) 100%); padding-bottom: clamp(-20px,1vw,20px); padding-top: clamp(-100px,5vw,100px)}
+#news .mask {position: absolute; background: #191f1f; width: 50%; top: clamp(-140px,-7vw,140px); height: clamp(-200px,10vw,200px)}
+#news h2 {font-size: clamp(-160px,8vw,160px); white-space: nowrap; font-family: "NB Architekt Light"}
+#news .slashes {width: 12%}
+#news .line.green {border-width: 3px; border-color: #3fe884}
+#news .news-item {border-top: 1px solid #3e4044; padding-top: clamp(-10px,0.5vw,10px)}
+#news .news-item .meta {font-family: "NB Architekt Std"; color: #5c5d62; font-size: clamp(-16px,0.8vw,16px)}
+#news .news-item h3 {font-size: clamp(-30px,1.5vw,30px); padding-top: clamp(-10px,0.5vw,10px); margin-bottom: 0; height: clamp(-160px,8vw,160px)}
+#news .news-item .btn {border-color: #5c5d62; color: #76767e; text-transform: none; font-size: clamp(-20px,1vw,20px)}
+#news .big-button {border-color: #32be6d; color: #32be6d}
+#news .big-button .plus {color: #32be6d}
+#news .big-button:hover {background-color: #32be6d; color: #FFF !important}
+#news .big-button:hover .plus {color: #FFF} 
+#news .line.grey {border-color:#3e4044 }
+#news .line-plus {position: absolute; bottom: clamp(-170px,8.5vw,170px); right: clamp(-160px,8vw,160px); width: 25%;}
+
+#news .plus.a {left: clamp(-60px,3vw,60px); top: clamp(-350px,17.5vw,350px)}
+#news .plus.b {left: clamp(-60px,3vw,60px); top: clamp(-1030px,56.5vw,1030px)}
+#news .plus.c {right: clamp(-60px,3vw,60px); top: clamp(-1030px,56.5vw,1030px)}
+#news .square {right: clamp(-60px,3vw,60px); top: clamp(-60px,3vw,60px)}
+
+
+
+
+
+
+
+#footer {z-index: 10; position: relative;}
+
+
+
+
+
+#indigenous #section-1 {background: url(https://colossal.com/wp-content/themes/colossal/img/advisors/indigenous-bg-1.jpg) no-repeat center top; background-size: 100% auto; padding-bottom: 0;}
+#indigenous #section-1 .box {color: #ffe928; border-color: #ffe928; padding: 0; white-space: nowrap;}
+#indigenous #section-1 .box .left {display: inline-block; background: #ffe928; color: #514320; padding: clamp(-4px, 0.2vw, 4px) clamp(-20px, 1vw, 20px);}
+#indigenous #section-1 .box .right {display: inline-block; padding: clamp(-4px, 0.2vw, 4px) clamp(-14px, 0.7vw, 14px);}
+#indigenous #section-1 .line {border-color: #ffe928; position: relative;}
+
+#indigenous #section-1 h3 {color: #ffe928; text-transform: none; font-size: clamp(-50px, 2.5vw, 50px);}
+#indigenous #section-1 h2 {color: #FFF; font-size: clamp(-140px, 7vw, 140px); position: relative;}
+#indigenous #section-1 h2 img {right: 0; position: absolute; bottom: 0; width: 8%;}
+#indigenous #section-1 .plus.a {position: absolute; color: #ffe928; left: clamp(-60px, -3vw, 60px); top: clamp(-10px, -0.5vw, 10px);}
+
+#indigenous #section-1 p {}
+#indigenous #section-1 p.white::first-letter {float: left; font-size: clamp(-68px,3.4vw,68px); line-height: 1; margin-right: 10px}
+
+#indigenous #section-1 #grid {position: relative;}
+#indigenous #section-1 #grid .tag {position: absolute; left: 92%; width: clamp(-400px, 20vw, 400px); transform: rotate(90deg); transform-origin: center center; top: 55%; font-family: 'NB Architekt Std'; font-size: clamp(-14px, 0.7vw, 14px); right: 0;}
+#indigenous #section-1 #grid .square.a {background: #ffe828; left: clamp(-60px, -3vw, 60px);}
+#indigenous #section-1 #grid .square.b {background: #000; left: clamp(-60px, -3vw, 60px); bottom: 0;}
+#indigenous #section-1 #grid .plus.b {right: clamp(-60px, -3vw, 60px); top: clamp(-60px, -3vw, 60px);}
+#indigenous #section-1 #grid .block {position: absolute; width: clamp(-140px, 7vw, 140px); height: clamp(-140px, 7vw, 140px); background: #0080ff; right: 0vw; top: clamp(-20px,-1vw,20px)}
+#indigenous #section-1 #grid .advisor {padding: 0 5% clamp(-100px, 5vw, 100px); position: relative; color: #000}
+#indigenous #section-1 #grid .advisor img {position: relative; z-index: 10}
+#indigenous #section-1 #grid .advisor p {margin-bottom: clamp(-6px, 0.3vw, 6px);}
+#indigenous #section-1 #grid .advisor p strong {font-size: clamp(-24px, 1.2vw, 24px);}
+#indigenous #section-1 #grid .logo {max-height: clamp(-280px, 14vw, 280px); width: auto; margin: clamp(-60px, 3vw, 60px) auto clamp(-80px, 4vw, 80px); display: block;}
+#indigenous #section-1 #grid .bison {margin-bottom: clamp(-200px, -10vw, 200px); display: block;}
+#indigenous #section-1 #grid .grid-lines {position: absolute; bottom: clamp(-60px, 0vw, 60px); width: 80%; left: 10%;}
+
+#indigenous #section-2 {background: url(https://colossal.com/wp-content/themes/colossal/img/advisors/quote-bg.jpg) no-repeat center top; background-size: cover; padding: clamp(-300px, 15vw, 300px) 0; position: relative; color: #FFF;}
+#indigenous #section-2 .box {position: absolute; right: 0; top: clamp(-20px, 1vw, 20px);}
+#indigenous #section-2 .plus {left: clamp(-60px, 3vw, 60px); top: clamp(-300px, 15vw, 300px); position: absolute;}
+#indigenous #section-2 .square {right: clamp(-80px, 4vw, 80px); bottom: clamp(-100px, 5vw, 100px);}
+#indigenous #section-2 .container-fluid {max-width: 80%;}
+#indigenous #section-2 p {font-size: clamp(-22px, 1.1vw, 22px); line-height: 2;}
+#indigenous #section-2 .quote.b {float: right; transform: rotate(180deg);}
+#indigenous #section-2 h3 {color: #ffe828; font-size: clamp(-50px, 2.5vw, 50px); font-family: 'NB Architekt Light';}
+
+#indigenous #section-3 {background: url(https://colossal.com/wp-content/themes/colossal/img/advisors/quote-2-bg.png) no-repeat center top; background-size: cover; padding: clamp(-300px, 15vw, 300px) 0 clamp(-500px, 25vw, 500px); position: relative; color: #FFF; margin-top: clamp(-240px, -12vw, 240px);}
+#indigenous #section-3 .box {background: #ffe828; border-color: #ffe828; color: #4d5443;}
+#indigenous #section-3 .text-line {background: rgba(0,0,0,0.7); display: inline-block; padding: clamp(-6px, 0.3vw, 6px) clamp(-20px, 1vw, 20px); font-family: 'NB Architekt Std'; margin-bottom: clamp(-8px, 0.4vw, 8px); font-size: clamp(-22px, 1.1vw, 22px);}
+#indigenous #section-3 .plus.a {color: #000; right: clamp(-80px, 4vw, 80px); top: clamp(-300px, 15vw, 300px);}
+#indigenous #section-3 .plus.b {color: #000; left: clamp(-80px, 4vw, 80px); bottom: clamp(-100px, 5vw, 100px); color: #ffe828;}
+#indigenous #section-3 p.medium {margin-left: clamp(-22px, 1.1vw, 22px); color: #ffe828;}
+#indigenous #section-3 .square {right: clamp(-80px, 4vw, 80px); bottom: clamp(-240px, 12vw, 240px); background: #ffe828;}
+
+
+#section-header.section-header-4 {padding-bottom: 5vw; background: #000;}
+#section-header.section-header-4 p {color: #FFF;}
+#section-header.section-header-4 p::first-letter {float: none; font-size: inherit; line-height: 1.2; margin-right: 0; padding-left: 3vw}
+#section-header.section-header-4 .head .box {color: #b4b4bf; border-color: #b4b4bf;}
+#section-header.section-header-4 .head .box span {color: #000; background: #b4b4bf;}
+#section-header.section-header-4 h3 {color: #F99136;}
+#section-header.section-header-4 .stars {position: absolute; left: 8vw; bottom: -15vw; width: 45vw;}
+#section-header.section-header-4 .bg {height: 48.65vw; width: 100%; object-fit: cover}
+
+#group.group-12 {background: url(https://colossal.com/wp-content/themes/colossal/img/advisors/cultural-bg.jpg) no-repeat center bottom #000; background-size:100% auto; color: #FFF; padding-bottom: 25vw}
+#group.group-12 #list .item .title {color: #FFF;}
+#group.group-12 #list .item .subtitle {color: #a1a1ab;}
+#group.group-12 .description img.seal {margin: 3vw}
+#group.group-12 .description p {padding: 1vw 0 1vw 1vw}
+#group.group-12 .orange {color: #F99136;}
+#group.group-12 p.bio {font-size: 1vw; color: #B4B4BF; line-height: 1.8;}
+#group.group-12 .block {position: absolute; width: clamp(-180px, 9vw, 180px); height: clamp(-180px, 9vw, 180px); background: #f99136; left: 1%; top: clamp(-20px, 1vw, 20px);}
+
+
+@media only screen and (max-width:1200px) and (min-height: 700px) {
+
+	#hero .dna {}
+	#hero .lower {top: 30vw}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:3000px) {
+
+/*	#hero .lower {top: 40%}*/
+
+}
+
+
+
+@media only screen and (min-width:768px) {
+
+	.hidden-lg {display: none !important;}
+
+}
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+	.video-element {width: 83%; height: 40vw; object-fit: cover;} 
+
+	.box {font-size: 2vw;}
+
+	p.medium {font-size: 3vw;}
+
+	.section-header .arkitect {font-size: 1vw;}
+
+	.arkitect {font-size: 2vw;}
+
+	p {margin-bottom: 1.5rem; font-size: 3vw;}
+	p.large {font-size: 7vw;}
+
+	h4 {font-size: 4vw;}
+
+	ul {padding-left: 3vw; margin-bottom: 10vw;}
+	ul li {font-size: 3vw;}
+
+	#hero .dna {display: none}
+	#hero .dna .dna-3 {animation-name: none}
+	#hero .inside {top: 25vh}
+	#hero .intro {top: 55vh;}
+	#hero .bg {object-position: right top;}
+	#hero h1 {line-height: 1; font-size: 12.5vw;}
+	#hero .line {margin-top: 10vw;}
+	#hero .slashes {display: none;}
+	#hero h3 {font-size: 4vw; max-width: 70vw;}
+	#hero h3 br {display: none;}
+	#hero p {max-width: 90%; font-size: 3vw;}
+	#hero .text.a {top: 45%; font-size: 3vw;}
+	#hero .text.b {font-size: 3vw;}
+	#hero .line {top: 45%; width: 84%; left: 8vw;}
+	#hero .lower { left: 8vw; top: 50vh; }
+	#hero .arkitect {font-size: 2vw;}
+	#hero .line-container {display: none}
+	#hero .plus.a {display: none}
+
+	#section-1 {padding-top: 10vw}
+	#section-1 .dna {width: 80vw; height: auto; left: 3vw; top: -44vw; position: absolute; display: none}
+	#section-1 .slashes {width: 50%;}
+	#section-1 .head {text-align: right;}
+	#section-1 .img-1 {width: 100%;}
+	#section-1 .img-2 {bottom: 4vw; left: 3vw;}
+	#section-1 h3 {font-size: 3vw}
+	/*#section-1 .dna .dna-1 {display: none;}*/
+
+	#stats {background: #000}
+	#stats h3 {font-size: 3vw; padding-top: 1vw}
+	#stats .line {display: none}
+	#stats p {padding-left: 0; padding-right: 20vw; padding-top: 5vw; margin-bottom: 10vw}
+	#stats .inner .lines-1 .line-v {height: 30vw}
+	#stats .inner .lines-3 .line-v {height: 30vw}
+	#stats .square {display: none}
+	#stats .plus {display: none}
+	#stats .slashes {width: 25vw; top: 20vw}
+	#stats .log {width: 30%; top: -9vw; right: 5vw; position: absolute; z-index: 10; left: auto}
+
+	#section-header.section-header-1 {padding-bottom: 30vw}
+	#section-header.section-header-1 .qr {width: 15vw; top: -20vw}
+
+	#section-header.section-header-2 .qr {width: 15vw; top: -8vw}
+	#section-header.section-header-2 {padding-bottom: 20vw}
+
+	#section-header.section-header-3 .qr {width: 15vw; top: -20vw}
+	#section-header.section-header-3 {padding-bottom: 20vw}
+
+	#section-header p::first-letter {float: left; font-size: 8.4vw; line-height: 1.2; margin-right: 10px}
+	#group .two-column .left p:first-of-type:first-letter {float: left; font-size: 8.4vw; line-height: 1.2; margin-right: 10px}
+	#section-header h3 {margin-top: 10vw; font-size: 4vw}
+	#section-header h2 {font-size: 8vw}
+	#section-header .head {display: none}
+	#section-header p {max-width: 80vw}
+	#section-header .sep .square {display: none}
+	#section-header .sep .plus {top: -1.5vw; left: -1vw}
+	#section-header .plus.a {top: 80vw}
+	#section-header .bg {height: 100%; object-fit: cover}
+
+	.big-button .plus {top: 30%}
+
+	#group .more .arkitect {font-size: 2.5vw}
+	#group .container-fluid {margin-top: -10vw}
+	#group .square.a {display: none}
+	#group .award * {color: #000; white-space: normal; text-align: center;}
+	#group .award img {margin-bottom: 3vw}
+	#group .award {padding-left: 70%; margin-top: -40vw; margin-bottom: 5vw}
+	#group .pic {margin-left: -20%; width: 100%}
+	#group h2 {font-size: 7vw}
+	#group .description p {font-size: 3vw}
+	#group .line.grey .plus {display: none}
+	#group .two-column .left-line {display: none}
+	#group .two-column .right-lines .line-h {width: 20vw}
+	#group .two-column .right-lines .line-v {height: 20vw; margin-top: -3vw}
+	#group p.large {font-size: 5vw}
+	#group .plus.a {display: none}
+
+	#group .description img.seal {max-height: 12vw; max-width: 8.3vw; margin: 0vw 6vw 0 0 }
+
+	#list .item img {height: 30vw}
+	#group.group-1 .block {left: 90%; top: 0}
+	#list .item .title {font-size: 4vw}
+	#list .item .subtitle {font-size: 3vw}
+
+
+	#group.group-2 {background-size: auto 90%}
+	#group.group-2 .pic {margin-left: -40%}
+	#group.group-2 .spacer-xxl {height: 5vw}
+	#group.group-2 .line.grey .square {top: -0.9vw; left: -vw}
+
+	#group.group-3 .award img {margin-bottom: 3vw}
+
+	#group.group-4 {background-size: auto 90%; background-color: #534520}
+	#group.group-4 .pic {margin-left: 0}
+	#group.group-4 .award {width: 35%; margin-top: -55vw; margin-bottom: 15vw; margin-left: -2vw}
+
+	#group.group-5 .pic {width: 130%; margin-left: -10%}
+
+	#group.group-6 {padding-bottom: 25vw}
+	#group.group-6 .pic {margin-top: 0}
+	#group.group-6 .spacer-xxl {height: 5vw}
+
+
+	#group.group-7 {background-size: auto 50%}
+	#group.group-7 .pic {width: 120%}
+
+
+	#group.group-8 .spacer-xxl {height: 5vw}
+
+	#group.group-9  {padding-bottom: 24vw}
+	#group.group-9 .award {margin-top: -35vw; padding-left: 60%; margin-bottom: 15vw}
+	#group.group-9 .award .coin {filter: invert(100%)}
+
+
+	#group.group-10 {background-size: auto 80%; padding-bottom: 20vw}
+	#group.group-10 .container-fluid {margin-top: -20vw}
+	#group.group-10 .pic {width: 110%; margin-top: 0;}
+	#group.group-10 .award {position: absolute; width: 22vw; right: 0; top: -65vw}
+	#group.group-10 h2 {margin-top: 3vw}
+	#group.group-10 .mask {height: 50vw}
+
+	#group.group-10 .circles {width: 20%; bottom: -6vw}
+
+	#group.group-11 .award {margin-top: -35vw; padding-left: 65%; margin-bottom: 0}
+	#group.group-11 .award img {width: 70%}
+
+	#alta h2 {font-size: 6.5vw; padding-left: 50%}
+	#alta .square {display: none;}
+	#alta .plus {display: none}
+	#alta .circles {width: 22%}
+
+	#news .plus {display: none}
+	#news .square {display: none}
+	#news .news-item h3 {font-size: 4vw; height: 25vw}
+	#news .news-item .meta {font-size: 3vw}
+	#news .item.item-7 {display: none}
+	#news .big-button {margin-top: 10vw}
+	#news .news-item .btn {font-size: 4vw}
+	#news .slashes {width: 25%}
+	#news .line-plus {display: none}
+
+	#list .modal.exec {}
+	#list .modal-content p {}
+	#list .modal.exec {padding-top: 20vw; z-index: 999;}
+	#list .modal-content .bio-image {width: 50vw; height: 45vw}
+
+	#indigenous .square,
+	#indigenous .plus {display: none;}
+	#indigenous #section-1 {background-size: 200% auto; background-position: top left; padding-top: 20vw}
+	#indigenous #section-1 .box {margin-bottom: 5vw}
+	#indigenous #section-1 h3 {font-size: 5vw}
+	#indigenous #section-1 #grid .bison {margin: -15vw 0 10vw 5vw; width: 80%}
+	#indigenous #section-1 .slashes {margin-bottom: 0}
+	#indigenous #section-1 #grid .advisor {margin-top: 2vw; padding: 0; margin-bottom: 10vw; padding-right: 10vw}
+	#indigenous #section-1 #grid .advisor .block {top: -2vw; left: -2vw; right: auto;}
+	#indigenous #section-1 #grid .advisor img {max-width: 90%}
+	#indigenous #section-1 #grid .advisor p strong {font-size: 4vw}
+	#indigenous #section-1 #grid .logo {max-height: 30vw}
+	#indigenous #section-1 #grid .grid-lines {display: none}
+	#indigenous #section-1 p::first-letter {float: none; font-size: inherit; margin: 0; padding: 0}
+
+	#indigenous #section-2 .container-fluid {max-width: 100%;}
+	#indigenous #section-2 p {font-size: 3vw}
+	#indigenous #section-2 h3 {font-size: 5vw;}
+	#indigenous #section-2 h3 span {display: none}
+	#indigenous #section-2 h4 {font-size: 3.5vw}
+
+
+	#indigenous #section-3 {margin-top: 0; background-size: auto 150%; background-position: 80% 50%;}
+	#indigenous #section-3 {}
+
+	#indigenous #section-3 .text-line {font-size: 2.3vw; margin-bottom: 0; display: none;}
+	#indigenous #section-3 br {display: none}
+	#indigenous #section-3 .hidden-lg {margin-top: 20vw; font-size: 4vw; background: rgba(0,0,0,0.3); padding: 3vw}
+	#indigenous #section-3 p.medium {font-size: 6vw; margin-bottom: 2vw}
+	#indigenous #section-3 p {max-width: 70%}
+
+	#section-header.section-header-3.youth {margin-top: -16vw}
+
+
+	#section-header.section-header-4 .bg {height: 90vw}
+	#section-header.section-header-4 p {margin-bottom: 10vw}
+	#section-header.section-header-4 .stars {display: none}
+	#group.group-12 p.bio {font-size: 3vw;}
+	#group.group-12 .spacer-xxl {height: 10vw}
+}
+
+
+
+
+
+
+
+

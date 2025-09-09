@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="328px" viewBox="0 0 77 328" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 23</title>
+    <g id="Mammoth-Page---V05---Conservation-Module" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Colossal_Mammoth_ConservationModule" transform="translate(-1302.000000, -9097.000000)">
+            <g id="Group-23" transform="translate(1303.000000, 9098.000000)">
+                <line x1="64.5" y1="35.5" x2="64.5" y2="15" id="Line-6-Copy-7" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="square" transform="translate(64.500000, 25.500000) rotate(90.000000) translate(-64.500000, -25.500000) "></line>
+                <line x1="-75.5" y1="176" x2="225.5" y2="175.5" id="Line-6-Copy-10" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="square" transform="translate(75.000000, 176.000000) rotate(90.000000) translate(-75.000000, -176.000000) "></line>
+                <g id="Group">
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="0.5" cx="27" cy="27" r="27"></circle>
+                    <circle id="Oval" fill="#7DEA13" transform="translate(27.500000, 27.500000) scale(-1, 1) translate(-27.500000, -27.500000) " cx="27.5" cy="27.5" r="6.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

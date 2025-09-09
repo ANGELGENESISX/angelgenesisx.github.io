@@ -1,0 +1,733 @@
+
+
+#hero h1 {color: #c265f6;}
+
+.container-fluid.narrow {padding-left: clamp(5px,8vw,160px)}
+.container-fluid.narrow {padding-right: clamp(5px,8vw,160px)}
+
+.container {width: 100%; margin-left: clamp(5px,8vw,160px); margin-right: clamp(5px,8vw,160px)}
+
+p, li {font-size: clamp(7px,1vw,20px);}
+.small {font-size: clamp(7px,0.9vw,18px) !important;}
+p.medium {font-size: clamp(7px,1.7vw,34px);}
+
+h1, h2, h3, h4, h5 {font-family: 'NB Architekt Std'; line-height: 1;}
+
+.sep {font-size: clamp(7px,1vw,20px); white-space: nowrap;}
+
+.box {font-size: clamp(7px,0.6vw,12px);}
+
+h3 {font-size: clamp(7px,1.5vw,30px);}
+h2 {font-size: clamp(7px,2.4vw,48px);;}
+
+p {text-align: justify;}
+p.large,
+p.medium {text-align: left;}
+
+.head {position: relative;}
+.head .arkitect {font-size: clamp(7px,0.7vw,14px);}
+.head .line {margin-left: -3%;}
+.head .square {left: -5%; top: 30%;}
+
+.arkitect {font-size: clamp(5px,0.8vw,15px);}
+.telegraf {font-family: Telegraf}
+
+#hero {position: relative;}
+#hero .inside {position: absolute; top: 24vh; width: 100%; text-align: center; font}
+#hero  .line {position: static; width: 100%;}
+#hero h1 {color: #FFF; position: static; font-size: clamp(10px,10vw,200px); line-height: 1;}
+#hero h1 span {background: rgba(72, 66, 149, 0.5); padding: clamp(-20px,1vw,20px) clamp(-40px,2vw,40px); margin-right: clamp(-20px,1vw,20px)}
+#hero h3 {color: #FFF; font-family: 'Telegraf'; text-transform: uppercase; padding-bottom: 3%; font-size: clamp(-34px,1.7vw,34px); line-height: 1.3}
+#hero p {text-transform: none; font-size: clamp(7px,0.8vw,16px);}
+#hero .lower {top: clamp(7px,52vh,1040px);}
+#hero .slashes {width: 100%;}
+#hero .plus.a {right: clamp(-60px,3vw,60px); left: auto}
+#hero .plus.b {top: 61vh}
+#hero .square {top: clamp(-360px,18vw,360px)}
+
+#hero-img {position: absolute; right: clamp(-220px,8vw,160px); bottom: clamp(-150px,-7vw,200px); width: clamp(-900px,45vw,900px); height: clamp(-560px,28vw,560px); z-index: 10;}
+#hero-img video {position: absolute; width: 100%; height: 100%;  object-fit: cover; z-index: 10}
+#hero-img .mask {position: absolute; width: 20%; height: 60%; margin: 0 0 -3% -3%; background: #f57230; bottom: 0;}
+
+#section-0 {color: #FFF; z-index: 5}
+#section-0.division-panel .text h2 img {width: clamp(-120px,6vw,120px)}
+#section-0.division-panel .text {top: clamp(-420px,18vw,360px)}
+#section-0.division-panel li span {color: #FFF}
+#section-0.division-panel p.medium {color: #00f0ff}
+#section-0.division-panel.left .img-1 {top:clamp(-1010px, 52vw,1010px)}
+#section-0 .cluster {position: absolute; bottom: clamp(-60px,-3vw,60px); left: clamp(-900px,30vw,900px); width: clamp(-180px,9vw,180px)}
+#section-0 .bot {width: 150%;}
+#section-0 .bot a {color: #FFF; text-decoration: underline;}
+
+#section-1 {padding-bottom: clamp(-100px,5vw,100px); position: relative;}
+#section-1 .logo {max-width: clamp(-200px,10vw,200px)}
+#section-1 .slashes-2 {width: clamp(-200px,10vw,200px)}
+#section-1 .img-1 {max-width: none; float: right; width: clamp(-800px,40vw,800px); margin-top: clamp(-20px,-1vw,20px); margin-right: clamp(-60px,3vw,60px)}
+#section-1 .img-2 {position: absolute; right: clamp(-62px,3.6vw,62px); width:clamp(-500px,25vw,500px); top: clamp(-506px,25.3vw,506px)}
+#section-1 h2 {font-size: clamp(-200px,10vw,200px); line-height: 0.9}
+#section-1 h2 small {font-size: clamp(-120px,6vw,120px)}
+#section-1 p {font-size: clamp(-20px,1vw,20px); line-height: 1.6; max-width: 90%}
+#section-1 li {font-size: clamp(-20px,1vw,20px); line-height: 1.6}
+#section-1 .plus.a {right: clamp(-140px,7vw,140px); top: clamp(-1041px,52.5vw,1041px)}
+#section-1 .square.b {right: clamp(-20px,-1vw,20px); top: clamp(-4px,-0.2vw,4px)}
+#section-1 .square.a {right: clamp(-120px,6vw,120px); top: clamp(-80px,4vw,80px)}
+
+#section-2 {position: relative; color: #FFF}
+#section-2 .bg {width: 100%;}
+#section-2 .logo {top: clamp(-300px,15vw,300px); left: 0; position: absolute; width: clamp(-400px,20vw,400px)}
+#section-2 .container {margin-left: clamp(-200px,10vw,200px); margin-right: clamp(-200px,10vw,200px); width: clamp(-1600px,80vw,1600px); max-width: none}
+#section-2 .text-1 h2 {font-family: telegraf bold; font-size: clamp(-160px,8vw,160px); line-height: 1; letter-spacing: clamp(-6px,0.3vw,6px); background: url(https://colossal.com/wp-content/themes/colossal/img/labs/section-2-h2.png); background-size: 100% 100%; padding: clamp(-1px,0.5vw,10px) clamp(-120px,6vw,120px) 0; margin-left: clamp(-120px,-6vw,120px); display: inline-block; color: #2a3137}
+#section-2 .text-1 {position: absolute; left: 0; top: clamp(-400px,20vw,400px);}
+#section-2 .text-1 p {max-width: 70%}
+
+#section-2 .stats-1 {position: absolute; top: clamp(-900px,45vw,900px); width: 100%}
+#section-2 .stats-1 .num {font-size: clamp(-240px,12vw,240px); font-weight: 100; font-family: 'NB Architekt Light';}
+#section-2 .stats-1 h3 {line-height: 1.5; white-space: nowrap;}
+#section-2 .stats-1 img {max-width: clamp(-60px,3vw,60px)}
+#section-2 .stats-1 .pl-5 {padding-left: clamp(-100px,5vw,100px) !important}
+
+#section-2 .location-markers {position: absolute; top: clamp(-1660px,83vw,1660px); width: 88%; left: 16%}
+
+#section-2 .stats-2 {position: absolute; top: clamp(-2280px,114vw,2280px); left: 40%; width: 60%; white-space: nowrap;}
+#section-2 .stats-2 h2 {font-size: clamp(-100px,5vw,100px); font-family: 'NB Architekt Light';}
+#section-2 .stats-2 h5 {font-size: clamp(-30px,1.5vw,30px)}
+#section-2 .stats-2 .second {padding-left: clamp(-68px,3.4vw,68px)}
+#section-2 .stats-2 .third {padding-left: clamp(-120px,6vw,120px)}
+
+#section-3 .green {color: #71c528;}
+#section-3 .container {margin-left: clamp(-200px,10vw,200px); margin-right: clamp(-200px,10vw,200px); width: clamp(-1600px,80vw,1600px); max-width: none}
+#section-3 {background: #181c1f; position: relative;}
+#section-3 .lab {color: #FFF; margin-bottom: clamp(-240px,12vw,240px)}
+#section-3 .lab-img {margin-bottom: clamp(-20px,1vw,20px)}
+#section-3 .line {border-color: #2c333a; margin: clamp(-20px,1vw,20px) 0}
+#section-3 h4 {font-size: clamp(-20px,1vw,20px)}
+#section-3 h5 {margin-bottom: 0; font-size: clamp(-16px,0.8vw,16px); line-height: 2}
+#section-3 .tag {padding: 0 clamp(-10px,0.5vw,10px); color: #000; text-transform: uppercase; font-size: clamp(-16px,0.8vw,16px)}
+#section-3 .tag.green {background: #5fa326; text-align: center;}
+#section-3 .tag.orange {background: #cc7b31; text-align: center;}
+#section-3 .tag.purple {background: #7a56c2; text-align: center;}
+#section-3 h4.orange {color: #cc7b31}
+#section-3 h4.purple {color: #7b56c2}
+
+
+
+
+#section-3 .left {padding-right: clamp(-30px,1.5vw,30px)}
+#section-3 .right {padding-left: clamp(-30px,1.5vw,30px)}
+#section-3 .icon {}
+
+#section-3 .line-2 {position: absolute; top: clamp(-800px,40vw,800px); left: 50%; width: clamp(-160px,8vw,160px); margin-left: clamp(-80px,-4vw,80px)}
+#section-3 .line-3 {position: absolute; top: clamp(-1860px,93vw,1860px); width: clamp(-840px,42vw,840px); right: clamp(-220px,11vw,220px);}
+
+#section-3 .square.a {top: clamp(-10px,0.5vw,10px); left: clamp(-100px,-5vw,100px)}
+#section-3 .plus.a {op: clamp(-10px,0.5vw,10px); right: clamp(-100px,-5vw,100px)}
+#section-3 .plus.b {top: clamp(-1000px,50vw,1000px); left: clamp(-100px,-5vw,100px)}
+#section-3 .square.b {top: clamp(-1000px,50vw,1000px); right: clamp(-100px,-5vw,100px)}
+#section-3 .plus.c {top: clamp(-2010px,100.5vw,2010px); right: clamp(-100px,-5vw,100px)}
+
+
+
+
+
+#section-4 {position: relative;} 
+#section-4 .container {margin-left: clamp(-200px,10vw,200px); margin-right: clamp(-200px,10vw,200px); width: clamp(-1600px,80vw,1600px); max-width: none}
+#section-4 .text {position: absolute; color: #FFF; top: 3vw}
+#section-4 h2 {color: #e31aa8}
+#section-4 p {max-width: 60%}
+#section-4 .logos {position: absolute; top: clamp(-440px,22vw,440px); width: 105%; margin-left: -3.5%}
+#section-4 .logos img {max-height: clamp(-240px,12vw,240px); display: block; margin: 0 auto; max-width: clamp(-280px,14vw,280px)}
+#section-4 .logos .col-md-3 {margin-bottom: clamp(-200px,10vw,200px)}
+
+
+
+
+
+
+#section-5 {position: relative;} 
+#section-5 .container {margin-left: clamp(-200px,10vw,200px); margin-right: clamp(-200px,10vw,200px); width: clamp(-1600px,80vw,1600px); max-width: none}
+#section-5 .top {position: absolute; top: clamp(-20px,-1vw,20px); width: 100%;}
+
+#section-5 .text {position: absolute; top: clamp(-240px,12vw,240px)}
+#section-5 .slashes {width: clamp(-200px,10vw,200px)}
+#section-5 h2 {font-size: clamp(-200px,10vw,200px); line-height: 0.9}
+#section-5 h2 small {font-size: clamp(-120px,6vw,120px)}
+#section-5 p.medium {font-size: clamp(-24px,1.2vw,24px); max-width: 52%}
+
+#section-5 .divisions {position: absolute; top: clamp(-1040px,49vw,980px)}
+#section-5 .divisions .division {padding:0 clamp(-120px,6vw,120px); position: relative; margin-bottom: clamp(-180px,5vw,100px); margin-left: clamp(-20px,1vw,20px)}
+#section-5 .divisions .division img {width: clamp(-60px,3vw,60px); position: absolute; left: 0;}
+#section-5 .divisions .division .line {border-bottom: 1px solid #d260ff; width: 70%; margin: clamp(-30px,1.5vw,30px) 0 clamp(-40px,2vw,40px)}
+#section-5 .divisions .division .line .inner {width: 30%; border-bottom: 2px solid #d260ff}
+#section-5 .divisions .division .line.blue,
+#section-5 .divisions .division .line.blue .inner {border-color: #148bff}
+#section-5 .divisions .division .line.red,
+#section-5 .divisions .division .line.red .inner {border-color: #ad164c}
+#section-5 .divisions .division .line.orange,
+#section-5 .divisions .division .line.orange .inner {border-color: #f99136}
+#section-5 .divisions .division .line.green,
+#section-5 .divisions .division .line.green .inner {border-color: #79c735}
+#section-5 .divisions .division .line.brown,
+#section-5 .divisions .division .line.brown .inner {border-color: #644700}
+#section-5 .divisions .division .line.black,
+#section-5 .divisions .division .line.black .inner {border-color: #000}
+
+#section-6 {position: relative;}
+#section-6 .container {margin-left: clamp(-200px,10vw,200px); margin-right: clamp(-200px,10vw,200px); width: clamp(-1600px,80vw,1600px); max-width: none}
+#section-6 .box {position: absolute; left: 0; }
+#section-6 .text {position: absolute; width: 50%; left: 50%; top: clamp(-500px,25vw,500px)}
+#section-6 .text h3 {font-size: clamp(-60px,3vw,60px)}
+#section-6 p {font-size: clamp(-28px,1.4vw,28px); line-height: 1.7}
+
+
+
+
+.division-panel {position: relative;} 
+.division-panel .container {margin-left: clamp(-200px,10vw,200px); margin-right: clamp(-200px,10vw,200px); width: clamp(-1600px,80vw,1600px); max-width: none}
+.division-panel .tag {position: absolute; top: clamp(-140px,7vw,140px)}
+.division-panel .text {position: absolute; width: 55%; left: 43%; top: clamp(-420px,21vw,420px)}
+.division-panel .text h2 img {width: clamp(-160px,8vw,160px); position: absolute; left: 50%; top: clamp(-60px,-3vw,60px)}
+.division-panel h2 {position: relative; font-size: clamp(-110px,5.5vw,110px);}
+.division-panel .slashes {width: clamp(-200px,10vw,200px)}
+.division-panel h2 small {font-size: clamp(-48px,2.4vw,48px); text-transform: uppercase;}
+.division-panel .bottom {position: absolute; top: clamp(-2120px,106vw,2120px); left: 0}
+.division-panel .box {position: absolute; top: clamp(-2300px,115vw,2300px); right:clamp(-100px, -5vw,100px); padding: 0;}
+.division-panel .box .left {display: inline-block; padding: clamp(-4px,0.2vw,4px) clamp(-30px,1.5vw,30px);}
+.division-panel .box .right {display: inline-block; padding: clamp(-4px,0.2vw,4px)  clamp(-30px,1.5vw,30px); background: #000; color: #d35aff}
+.division-panel p.medium {color: #3ce986}
+.division-panel p {line-height: 1.6}
+.division-panel ul {padding: 0; margin: 0; line-height: 1.6}
+.division-panel li {margin-bottom: clamp(-40px,2vw,40px); color: #3ce986; padding-left: 3%;}
+.division-panel li span {color: rgb(33, 37, 41)}
+.division-panel .img-1 {position: absolute; width: 35%; top: clamp(-1100px,55vw,1100px); left: -4%}
+
+
+.division-panel.left .text {left: 0}
+.division-panel.left .tag {position: absolute; top: clamp(-140px,7vw,140px); right: 0; font-family: 'NB Architekt Std';}
+.division-panel.left .img-1 {left: auto; right: clamp(-64px,-3.2vw,64px); top: clamp(-1100px,55vw,1100px)}
+.division-panel.left .bottom {left: auto; right: 0; top: clamp(-2160px,108vw,2160px)}
+.division-panel.left .box {left: clamp(-100px,-5vw,100px); right: auto}
+
+
+
+.video-panel {position: relative;}
+.video-panel .container {margin-left: clamp(-160px,8vw,160px); margin-right: clamp(-160px,8vw,160px); width: clamp(-1680px,84vw,1680px); max-width: none}
+.video-panel .title {position: absolute; top: clamp(-100px,5vw,100px)}
+.video-panel .text {position: absolute; width: 30%; left: 68%; top: clamp(-100px,5vw,100px);}
+.video-panel .line {margin: clamp(-40px,2vw,40px) 0; width: 30%; border-color: #3abe7a}
+.video-panel ul {padding: 0; margin: 0; line-height: 1.6}
+.video-panel li {margin-bottom: clamp(-40px,2vw,40px); color: #3ce986; padding-left: 3%;}
+.video-panel li span {color: rgb(33, 37, 41)}
+.video-panel li span a {color: #000; text-decoration: underline;}
+.video-panel .big-button {position: absolute; top: clamp(-640px,32vw,640px); right: clamp(-140px,7vw,140px); background: #7f4fdb; border: none; color: #FFF}
+.video-panel .big-button:hover {background: #000}
+.video-panel .play {position: absolute; width: 63%; height: clamp(-600px,30vw,600px); background: #000; top: clamp(-180px,9vw,180px); opacity: 0}
+
+
+#section-9.division-panel p.medium {color: #6b1dff}
+#section-9.division-panel li {color: #6b1dff}
+#section-9.division-panel .box {top: clamp(-3100px,155vw,3100px)}
+#section-9.division-panel .box .right {color: #f88d36}
+#section-9.division-panel .text h2 img {top: clamp(-80px,-4vw,80px); left: 40%}
+#section-9.division-panel .mid {top: clamp(-2300px,115vw,2300px); position: absolute; width: 100%;}
+#section-9.division-panel .mid img {height: clamp(-600px,30vw,600px); object-fit: cover}
+#section-9.division-panel .mid-1 {max-width: 130%; width: 120%; margin-left: -30%}
+#section-9.division-panel .mid-2 {width: 80%;}
+#section-9.division-panel .mid-3 {width: 118%; max-width: 120%}
+#section-9.division-panel.left .bottom {top:clamp(-3040px, 152vw,3040px)}
+
+#section-10 ul li span {color: #FFF}
+#section-10 ul li span a {color: #FFF;}
+#section-10 .big-button {background: #e76922; right: clamp(-150px,7vw,150px)}
+#section-10 .big-button:hover {background: #000}
+#section-10 #lower {background: #6b1dff; margin-top: 0; position: relative;}
+#section-10 #lower .lines {position: absolute; left: 0; top: clamp(-140px,-7vw,140px); max-width: 104%}
+#section-10 #lower .row img {height: clamp(-580px,29vw,580px); object-fit: cover; object-position: top right;}
+#section-10 .mid-1 {max-width: 100%; width: 120%; margin-left: -10%}
+#section-10 .mid-2 {width: 80%;}
+
+
+#section-11 {position: relative; color: #FFF;}
+#section-11 .bg {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+#section-11 h2 {font-size: clamp(-150px,7.5vw,150px); margin-top: clamp(-60px,-3vw,60px)}
+#section-11 .module {padding-left: clamp(-90px,4.5vw,90px); position: relative;}
+#section-11 .square.a {right: 0}
+#section-11 .line .square {left: clamp(-50px,-2.5vw,50px)}
+#section-11 .slashes {width: 60%}
+#section-11 .module {margin-bottom: clamp(-200px,10vw,200px)}
+#section-11 .module .disc {position: absolute; left: 0;}
+#section-11 .module .line {margin: clamp(-50px,2.5vw,50px) 0; width: 70%}
+#section-11 .module .line .inner {width: 30%; height: clamp(-2px,0.1vw,2px); background: #FFF;}
+#section-11 .module p.medium {color: #FFF; max-width: 100%}
+#section-11 .module p {color: #a9a9a9;}
+#section-11 .lime {border-color: #c3e702;}
+#section-11 .dot.lime,
+#section-11 .lime .inner {background: #c3e702 !important}
+#section-11 .orange {border-color: #ff7300;}
+#section-11 .dot.orange,
+#section-11 .orange .inner {background: #ff7300 !important}
+#section-11 .green .inner {background: #91ec0e !important}
+#section-11 .darkgreen {border-color: #37a768;}
+#section-11 .dot.darkgreen,
+#section-11 .darkgreen .inner {background: #37a768 !important}
+#section-11 .blue {border-color: #61afff;}
+#section-11 .dot.blue,
+#section-11 .blue .inner {background: #61afff !important}
+#section-11 .big-button {border: 1px solid #FFF; color: #FFF; text-align: left}
+
+#section-12.division-panel {color: #FFF;}
+#section-12.division-panel .text {top: clamp(-320px,16vw,320px)}
+#section-12.division-panel .text .tag {position: absolute; left: 50%; top: clamp(-240px,12vw,240px)}
+#section-12.division-panel h2 small {color: #c3e801}
+#section-12.division-panel .text h2 img {top: clamp(-80px,-4vw,80px)}
+
+#section-12.division-panel p.medium {color: #c3e801}
+#section-12.division-panel p.medium-small {color: #c3e801; font-size:clamp(-28px, 1.4vw,28px)}
+#section-12.division-panel .img-1 {top: clamp(-800px,40vw,800px)}
+#section-12.division-panel .lower {position: absolute; top: clamp(-1760px,88vw,1760px)}
+#section-12.division-panel .bottom {top: clamp(-2620px,131vw,2620px)}
+#section-12.division-panel .box {top: clamp(-2800px,140vw,2800px); border-color: #b7e201; color: #b7e201}
+#section-12.division-panel .box .right {background: #b7e201; color: #004696}
+#section-12.division-panel ul span {color: #FFF}
+#section-12.division-panel ul li {margin-bottom: clamp(-20px,1vw,20px)}
+#section-12.division-panel li {color: #c2e802}
+
+
+
+#section-13 {position: relative;}
+#section-13 .text {position: absolute; color: #FFF; width: 40%; left: 45%; top: clamp(-300px,15vw,300px)}
+#section-13 h3 {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #c3e801; font-size: clamp(-50px,2.5vw,50px);}
+#section-13 .button {position: absolute; top: clamp(-800px,40vw,800px); width: clamp(-3800px,19vw,3800px); right: 20%}
+#section-13 .button:hover {transform:scale(1.1) }
+#section-13 .line {width: 30%; margin: clamp(-40px,2vw,40px) 0; border-color: #bae402}
+#section-13 ul {color: #bae402; }
+#section-13 ul span {color: #FFF;}
+#section-13 ul li {margin-bottom: clamp(-20px,1vw,20px)}
+
+
+
+#section-14.division-panel p.medium {color: #6b1dff}
+#section-14.division-panel li {color: #6b1dff}
+#section-14.division-panel .box .right {color: #77c435}
+#section-14.division-panel.left .bottom {top: clamp(-2222px,111vw,2222px)}
+#section-14.division-panel .text h2 img {top: clamp(-80px,-4vw,80px); left: 40%}
+#section-14.division-panel .box {top: clamp(-2340px,117vw,2340px)}
+
+
+
+
+
+#section-15.video-panel li {color: #a46ce9}
+#section-15.video-panel li span a {color: #FFF; text-decoration: underline;}
+#section-15.video-panel .line {border-bottom-color: #a46ce9}
+#section-15.video-panel .big-button {background: #c2e702; color: #222; right: clamp(-140px,7vw,140px)}
+#section-15.video-panel .big-button:hover {background: #64ae16}
+#section-15.video-panel .big-button .plus {color: #222}
+#section-15.video-panel #play-3 {top: 4vw; left:1%; width: 30%; height: 44vw; background: red; z-index: 100; opacity: 0}
+#section-15.video-panel #play-4 {top: 4vw; left:34%; width: 30%; height: 44vw; background: red; z-index: 100; opacity: 0}
+#section-15.video-panel .title {top: clamp(-80px,4vw,80px); left: clamp(-40px,2vw,40px)}
+
+
+
+
+#section-16 {position: relative;}
+#section-16 .container {margin-left: clamp(-200px,10vw,200px); margin-right: clamp(-200px,10vw,200px); width: clamp(-1600px,80vw,1600px); max-width: none}
+#section-16 .box {position: absolute; left: 75%; top: clamp(-1160px,58vw,1160px)}
+#section-16 .text {position: absolute; width: 50%; left: -1.5%; top: clamp(-500px,25vw,500px)}
+#section-16 .text h3 {font-size: clamp(-130px,6.5vw,130px)}
+#section-16 p {font-size: clamp(-28px,1.4vw,28px); line-height: 1.7}
+#section-16 .line {border-color: #a5a5b1}
+
+
+
+
+#section-17 {position: relative; color: #FFF}
+#section-17 .container {margin-left: clamp(-200px,10vw,200px); margin-right: clamp(-200px,10vw,200px); width: clamp(-1600px,80vw,1600px); max-width: none}
+#section-17 .box {position: absolute; top: 127vw; border-color: #f99136; color: #f99136}
+#section-17 .box .right {background: #f99136; color: #a70440}
+#section-17 .text {position: absolute; width: 50%; left: 43.5%; top: clamp(-440px,22vw,440px)}
+#section-17 .tag {top: clamp(-260px,13vw,260px)}
+#section-17 .text h3 {font-size: clamp(-60px,3vw,60px)}
+#section-17 p {font-size: clamp(-18px,0.9vw,18px); line-height: 1.6; margin-bottom: clamp(-40px,2vw,40px)}
+#section-17.division-panel p.medium {color: #f99136; font-size: clamp(-32px,1.6vw,32px)}
+#section-17.division-panel p.medium-small {color: #f99136; font-size: clamp(-26px,1.3vw,26px)}
+#section-17.division-panel li {margin-bottom: clamp(-20px,1vw,20px); color: #f99136;}
+#section-17.division-panel li span {color: #FFF; font-size: clamp(-18px,0.9vw,18px)}
+#section-17.division-panel .bottom {top: clamp(-2340px,117vw,2340px)}
+#section-17.division-panel h2 small {color: #f99136;}
+#section-17.division-panel .img-1 {left: -0.5%; top: clamp(-1200px,60vw,1200px)}
+#section-17.division-panel .img-2 {position: absolute; top: clamp(-1960px,98vw,1960px); width: clamp(-280px,14vw,280px); left: 7.5%}
+#section-17.division-panel .img-3 {position: absolute; top: clamp(-1960px,98vw,1960px); width: clamp(-300px,15vw,300px); right: -1.5%}
+
+
+
+
+#section-18.video-panel li {color: #ffc500}
+#section-18.video-panel li span a {color: #222; text-decoration: underline;}
+#section-18.video-panel .line {color: #fec401; border-bottom-color: #fec401}
+#section-18.video-panel .big-button {background: #a90a78; color: #FFF}
+#section-18.video-panel .big-button:hover {background: #000; color: #FFF;}
+#section-18.video-panel .big-button .plus {color: #FFF}
+#section-18.video-panel .play {opacity: 0; background: red; width: clamp(-1500px,75vw,1500px); height: clamp(-8040px,42vw,8040px)}
+
+
+#section-19 {color: #FFF}
+#section-19.division-panel.left .text {top: clamp(-240px,12vw,240px)}
+#section-19.division-panel h2 small {color: #71c528}
+#section-19.division-panel p.medium {color: #71c528}
+#section-19.division-panel p.medium-small {color: #FFF; font-size: clamp(-26px,1.3vw,26px); margin-bottom: clamp(-4px,0.2vw,4px)}
+#section-19.division-panel li {color: #6b1dff}
+#section-19.division-panel .box {border-color: #71c528; color: #71c528; top: clamp(-2760px,138vw,2760px)}
+#section-19.division-panel .box .right {color: #644700; background: #71c528}
+#section-19.division-panel.left .bottom {top: clamp(-2660px,133vw,2660px)}
+#section-19.division-panel .text h2 img {left: 38%; top: clamp(-74px,-3.7vw,74px)}
+#section-19.division-panel .lower {position: absolute; top: clamp(-2200px,110vw,2200px)}
+#section-19.division-panel .lower li {margin-bottom: clamp(-20px,1vw,20px); color: #70c429}
+#section-19.division-panel .lower li a {color: #FFF; text-decoration: underline;}
+#section-19.division-panel .lower ul {column-count: 2; width: 80%; column-gap: 60px}
+#section-19.division-panel.left .img-1 {top: clamp(-940px,47vw,940px) !important}
+
+
+
+#section-21 .multimedia {position: relative;}
+#section-21 .multimedia .text {position: absolute; top: 0; left: clamp(-160px,8vw,160px); top: clamp(-300px,15vw,300px)}
+#section-21 .multimedia .text h2 small {font-size: clamp(-80px,4vw,80px)}
+#section-21 .multimedia .text h2 {font-size: clamp(-240px,12vw,240px); font-family: Telegraf; line-height: 0.8; }
+#section-21 .multimedia .text h2 span {color: #FFF}
+#section-21 .multimedia .text .slashes {max-width: 15%}
+#section-21 .multimedia .box {position: absolute; top: clamp(-100px,5vw,100px); left: clamp(-160px,8vw,160px)}
+#section-21 .multimedia.multi-5 {padding-bottom: clamp(-300px,15vw,300px)}
+
+#section-21 .multimedia.multi-6 .video-element-1 {position: absolute; top: clamp(-200px,-10vw,200px); left: 0; width: 100%; max-width: clamp(-1600px,80vw,1600px); left: clamp(-200px,10vw,200px); height: clamp(-500px,25vw,500px); object-fit: cover; border-radius: 2000px; overflow: hidden;}
+#section-21 .multimedia.multi-6 .video-element-2 {position: absolute; top: clamp(-3700px,185vw,3700px); left: 0; width: 100%; max-width: clamp(-1600px,80vw,1600px); left: clamp(-200px,10vw,200px); height: clamp(-500px,25vw,500px); object-fit: cover; border-radius: 2000px; overflow: hidden;}
+
+#section-21 .multimedia .title {position: absolute; top: clamp(-152px,7.6vw,152px); left: clamp(-172px,8.6vw,172px); font-size: clamp(-84px,4.2vw,84px); font-family: telegraf bold;}
+#section-21 .multimedia .title span {font-family: 'NB Architekt Std'; padding-left: clamp(-60px,3vw,60px)}
+#section-21 .multimedia.multi-4 .title {left: auto; right: clamp(-172px,8.6vw,172px)}
+#section-21 .multimedia.multi-5 .title {top: clamp(-110px,5.5vw,110px)}
+
+#section-21 .multimedia.multi-7 .text {position: absolute; top: clamp(-200px,10vw,200px); left: clamp(-800px,40vw,800px); font-family: telegraf bold; font-size: clamp(-100px,5vw,100px)}
+#section-21 .multimedia.multi-7 .text p {font-size: clamp(-80px,4vw,80px)}
+#section-21 .multimedia.multi-7 .text p span {color: #70c528}
+#section-21 .multimedia.multi-7 .big-button {position: absolute; top: clamp(-482px,24.5vw,482px); right: clamp(-160px,8vw,160px); background: #7f4fdb; color: #FFF; border: none;}
+#section-21 .multimedia.multi-7 .big-button:hover {background: #000}
+#section-21 .multimedia.multi-7 .accolades {position: absolute; top: clamp(-490px,24.5vw,490px); left: clamp(-700px,35vw,700px); width: 50%;}
+#section-21 .multimedia.multi-7 .accolades img {max-width: 13%; max-height: clamp(-80px,4vw,80px); margin: 0 4% 0 0}
+#section-21 .multimedia.multi-7 .accolades div {margin-bottom: clamp(-30px,1.5vw,30px)}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+	.box {font-size: 2vw;}
+
+	p.medium {font-size: 3vw;}
+
+	.section-header .arkitect {font-size: 1vw;}
+
+	.arkitect {font-size: 2vw;}
+
+	p {margin-bottom: 1.5rem; font-size: 3vw; text-align: left;}
+	p.medium {font-size: 4vw}
+	p.large {font-size: 7vw;}
+
+	h4 {font-size: 4vw;}
+
+	ul {padding-left: 3vw; margin-bottom: 10vw;}
+	ul li {font-size: 3vw;}
+
+	#hero-img {height: 32vh; width: 76vw; right: 13vw; object-fit: cover; bottom: -20vw;}
+	#hero {overflow: hidden;}
+	#hero .dna .dna-3 {animation-name: none}
+	#hero .plus.a {display: none}
+	#hero .intro {top: 55vh;}
+	#hero .bg {object-position: right top;}
+	#hero h1 {line-height: 1; font-size: 12.5vw;}
+	/*#hero .line {margin-top: 10vw;}*/
+	#hero .slashes {display: none;}
+	#hero h3 {font-size: 4vw; max-width: 70vw;}
+	#hero h3 br {display: none;}
+	#hero p {max-width: 100%; font-size: 3vw;}
+	#hero .inside h1 {font-size: 11vw}
+	
+	#hero .text.a {top: 45%; font-size: 3vw;}
+	#hero .text.b {font-size: 3vw;}
+
+	#hero .line {top: 45%; width: 84%; left: 8vw;}
+	#hero .lower { left: 3vw; top: 35vh; }
+	#hero .arkitect {font-size: 2vw; text-align: left;}
+	#hero .square {top: 30vw}
+
+	#section-0.division-panel.left .img-1 {top: -3vw; left: -7vw}
+	#section-0.division-panel .bg {width: 305%; display: none}
+	#section-0.division-panel {background: #5e60ea; padding-bottom: 10vw}
+	#section-0 .cluster {width: 15vw; bottom: -10vw; left: 50vw; position: absolute !important;}
+	#section-0 .bot {width: 100%}
+
+	#section-1 {padding-bottom: 10vw; padding-top: 15vw}
+	#section-1 .plus-b {top: 9vw}
+	#section-1 .square.b {display: none}
+	#section-1 .aus {width: 70vw; margin-top: -55vw}
+	#section-1 .line {margin-bottom: 5vw}
+	#section-1 .slashes-2 {width: 20%}
+	#section-1 .plus-a {display: none}
+	#section-1 .slashes {width: 100%}
+	#section-1 .img-1 {width: 60%; position: absolute; right: -25vw}
+	#section-1 .lower {margin-top: 5vw}
+	#section-1 .img-3 {margin-top: -10vw}
+	#section-1 .arkitect {white-space: normal;}
+	#section-1 h2 {font-size: 13vw}
+	#section-1 h2 small {display: block; font-size: 5vw; margin: 3vw 0}
+	#section-1 .img-2 {width: 35vw; right: -10vw}
+	#section-1 h3 {font-size: 4vw; width: 60%; line-height: 1.3}
+	#section-1 li,
+	#section-1 p {font-size: 3vw; width: 100%; max-width: 100%}
+	#section-1 br {display: none}
+	#section-1 ul {margin-bottom: 6vw}
+	#section-1 .line {max-width: 60%}
+
+
+	#section-2 {background: #1f2428; padding-bottom: 10vw}
+	#section-2 * {position: static !important}
+	#section-2 .logo {display: none}
+	#section-2 .container {position: relative !important;}
+	#section-2 .bg {position: absolute !important; top: 0; left: -200%; height: 150%; width: 810%; object-fit: cover; max-width: none; }
+	#section-2 .text-1 h2 {margin-top: 10vw}
+	#section-2 .text-1 p {max-width: none;}
+	#section-2 .stats-1 .num {font-size: 28vw; margin-top: 15vw; margin-bottom: -3vw;}
+	#section-2 .location-markers {display: none}
+	#section-2 .stats-1 img {max-width: 100%}
+	#section-2 .stats-1 h3 {font-size: 4vw; margin-bottom: 0;}
+
+	#section-2 .stats-2 {padding-top: 10vw}
+	#section-2 .stats-2 h2 {font-size: 14vw; margin-bottom: -4vw; margin-top: 10vw}
+
+	#section-3 .container {margin-left: 2vw; margin-right: 2vw; width: auto}
+	#section-3 {border-top: 2px solid #242b31; padding-top: 10vw}
+	#section-3 h3 {font-size: 5vw}
+	#section-3 h4 {font-size: 3vw}
+	#section-3 h5 {font-size: 3vw; padding: 3vw 0}
+	#section-3 .line-3 {display: none;}
+	#section-3 p {margin-top: 5vw}
+	#section-3 .lab {margin-bottom: 25vw}
+	#section-3 .lab-img {margin-bottom: 3vw}
+	#section-3 .logo-disk {width: 120%; max-width: 150%; position: relative; top: -0.5vw}
+
+	#section-4 {background: #1d2226}
+	#section-4 .container {margin-left: 2vw; margin-right: 2vw; width: auto}
+	#section-4 h2 {font-size: 6vw}
+	#section-4 {border-top: 2px solid #242b31; padding-top: 5vw}
+	#section-4 .bg {position: absolute; top: 0; left: -200%; width: 505%; max-width: none; display: none}
+	#section-4 .text {position: static;}
+	#section-4 .logos {position: static;}
+	#section-4 p {max-width: 100%}
+	#section-4 .logos img {max-height: 30vw; max-width: 40vw; margin-bottom: 5vw}
+
+	#section-5 {padding-top: 10vw}
+	#section-5 .container {margin-left: 2vw; margin-right: 2vw; width: auto}
+	#section-5 * {position: static !important}
+	#section-5 .container {position: relative !important;}
+	#section-5 .bg {position: absolute !important; top: 0; right: 0; height: auto; width: 110%; object-fit: cover; object-position: top right; max-width: none; display: none}
+	#section-5 h2 {font-size: 14vw}
+	#section-5 .slashes {width: 25vw; margin-top: 10vw}
+	#section-5 p.medium {max-width: 80%; font-size: 3vw}
+	#section-5 .divisions .division img {width: 8vw; margin-bottom: 4vw}
+	#section-5 .division p.medium {font-size: 5vw; margin-bottom: 3vw}
+	#section-5 .divisions .division {margin-bottom: 15vw}
+
+
+	#section-6 {padding-bottom:75vw; background: #e9e9eb}
+	#section-6 .bg {height: 58vw; width: 100%; object-fit: cover; object-position: center top}
+	#section-6 .box {top: -5vw; right: -2vw; left: auto}
+	#section-6 .text h3 {font-size: 4.5vw; margin-bottom: 25vw}
+	#section-6 p {font-size: 3vw; margin-top: 3vw; width: 200%; margin-left: -100%; margin-top: 20vw; margin-top: 0}
+	#section-6 p.grey {max-width: 150%}
+	#section-6 br {display: none}
+
+	.division-panel {padding: 10vw 0 4vw}
+	.division-panel * {position: static !important;}
+	.division-panel .bg {position: absolute !important; top: 0; left: -100%; height: 120%; width: 250%; object-fit: cover; max-width: none}
+	.division-panel .container {position: relative !important; z-index: 100; margin-left: 0; margin-right: 0; width: auto}
+	.division-panel .text {width: 100%;}
+	.division-panel .tag {font-size: 2vw; position: absolute !important; right: 5vw}
+	.division-panel h2 {padding-left: 48%; font-size: 8vw; position: relative !important; margin-top: 30vw}
+	.division-panel h2 small {font-size: 5vw}
+	.division-panel .text h2 img {position: absolute !important; left: 85%; width: 10vw}
+	.division-panel .slashes {display: none;}
+	.division-panel  .spacer-xl {height: 20vw}
+	.division-panel .spacer-lg {height: 5vw}
+	.division-panel.left .img-1,
+	.division-panel .img-1 {position: absolute !important; top: 0; width: 50%; left: -8.5vw}
+	.division-panel ul {margin-left: 5vw;}
+	.division-panel p.medium {font-size: 5vw; margin-bottom: 2vw}
+	.division-panel .bottom {margin-left: 4vw}
+	.division-panel .box {margin-left: 4vw}
+	.division-panel .bottom h2 {margin-top: 10vw; text-align: left; padding: 0}
+
+	.video-panel {background: #37a767; padding-bottom: 75vw}
+	.video-panel .bg {height: 80vw; max-width: none; width: 110%; object-fit: cover; object-position: left top; margin-left: -5%}
+	.video-panel .text {width: 100%; left: 0; top: 80vw}
+	.video-panel .big-button {top: 135vw; left: 0; right: auto;}
+	.video-panel .play {background: red; opacity: 0; top: 15vw; width: 100%; height: 50vw}
+	.video-panel p.medium {font-size: 5vw}
+	.video-panel .title {left: 0;}
+
+	#section-7 {background: linear-gradient(135deg, #800e9a, #8e1daa, #9b2aba, #a936cb, #b741dc, #c54ded, #d358ff);}
+	#section-7 .bg {display: none}
+	#section-7.division-panel h2 {padding-left: 52%}
+	#section-7.division-panel .text h2 img {left: 90%}
+	#section-7.division-panel .bottom h2 {padding-left: 0}
+
+	#section-9.division-panel {background: linear-gradient(135deg, #fa993d, #f98f3c, #f7853c, #f57a3c, #f3703d, #f0653e, #ed5a40);}
+	#section-9.division-panel .img-1 {position: absolute !important; top: 0; width: 45%; left: 0vw}
+	#section-9.division-panel .text h2 {font-size: 6vw; padding-left: 50%; margin-bottom: 17vw}
+	#section-9.division-panel .text h2 img {left: 90%}
+	#section-9.division-panel .bg {width: 430%; display: none}
+	#section-9.division-panel.left .tag {right: 5vw}
+	#section-9.division-panel .spacer-xl {display: none}
+	#section-9.division-panel p br {display: none}
+	#section-9.division-panel.left .bottom {padding-left: 40%}
+	#section-9.division-panel.left .box {right: 0}
+	#section-9.division-panel .mid img {width: 100% !important; margin: 0 !important; height: 70vw}
+	#section-9.division-panel .mid img.mid-2 {height: 40vw}
+	#section-9.division-panel .mid img.mid-3 {height: 40vw}
+	#section-9.division-panel .bottom {left: 0; padding-left: 0 !important}
+
+
+	#section-10.video-panel {background: #6b1dfe; padding-bottom: 0}
+	#section-10 .big-button {top: 145vw}
+	#section-10 #lower {margin-top: 85vw}
+	#section-10 #lower .mid-1 {height: 60vw !important; width: 120%; max-width: 120%; margin-left: -20%}
+	#section-10 #lower .mid-2 {height: 40vw !important; width: 100%}
+	#section-10 #lower .mid-3 {width: 100%; height: 60vw !important; margin: 5vw }
+
+	#section-11 {padding-bottom: 6vw}
+	#section-11 .container-fluid.narrow {padding-left: 4vw; padding-right: 4vw}
+	#section-11 .square {display: none;}
+	#section-11 .module {padding-left: 15vw; padding-right: 2vw}
+	#section-11 .bg {height: 120%; width: auto; object-fit: cover;}
+	#section-11 .arkitect {}
+
+	#section-12.division-panel {overflow: hidden; background: linear-gradient(135deg, #0176ff, #026ef0, #0267e1, #0260d3, #0158c4, #0151b6, #004aa8);}
+	#section-12.division-panel .bg {top: -10vw; display: none}
+	#section-12.division-panel .img-1 {top: 0}
+	#section-12.division-panel .text h2 {font-size: 6.5vw; padding-left: 52%; margin-bottom: 17vw}
+	#section-12.division-panel h2 small {font-size: 4vw}
+	#section-12.division-panel .text h2 img {top: -7vw; left: 90%}
+	#section-12.division-panel p.medium-small {font-size: 4vw}
+
+
+	#section-13 {width: 200%; max-width: none; padding-bottom: 99vw; background: #14171a; position: relative;}
+	#section-13 .text {left: 8vw; top: 105vw}
+	#section-13 h3 {font-size: 6vw}
+	#section-13 .line {margin: 3vw 0 6vw}
+	#section-13 .button {top: 180vw; left: 7vw; right: auto; width: 52vw}
+
+	#section-14 {background: linear-gradient(120deg, #7ed233, #7dd232, #7cd130, #79cd2f, #77c82f, #73c22f, #70bb2e, #6db52e, #6ab02e, #68ac2d, #67a92d, #66a82d);}
+	#section-14.division-panel .text h2 img {left: 88%}
+	#section-14.division-panel .text h2 {padding-left: 51%}
+	#section-14.division-panel .bg {width: 450%; display: none}
+	#section-14.division-panel.left .img-1, .division-panel .img-1 {width: 48%; left: 0}
+	#section-14.division-panel .bottom h2 {margin-top: 8vw; margin-bottom: 10vw}
+
+	#section-15.video-panel {background: #681bf3; overflow: hidden;}
+	#section-15.video-panel .bg{width: 110%; height: 95vw; margin-left: -3vw; margin-top: -3vw}
+	#section-15.video-panel .title {display: none}
+	#section-15.video-panel .text {top: 100vw}
+	#section-15.video-panel .big-button {top: 150vw}
+	#section-15.video-panel .play {top: 0; opacity: 0; height: 40vw; left: 0;}
+	#section-15.video-panel #play-4 {opacity: 0; left: 60%; height: 75vw; width: 47%}
+	#section-15.video-panel #play-3 {opacity: 0; left: 5%; height: 75vw; width: 47%}
+
+	#section-16 {padding-bottom: 45vw; position: relative;}
+	#section-16 p.grey {width: 120%}
+	#section-16 .box {display: none;}
+	#section-16 p {font-size: 3vw; width: 200%}
+	#section-16 .text h3 {font-size: 10vw}
+	#section-16 .mask {width: 20vw; height: 20vw; background: #FFF; position: absolute; left: 45vw; top: 60vw}
+
+	#section-17 {background: linear-gradient(120deg, #e8236c, #e8216b, #e71b67, #e11862, #d7175d, #cb1658, #bf1553, #b4144e, #a91349, #a11245, #9b1143, #991142);}
+	#section-17 .container {position: relative !important; z-index: 100; margin-left: 0; margin-right: 0; width: auto}
+	#section-17 .text {width: 100%;}
+	#section-17 p {font-size: 3vw}
+	#section-17.division-panel h2 {margin-top: 12vw; margin-bottom: 0vw}
+	#section-17.division-panel .img-1 {top:0}
+	#section-17.division-panel p.medium-small,
+	#section-17.division-panel p.medium {font-size: 4vw}
+	#section-17.division-panel li span {font-size: 3vw}
+	#section-17 .tag {top: -15vw}
+	#section-17.division-panel .bottom h2 {margin-top: 14vw}
+	#section-17.division-panel .bg {width: 350%; left: -150%; display: none}
+	#section-17.division-panel .img-1 {left: -3%; top: 1%}
+	#section-17.division-panel .img-2 {display: none;}
+	#section-17.division-panel .img-3 {display: none}
+
+	#section-18.video-panel {background: #d24738; padding-top: 5vw; padding-bottom: 0;}
+	#section-18.video-panel .bg {height: auto; width: 103%; margin-left: 0;}
+	#section-18.video-panel .title {top: 0vw}
+	#section-18.video-panel .big-button {top: 122vw}
+	#section-18.video-panel .mask {width: 10vw; height: 5vw; position: absolute; left:25vw; bottom: 0; background: #ff8c2a}
+
+	#section-19.division-panel {overflow:hidden; background: linear-gradient(120deg, #a37312, #a27211, #9e6f10, #986b0e, #90660b, #886009, #7f5907, #644600, #644600, #644600, #644600, #644600);}
+	#section-19.division-panel h2 {padding-left: 55%}
+	#section-19.division-panel h2 small {font-size: 4vw}
+	#section-19.division-panel .text h2 img {left: 88%}
+	#section-19.division-panel .img-1 {left: 0}
+	#section-19.division-panel p.medium-small {font-size: 4vw}
+	#section-19.division-panel .bottom h2 {padding-left: 0;}
+	#section-19.division-panel .bg {width: 310%; left: -73%; top: -17vw; display: none}
+	#section-19.division-panel.left .bottom {display: none}
+	#section-19.division-panel .box {display: none}
+	#section-19.division-panel .tag {right: 5vw; left: auto;}
+	#section-19.division-panel .lower ul {column-count:1; margin-bottom: 6vw}
+	#section-19.division-panel.left .img-1 {top: 0 !important}
+	
+
+	#section-20 {display: block;}
+	#section-20 img {width: 110%; max-width: none; margin-left: -15%}
+
+
+	#section-21 {padding-top: 4vw}
+	#section-21 .multimedia .text {top: 8vw}
+	#section-21 .multimedia .text .slashes {display: none}
+	#section-21 .multimedia .text p.medium {font-size: 3.5vw; width: 55%; line-height: 1.2}
+	#section-21 .multimedia .text p.medium br {display: none}
+
+	#section-21 .multimedia.multi-7 .text {top: 8.4vw; left: 37vw}
+	#section-21 .multimedia.multi-7 .big-button {top: 21vw}
+	
+	#section-21 .multimedia.multi-7 .accolades {top: 40vw; left: 25vw; width: 90%}
+	#section-21 .multimedia.multi-7 .accolades img {max-height: 8vw}
+	#section-21 .multimedia.multi-7 .big-button {font-size: 2.5vw; right: auto; left: 25vw; top: 24vw}
+	#section-21 .multimedia.multi-7 > img {width:140%; max-width: 200%; margin-left: -23%}
+	#section-21 .multimedia.multi-7 .text {left: 25vw; top: 13vw}
+	#section-21 .multimedia.multi-7 div {font-size: 2vw}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

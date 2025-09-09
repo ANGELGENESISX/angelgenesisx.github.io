@@ -1,0 +1,2040 @@
+
+#hero {position: relative; height: auto;}
+#hero .hero-bg {width: 100%;}
+
+
+#hero .text-1 {top: clamp(-440.0px,22.0vw,440.0px); font-size: clamp(-146.0px,7.3vw,146.0px); width: 100%; left: 0;}
+#hero .text-1 div {position: absolute;}
+#hero .text-1 div:nth-child(1) {left: 0;}
+#hero .text-1 div:nth-child(2) {left: 24.8%;}
+#hero .text-1 div:nth-child(3) {right: 0;}
+
+#hero .text-2 {position: absolute; left: 10%; top:clamp(-1056.0px,52.8vw,1056.0px); color: #FFF; font-size: clamp(-34.0px,1.7vw,34.0px);}
+#hero .text-3 {left: 2%; top: clamp(-1160.0px,58.0vw,1160.0px); font-family: 'Telegraf'; text-transform: none; font-size: clamp(-20.0px,1.0vw,20.0px); letter-spacing: 0; width: 25%;}
+
+#hero .text-4 {bottom: clamp(-440.0px,22.0vw,440.0px); font-size: clamp(-300.0px,15.0vw,300.0px); color: #FFF; top: auto; font-family: 'Telegraf Bold'; text-transform: uppercase; mix-blend-mode: difference;}
+#hero .text-4 div:nth-child(1) {left: clamp(-20.0px,-1.0vw,20.0px); position: absolute;}
+#hero .text-4 div:nth-child(2) {right: clamp(-20.0px,-1.0vw,20.0px); position: absolute;}
+#hero .text-5 {font-family: 'NB Architekt Light'; bottom: clamp(-240.0px,12.0vw,240.0px); left: 44%; text-align: center; font-size: clamp(-32.0px,1.6vw,32.0px); line-height: 2;}
+
+#hero .dots {position: absolute;}
+#hero .bracket {position: absolute; top: clamp(-720.0px,36.0vw,720.0px); width: 65%; left: 6%}
+#hero .secondary {position: absolute; right:0; top: clamp(-1200.0px,60.0vw,1200.0px); z-index: 5;}
+
+#hero .big-button {background: rgba(255,107,0,0.2); color: #FFF; border: 1px solid #ff9040; font-size: clamp(-20.0px,0.85vw,20.0px); padding: clamp(-20.0px,1.0vw,20.0px) clamp(-100.0px,5.0vw,100.0px) clamp(-20.0px,1.0vw,20.0px) clamp(-40.0px,2.0vw,40.0px); margin-top: clamp(-40.0px,2.0vw,40.0px)}
+#hero .big-button .plus {top: 50%; transform: translateY(-50%); right:10% !important; color: #FFF; font-size: clamp(-26.0px,1.3vw,26.0px);}
+#hero .big-button:hover {background: #ff9040;}
+#hero .big-button:hover .plus {color: #FFF;}
+
+#section-1 .img-1 {max-width: 70%;}
+#section-1 h2 {font-family: 'Telegraf Bold'; font-size: clamp(-50.0px,2.5vw,50.0px); line-height: 1;}
+#section-1 p {font-family: 'NB Architekt Light'; font-size: clamp(-20.0px,1.0vw,20.0px); letter-spacing: clamp(-6.0px,0.3vw,6.0px); line-height: 1.9;}
+#section-1 .img-2 {position: absolute; width: 35%; margin-top: clamp(-100.0px,-5.0vw,100.0px); z-index: 4;}
+#section-1 .bg {position: absolute; bottom: 0; left: 0; width: 100%; }
+
+#section-1 .big-button {background: #ffe1cc; border: 1px solid #ff9040; font-size: clamp(-20.0px,1.0vw,20.0px); padding: clamp(-20.0px,1.0vw,20.0px) clamp(-100.0px,5.0vw,100.0px) clamp(-20.0px,1.0vw,20.0px) clamp(-40.0px,2.0vw,40.0px); margin-top: clamp(-40.0px,2.0vw,40.0px)}
+#section-1 .big-button .plus {top: 50%; transform: translateY(-50%); right:10% !important; color: #000; font-size: clamp(-26.0px,1.3vw,26.0px);}
+#section-1 .big-button:hover {background: #ff9040;}
+#section-1 .big-button:hover .plus {color: #FFF;}
+
+
+#meet-the-pack {background: #0e0e0e; color: #FFF; z-index: 5; position: relative; padding: clamp(-200.0px,10.0vw,200.0px) 0 0; overflow: hidden;}
+#meet-the-pack h2 {display: flex; justify-content: space-between; font-size: clamp(-180.0px,9.0vw,180.0px); letter-spacing: clamp(-20.0px,1.0vw,20.0px)}
+#meet-the-pack .pl {font-size: clamp(-60.0px,3.0vw,60.0px); vertical-align: top; line-height: 0.5; width: 6%;}
+#meet-the-pack h3 {font-size: clamp(-44.0px,2.2vw,44.0px); letter-spacing: clamp(-6.0px,0.3vw,6.0px); width: 30%;}
+#meet-the-pack p {width: 50%; padding-left: 10%; opacity: 0.7;}
+
+#meet-the-pack .big-button {background: rgba(255,107,0,0.2); color: #FFF; border: 1px solid #ff9040; font-size: clamp(-20.0px,0.85vw,20.0px); padding: clamp(-20.0px,1.0vw,20.0px) clamp(-100.0px,5.0vw,100.0px) clamp(-20.0px,1.0vw,20.0px) clamp(-40.0px,2.0vw,40.0px); margin-top: clamp(-40.0px,2.0vw,40.0px)}
+#meet-the-pack .big-button .plus {top: 50%; transform: translateY(-50%); right:10% !important; color: #FFF; font-size: clamp(-26.0px,1.3vw,26.0px);}
+#meet-the-pack .big-button:hover {background: #ff9040;}
+#meet-the-pack .big-button:hover .plus {color: #FFF;}
+
+#meet-the-pack .bg {position: absolute; top: clamp(-800.0px,40.0vw,800.0px); left: 0; width: 100%; object-fit: cover}
+#meet-the-pack .grid {position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 2;}
+
+.box-container {display: flex; width: 100%; height: clamp(-1080.0px,54.0vw,1080.0px); overflow: hidden;}
+.box-container .box {flex: 0 0 15%; height: 100%; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: flex 0.3s ease; padding: 0 clamp(-14.0px,0.7vw,14.0px);}
+.box-container .box.active {flex: 0 0 70%;}
+.box-container .box .inside {border: 1px solid #636363; width: 100%; height: 100%; border-radius: clamp(-20.0px,1.0vw,20.0px); background: #000; overflow: hidden; position: relative;}
+.box-container .box .box-bg {width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: clamp(-40.0px,2.0vw,40.0px); transform: scale(1.02); transition: all 1s ease;}
+.box-container .box .tag {color: #f36501; position: absolute; top: clamp(-84.0px,4.2vw,84.0px); left: clamp(-70.0px,3.5vw,70.0px); display: flex; font-size: clamp(-20.0px,1.0vw,20.0px); line-height: 1; transition: all 0.3s ease;}
+.box-container .box .tag .square {width: clamp(-20.0px,1.0vw,20.0px); height: clamp(-20.0px,1.0vw,20.0px); background: #f36501; display: inline-block; margin-right: clamp(-10.0px,0.5vw,10.0px);}
+.box-container .box .title {position: absolute; top: clamp(-300.0px,15.0vw,300.0px); left: clamp(-50.0px,2.5vw,50.0px); font-size: clamp(-94.0px,4.7vw,94.0px); letter-spacing: clamp(-10.0px,0.5vw,10.0px); color: #FFF; transition: all 0.3s ease;}
+.box-container .box .info {position: absolute; bottom: clamp(-100.0px,5.0vw,100.0px); left: clamp(-50.0px,2.5vw,50.0px); font-size: clamp(-20.0px,1.0vw,20.0px); color: #FFF; width: clamp(-200.0px,10.0vw,200.0px); text-align: left; width: 100%; transition: all 0.3s ease;}
+.box-container .box h5 {font-size: clamp(-18.0px,0.9vw,18.0px); margin-bottom: clamp(-20.0px,1.0vw,20.0px)}
+.box-container .box .stat {border: 1px solid #FFF; display: inline-block; border-radius: clamp(-40.0px,2.0vw,40.0px); padding: clamp(-4.0px,0.2vw,4.0px) clamp(-20.0px,1.0vw,20.0px); font-family: 'telegraf';}
+.box-container .box:not(.active) .title {opacity: 0;}
+.box-container .box:not(.active) .info {opacity: 0;}
+.box-container .box:not(.active) .box-bg {filter: grayscale(100%); opacity: 0.5;}
+.box-container .box:not(.active) .tag {left: clamp(-26.0px,1.3vw,26.0px); color: #BBB;}
+.box-container .box:not(.active) .tag .square {background: #BBB;}
+.box-container .box:not(.active) .box-bg {}
+
+
+.stage-intro h5 {letter-spacing: clamp(-6.0px,0.3vw,6.0px); color: #bababa; margin-bottom: clamp(-20.0px,1.0vw,20.0px); text-align: center;}
+.stage-intro h4 {font-family: 'Telegraf Bold'; font-size: clamp(-120.0px,6.0vw,120.0px); text-transform: uppercase; line-height: 1; text-align: center;}
+.stage-intro .div {margin:0 0 clamp(-40.0px,2.0vw,40.0px) clamp(-80.0px,-4.0vw,80.0px); width: 30%;}
+#meet-the-pack .stage-intro p {width: 100%; font-size: clamp(-25.0px,1.25vw,25.0px);}
+
+
+
+.stage-container {display: flex; width: 100%; height: clamp(-800.0px,40.0vw,800.0px); overflow: hidden;}
+.stage-container .stage {flex: 0 0 6%; height: 100%; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: flex 0.3s ease; padding: 0 clamp(-8.0px,0.4vw,8.0px); position: relative; cursor: pointer;}
+.stage-container .stage.active {flex: 0 0 70%;}
+.stage-container .stage .inside {border: 1px solid #636363; padding: clamp(-10.0px,0.5vw,10.0px) clamp(-10.0px,0.5vw,10.0px) clamp(-10.0px,0.5vw,10.0px) clamp(-80.0px,4.0vw,80.0px); width: 100%; height: 100%; border-radius: clamp(-30.0px,1.5vw,30.0px); background: #000; overflow: hidden; position: relative;}
+.stage-container .stage .inside img {border-radius: clamp(-20.0px,1.0vw,20.0px); display: block; width: 100%; height: 100%; object-fit: cover}
+.stage-container .stage .title {position: absolute; left:clamp(-76.0px,3.8vw,76.0px); bottom: 0; width: clamp(-770.0px,38.5vw,770.0px); font-size: clamp(-34.0px,1.7vw,34.0px); transform: rotate(-90deg); transform-origin:bottom left; letter-spacing: clamp(-10.0px,0.5vw,10.0px); color: #FFF; transition: all 0.3s ease; z-index: 1; text-align: right; font-family: 'NB Architekt Std';}
+.stage-container .stage .title .indic {display: inline-block; width: clamp(-16.0px,0.8vw,16.0px); height: clamp(-16.0px,0.8vw,16.0px); background: #ff6b00; vertical-align: middle; margin-left: clamp(-6.0px,0.3vw,6.0px); transition: all .3s ease;}
+
+
+/* .stage-container .stage:not(.active) .title {opacity: 0;} */
+.stage-container .stage:not(.active) .title .indic {width: 0; height: 0;}
+.stage-container .stage:not(.active) .info {opacity: 0;}
+.stage-container .stage:not(.active) .box-bg {filter: grayscale(100%); opacity: 0.5;}
+.stage-container .stage:not(.active) .tag {left: clamp(-26.0px,1.3vw,26.0px); color: #BBB;}
+.stage-container .stage:not(.active) .tag .square {background: #BBB;}
+.stage-container .stage:not(.active) .box-bg {}
+
+
+#meet-the-pack .pick-pup {width: 50%; margin: 0 auto;}
+#meet-the-pack .pick-pup .btn {color: #555555; border: 1px solid #555555;}
+#meet-the-pack .pick-pup .btn:hover {background: #555; color: #000;}
+#meet-the-pack .pick-pup .btn.active {background: #ff6b01; border-color: #ff6b01; color: #000 !important; pointer-events: none}
+#meet-the-pack .pick-pup div {font-family: 'NB Architekt Light';}
+
+.carousel-item {display: block !important;}
+
+.coverflow-item .caption {text-align: center; padding-top: clamp(-30.0px,1.5vw,30.0px); font-family: 'NB Architekt Light';}
+.coverflow-item .caption-top {font-size: clamp(-12.0px,0.6vw,12.0px); color: #777}
+.coverflow-item .caption-middle {font-size: clamp(-16.0px,0.8vw,16.0px); padding-top: clamp(-20.0px,1.0vw,20.0px); opacity: 0; transition: all 0.3s ease;}
+.coverflow-item .caption-bottom {font-size: clamp(-16.0px,0.8vw,16.0px); color: #777; opacity: 0; transition: all 0.3s ease;}
+.coverflow-item.active .caption-top {color: #FF6B00;}
+.coverflow-item.active .caption-middle,
+.coverflow-item.active .caption-bottom {opacity: 1;}
+
+#conservation-partners {background: #0e0e0e;  color: #FFF; padding: clamp(-100.0px,5.0vw,100.0px) 0 0; position: relative;}
+#conservation-partners .img-1 {border-radius: clamp(-56.0px,2.8vw,56.0px);}
+#conservation-partners .ex-content {position: relative;}
+#conservation-partners .ex-content .row {position: absolute; top: clamp(-100.0px,5.0vw,100.0px); left: 10%; width: 90%;}
+#conservation-partners .ex-content h2 {font-size: clamp(-58.0px,2.9vw,58.0px); font-family: 'NB Architekt Std'; white-space: nowrap; width: 90%;}
+
+.video-container  {position: relative;}
+.video-container .play { position: absolute; width: 6%; left: 50%; top: 50%; transform: translate(-50%,-50%); }
+.video-container  video { width: 100%; aspect-ratio: 16 / 6.5; object-fit: cover; border-radius: 1000px; }
+
+
+
+#carousel {}
+
+
+
+
+#phases {background: #0e0e0e; position: relative; z-index: 1;}
+#phases h3 {font-family: 'Telegraf Bold'; font-size: clamp(-30.0px,1.5vw,30.0px); font-family: 'NB Architekt Std'; text-transform: uppercase; line-height: 1; color: #FFF; position: absolute; left: clamp(-40.0px,2.0vw,40.0px); top: clamp(-40.0px,2.0vw,40.0px)}
+#phases p {max-width: 90%; color: #787878;}
+#phases .block {position: absolute; width: 15%; top: clamp(-120.0px,6.0vw,120.0px);}
+
+
+#phases .phase-sections {}
+#phases .phase-sections .inner {display: flex; align-items: flex-end; border: 1px solid #636363; border-radius: clamp(-40.0px,2.0vw,40.0px); padding: clamp(-40.0px,2.0vw,40.0px) 0 clamp(-40.0px,2.0vw,40.0px) 0; overflow: hidden; position: relative;}
+#phases .phase-sections h2 {position: absolute;}
+#phases .phase-sections .phase {width: 14.8%; margin-right: 1.5%; color: #FFF; cursor: pointer; font-size: clamp(-16.0px,0.8vw,16.0px); position: relative; height: 100%; display: flex; align-items: flex-start; flex-direction: column; justify-content: flex-end}
+#phases .phase-sections .phase svg {margin: 0 auto clamp(-40.0px,2.0vw,40.0px);  display: block; }
+#phases .phase-sections .phase svg path {transition: all 0.3s ease; fill: #ff7b31 !important}
+#phases .phase-sections .phase .line.grey {margin-bottom: clamp(-16.0px,0.8vw,16.0px); margin-top: clamp(-16.0px,0.8vw,16.0px)}
+#phases .phase-sections .phase .line {transition: all 0.3s ease; width: 100%;}
+#phases .phase-sections .phase .pl {font-size: clamp(-20.0px,1.0vw,20.0px); padding-right: clamp(-20.0px,1.0vw,20.0px)}
+#phases .phase-sections .phase .d-flex {height: clamp(-40.0px,2.0vw,40.0px)}
+#phases .phase-sections  h5 {padding: clamp(-20.0px,1.0vw,20.0px) 0 clamp(-4.0px,0.2vw,4.0px); font-size: clamp(-24.0px,1.2vw,24.0px); letter-spacing: clamp(-4.0px,0.2vw,4.0px); margin: 0; transition: all 0.3s ease;}
+#phases .phase-sections  h6 {font-size: clamp(-20.0px,1.0vw,20.0px); font-family: 'NB Architekt Light'; color: #777; transition: all 0.3s ease;}
+#phases .phase-sections .active-marker-top {width: 100%; height: clamp(-12.0px,0.6vw,12.0px); background: #FF6B00; position: absolute; top: clamp(-74.0px,-3.7vw,74.0px); z-index: 1; opacity: 0; transition: all 0.3s ease;}
+#phases .phase-sections .active-marker-bottom {width: 100%; height: clamp(-12.0px,0.6vw,12.0px); background: #FF6B00; position: absolute; bottom: clamp(-110.0px,-5.5vw,110.0px); opacity: 0; transition: all 0.3s ease;}
+
+
+/* #phases .phase-sections .phase:hover svg path {fill: #ff7b31 !important}
+#phases .phase-sections .phase:hover h6 {color: #ff7b31}
+#phases .phase-sections .phase:hover h5 {color: #ff7b31}
+#phases .phase-sections .phase:hover .line.white {border-color: #ff7b31}
+#phases .phase-sections .phase:hover .active-marker-bottom {opacity: 1}
+#phases .phase-sections .phase:hover .active-marker-top {opacity: 1} */
+
+#phases .phase-bg {position: relative; z-index: 15; pointer-events: none}
+
+#phases .phase-sections .phase:nth-child(1) {margin-left: 2%;}
+#phases .phase-sections .phase:nth-child(1) svg {width: 13%; }
+#phases .phase-sections .phase:nth-child(2) svg {width: 30%;}
+#phases .phase-sections .phase:nth-child(3) svg {width: 55%; }
+#phases .phase-sections .phase:nth-child(4) svg {width: 65%; }
+#phases .phase-sections .phase:nth-child(5) svg {width: 95%; }
+#phases .phase-sections .phase:nth-child(6) svg {width: 140%; height: clamp(-260.0px,13.0vw,260.0px);}
+#phases .phase-sections .phase:nth-child(6) {margin-right: 0;}
+
+#phases .active-phase {position: absolute; color: #FF6B00; right: clamp(-220.0px,11.0vw,220.0px); top: clamp(-240.0px,12.0vw,240.0px); text-align: center;}
+#phases .active-phase h2 {font-size: clamp(-100.0px,5.0vw,100.0px); letter-spacing: clamp(-10.0px,0.5vw,10.0px)}
+#phases .active-phase h3 {font-family: 'NB Architekt Light'; font-size: clamp(-20.0px,1.0vw,20.0px); letter-spacing: clamp(-6.0px,0.3vw,6.0px); color: #FF6B00;}
+
+
+
+#humane {margin-top: 0; position: relative; z-index: 10; overflow: visible; background: #4c3313;}
+#humane .humane-bg-top {width: 100%; left: 0; top: clamp(-136.0px,-6.8vw,136.0px); z-index: 5; position: absolute;}
+#humane .text-1 {top: clamp(-100.0px,5.0vw,100.0px); font-size: clamp(-130.0px,6.5vw,130.0px); letter-spacing: clamp(-17.0px,0.85vw,17.0px); white-space: nowrap; margin-left: -0.5%;}
+#humane .text-2 {top: clamp(-440.0px,22.0vw,440.0px); width: 33%; left: 10.5%; font-size: clamp(-30.0px,1.5vw,30.0px); line-height: 1.3;}
+#humane .btn {position: absolute; top: clamp(-720.0px,36.0vw,720.0px); right: 16%;}
+#humane .text-4 {top:clamp(-1700.0px,85.0vw,1700.0px); left: 50%; width: 40%; }
+#humane .text-4 img {width: 7%;}
+#humane .text-4 p {font-size: clamp(-30.0px,1.5vw,30.0px); line-height: 1.3;}
+#humane .text-4 .auth {width: 40%; text-align: center; font-size: clamp(-24.0px,1.2vw,24.0px);}
+#humane .text-4 .auth h3 {font-size: clamp(-34.0px,1.7vw,34.0px); line-height: 1.3; font-family: 'Telegraf Bold';}
+#humane .text-4 .auth h4 {font-size: clamp(-20.0px,1.0vw,20.0px);}
+
+#humane .horizontal {position: absolute; z-index: 5; top: clamp(-880.0px,44.0vw,880.0px); right: 0; width: 90%; }
+
+#caring {margin-top: clamp(-4.0px,-0.2vw,4.0px); position: relative; background-color: #000; }
+#caring .pdf {max-width: 80%;}
+#caring .text-1 {position: relative;}
+#caring .text-1 h3 {font-size: clamp(-50.0px,2.5vw,50.0px); font-family: 'Telegraf Bold';}
+#caring .text-1 p {font-size:  clamp(-24.0px,1.2vw,24.0px); max-width: 80%;}
+#caring .bg {position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 2;}
+#caring h2 {font-size: clamp(-180.0px,9.0vw,180.0px); line-height: 0.8; font-family: 'Telegraf Bold'; color: #FFF; mix-blend-mode: exclusion; text-transform: uppercase; text-align: center; z-index: 11; position: relative;}
+/* #caring h2 div {mix-blend-mode: exclusion} */
+#caring .grid {position: absolute; width: 100%; z-index: 1; left: 0; top: 0; display: none}
+
+#caring .seal {width: clamp(-140.0px,7.0vw,140.0px);}
+#caring .doi { color: #FFF;}
+#caring .critical-1 {margin-top: clamp(-80.0px,-4.0vw,80.0px)}
+#caring .tag {font-family: 'NB Architekt Light'; font-size: clamp(-16.0px,0.8vw,16.0px); color: #ff6b00; border-radius: 100px; border: 1px solid #ff6b00; display: inline-block; padding: clamp(-6.0px,0.3vw,6.0px) clamp(-16.0px,0.8vw,16.0px)}
+#caring .doi p {font-size: clamp(-34.0px,1.7vw,34.0px);}
+#caring .doi .auth {font-family: 'NB Architekt Light'; padding-top: clamp(-30.0px,1.5vw,30.0px)}
+#caring .doi span {font-family: 'Telegraf Bold'; font-size: clamp(-40.0px,2.0vw,40.0px); padding-right: clamp(-40.0px,2.0vw,40.0px);}
+#caring .lower {font-family: 'Telegraf Bold'; font-size: clamp(-42.0px,2.1vw,42.0px); text-transform: uppercase; line-height: 1; display: inline-block; width: 60%;}
+#caring .tag.grey {vertical-align: center; color: #CCC; border-color: #CCC; vertical-align: top}
+#caring .tag.grey:hover {background: #FFF; color: #000;}
+
+
+
+#caring.part-1 {position: relative; z-index: 5; overflow: visible; background: #000;}
+#caring.part-1 .overflow-visible {overflow: visible; position: static !important; z-index: 5;}
+#caring.part-1 .overflow-visible > .row {position: relative; z-index: 2;}
+#caring .bg-1 {top: 0; object-position: top; margin-top: -4vw; height: calc(100% +  clamp(-34.0px,4vw,80.0px)); z-index: 1;}
+
+#caring.part-1 h2 {font-size:  clamp(86px,4.3vw,86px); color: #FFF; font-family: 'Telegraf Bold'; mix-blend-mode:exclusion; line-height: 0.9; z-index: 31; position: relative; text-align: left;}
+#caring.part-1 h3 {font-size:  clamp(-46.0px,2.3vw,46.0px)}
+#caring.part-1 h3 .square {width: clamp(20px,1vw,20px); height: clamp(20px,1vw,20px); margin-right: clamp(6px,0.3vw,6px); vertical-align: middle; background: #FFF; position: static; display: inline-block; margin-bottom: 0.3vw;}
+
+
+
+#alta-video {position: relative; z-index: 10;}
+#alta-video .bg {margin-top: -4vw}
+#alta-video .text {position: absolute; color: #FFF; font-family: 'NB Architekt Std'; letter-spacing: 0.1vw; font-size: 1.1vw;}
+#alta-video .text-1 {top: 48%; left: 10%}
+#alta-video .text-2 {top: 48%; right: 10%}
+#alta-video .text-3 {top: 11%; right:8%; font-size: 0.65vw; color: #000; letter-spacing: 0.06vw}
+#alta-video .text-4 {left: 2.5%; top: 70%; transform: rotate(-90deg); transform-origin: top left; font-size: 0.8vw;}
+#alta-video .play {position: absolute; top: 45%; left: 47%; transition: all .5s ease;}
+#alta-video .play-video:hover img {transform: scale(1.2)}
+
+
+#myth-fact {position: relative;}
+#myth-fact .text-1 {top: clamp(-300.0px,15.0vw,300.0px); left: 6%; font-size: clamp(-56.0px,2.8vw,56.0px); font-family: 'Telegraf Bold'; line-height: 1;}
+#myth-fact .text-2 {top: clamp(-300.0px,15.0vw,300.0px); left: 57%; font-size: clamp(-56.0px,2.8vw,56.0px); font-family: 'Telegraf Bold'; line-height: 1; color: #000; text-transform: uppercase;}
+#myth-fact .text-3 {top: clamp(-540.0px,27.0vw,540.0px); left: 57%; font-size: clamp(-36.0px,1.8vw,36.0px); line-height: 1.1; width: 38%; color: #787878;}
+#myth-fact .text-4 {left: 57%; color: #4D4D4D; top: clamp(-840.0px,42.0vw,840.0px); width: 38%; font-size: clamp(-18.0px,0.9vw,18.0px);}
+#myth-fact .text-4 strong {font-family: 'Telegraf Bold'; font-size: clamp(-18.0px,0.9vw,18.0px); white-space: nowrap; color: #000; line-height: 1; display: block; margin-top: clamp(-6.0px,0.3vw,6.0px);}
+#myth-fact .text-4 .spacer-xs {border-bottom: 1px solid #CCC; margin-bottom: clamp(-20.0px,1.0vw,20.0px); height: clamp(-20.0px,1.0vw,20.0px);}
+
+
+#bridgett {position: relative;}
+#bridgett .img-1 {position: absolute; top: clamp(-80.0px,4.0vw,80.0px); left: 6.5%; width: 28%;}
+#bridgett .text-1 {width: 45%; left: 40%; top: clamp(-160.0px,8.0vw,160.0px); font-size: clamp(-24.0px,1.2vw,24.0px);}
+#bridgett .text-1 p {font-size: clamp(-24.0px,1.2vw,24.0px);}
+#bridgett .text-1 h4 {font-family: 'NB Architekt Std'; letter-spacing: clamp(-6.0px,0.3vw,6.0px); font-size: clamp(-30.0px,1.5vw,30.0px); margin-bottom: clamp(-40.0px,2.0vw,40.0px);}
+#bridgett .text-1 strong {font-family: 'Telegraf Bold'; font-size: clamp(-30.0px,1.5vw,30.0px); margin-right: clamp(-20.0px,1.0vw,20.0px);}
+
+
+/* Horizontal Accordion Styles */
+#horizontal-accordion {background: #0e0e0e; color: #FFF; position: relative; padding: clamp(-100.0px,5.0vw,100.0px) 0; overflow: hidden;}
+#horizontal-accordion h2 {font-family: 'Telegraf Bold'; font-size: clamp(-60.0px,3.0vw,60.0px); text-align: center; text-transform: uppercase;}
+
+.accordion-container {display: flex; width: 100%; height: 70vh; overflow: hidden; margin-top: clamp(-40.0px,2.0vw,40.0px);}
+.accordion-panel {height: 100%; position: relative; cursor: pointer; transition: width 0.5s ease; overflow: hidden; border-right: 1px solid rgba(255,255,255,0.2);}
+.accordion-panel:last-child {border-right: none;}
+
+/* Vertical text for collapsed panels */
+.vertical-text {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-90deg); white-space: nowrap; color: #fff; font-family: 'Telegraf Bold'; font-size: clamp(-30.0px,1.5vw,30.0px); text-transform: uppercase; letter-spacing: clamp(-4.0px,0.2vw,4.0px); opacity: 1; transition: opacity 0.3s ease; text-align: center; z-index: 2;}
+.accordion-panel.active .vertical-text {opacity: 0;}
+
+/* Panel content */
+.panel-content {position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; opacity: 0; transition: opacity 0.5s ease; pointer-events: none;}
+.accordion-panel.active .panel-content {opacity: 1; pointer-events: auto;}
+
+.content-inner {width: 50%; padding: clamp(-80.0px,4.0vw,80.0px); display: flex; flex-direction: column; justify-content: center;}
+.panel-image {width: 50%; height: 100%; background-size: cover; background-position: center;}
+
+.content-inner h3 {font-family: 'Telegraf Bold'; font-size: clamp(-50.0px,2.5vw,50.0px); margin-bottom: clamp(-30.0px,1.5vw,30.0px); color: #FF6B00;}
+.content-inner p {font-family: 'NB Architekt Light'; font-size: clamp(-24.0px,1.2vw,24.0px); line-height: 1.6; margin-bottom: clamp(-40.0px,2.0vw,40.0px); max-width: 90%;}
+
+.btn-outline {display: inline-block; border: 2px solid #FF6B00; color: #FF6B00; padding: clamp(-16.0px,0.8vw,16.0px) clamp(-40.0px,2.0vw,40.0px); font-family: 'Telegraf Bold'; font-size: clamp(-20.0px,1.0vw,20.0px); text-transform: uppercase; text-decoration: none; transition: all 0.3s ease; align-self: flex-start;}
+.btn-outline:hover {background: #FF6B00; color: #000;}
+
+body.modal-open {overflow:hidden;}
+.continue-modal {display:none; position:fixed; z-index:100; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.6); opacity:0; transition:opacity 0.5s ease;}
+.continue-modal.show {display:block; opacity:1;}
+.continue-modal-content {background:#282320 url(https://colossal.com/wp-content/themes/colossal/img/direwolf/modal-home.png); border-radius: clamp(-20.0px,1.0vw,20.0px); background-size: cover; color:#fff; margin:0; padding:40px; width:80%; max-width:800px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; border:1px solid #444; transition:transform 0.5s ease; aspect-ratio: 5 / 3.8; margin-top: clamp(-100.0px,5.0vw,100.0px); display: flex; flex-direction: column; align-items: center; justify-content: center}
+.continue-modal-content h3 {font-family: 'Telegraf Bold'; text-transform: uppercase;}
+.continue-modal.show .continue-modal-content {transform:translate(-50%, -50%);}
+.continue-modal.show .continue-modal-content h2 {font-size: clamp(-42.0px,2.1vw,42.0px); line-height: 1.1; padding: 0 8%}
+.continue-modal.show .continue-modal-content .sq {margin: clamp(-60.0px,3.0vw,60.0px) auto; width: clamp(-26.0px,1.3vw,26.0px); height: clamp(-26.0px,1.3vw,26.0px); background: #ff6b00;}
+.continue-modal-close {padding:clamp(-20.0px,1.0vw,20.0px) clamp(-30.0px,1.5vw,30.0px); font-size: clamp(-24.0px,1.2vw,24.0px); background: #000; color: #FFF; text-transform: uppercase; border-radius: 200px; font-family: 'Telegraf Bold'; border: 3px solid #ff7b31; display: inline-block; margin-top: clamp(-80.0px,4.0vw,80.0px); cursor: pointer;}
+.continue-modal-close img {margin-left: clamp(-16.0px,0.8vw,16.0px); width: clamp(-46.0px,2.3vw,46.0px); vertical-align: middle}
+.continue-modal-close:hover {color:#ff7b31 !important;}
+
+.site-header.journey {background: rgba(0, 0, 0, 0.8);}
+
+
+
+
+.show-mb{
+	display: none !important;
+}
+
+
+@media (max-width: 767px){	
+	.show-mb{
+		display: block !important;
+	}
+	.hidden-mb{
+		display: none !important;
+	}
+	.rst-hero-main{
+		width: 100%;
+		display: block;
+	}
+	.rst-hero-top{
+		position: relative;
+	}
+	.rst-hero-dot{
+		position: absolute;
+		right: 0;
+		top: 17.795vw;
+		z-index: 1;
+	}
+	.rst-hero-top h1{
+		color: #fff;
+		font-family: 'NB Architekt Light';
+		font-size: 19.887vw;
+		width: 100%;
+		font-weight: 300;
+		text-align: left;
+		line-height: 1;
+		letter-spacing: 0.18em;
+		color: #fff;
+		margin: 0;
+		position: absolute;
+		left: 0;
+		top: 36.154vw;
+		z-index: 1;
+		margin-left: -1.026vw;
+	}
+	.rst-hero-top h1 span{
+		display: block;
+	}
+	.rst-hero-top h1 span:nth-child(2){
+		margin: 11.897vw 0;
+	}
+	.rst-hero-img1{
+		position: absolute;
+		left: 0;
+		top: 60.821vw;
+		width: 89.621vw;
+	}
+	.rst-hero-top p{
+		color: #fff;
+		font-family: 'Telegraf';
+		font-size: 4.103vw;
+		font-weight: 400;
+		line-height: 1.4;
+		letter-spacing: 0;
+		margin: 0;
+		padding: 0 4.103vw;
+		position: absolute;
+		top: 149.921vw;
+		left: 0;
+		width: 100%;
+	}
+	.rst-hero-line{
+		width: 100%;
+		position: absolute;
+		bottom: 8.546vw;
+		left: 0;
+		width: 100%;
+	}
+	.rst-hero-img2{
+		width: 74.872vw;
+		position: absolute;
+		bottom: -24.974vw;
+		right: 0;
+		 z-index: 1;
+	}
+	.rst-hero-bottom{
+		position: relative;
+	}
+	.rst-hero-bottom:after{
+		height: 11.538vw;
+		width: 12.564vw;
+		bottom: 0;
+		right: 0;
+		content:"";
+		background: #fff;
+		position: absolute;
+		z-index: 1;
+	}
+	.rst-dire-wolf-text{
+		position: absolute;
+		left: 0;
+		width: 100%;
+		top: 34.974vw;
+		z-index: 1;
+		mix-blend-mode: exclusion;
+	}
+	.rst-hero-bottom p{
+		display: block;
+		color: #fff;
+		font-family: 'NB Architekt Std';
+		font-size: 4.103vw;
+		line-height: 178%;
+		letter-spacing: 0.27em;
+		text-align: center;
+		margin-top: 1.528vw;
+		width: 27.923vw;
+		margin: 0px  auto;
+		position: absolute;
+		top: 73.333vw;
+		left: 0;
+		z-index: 2;
+		right: 0;
+	}
+	.rst-hero-bottom p span{
+		display: block;
+		margin-top: 5.641vw;
+		font-size: 3.29vw;
+	}
+	.rst-hero-bottom-main{
+		width: 100%;
+		display: block;
+	}
+	.rst-hero-bottom-img2{
+		width: 72.805vw;
+		margin: 0px auto;
+		display: block;
+		margin-top: -5.128vw;
+		z-index: 2;
+		position: relative;
+	}
+	.rst-hero-bottom2{
+		position: relative;
+	}
+	.rst-hero-bottom-img3{
+		position: absolute;
+		left: 0;
+		top: -5.513vw;
+		width: 50.513vw;
+	}
+	.rst-hero-making-extinctiona{
+		width: 100%;
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		padding-top: 10.256vw;
+		padding-bottom: 34.872vw;
+		        position: relative;
+        z-index: 1;
+    
+	}
+	.gallery-button-share p{
+		font-size: 3.077vw;
+        padding-top: 4.103vw;
+        line-height: 1.2;
+        color: #fff;
+        font-family: 'NB Architekt Std';
+        letter-spacing: 0.187vw;
+        transition: all 0.3sease;
+		width: 100% !important;
+		text-align: center;
+		margin-bottom: 4.103vw !important;
+		padding: 0 !important;
+	}
+	#coverflow {
+		height: 79.41vw !important;
+	}
+	#meet-the-pack h2 {
+		
+		font-size: 17.179vw;
+		letter-spacing: 0.18em;
+		line-height: 1;
+	}
+
+	#meet-the-pack .big-button {margin-left: 1vw; font-size: 3.5vw; padding: 3vw 12vw 3vw 5vw; margin-top: 4vw} 
+	#meet-the-pack .big-button .plus {font-size: 4vw;}
+
+	#meet-the-pack h2.meet-the-pack-title1 {
+		margin-bottom: 4.854vw;
+		margin-top: 10vw;
+		text-align: center;
+		justify-content: center;
+	}
+	#meet-the-pack h3 {
+		font-size: 5.154vw;
+		letter-spacing: 0.1em;
+		text-align: center;
+		width: 100%;
+		line-height: 1.4;
+		top:5vw;
+		font-family: 'NB Architekt Light';
+		margin-bottom: 5.128vw;
+	}
+	#meet-the-pack p.rst-text1 {
+		width: 85.641vw;
+		padding-left: 0;
+		opacity: 1;
+		color: #979797;
+		font-size: 5.128vw;
+		line-height: 1.2;
+		margin: 0;
+		margin-bottom: 13.923vw;
+	}
+	#meet-the-pack .pl {
+		font-size: 6.154vw;
+		vertical-align: top;
+		line-height: 1.4;
+		font-family: 'NB Architekt Light';
+		width: 100%;
+	}
+	#meet-the-pack h2.meet-the-pack-title2 {
+		margin-bottom: 10.454vw;		
+	}
+	.d-flex-column{
+		flex-direction: column;
+	}
+	.coverflow-item img {
+		max-width: 100%;
+		height: 45.641vw !important;
+		object-fit: cover;
+		        width: 45.641vw !important;
+		border-radius: 2.513vw !important;
+		box-shadow: 0 0 40px rgba(0, 0, 0, 0.95), 0 0 40px rgba(0, 0, 0, 0.95);
+	}
+	.coverflow-item.previous {
+		z-index: 5;
+		transform: translateX(-40vw) scale(1.051) !important;
+	}
+	.coverflow-item .img-container {
+		background: #000;
+		border-radius:  2.513vw !important;
+	}
+	.coverflow-item.next {
+		z-index: 5;
+		transform: translateX(40vw) scale(1.05) !important;
+	}
+	.coverflow-item.far-previous-2 {
+		z-index: 3;
+		transform: translateX(-65vw) scale(0.7) !important;
+	}
+	.rst-hero-making-extinctiona span{
+		width: 5.128vw;
+		height: 20px;
+		display: block;
+		background: #000;
+		margin-bottom: 3.077vw;
+	}		
+	.rst-hero-making-extinctiona h2{
+		color: #000;
+		font-family: 'Telegraf Bold';
+		font-size: 10.256vw;
+		font-weight: 700;
+		line-height: 80%;
+		letter-spacing: 0;
+		margin: 0 0 7.949vw 0;
+		text-transform: uppercase;
+	}
+	.rst-hero-making-extinctiona p{
+		color: #555555;
+		font-family: 'NB Architekt Std';
+		font-size: 3.333vw;
+		font-weight: 400;
+		line-height: 220%;
+		letter-spacing: 0.21em;
+		margin: 0;
+		text-align: justify;
+		text-transform: uppercase;
+	}
+	.rst-hero-video{
+		position: relative;
+		padding-bottom: 30.769vw;
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+	}
+	.rst-hero-video-inner{
+		position: relative;
+		
+	}
+	.rst-hero-video-inner span{
+		width: 45.897vw;
+		right:  0;
+		position: absolute;
+		bottom: 100%;
+		height: 5.769vw;
+		 background: #FF6B00;
+		 display: flex;
+		 align-items: center;
+		 justify-content: center;
+		 font-size: 2.164vw;
+		 color: #000;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.05em;
+		line-height: 1;
+		z-index: 22; 
+	}
+	.home-meet-sep{
+		border-bottom: 1px solid #fff;
+		display: flex !important;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 2.051vw;
+		margin-bottom: 9.595vw;
+	}
+	.home-meet-sep span{
+		font-size: 2.051vw;
+		 color: #fff;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0em;
+		line-height: 1;
+	}
+	.container {
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 100%;
+	}
+	.video1-after-img2{
+		position: absolute;
+		width: 100%;
+		left: 0;
+		bottom: 0;
+	}
+	#meet-the-pack .pick-pup div{
+		width: 100%;
+	}
+	#meet-the-pack .pick-pup .btn.active {
+		background: #ff6b01;
+		border-color: #ff6b01;
+		
+		width: 100%;
+		height: 12.051vw;
+		border-radius: 12.821vw;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		color: #0E0E0E !important;
+		font-size: 3.128vw;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0em;
+		line-height: 1;
+		letter-spacing: 0.13em;
+		margin-bottom: 7.41vw;
+	}
+	.home-video-mb{
+		margin-left: -4.103vw;
+		margin-right: -4.103vw;
+	}
+	.rst-home-video{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		height: auto;
+		        max-width: 100%;
+	}
+	
+	#meet-the-pack .pick-pup {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.rst-hero-video-inner img{
+		width: 100%;
+		display: block;
+	}
+	.x-small {
+		font-family: 'NB Architekt Std';
+		font-size: 2.051vw;
+		line-height: 1;
+	}
+	#conservation-partners .display-1 {
+		font-size: 10.256vw;
+		line-height: 1;
+		letter-spacing: 0.1em;
+		margin-bottom: 6.154vw;
+		margin-top: 12.49vw;
+	}
+	.col-md-5,.col-md-7{
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+	}
+	#conservation-partners .display-2 {
+		font-size:  5.641vw;
+		line-height: 1;
+		letter-spacing: 0em;
+		margin-bottom: 6.154vw;
+	}
+	#conservation-partners  .square.small {
+		width: 2.051vw;
+		height: 2.051vw;
+		margin-bottom: 3.077vw;
+	}
+	#conservation-partners .img-1{
+		width: 100%;
+		display: block;
+		border-radius: 0;
+		
+	}
+	.rst-ex-content  .big-button.orange{
+		border: 1px solid #FF6B00;
+		background: rgba(255, 107, 0, 0.2);
+		border-radius: 19.849vw;
+		height: 25.164vw;
+		display: flex;
+		width: 100%;
+		align-items: center;
+		width: 100%;
+		padding-left: 14.318vw;
+		padding-right: 11.179vw;
+		margin: 0px auto;
+		justify-content: space-between;
+	}
+	.rst-ex-content .big-button.orange span.text{
+		line-height: 1.065;
+		display: block;
+		font-size: 5.128vw;
+		        position: static;
+	}
+	.rst-ex-content .big-button.orange  .plus{
+		position: static;
+		font-size: 8.205vw;
+
+	}
+	.rst-ex-content{
+		position: relative;
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		padding-top: 6.054vw;
+	}
+	.rst-line-vertical {
+		width: 1px;
+		top: 0px;
+		height: 100%;
+		left: 50vw;
+		position: absolute;
+		background: rgba(255, 255, 255, 0.05);
+	}
+	.rst-line-vertical.rst-line-bg-1 {
+		left: 25vw;
+	}
+	.rst-line-vertical.rst-line-bg-3 {
+		right: 25vw;
+		left: auto;
+	}
+	.rst-line-horizontal  {
+        width: 100%;
+        top: 0px;
+        height: 1px;
+        left: 0;
+        position: absolute;
+        background: rgba(255, 255, 255, 0.05);
+    }
+	.rst-ex-content .rst-line-horizontal{
+		top: 18.462vw;
+	}
+	.rst-aenocyon-dirus{
+		margin-top: 25.092vw;
+		border-radius: 8.205vw;
+		background: #0E0E0E;
+		border: 1px solid #333;
+		position: relative;
+		padding: 11.795vw;
+		padding-bottom: 9.231vw;
+		        padding-top: 12vw;
+	}
+	.box-container .box .stat + .spacer-sm{
+	        height: 6vw;
+		}
+	.rst-aenocyon-dirus > span{
+		color: #676767 !important;
+		font-size: 2.564vw;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0em;
+		line-height: 1;
+		display: block;
+		text-align: center;
+	}
+	.rst-aenocyon-dirus-title{
+		color: #FBFAF8 !important;
+		font-size: 6.923vw;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.08em;
+		line-height: 1.2;
+		display: block;
+		text-align: center;
+		
+		flex-wrap: wrap;
+		width: 61.538vw;
+		margin-top: 10.256vw;
+		margin-bottom: 6.154vw;
+	}
+	.rst-aenocyon-dirus-title div{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.rst-aenocyon-dirus-circle{
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0px auto;
+		width: 13.154vw;
+		height: 13.154vw;
+		border-radius: 50%;
+		border: 1px solid #fff;
+		top: -6.577vw;
+	}
+	.rst-aenocyon-dirus-circle:after{
+		width: 2.567vw;
+		height: 2.567vw;
+		content:"";
+		left: 0;
+		right: 0;
+		margin: 0px auto;
+		background: #FF6B00;
+		top: 50%;
+		position: absolute;
+		border-radius: 50%;
+		margin-top: -1.282vw;
+	}
+	.rst-aenocyon-dirus p{
+		font-size: 4.103vw;
+		line-height: 1.38;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		text-align: center;
+		margin: 0 0 5.854vw 0;
+		width: 100% !important;
+		padding: 0 !important;
+	}
+	.rst-aenocyon-dirus-title div:nth-child(3)
+	{
+		justify-content: center;
+	}
+	
+	.rst-aenocyon-dirus-box{
+		width: 57.436vw;
+		margin: 0px auto;
+		color: #fff !important;
+		font-size: 3.103vw;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.09em;
+		line-height: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid #FF6B00;
+		border-radius: 20.513vw;
+		height: 12.308vw;
+		margin-bottom: 40px;
+	}
+	.rst-aenocyon-dirus-line{
+		display: block;
+		max-width: normal;
+		width: auto;
+		margin-left: -4.103vw;
+		margin-right: -4.103vw;
+		max-width: -webkit-fill-available;
+		margin-top: 20.256vw;
+		margin-bottom: 16.667vw;
+		position: relative;
+		z-index: 1;
+	}
+	.the-many-phases h4{
+		font-size: 5.128vw;
+		line-height: 1.2;
+		font-family: 'Telegraf Bold';
+		font-weight: 700;
+		text-align: left;
+		margin: 0 0 4.228vw 0;
+		color: #fff;
+		
+		text-transform: uppercase;
+	}
+	.the-many-phases p{
+		font-size: 4.103vw;
+		line-height: 1.5;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		text-align: left;
+		margin: 0;
+		max-width: 82.051vw;
+		color: #787878;
+		padding: 0 !important;
+		width: 100% !important;
+	}
+	.the-many-phases{
+		margin-bottom: 12.308vw;
+	}
+	.transitional-phase{
+		border: 1px solid #333333;
+		background: #0E0E0E;
+		border-radius: 5.128vw;
+		padding: 12.821vw	5.128vw;
+		text-align: center;
+		z-index: 1;
+		position: relative;
+	}
+	.transitional-phase span{
+		color: #fff !important;
+		font-size: 3.59vw;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.2em;
+		line-height: 1;
+		display: block;
+		text-align: center;
+		margin: 0 0 7vw 0;
+	}
+	.transitional-phase h3{
+		color: #FF6B00 !important;
+		font-size: 13.333vw;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.09em;
+		line-height: 0.84;
+		display: block;
+		text-align: center;
+		margin: 0 0 7.436vw 0;
+	}
+	.transitional-phase p{
+		color: #FF6B00 !important;
+		font-size: 3.59vw;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.2em;
+		line-height: 1;
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+	.rst-bridgett{
+		background: #FF6B00;
+		position: relative;
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		padding-top: 21.867vw;
+		padding-bottom: 20.051vw;
+	}
+	.bridgett_1{
+		top: -13.846vw;
+		right: 0;
+		width: 50vw;
+		position: absolute;
+		mix-blend-mode: multiply;
+	}
+	#myth-fact:before{
+		height: 9.487vw;
+		width: 1px;
+		content:"";
+		left: 87.436vw;
+		background: #fff;
+		position: absolute;
+		top: 0;
+	}
+	#myth-fact{
+		padding-top: 9.487vw;
+	}
+	.myth-fact-container{
+		margin-top: -9.487vw;
+	}
+	#myth-fact .text-2 {
+		top: 52.051vw;
+		left: 91.538vw;
+		font-size: 5.641vw;
+		font-family: 'Telegraf Bold';
+		line-height: 0.9em;
+		color: #000;
+		text-transform: uppercase;
+	}
+	#myth-fact .text-3 {
+		top: 77.692vw;
+		left: 91.538vw;
+		font-size: 3.077vw;
+		line-height: 1.1;
+		width: 70.256vw;
+		color: #787878;
+	}
+	#myth-fact .text-1 {
+		top: 52.051vw;
+		left: 4.103vw;
+		font-size: 5.641vw;
+		font-family: 'Telegraf Bold';
+		line-height: 0.9em;
+		letter-spacing: -0.02em;
+	}
+	#myth-fact .text-4 span {
+		font-family: 'Telegraf Bold';
+		font-size: 2.308vw;
+		white-space: nowrap;
+		color: #000;
+		line-height: 1.3;
+		text-transform: uppercase;
+	}
+	.show-mb-inline{
+		display: inline !important;
+	}
+	#myth-fact .text-4 .spacer-xs {
+		border-bottom: 1px solid #CCC;
+		margin-bottom: 2vw;
+		        margin-top: 1vw;
+		height: 1vw;
+	}
+	#myth-fact .text-4 {
+		left: 91.538vw;
+		color: #4D4D4D;
+		top: 96.667vw;
+		width: 71.538vw;
+		font-size: 2.308vw;
+		line-height: 1.3;
+		border-top: 1px solid #B1B1B1;
+		padding-top: 1.795vw;
+	}
+	.bridgett_2{
+		top: 67.436vw;
+		right: 0;
+		width: 50vw;
+		position: absolute;
+		mix-blend-mode: multiply;
+	}
+	.bridgett_3{
+		bottom: 0;
+		right: 0;
+		width: 50vw;
+		position: absolute;
+		mix-blend-mode: multiply;
+	}
+	.rst-bridgett-img{
+		position: relative;
+		width: 50vw;
+		margin-left: -4.103vw;
+		
+	}
+	.rst-bridgett-img:after{
+		background: #7DEA13;
+		position: absolute;
+		right: -1.867vw;
+		top: -1.867vw;
+		border-radius: 50%;
+		content:"";
+		width: 3.733vw;
+		height: 3.733vw;
+	}
+	.rst-bridgett-img img{
+		width: 100%;
+		display: block;
+	}
+	.rst-bridgett .text{
+		margin-top: 8.087vw;
+		position: static;
+		width: 88.205vw;
+		margin-bottom: 6.154vw
+	}
+	.rst-bridgett .text h4{
+		color: #fff !important;
+		font-size: 4.615vw;
+		font-weight: 400;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.13em;
+		line-height: 1.3;
+		display: block;
+		text-align: left;
+		margin: 0;
+		margin-bottom: 4.103vw;
+	}
+	.rst-bridgett .text p{
+		color: #fff !important;
+		font-size: 4.615vw;
+		font-weight: 400;
+		font-family: 'Telegraf';
+		letter-spacing: 0em;
+		line-height: 1.3;
+		display: block;
+		text-align: left;
+		margin: 0;
+	}
+	.rst-bridgett .author{
+		display: flex;
+	}
+	.rst-bridgett .author h4{
+		color: #fff !important;
+		font-size: 5.128vw;
+		font-weight: 700;
+		font-family: 'Telegraf Bold';
+		letter-spacing: 0em;
+		line-height: 1;
+		display: block;
+		text-align: left;
+		margin: 0;
+		width: 50%;
+	}
+	.rst-bridgett .author p{
+		color: #fff !important;
+		font-size: 2.564vw;
+		font-weight: 400;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.07em;
+		line-height: 1.2;
+		display: block;
+		text-align: left;
+		margin: 0;
+		width: 50%;
+	}
+	#continue{
+		padding-top: 17.41vw;
+	}
+	#continue .rst-label{
+		color: #fff !important;
+		font-size: 2.564vw;
+		font-weight: 400;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.27em;
+		line-height: 208%;
+		display: block;
+		text-align: center;
+	}
+	#continue h2{
+		font-size: 20.513vw;
+		font-family: 'Telegraf Bold';
+		line-height: 0.79375em;
+		text-align: center;
+		letter-spacing: -0.02em;
+		margin: 0;
+		margin-bottom: 15.71vw;
+	}
+	#continue .button {
+		font-size: 6.667vw;
+		height: 18.462vw;
+		color: #000;
+		border: 0.15vw solid #000;
+		padding: 0;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		border-radius: 9.744vw;
+		
+		text-transform: uppercase;
+		font-family: 'NB Architekt Light';
+		letter-spacing: 0vw;
+		margin: 3.903vw 0 4.4vw;
+	}
+	#continue .row.lower{
+		margin-bottom: 13.262vw;
+	}
+	.rst-section-humane{
+		position: relative;
+	}
+	.rst-ex-content{
+		padding-bottom: 23.908vw;
+	}
+	.rst-home-video-title{
+		color: #fff;
+		
+		font-size: 2.564vw;
+		line-height: 1;
+		display: block;
+		text-align: center;
+		letter-spacing: 0.231vw;
+		margin: 0;
+		margin-top: 10.438vw;
+		margin-bottom: 20.256vw;
+		font-family: 'NB Architekt Std';
+		width: 100% !important;
+        padding: 0 !important;
+        opacity: 1 !important;
+	}
+	.home-gallery-divider{
+		margin-bottom: 1.836vw;
+	}
+	.coverflow-item .caption-top {
+		font-size: 2.051vw;
+		line-height: 1.2;
+	}
+	.coverflow-item .caption-middle {
+		font-size: 3.077vw;
+		padding-top: 4.103vw;
+		opacity: 0;
+		line-height: 1.2;
+		color: #fff;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.187vw;
+		transition: all 0.3s ease;
+		display: none !important;
+	}
+	.coverflow-item .caption-bottom {
+		display: none;
+	}
+	.gallery-button-share{
+		text-align: center;
+		margin-top: 4.103vw;
+	}
+	#conservation-partners .grid {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 102.564vw;
+		object-fit: cover;
+		z-index: 1;
+	}
+	#conservation-partners{
+		padding-top: 15.246vw;
+	}
+	.gallery-button-share a{
+		width: 24.226vw;
+		font-family: 'Telegraf';
+		font-size: 3.333vw;
+		text-decoration: none;
+		line-height: 1;
+		margin: 0px auto;
+		height: 7.318vw;
+		border-radius: 4.972vw;
+		color: #fff;
+		border: 1px solid #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#meet-the-pack {
+		background: #000;
+		color: #FFF;
+		z-index: 5;
+		position: relative;
+		padding: 10vw 0 0;
+		overflow: visible;
+	}
+	#meet-the-pack .grid {
+	
+		height: auto !important;
+		top: 20.615vw;
+	}
+	
+	.home-gallery-divider{
+		position: relative;
+	}
+	.home-gallery-divider .source-text{
+		position: absolute;
+		left: 2.051vw;
+		top: 6.154vw;
+	}
+	.rst-section-humane{
+		
+		background: url(https://colossal.com/wp-content/themes/colossal/img/direwolf/mb/humane_bg.png) no-repeat top center / cover;
+		margin-top: -5.128vw;
+		        padding-top: 3.846vw;
+				z-index: 99;
+	}
+	#conservation-partners {
+		background: none;
+		
+	}
+	.conservation-partners-inner{
+		position: relative;
+		z-index: 23;
+	}
+	#conservation-partners:after{
+		content:"";
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: #000;
+		width: 100%;
+		position: absolute;
+	}
+	.rst-section-humane > span {
+        font-size: 2.051vw;
+        line-height: 1;
+        display: block;
+        text-align: center;
+        padding: 0;
+        color: #fff;
+        letter-spacing: 0.18em;
+        margin: 0;
+        font-family: 'NB Architekt Std';
+        font-weight: 400;
+		margin-bottom: 8.123vw;
+    }
+	.rst-section-humane > a {
+        font-size: 2.651vw;
+        line-height: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 10;
+		position: relative;
+        text-align: center;
+        padding: 0;
+        color: #FBFAF8;
+        letter-spacing: 0.16em;
+        margin: 0;
+        font-family: 'NB Architekt Std';
+        font-weight: 400;
+		margin-bottom: 9.123vw;
+		height: 6.797vw;
+		width: 40.431vw;
+		margin: 0px auto;
+		border: 1px solid #FF6B00;
+		border-radius: 7.954vw;
+		margin-bottom: 9.418vw;
+		margin-top: -5.128vw;
+    }
+	.rst-section-humane{
+		padding-bottom: 44.015vw;
+	}
+	.humane-img1{
+		width: 88.203vw;
+		display: block;
+		margin-left: auto;
+		margin-top: 13.438vw;
+	}
+	.humane-dot-right{
+		position: absolute;
+		right: 0;
+		top: 151.282vw
+	}
+	.humane-dot-left{
+		position: absolute;
+		left: 0;
+		top: 49.231vw ;
+	}
+	.rst-section-humane > p {
+        font-size: 5.128vw;
+        line-height: 1.4;
+        display: block;
+        text-align: left;
+        padding: 0;
+        color: #fff;
+        letter-spacing: 0em;
+        margin: 0;
+		width: 86.41vw !important;
+		padding: 0 !important;
+		margin-left: 4.103vw;
+        font-family: 'Telegraf';
+        font-weight: 400;
+    }
+	.humane-bg-top{
+		position: absolute;
+		top: -6.41vw;
+		width: 100%;
+		left: 0;
+		display: block;
+		z-index: 1;
+	}
+	.humane-bg-arrow{
+		position: absolute;
+		top: 0;
+		width: 75.508vw;
+		left: 0;
+		display: block;
+	}
+	.rst-section-humane h2{
+		font-size: 19.887vw;
+		line-height: 1;
+		display: block;text-align: center;
+		padding: 0;
+		color: #fff;
+		letter-spacing: 0.18em;
+		margin: 0;
+		font-family: 'NB Architekt Light';
+		font-weight: 300;
+		margin-bottom: 9.418vw;
+	}
+	.rst-section-humane h2 span{
+		display: block;
+		margin-bottom: 5.128vw;
+	}
+	.humane-logo-right{
+		position: absolute;
+		top: 2.051vw;
+		width: 3.931vw;
+		right: 2.259vw;
+		display: block;
+	}
+	.humane-logo{
+		display: block;
+		width: 100%;
+		
+	}
+	.rst-quote-robin{
+		background: url(https://colossal.com/wp-content/themes/colossal/img/direwolf/mb/quote_robin_bg.png) no-repeat bottom center / cover;
+		position: relative;
+		padding-top: 13.456vw;
+		padding-bottom: 22.89vw;
+	}
+	.rst-quote-robin-content{
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+	}
+	.rst-quote-robin-content img{
+		width: 14.659vw;
+		display: block;
+		margin-bottom: 5.128vw;
+	}
+	.rst-quote-robin-content p{
+		color: #fff;
+		font-family: 'Telegraf';
+		font-size: 4.103vw;
+		line-height: 1.3;
+		letter-spacing: 0;
+		width: 81.136vw;
+		margin: 0 0 5vw 0;
+		letter-spacing: 0px;
+	}
+	.rst-quote-robin-content h4{
+		color: #fff;
+		font-family: 'Telegraf';
+		font-size: 5.128vw;
+		line-height: 1;
+		letter-spacing: 0;
+		margin: 13.818vw 0 3.103vw 0;
+		letter-spacing: 0px;
+	}
+	.rst-quote-robin-content span{
+		text-align: left;
+        padding: 0;
+		font-size: 2.564vw;
+        color: #fff;
+		line-height: 1.2;
+		display: block;
+        letter-spacing: 0.07em;
+        margin: 0;
+        font-family: 'NB Architekt Std';
+        font-weight: 400;
+	}
+	.quote-robin-logo{
+		position: absolute;
+		top: -37.569vw;
+		left: 0;
+		display: block;
+		width: 100%;
+		
+	}
+	.quote-robin-line{
+		width: 100%;
+		display: block;
+		margin-top: 5.705vw;
+	}
+	.rst-section-humane .rst-line-horizontal.rst-line-bg-1{
+		top: 52.564vw;
+	}
+	.rst-section-humane .rst-line-horizontal.rst-line-bg-2{
+		top: 103.846vw;
+	}
+	.rst-section-humane .rst-line-horizontal.rst-line-bg-3{
+		top: 155.128vw;
+	}
+	.rst-section-humane .rst-line-horizontal.rst-line-bg-4{
+		top: 206.41vw;
+	}
+	.rst-section-humane .rst-line-horizontal.rst-line-bg-5{
+		top: 261.692vw;
+	}
+	.rst-section-humane .rst-line-horizontal.rst-line-bg-6{
+		top: 313.974vw;
+	}
+	.humane-img1,.humane-logo{
+		position: relative;
+		z-index: 1;
+	}
+	
+	.rst-inner-caring{
+		position: relative;
+		z-index: 1;
+	}
+
+	
+
+	.myth-top-1{
+		width: 100%;
+		display: block;
+	}
+	.myth-fact-container,.dire-wolf-pack-development-container .phases {
+        overflow: auto;
+    }
+	.myth-fact-container::-webkit-scrollbar,.dire-wolf-pack-development-container .phases::-webkit-scrollbar {
+		display: none;
+	}
+	.transitional-phase{
+		margin-bottom: 16.385vw;
+	}
+	.dire-wolf-pack-development-container{
+		margin: 6.154vw 0;
+		border: 1px solid #333333;
+		border-radius: 5.128vw;
+		background: #0E0E0E;
+		position: relative;
+        z-index: 1;
+	}
+	#phases {
+		background: none;
+	}
+
+	#phases .phase-sections  {border-radius: 4vw; margin-bottom: 10vw; margin-top: 10vw}
+	
+	#phases .phase-sections .inner {
+		overflow: scroll;
+		padding: 0 0 0 6vw;
+		width: auto;
+		flex-wrap:nowrap;
+		flex-direction: row;
+		display: flex;
+		border-radius: 6vw;
+		/* width: fit-content; */
+		border: 1px solid #636363;
+		align-items: normal;
+		overflow: hidden;
+		overflow-x: scroll;
+		position: relative;
+	}
+	#phases .phase-sections .phase {
+		width: 47.154vw;
+		min-width: 47.154vw;
+		margin-left: 0 !important;
+		margin-right: 8.205vw !important;
+		padding-bottom:9.385vw;
+		font-size: 3.077vw;
+		height: auto !important;
+		position: relative;
+		padding-top: 12.551vw;
+		
+	}
+	/* #phases .phase-sections .phase:nth-child(2):before{
+		content:"";
+		left: 0;
+		top: 0;
+		background: #FF6B00;
+		height: 2.308vw;
+		width: 100%;
+		position: absolute;
+	} */
+	/* #phases .phase-sections .phase:nth-child(2):after{
+		content:"";
+		left: 0;
+		bottom: 0;
+		background: #FF6B00;
+		height: 2.308vw;
+		width: 100%;
+		position: absolute;
+	} */
+	#phases .phase-sections .phase svg {
+		margin: 0 auto 8.333vw;
+		display: block;
+	}
+	#phases .phase-sections .phase:nth-child(6) {
+		margin-right: 0 !important;
+	}
+	#phases .phase-sections .phase:nth-child(6) svg {
+		width: 100%;
+		height: auto;
+	}
+	/* #phases .phase-sections .phase svg path {
+		transition: all 0.3sease;
+		fill: #fff !important;
+	} */
+	/* #phases .phase-sections .phase:nth-child(2)  svg path{
+		fill: #FF6B00 !important;
+	} */
+	/* #phases .phase-sections .phase:nth-child(2) h5{
+		color: #FF6B00
+	}
+	#phases .phase-sections .phase:nth-child(2) h6{
+		color: #FF6B00
+	}
+	#phases .phase-sections .phase:nth-child(2) svg + .line{
+		border-bottom-color: #FF6B00
+	} */
+	#phases .phase-sections .phase h6 + .line.grey{
+		margin-top: 2.564vw;
+	}
+	#phases .phase-sections h6 {
+		font-size: 3.077vw;
+		font-family: 'NB Architekt Light';
+		color: #777;
+		line-height: 1;
+		margin: 0;
+		transition: all 0.3sease;
+	}
+	#phases .phase-sections h5 {
+		padding: 0;
+		font-size: 4.615vw;
+		letter-spacing: 0.2em;
+		margin: 0;
+		line-height: 1.61111111;
+		margin: 0;
+		padding-top: 2.051vw;
+		transition: all 0.3s ease;
+	}
+	#phases .phase-sections .phase .d-flex {
+		height: auto;
+		font-size: 3.077vw;
+		line-height: 1.2;
+		letter-spacing: 0.02em;
+		color: #fff;
+	}
+	#phases .phase-sections .phase .line.grey {
+		margin-bottom: 3.703vw;
+		margin-top: 4.103vw;
+		    border-bottom-color: rgba(255,255,255,0.3);
+	}
+	#phases .phase-sections .phase .pl {
+		font-size: 6.246vw;
+		padding-right: 3.333vw;
+		width: 8vw;
+	}
+	.dire-wolf-pack-development > span{
+		color: #656565;
+		
+		font-size: 2.564vw;
+		line-height: 1;
+		display: block;
+		padding: 0;
+		text-align: center;
+		letter-spacing: 0.1em;
+		margin: 0;
+		font-family: 'NB Architekt Std';
+	}
+	#rst-section-caring{
+		padding-left: 5.385vw;
+		padding-right: 5.385vw;
+		padding-bottom: 11.364vw;
+		padding-top: 22.29vw;
+		position: relative;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/direwolf/mb/caring_bg.jpg) no-repeat top center / cover;
+		margin-top: -10.256vw;
+	}
+	.rst-quote-robin{
+		z-index: 99;
+	}
+	.rst-inner-caring > img{
+		width: 100%;
+		display: block;
+	}
+	.rst-inner-caring-content > span{
+		width: 5.046vw;
+		height: 5.046vw;
+		background: #fff;
+		display: block;
+		margin-bottom: 4.103vw;
+	}
+	.rst-inner-caring-content h2{
+		color: #fff;
+		font-family: 'Telegraf Bold';
+		font-weight: 700;
+		font-size: 7vw;
+		line-height: 0.9em;
+		letter-spacing: 0;
+		margin: 0 0 4.354vw 0;
+		letter-spacing: 0px;
+		text-transform: uppercase;
+	}
+	.rst-inner-caring-content p{
+		color: #fff;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		font-size: 4.103vw;
+		line-height: 1.3em;
+		letter-spacing: 0;
+		margin: 0 0 6.154vw 0;
+		letter-spacing: 0px;
+	}
+	.rst-inner-caring-content .btn.btn-solid-orange{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: #000;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		height: 10.256vw;
+		background: #FF6B00;
+		border: 1px solid #000;
+		font-size: 4.103vw;
+		padding-left: 7.692vw;
+		padding-right: 3.846vw;
+		border-radius: 6.154vw;
+	}
+	.rst-inner-caring-content .btn.btn-solid-orange img{
+		height: 4.103vw;
+		margin: 0;
+	}
+	.rst-inner-caring-content{
+		padding-top: 11.795vw;
+		padding-left: 2.051vw;
+		padding-right: 1.795vw;
+	}
+	#rst-section-caring .rst-line-horizontal.rst-line-bg-1{
+		top: 40.426vw;
+	}
+	#rst-section-caring .rst-line-horizontal.rst-line-bg-2{
+		top: 91.708vw;
+	}
+	#rst-section-caring .rst-line-horizontal.rst-line-bg-3{
+		top: 142.99vw;
+	}
+	#rst-section-caring .rst-line-horizontal.rst-line-bg-4{
+		top: 194.272vw;
+	}
+	
+	#myth-fact{
+		width: 175.897vw;
+		min-width: 175.897vw;
+		display: block;
+	}
+	.line-white-myth-fact{
+		width: px;
+		
+		background: #fff;
+		position: absolute;
+		top: 9.231vw;
+		position: absolute;
+		left: 86.923vw;
+		bottom: 0px;
+		content:"";
+	}
+	/* #myth-fact:after{
+		width: 87.436vw;
+		height: 3px;
+		background: #fff;
+		position: absolute;
+		top: 9.231vw;
+		position: absolute;
+		left: 0;
+		content:"";
+	} */
+	.rst-bridgett:before{
+			content:"";
+			background: #FF6B00;
+			position: absolute;
+			bottom: 100%;
+			right: 0;
+			height: 13.846vw;
+			width: 34.359vw;
+	}
+	.box-container {
+		display: block;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.box-container .box {
+		flex: none;
+		padding: 0;
+	}
+	.box-container .box .box-bg {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center top;
+		border-radius: 3.077vw;
+		transform: scale(1);
+		transition: all 1s ease;
+		    filter: inherit !important;
+		opacity: 1 !important;
+		sheight: 109.231vw !important;
+	}
+	.box-container .box .info {
+		position: absolute;
+		bottom: 9.695vw;
+		left: 5.967vw !important;
+		font-size: 1.446vw;
+		color: #FFF;
+		width: 31.808vw;
+		text-align: left;
+		
+		transition: all 0.3s ease;
+		opacity: 1 !important;
+	}
+	.box-container .box h5 {
+		font-size: 1.446vw;
+		margin-bottom: 1vw;
+		line-height: 95.6%;
+		font-weight: 400;
+		padding-top: 1.026vw;
+		margin-bottom: 2.564vw;
+		font-family: 'NB Architekt Std';
+		letter-spacing: 0.07em;
+		border-top: 1px solid rgba(99, 99, 99, 0.5);
+	}
+	.box-container .box .stat {
+		border: 1px solid #FFF;
+		display: inline-block;
+		border-radius: 3.469vw;
+		padding: 0 1.59vw;
+		font-size: 2.459vw;
+		font-family: 'telegraf';
+		height: 3.903vw;
+		line-height: 3.903vw;
+	}
+	.box-container .box .tag .square {
+		width: 1.879vw;
+		height: 1.879vw;
+		background: #f36501 !important;
+		display: inline-block;
+		margin: 0 1.538vw 0 0 !important;
+	}
+	.box-container .box .tag {
+		color: #f36501 !important;
+		align-items: center;
+		position: absolute;
+		top: 8.867vw;
+		left: 5.967vw!important;
+		display: flex;
+		font-size: 2.313vw;
+		line-height: 1;
+		transition: all 0.3s ease;
+	}
+	.home-meet-sep{
+		margin-top: 5.128vw !important;
+	}
+	.box-container .box .title {
+		position: absolute;
+		top: 38.4vw;
+		left: 5.967vw;
+		font-size: 6.154vw;
+		letter-spacing: 0.2em;
+		color: #FFF;
+		transition: all 0.3sease;
+		opacity: 1 !important;
+	}
+	.box-container .box .inside {
+		border: 1px solid #636363;
+		background: #000;
+		width: 100%;
+		height: 100%;
+		border-radius: 3.077vw;
+		background: #000;
+		overflow: hidden;
+		position: relative;
+	}
+	.meet-the-pack-top-slider{
+		overflow: auto;
+		        width: 100%;
+				        position: relative;
+        z-index: 99;
+		padding-left: 11.538vw;
+	}
+	.meet-the-pack-top-slider::-webkit-scrollbar{
+		display: none;
+	}
+	.meet-the-pack-top-wrap{
+		display: flex;
+		flex-wrap: nowrap;
+		        width: fit-content;
+	}
+	.meet-the-pack-top-item{
+		width: fit-content;
+		padding-top: 1.685vw;
+		padding-left: 2.564vw;
+		padding-right: 2.564vw;
+		padding-bottom: 3.569vw;
+		position: relative;
+		margin-right: 1.795vw;
+	}
+	#meet-the-pack .bg{
+		sdisplay: none;
+	}
+	#meet-the-pack .bg {
+		position: absolute;
+		top: 150vw;
+	}
+	.box-swiper-action > span{
+		margin: 0;
+		font-family: 'NB Architekt Std';
+		color: #838383;
+		font-size: 2.564vw;
+		line-height: 1;
+		cursor: pointer;
+	}
+	.swiper-pagination-custom {
+		width: auto !important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 6.41vw;
+	}
+	.swiper-pagination-bullet{
+		
+	}
+	.swiper-pagination-custom {
+		position: relative;
+		        bottom: 0 !important;
+	}
+	.swiper-pagination-custom:after {
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		left: 0;
+		content:"";
+		background: #838383;
+		height: 1px;
+	}
+	.swiper-pagination-custom .swiper-pagination-bullet {
+		margin: 0px !important;
+		width: 7.367vw;
+		height: 7.367vw;
+		opacity: 1 !important;
+		background: none !important;
+		border-radius: 50%;
+		border: 1px solid #838383 !important;
+		color: #838383;
+		font-size: 3.379vw !important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: 'Telegraf'!important;
+		line-height: 1em !important;
+        padding-top: 2px;
+		background: #000 !important;
+		position: relative;
+		z-index: 2;
+	}
+	.swiper-pagination-custom .swiper-pagination-bullet.swiper-pagination-bullet-active{
+		width: 9.638vw;
+		height: 9.638vw;
+		font-family: 'Telegraf Bold'!important;
+		font-size: 4.423vw;
+		font-weight: 700;
+		color: #FF6B00 !important;
+	}
+	.swiper-pagination-custom .swiper-pagination-bullet.swiper-pagination-bullet-active:after{
+		content:"";
+		height: auto;
+		width: auto;
+		position: absolute;
+		left: -2px;
+		top: -2px;
+		right: -2px;
+		bottom: -2px;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/direwolf/mb/active_bullet.png) no-repeat center center / cover;
+	}
+	.box-swiper-action{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 6.667vw;
+		margin-bottom: 11.218vw;
+	}
+	
+	#conservation-partners .bg{
+		position: absolute;
+		top: 540vw;
+		left: 0;
+		width: 100%;
+		object-fit: cover;
+		z-index: 1;
+	}
+	.meet-the-pack-top-item.active:after{
+		height: 1.282vw;
+		width: 100%;
+		content:"";
+		position: absolute;
+		left: 0;bottom: 0;
+		background: #FF6B00;
+	}
+	.meet-the-pack-top-slider{
+		margin-bottom: 19.231vw;
+	}
+	#meet-the-pack {
+       
+        padding: 5.036vw 0 0;
+        
+    }
+	.meet-the-pack-top-item-icon{
+		text-align: center;
+		margin-bottom: 0.513vw;
+	}
+	.meet-the-pack-top-item p{
+		 letter-spacing: 0.06em;
+		margin: 0;
+		font-size: 3.221vw;
+		line-height: 5.128vw;
+		color: #FBFAF8;
+		padding: 0 !important;
+		width: auto !important;
+		opacity: 1 !important;
+		        white-space: nowrap;
+		font-family: 'NB Architekt Std';
+	}
+	.meet-the-pack-top-item.active p{
+		color: #FF6B00;
+	}
+	
+
+	.stage-intro {padding-top: 10vw}
+	.stage-intro h5 {font-size: 4vw;}
+	.stage-intro h4 {font-size: 13vw;}
+	.stage-intro .div {height: 3vw}
+	#meet-the-pack .stage-intro p {padding: 0; font-size: 4vw;}
+
+
+	.stage-container {flex-direction: column; height: auto; margin-top: 10vw}
+	.stage-container .stage {flex-direction: column; border: 1px solid #595959; border-radius: 3vw; margin-bottom: 1.5vw; background: #000;}
+	.stage-container .stage .title {width: 100%; position: static; transform: none; text-align: center; font-size: 5vw; color: #7e7e7e; padding: 1vw 0}
+	.stage-container .stage .inside {padding: 0; height: 0px; border: none; transition: all .5s ease;}
+	.stage-container .stage .inside img {border-radius: 3vw; aspect-ratio: 1 / 1}
+	.stage-container .stage.active .inside {height: auto}
+	.stage-container .stage .title .indic {width: 2vw; height: 2vw; margin-left: 2vw}
+
+	.video-container video {aspect-ratio: 4 / 5; border-radius: 14vw;}
+	.video-container .play {width: 25%;}
+
+
+	.doi .seal {width: 25vw; position: absolute; right: 0; top: 4vw}
+	.doi { color: #FFF;}
+	
+	.doi .critical-1 {margin-top: -4vw; width: 85%;}
+	.doi  .tag {font-family: 'NB Architekt Light'; font-size: 0.8vw; color: #ff6b00; border-radius: 100px; border: 1px solid #ff6b00; display: inline-block; padding: 0.3vw 0.8vw}
+	.doi p {font-size: 4vw; padding-top: 3vw}
+	.doi .auth {font-family: 'NB Architekt Light'; padding-top: 1.5vw; font-size: 2.5vw;}
+	.doi span {font-family: 'Telegraf Bold'; font-size: 6vw; padding-right: 2vw;}
+	.doi .lower {font-family: 'Telegraf Bold'; font-size: 2.1vw; text-transform: uppercase; line-height: 1; display: inline-block; width: 60%;}
+	.doi .tag {position: absolute; top: 72vw; left: 4vw; font-size: 2.4vw; padding-left: 3vw; padding-right: 3vw}
+	.doi .tag.grey {vertical-align: top; color: #CCC; border-color: #CCC;}
+	.doi h2 {font-size: 11vw; line-height: 0.8; font-family: 'Telegraf Bold'; color: #FFF; mix-blend-mode: exclusion; text-transform: uppercase; text-align: center; z-index: 11; position: relative;}
+
+	.continue-modal-content h3 {font-size: 3vw;}
+	.continue-modal-content {padding: 2vw}
+
+	.continue-modal.show .continue-modal-content h2 {font-size: 6vw;}
+	.continue-modal-content {aspect-ratio: 4 / 4.5; border-radius: 4vw; background: #282320 url(https://colossal.com/wp-content/themes/colossal/img/direwolf/mb/modal-home.png) no-repeat; background-size: cover;}
+	.continue-modal-close {font-size: 3vw; padding: 2vw 2vw 2vw 6vw; border-width: 2px; margin-top: 10vw}
+	.continue-modal-close img {width: 4vw; margin-left: 3vw;}
+	.continue-modal.show .continue-modal-content .sq {margin: 6vw auto}
+
+
+	.rst-inner-caring-title {font-size: 10.3vw; color: #FFF; font-family: 'Telegraf Bold'; mix-blend-mode:exclusion; line-height: 0.9; z-index: 31; position: relative; text-align: left; margin: 15vw 0}
+
+	#alta-video .play {width: 18vw; left: 40%; top: 41%}
+	#alta-video .bg {margin-top: -8vw}
+	#alta-video .text-1 {display: none}
+	#alta-video .text-2 {display: none}
+	#alta-video .text-3 {top: 21.5%; font-size: 2.5vw;}
+	#alta-video .text-4 {transform: none; top: 77%; font-size: 3.5vw; width: 100%; text-align: center; left: 0}
+
+	.rst-hero-top .big-button {background: rgba(255,107,0,0.2); color: #FFF; border: 1px solid #ff9040; font-size: 3.5vw; padding: 4vw 15vw 4vw 4vw; margin-top: 2vw}
+	.rst-hero-top .big-button .plus {top: 50%; transform: translateY(-50%); right:10% !important; color: #FFF; font-size: 1.3vw;}
+	.rst-hero-top .big-button:hover {background: #ff9040;}
+	.rst-hero-top .big-button:hover .plus {color: #FFF;}
+
+	.rst-hero-making-extinctiona .big-button {background: rgba(255,107,0,0.2); color: #000; border: 1px solid #ff9040; font-size: 3.5vw; padding: 4vw 4vw 4vw 4vw; margin-top: 5vw}
+	.rst-hero-making-extinctiona .big-button .plus {top: 50%; transform: translateY(-50%); right:10% !important; color: #000 !important; font-size: 1.3vw; background: transparent; display: none}
+	.rst-hero-making-extinctiona .big-button:hover {background: #ff9040;}
+	.rst-hero-making-extinctiona .big-button:hover .plus {color: #FFF;}
+}

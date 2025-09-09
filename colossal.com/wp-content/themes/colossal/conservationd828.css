@@ -1,0 +1,1743 @@
+p {font-size: clamp(0.24px,1.2vw,24.0px); line-height: 2}
+p.medium {font-size: clamp(0.4px,2.0vw,40.0px);}
+
+section {position: relative;}
+.container {max-width: 85%}
+
+
+.box.grey {border:1px solid #6c6c73;}
+.box.green {color: #c3e901; border-color: #c3e901}
+
+.dot.red {background-color: #fe0000}
+.dot.yellow {background-color: #fffc00}
+
+span.green {color: #7dea13}
+
+h1, h2, h3, h4, h5 {font-family: 'Telegraf'; line-height: 1;}
+
+h1 {font-size: clamp(2.0px,10.0vw,200.0px)}
+h2 {font-size: clamp(1.0px,5.0vw,100.0px)}
+h3 {font-size: clamp(0.46px,2.3vw,46.0px)}
+h4 {font-family: 'NB Architekt Std'; font-size: clamp(0.6px,3.0vw,60.0px); margin-bottom: clamp(0.4px,2.0vw,40.0px)}
+h5 {font-family: 'NB Architekt Light'; font-size: clamp(1.16px,5.8vw,116.0px); margin-bottom: clamp(0.4px,2.0vw,40.0px); line-height: 1.3}
+
+.slashes {font-family: 'NB Architekt Std';}
+.z-index-2 { z-index: 2; }
+
+.head {position: relative;}
+.head .arkitect {font-size: clamp(0.14px,0.7vw,14.0px);}
+.head .line {margin-left: -3%;}
+.head .square {left: -5%; top: 30%;}
+
+#hero .inside {position: absolute; top: 20vh; width: 100%; text-align: center;}
+#hero .inside .line {position: static; width: 100%;}
+#hero h1 {color: #FFF; position: static; font-size: clamp(2.2px,11.0vw,220.0px); font-family: 'NB Architekt Light'; line-height: 1; text-transform: uppercase;}
+#hero h3 {color: #FFF; font-family: 'Telegraf'; text-transform: uppercase; padding-bottom: 3%; font-size: clamp(0.4px,2.0vw,40.0px)}
+#hero .arkitect {margin-right: 6.5%;}
+#hero p {text-transform: none; font-size: clamp(0.16px,0.8vw,16.0px); line-height: 1.8}
+#hero .lower {top:68vh;}
+#hero .slashes {width: 100%;}
+
+
+
+#section-0 .text-1 {position: absolute; top: clamp(2.8px,14.0vw,280.0px); left: clamp(-80px,4vw,80px)}
+#section-0 .img-1 {margin-top: clamp(-200px,-10vw,200px); margin-left: clamp(-80px,-4vw,80px); max-width: 105%}
+#section-0 .text-2 {position: absolute; top: clamp(22.2px,111.0vw,2220.0px); left: 49%; }
+#section-0 .text-3 {position: absolute; top: clamp(25.4px,127.0vw,2540.0px); left: 49%; }
+
+#foundation {padding: 0 clamp(-80px,4vw,80px)}
+#foundation h3 {font-family: 'NB Architekt Light'; font-size: clamp(-100px,5vw,100px); color: #6a5f40}
+#foundation .img-1 {width: 90%}
+#foundation .img-2 {margin-left: clamp(-60px,-3vw,60px); width: 85%}
+#foundation .img-3 {max-width: 135%}
+#foundation .img-4 {max-width: 135%}
+#foundation .square {right: clamp(-100px,5vw,100px);}
+#foundation p {line-height: 1.4; font-size: clamp(-22px,1.1vw,22px)}
+#foundation p a {color: #000; font-weight: 700; text-decoration: underline; }
+#foundation .big-button {border: 2px solid #000; padding: clamp(-40px,2vw,40px) clamp(-160px,8vw,160px) clamp(-40px,2vw,40px) clamp(-60px,3vw,60px); width: 100%; font-weight: 700}
+#foundation .tag {transform: rotate(90deg); transform-origin: top left; font-size: clamp(-24px,1.2vw,24px); font-family: 'NB Architekt Std'; position: absolute; top: clamp(-660px,33vw,660px); left: clamp(-100px,5vw,100px)}
+#foundation .tag .square {position: static; display: inline-block; vertical-align: middle;}
+
+#section-1 .text-1 {position: absolute; top: clamp(2.8px,14.0vw,280.0px); left: clamp(1.2px,6.0vw,120.0px)}
+#section-1 .img-1 {position: absolute; width: 60%; right: 0; top: clamp(-260.0px,-13.0vw,260.0px)}
+#section-1 .text-2 {position: absolute; top: clamp(-1660px,83vw,1660px); left: 49%; }
+#section-1 .text-3 {position: absolute; top: clamp(-1880px,94vw,1880px); left: 49%; }
+
+#section-1 .mid {position: absolute; top: clamp(-100px,5vw,100px); max-width: 90%; left: 5%}
+#section-1 .mid h2 {color: #ff7b31; font-family: 'NB Architekt Light';}
+#section-1 .mid p {font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.5}
+#section-1 h3 .slashes {position: relative; top: clamp(-20px,1vw,20px)}
+
+
+#section-2 {color: #FFF; background: #000; position: relative; z-index: 5; padding-bottom: 1px}
+#section-2 .upper {position: absolute; width: 100%; top: clamp(0.4px,2.0vw,40.0px)}
+#section-2 .upper img {width: clamp(-140px,7vw,140px)}
+#section-2 .text-1 {position: absolute; top: clamp(2.8px,14.0vw,280.0px); left: clamp(0.2px,1.0vw,20.0px); width: 60%}
+#section-2 .img-1 {position: absolute; width: 60%; right: 0; top: clamp(7.86px,39.3vw,786.0px); width: 35%}
+#section-2 p {color: #FFF; line-height: 1.8; font-size: clamp(0.2px,1.0vw,20.0px)}
+#section-2 .quote {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/section-2-quote.png) no-repeat center center; background-size: 100% 100%; padding: clamp(1.0px,5.0vw,100.0px) clamp(2.0px,10.0vw,200.0px) clamp(1.0px,5.0vw,100.0px) clamp(1.0px,5.0vw,100.0px); height: clamp(4.0px,20.0vw,400.0px); margin-bottom: clamp(-200.0px,-10.0vw,200.0px)}
+#section-2 .quote p {font-size: clamp(0.4px,2.0vw,40.0px);}
+#section-2 .quote p span {color: #c3e901; font-size: clamp(0.26px,1.3vw,26.0px); font-style: italic;}
+
+
+#section-3 {position: relative; z-index: 4}
+#section-3 .text-1 {position: absolute; top: clamp(4.0px,20.0vw,400.0px); left: clamp(0.2px,1.0vw,20.0px); color: #FFF; font-size: clamp(2.2px,11.0vw,220.0px); line-height: 1}
+#section-3 .text-2 {position: absolute; top: clamp(12.7px,63.5vw,1270.0px); width: 50%; color: #FFF;}
+#section-3 .text-3 {position: absolute; top: clamp(19.2px,96.0vw,1920.0px);}
+#section-3 .text-3 div { background: linear-gradient(90deg, #DE2302 0%, #FF7B31 100%); margin-bottom: clamp(-20px,clamp(0.2px,1.0vw,20.0px),20px); padding: clamp(-6px,clamp(0.06px,0.3vw,6.0px),6px) clamp(-20px,clamp(0.2px,1.0vw,20.0px),20px); display: inline-block; font-family: 'NB Architekt Light'; font-size: clamp(0.65px,3.25vw,65.0px); color: #FFF; line-height: 1; white-space: nowrap; position: relative; z-index: 1}
+#section-3 .text-4 {top: clamp(24.0px,120.0vw,2400.0px); left: clamp(0.6px,3.0vw,60.0px); position: absolute; width: 60%;}
+#section-3 .text-4 .large {text-transform: uppercase;}
+#section-3 .text-4 .large strong {font-family: 'Telegraf Bold'; color: #f15720}
+#section-3 .text-5 {position: absolute; top: clamp(30.2px,151.0vw,3020.0px); left: clamp(0.4px,2.0vw,40.0px)}
+#section-3 .text-5 div { background: #2c1e25; margin-bottom: clamp(-20px,clamp(0.2px,1.0vw,20.0px),20px); padding: clamp(-6px,clamp(0.06px,0.3vw,6.0px),6px) clamp(-20px,clamp(0.2px,1.0vw,20.0px),20px); display: inline-block; font-size: clamp(0.5px,2.5vw,50.0px); font-style: italic; color: #3DDAFF; line-height: 1; white-space: nowrap; position: relative; z-index: 1}
+#section-3 .stat-1 {position: absolute; left: 70%; top: clamp(-2450px,clamp(24.5px,122.5vw,2450.0px),2450px)}
+#section-3 .stat-2 {position: absolute; left: 70%; top: clamp(27.4px,137.0vw,2740.0px)}
+#section-3 .stat {font-family: 'NB Architekt Std'; font-size: clamp(-120px,clamp(1.2px,6.0vw,120.0px),120px)}
+#section-3 .quote {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/section-3-quote.png) no-repeat center center; background-size: 100% 100%; padding: clamp(1.0px,5.0vw,100.0px) clamp(2.0px,10.0vw,200.0px) clamp(1.0px,5.0vw,100.0px) clamp(6.0px,30.0vw,600.0px); height: clamp(4.0px,20.0vw,400.0px); margin-bottom: clamp(-200.0px,-10.0vw,200.0px); position: absolute; bottom: 0; left: 0; width: 90%; margin-left: 5%}
+#section-3 .quote p {font-size: clamp(0.36px,1.8vw,36.0px); color: #FFF;}
+#section-3 .quote p span {color: #9940DD; font-size: clamp(0.26px,1.3vw,26.0px); margin-left: clamp(0.6px,3.0vw,60.0px)}
+#section-3 .text-8 {position: absolute; top: clamp(-440px,22vw,440px); right: 0; width: 60%}
+
+
+#section-4 { position: relative; z-index: 3; color: #FFF; }
+#section-4 .text-1 { position: absolute; top: clamp(4.0px,20.0vw,400.0px); left: clamp(3.5px,17.5vw,350.0px); text-transform: uppercase; font-family: 'NB Architekt Std'; font-weight: 300; right: clamp(0.4px,2.0vw,40.0px); color: #FFF; font-size: clamp(0.8px,4.0vw,80.0px); line-height: 1}
+#section-4 .text-2 { position: absolute; top: clamp(7.0px,35.0vw,700.0px); left: clamp(3.5px,17.5vw,350.0px); max-width: clamp(14.8px,74.0vw,1480.0px); }
+#section-4 ol { list-style: none; counter-reset: counter; padding-left: 0; }
+#section-4 li { min-height: clamp(20px,clamp(1.0px,5.0vw,100.0px),70px); font-size: clamp(0.24px,1.2vw,24.0px); margin-bottom: clamp(-60px,3vw,60px); position: relative; counter-increment: counter; padding-left: clamp(40px, clamp(1.7px,8.5vw,170.0px),130px); }
+#section-4 li strong { font-family: 'NB Architekt Std'; text-transform: uppercase; font-weight: 300; display: block; font-size: clamp(0.26px,1.3vw,26.0px); color: #7DEA13; margin-bottom: clamp(0.05px,0.25vw,5.0px); }
+#section-4 li:before { font-family: 'NB Architekt Std'; color: #000; content: "0" counter(counter); font-size: clamp(0.4px,2.0vw,40.0px); display: flex; align-items: center; justify-content: center; background-color: #7DEA13; border-radius: 50%; width: clamp(20px,clamp(1.0px,5.0vw,100.0px),70px); height: clamp(20px,clamp(1.0px,5.0vw,100.0px),70px); position: absolute; left: 0; top: 50%; transform: translateY(-50%); }
+#section-4 .bg { min-height: 370px; object-fit: cover; }
+
+#section-human-factor {padding: clamp(1.1px,5.5vw,110.0px) 0 clamp(1.0px,5.0vw,100.0px); background: #453b23; color: #fff;}
+#section-human-factor .img-decor { width: 100%;position: absolute; left: 0; top: clamp(1.0px,5.0vw,100.0px); right: 0; bottom: 0; }
+#section-human-factor .row { position: relative; z-index: 4; }
+#section-human-factor .container { max-width: 92%; }
+#section-human-factor .box { border-color: #fff; }
+#section-human-factor .line { z-index: 4; width: 90%; }
+#section-human-factor .line.gray { border-color: rgba(255, 255, 255, 0.40); }
+#section-human-factor .line.line-transform { transform: translateX(clamp(-80.0px,-4.0vw,80.0px)); }
+#section-human-factor .text-1 .line.line-rotate { left: 0; }
+#section-human-factor .text-1 .line.line-rotate:before { left: 100%; right: unset; }
+#section-human-factor .wrapper { padding: clamp(0.8px,4.0vw,80.0px); position: relative; }
+#section-human-factor h5 { position: relative; z-index: 3; margin-bottom: 0; font-size: clamp(1.8px,9.0vw,180.0px); font-family: 'Telegraf Light'; line-height: .9; text-transform: uppercase; }
+#section-human-factor p.medium { position: relative; z-index: 3; line-height: 1.3;  }
+#section-human-factor .img-1 { width: clamp(6.6px,33.0vw,660.0px); position: absolute; top: clamp(-200px,-10vw,200px); right: clamp(1.6px,8.0vw,160.0px);  z-index: 3;}
+#section-human-factor .img-3 { width: clamp(2.8px,14.0vw,280.0px); }
+#section-human-factor .arkitect { font-size: clamp(10px,clamp(0.16px,0.8vw,16.0px),15px); }
+#section-human-factor .text-1 { position: relative; padding-top: clamp(0.8px,4.0vw,80.0px); font-size: clamp(0.28px,1.4vw,28.0px); }
+#section-human-factor .text-1 .line { position: absolute; bottom: clamp(-60.0px,-3.0vw,60.0px); left: calc(-15px - 3rem); right: 0; width: calc(100% + clamp(0.8px,4.0vw,80.0px) + 15px + 15px + 3rem); }
+#section-human-factor .text-1 .line:before { content: ''; width: 33.5%; border-bottom: 1px solid #ff7b31; position: absolute; right: 100%; top: 0; }
+#section-human-factor .text-2 { padding-top: clamp(1.2px,6.0vw,120.0px); padding-right: clamp(1.2px,6.0vw,120.0px); font-size: clamp(0.32px,1.6vw,32.0px); }
+#section-human-factor .text-3 { padding-top: clamp(10px,clamp(0.2px,1.0vw,20.0px),20px); font-size: clamp(0.48px,2.4vw,48.0px); margin-left: clamp(0.7px,3.5vw,70.0px);  display: flex; align-items: center;}
+#section-human-factor .text-3 small { font-size: clamp(0.34px,1.7vw,34.0px); }
+#section-human-factor .video .slashes {max-width: 200%; width: 150%}
+#section-human-factor .video p:not(.medium) {font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.4; color: #838383}
+#section-human-factor .video .arkitect {color: #838383}
+/*#section-human-factor .human {position: absolute; left: 0.5%; z-index: 30}
+
+#section-human-factor .human-1 {top: clamp(-784.0px, 39.2vw, 784.0px); left:-0.4%; width: 0.7%}
+#section-human-factor .human-2 {top: clamp(-1040.0px, 52vw, 1040.0px);}
+#section-human-factor .human-3 {top: clamp(-1640.0px, 82vw, 1640.0px);}
+#section-human-factor .human-4 {top: clamp(-1840.0px, 92vw, 1840.0px);}
+#section-human-factor .human-5 {top: clamp(-2140.0px, 107vw, 2140.0px);}
+#section-human-factor .human-6 {top: clamp(-2770.0px, 138.5vw, 2770.0px);}
+#section-human-factor .human-7 {top: clamp(-2980.0px, 149vw, 2980.0px);}*/
+
+
+
+#section-human-factor .v2 {}
+#section-human-factor .v2 .human-0 {position: relative; margin-right: 2%}
+#section-human-factor .v2 .human-1 {height: clamp(-34px,1.7vw,34px); margin-bottom: clamp(-6px,0.3vw,6px)}
+#section-human-factor .v2 p {font-family: 'Telegraf'; max-width: 90%}
+#section-human-factor .v2 .square {position: relative; float: right;}
+#section-human-factor .v2 .line.full {width: 100%; opacity: 0.5}
+#section-human-factor .v2 h4 {position: relative;}
+#section-human-factor .v2 h4 .plus {right: -0.1%; top: clamp(-40px,2vw,40px);}
+#section-human-factor .v2 p small {font-size: clamp(-15px,0.75vw,15px)}
+#section-human-factor .v2 p.large {font-size: clamp(-50px,2.5vw,50px)}
+
+#section-6 {padding: clamp(-200px,clamp(2.0px,10.0vw,200.0px),200px) 0 0 clamp(-64px,clamp(0.64px,3.2vw,64.0px),64px); position: relative; z-index: 1}
+#section-6 .bg { position: absolute; left: 0; top: 0; right: 0; height: 98%; z-index: -1;}
+/*#section-6:before { content: ''; height: clamp(0.7px,3.5vw,70.0px); position: absolute; width: clamp(0.6px,3.0vw,60.0px); top: clamp(0.0px,0.0vw,0.0px); right: 0; background-color: #453B23; }*/
+#section-6 h2 {font-size: clamp(2.08px,10.2vw,208.0px); font-family: 'NB Architekt Light'; line-height: 1; color: #7DEA13}
+#section-6 h2 span {color: #9940dd}
+#section-6 .pl-5 {padding-left: clamp(-100px,clamp(1.0px,5.0vw,100.0px),100px) !important}
+#section-6 p:not(.large) {line-height: 1.8; font-size: clamp(0.2px,1.0vw,20.0px); }
+#section-6 p.large {color: #9940dd; line-height: 1.1;}
+#section-6 .img-1 {margin-bottom: clamp(-200px,clamp(-200.0px,-10.0vw,200.0px),200px)}
+#section-6 .img-2 {width: 65%; position: absolute; left: 0; bottom: clamp(-400px,clamp(-400.0px,-20.0vw,400.0px),400px)}
+#section-6 .img-4 { max-width: 110%; }
+#section-6 .textline {background: #000; color: #FFF; display: inline-block; font-size: clamp(-34px,clamp(0.34px,1.7vw,34.0px),34px); text-transform: uppercase; font-family: 'NB Architekt Std'; padding: 0 clamp(-20px,clamp(0.2px,1.0vw,20.0px),20px); margin-bottom:clamp(-10px,clamp(0.1px,0.5vw,10.0px),10px)}
+
+#section-6 .plus.a {left: clamp(-100px,clamp(1.0px,5.0vw,100.0px),100px); top: clamp(-680px,clamp(6.8px,34.0vw,680.0px),680px)}
+#section-6 .plus.b {left: clamp(-100px,clamp(1.0px,5.0vw,100.0px),100px); top: clamp(-1080px,clamp(10.8px,54.0vw,1080.0px),1080px)}
+#section-6 .plus.c {left: clamp(-100px,clamp(1.0px,5.0vw,100.0px),100px); top: clamp(-1766px,clamp(17.6px,88.0vw,1760.0px),1766px)}
+#section-6 .plus.d {right: clamp(-100px,clamp(1.0px,5.0vw,100.0px),100px); top: clamp(-1766px,clamp(17.6px,88.0vw,1760.0px),1766px)}
+#section-6 .square.a {left: clamp(-100px,clamp(1.0px,5.0vw,100.0px),100px); top: clamp(-1340px,clamp(13.4px,67.0vw,1340.0px),1340px)}
+#section-6 .square.b {right: clamp(-100px,clamp(1.0px,5.0vw,100.0px),100px); top: clamp(-800px,clamp(8.0px,40.0vw,800.0px),800px)}
+#section-6 .square.c {right: clamp(-100px,clamp(1.0px,5.0vw,100.0px),100px); top: clamp(-2360px,clamp(23.6px,118.0vw,2360.0px),2360px)}
+
+#section-7 { position: relative; }
+#section-7 h2 { font-weight: 300; font-size: clamp(1.8px,9.0vw,180.0px); font-family: 'NB Architekt Std'; color: #FF7B31; white-space: nowrap; position: absolute; z-index: 7; line-height: 1; margin-bottom: 0; top: clamp(3.8px,19.0vw,380.0px); left: 50%; transform: translateX(-50%); }
+#section-7 .text-1 { position: absolute; top: clamp(9.2px,46.0vw,920.0px); left: 50%; transform: translateX(-50%); }
+#section-7 p.large { color:  #ff7b31; }
+#section-7 .img-1 { position: absolute; bottom: clamp(3.34px,16.7vw,334.0px); right: clamp(1.8px,9.0vw,180.0px); }
+#section-7 .quote { position: relative; }
+#section-7 .quote img { width: 14%; position: absolute; top: 50%; transform: translate(-50%, -50%); left: clamp(2.4px,12.0vw,240.0px); }
+#section-7 .quote { z-index: 4;background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/section-7-quote.png) no-repeat center center; background-size: cover; padding: clamp(1.0px,5.0vw,100.0px) clamp(1.6px,8.0vw,160.0px) clamp(1.0px,5.0vw,100.0px) clamp(4.8px,24.0vw,480.0px); height: clamp(4.0px,20.0vw,400.0px); margin-bottom: clamp(-200.0px,-10.0vw,200.0px); position: absolute; bottom: 0; left: 0; width: 90%; margin-left: 5%}
+#section-7 .quote p { margin-bottom: 0; text-transform: uppercase; font-family: 'NB Architekt Std'; font-size: clamp(0.4px,2.0vw,40.0px); line-height: 1.6; color: #7DEA13;}
+
+#section-8 { position: relative; }
+#section-8 .box { background: #000; color: #FFF; padding: .5% 2%; }
+#section-8 h2 { font-family: 'Telegraf Light'; font-weight: 200; font-size: clamp(1.7px,8.5vw,170.0px); text-transform: uppercase; white-space: nowrap; position: absolute; z-index: 7; line-height: .8; margin-bottom: 0; top: clamp(2.4px,12.0vw,240.0px); left: clamp(2.0px,10.0vw,200.0px); }
+#section-8 .text-1 { display: flex; position: absolute; top: clamp(8.4px,42.0vw,840.0px); left: clamp(2.0px,10.0vw,200.0px); right: clamp(2.0px,10.0vw,200.0px); }
+#section-8 .text-1 p.large { font-size: clamp(0.76px,3.8vw,76.0px); color:  #ff7b31; line-height: 1.2; text-transform: uppercase; padding-right: clamp(1.0px,5.0vw,100.0px); }
+#section-8 .text-1 p:not(.large) { line-height: 1.5; margin-top: clamp(0.1px,0.5vw,10.0px); }
+#section-8 .container { position: absolute; top: clamp(11.0px,55.0vw,1100.0px); left: 0; right: 0; }
+#section-8 .container .text-2 { flex-grow: 1; background-color: #FFF; padding: clamp(0.4px,2.0vw,40.0px) clamp(0.4px,2.0vw,40.0px) clamp(2.4px,12.0vw,240.0px); }
+#section-8 .container .text-2.large {padding-left: clamp(3.0px,15.0vw,300.0px); padding-top: 0; padding-right: clamp(3.0px,15.0vw,300.0px); margin-top: -0; padding-bottom: clamp(0.8px,4.0vw,80.0px); position: relative;}
+#section-8 .container .inside {background: #FFF; position: relative;}
+#section-8 .container p.medium { line-height: 1; color: #000; font-size: clamp(0.56px,2.8vw,56.0px); }
+#section-8 .container p { font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.5; color: #7D7D7D; }
+#section-8 .container .img-1 { position: absolute; bottom: clamp(0.2px,1.0vw,20.0px); max-width: calc(100% - clamp(-120px,6vw,120px))}
+#section-8 .container .img-1.large {left: clamp(0.6px,3.0vw,60.0px); bottom: clamp(0.4px,2.0vw,40.0px); width: clamp(-200px,10vw,200px)}
+#section-8 .box.alt {background: transparent; color: #000; position: absolute; left: clamp(0.4px,2.0vw,40.0px); padding: 0 clamp(0.2px,1.0vw,20.0px)}
+#section-8 .container .shoshone {position: absolute; left: clamp(-60px,3vw,60px); top: clamp(-700px,35vw,700px); width: 10%}
+
+
+#section-9 {color: #FFF;}
+#section-9 .text-1 {position: absolute; text-transform: uppercase; font-size: clamp(1.6px,8.0vw,160.0px); font-family: 'Telegraf'; top: clamp(3.0px,15.0vw,300.0px); left: clamp(0.5px,2.5vw,50.0px)}
+#section-9 .text-2 {position: absolute; left: 58%; top: clamp(4.4px,22.0vw,440.0px); font-family: 'NB Architekt Light';}
+#section-9 .text-2 div {background: #000; color: #ff7b31; padding:0 clamp(0.2px,1.0vw,20.0px); font-size: clamp(0.44px,2.2vw,44.0px); display: inline-block;}
+#section-9 .spotlight {position: absolute; top: clamp(8.6px,43.0vw,860.0px); width: 100%;}
+#section-9 .spotlight img {height: clamp(3.0px,15.0vw,300.0px); display: block; margin: 0 auto}
+#section-9 .spotlight img.bison {height: clamp(3.4px,17.0vw,340.0px)}
+
+#section-12 .upper { color: #FFF; padding: clamp(0.5px,2.5vw,50.0px); position: absolute; top: clamp(1.8px,9.0vw,180.0px); left: 0; right: 0; }
+#section-12 h5 { font-size: clamp(0.7px,3.5vw,70.0px); }
+#section-12 h2 { margin-bottom: 0; font-size: clamp(1.6px,8.0vw,160.0px); letter-spacing: -2.3px; line-height: 1; font-family: 'Telegraf Light'; font-weight: 200; text-transform: uppercase; }
+#section-12 .textline { text-transform: uppercase; background-color: #ff7b31; color: #000; display: inline-block; padding: clamp(0.0px,0.0vw,0.0px) clamp(0.4px,2.0vw,40.0px); font-family: 'NB Architekt Std'; font-size: clamp(0.36px,1.8vw,36.0px); margin-bottom: clamp(0.1px,0.5vw,10.0px); }
+#section-12 .text-1 { margin-left: clamp(0.6px,3.0vw,60.0px); }
+#section-12 p.medium { color: #7DEA13; line-height: 1.15; font-size: clamp(0.48px,2.4vw,48.0px); }
+#section-12 p { font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.6; }
+#section-12 .img-1 { margin-top: clamp(-20.0px,-1.0vw,20.0px); }
+
+
+#panther {position: relative; z-index: 10; }
+#panther .upper {background: #6a5f40; margin-top: clamp(-966.0px,-48.3vw,966.0px)}
+#panther .upper p.large {color: #ff7b31}
+#panther .lower {background: #FFF; position: relative;}
+#panther .img-2 {margin-top: clamp(-74px,3.7vw,74px)}
+#panther .lower .text-2 span {color: #9940dd}
+#panther .upper .plus.a {left: 10%; top:clamp(-800px,40vw,800px)}
+#panther .upper .plus.b {right: 9%; top:clamp(-800px,40vw,800px)}
+#panther .upper .square {right: 9%; top:clamp(-400px,20vw,400px)}
+#panther .upper .side .plus.b {top: clamp(-10px,-0.5vw,10px); right: 0; background: #6a5f41; color: #FFF;}
+#panther .plus.d {right: 3%; top: clamp(-100px,5vw,100px)}
+#panther .square.d {right: 3%; top: clamp(-300px,15vw,300px)}
+
+.specie {}
+.specie .upper {padding: clamp(1.0px,5.0vw,100.0px); color: #FFF;}
+.specie .upper h5 {line-height: 1.1; margin-bottom: clamp(0.08px,0.4vw,8.0px)}
+.specie .upper .img-1 {width: 80%; right: clamp(-16px,-0.8vw,16px); float: right; margin: clamp(0.6px,3.0vw,60.0px) 0 0; position: relative; z-index: 10}
+.specie .upper .img-2,
+.specie .upper .img-3 {position: relative; z-index: 10}
+.specie .upper ul {padding: 0; border-bottom: 1px solid #FFF;}
+.specie .upper li {font-size: clamp(0.28px,1.4vw,28.0px); list-style: none; border-top: 1px solid #FFF; padding-top: clamp(0.1px,0.5vw,10.0px); padding-bottom: clamp(0.1px,0.5vw,10.0px)}
+.specie .upper .divider {height: 1px; background: #FFF; margin:0 clamp(-100.0px,-5.0vw,100.0px) clamp(0.8px,4.0vw,80.0px);}
+.specie .upper .divider.dark {background: #000}
+
+.specie .upper .side {padding-left: clamp(0.2px,1.0vw,20.0px); position: relative;}
+.specie .upper .side .slashes {width: 100%}
+.specie .upper .iucn {font-size: clamp(0.26px,1.3vw,26.0px); text-transform: uppercase;}
+.specie .upper .iucn .logo {margin: 0 clamp(0.2px,1.0vw,20.0px); width: clamp(-60px,3vw,60px)}
+.specie .upper .iucn .dot {display: inline-block; vertical-align: middle; position: relative; width: clamp(-20px,1vw,20px); height: clamp(-20px,1vw,20px)}
+
+.specie .upper .side .plus.a {color: #000; top: clamp(-10px,-0.5vw,10px); background: #ff7b31; padding-right: 5%}
+.specie .upper .side .plus.b {color: #000; top: clamp(-340px,17vw,340px); right: 0; background: #ff7b31; padding-left: 5%}
+
+.specie .lower {padding: clamp(0.8px,4.0vw,80.0px) 0 0}
+.specie .lower .textlines div {display: inline-block; background: #000; color: #FFF;  padding: clamp(0.0px,0.0vw,0.0px) clamp(0.2px,1.0vw,20.0px); font-family: 'NB Architekt Light'; font-size: clamp(0.3px,1.5vw,30.0px); margin-bottom: clamp(0.1px,0.5vw,10.0px)}
+.specie .lower .textlines span {}
+
+
+.specie .lower .text-2 {font-size: clamp(0.4px,2.0vw,40.0px);}
+.specie .lower .text-2 span {font-family: 'Telegraf Bold';}
+.specie .lower .text-2 .arkitect {font-family: 'NB Architekt Std';}
+.specie .lower .img-3 {max-width: 82%; margin-top: clamp(-340.0px,-17.0vw,340.0px); position: relative; z-index: 10}
+
+.specie .cap {position: absolute; bottom: clamp(-100.0px,-5.0vw,100.0px); left: 19%; z-index: 10}
+.specie .cap .disc {display: inline-block;vertical-align: middle; background: #FFF;}
+.specie .cap .arkitect {display: inline-block; vertical-align: middle; margin-left:clamp(0.1px,0.5vw,10.0px);}
+
+.specie.v2 .upper h5 {text-align: right; white-space: nowrap; width: 120%; float: right;}
+.specie.v2 .upper p.large {text-align: right;}
+.specie.v2 .upper .img-1 {float: none; margin-top: clamp(1.1px,5.5vw,110.0px)}
+
+.vlines {position: absolute; width: 100%; top: 0; left: 0; height: 100%; z-index: 5; opacity: 0.75; pointer-events: none; mix-blend-mode: soft-light;}
+.vlines .vline {border-left: 1px solid #FFF; position: absolute; width: 100%; height: 100%}
+.vlines .vline {position: absolute; left: 25%; top: 0; height: 100%; background: transparent;}
+.vlines .vline:nth-child(2) {left: 50%;}
+.vlines .vline:nth-child(3) {left: 75%;}
+
+
+
+
+#horse {padding-top: clamp(7.0px,35.0vw,700.0px); padding-bottom: clamp(2.0px,10.0vw,200.0px); margin-top: clamp(-140.0px,-7.0vw,140.0px); background:#804fdc url(https://colossal.com/wp-content/themes/colossal/img/conservation/florida-swamp.jpg) no-repeat center top; background-size: 100% auto; background-position: center top;}
+#horse .upper {background: #71c528; }
+#horse .upper h5 {color: #000}
+#horse .upper p.large {color: #9940DD}
+#horse .img-2 {margin-left: clamp(-100.0px,-5.0vw,100.0px); max-width: 130%; margin-top: clamp(-56px,-2.8vw,56px); position: relative; z-index: 15}
+#horse .upper li {color: #000; border-color: #000}
+#horse .upper ul {border-color: #000}
+#horse .lower .textlines div {font-size: clamp(0.24px,1.2vw,24.0px)}
+#horse .lower {color: #FFF;}
+#horse .lower .text-2 span {color: #ff7b31}
+#horse .lower .text-2 .arkitect {color: #ff7b31}
+#horse .cap {left: 48.3%; bottom: clamp(-140.0px,-7.0vw,140.0px)}
+#horse .cap .disc {background: #8050dc;}
+#horse .vlines .vline {border-color: #000}
+
+
+
+#bison {padding-top: 0; padding-bottom: clamp(1.4px,7.0vw,140.0px); background:#FFF url(https://colossal.com/wp-content/themes/colossal/img/conservation/bison-bg.jpg) no-repeat center top; background-size: 100% auto;}
+#bison .upper {background: #ff7b31; padding-bottom: 0;}
+#bison .upper h5 {color: #000; position: relative; z-index: 10}
+#bison .upper .plus.b {top: clamp(-14px,-0.7vw,14px)}
+#bison .upper p.large {color: #7aec11}
+#bison .img-2 {margin-top: clamp(0.68px,3.4vw,68.0px); margin-left: calc(-51% + clamp(1.0px,5.0vw,100.0px)); max-width: 151%; margin-top: clamp(-33.0px,-1.65vw,33.0px); position: relative; z-index: 15}
+#bison .upper li {color: #000; border-color: #000}
+#bison .upper ul {border-color: #000}
+#bison .lower .textlines div {font-size: clamp(0.24px,1.2vw,24.0px)}
+#bison .lower .text-2 span {color: #9940dd}
+#bison .lower .text-2 .arkitect {color: #9940dd}
+#bison .cap {left: 48.3%; bottom: clamp(-140.0px,-7.0vw,140.0px)}
+#bison .cap .disc {background: #8050dc;}
+#bison .vlines {mix-blend-mode: exclusion;}
+#bison .vlines .vline {border-color: #222}
+#bison .vlines .vline:nth-child(3) {height: calc(100% + clamp(0.8px,4.0vw,80.0px))}
+
+
+
+
+
+
+#section-13 {position: relative;margin-top: clamp(-80.0px,-4.0vw,80.0px); padding: 0 0 clamp(0.4px,2.0vw,40.0px); background: linear-gradient(180deg, rgba(255, 123, 49, 0.00) 33.85%, #9940DD 100%);}
+#section-13 .vlines {mix-blend-mode: normal; top: clamp(-100px,-5vw,100px); height: calc(100% + clamp(-100px,5vw,100px))}
+#section-13 .vlines .vline {border-color: #222; opacity: 0.2}
+#section-13 .vlines .vline:first-child{top: clamp(-140px,7vw,140px)}
+#section-13 h5 { padding-top: clamp(1.0px,5.0vw,100.0px); font-family: 'NB Architekt Light'; text-align: center; }
+#section-13 p.medium { margin-bottom: clamp(2.0px,10.0vw,200.0px); font-size: clamp(0.34px,1.7vw,34.0px); text-align: center; color: #7D7D7D; }
+#section-13 hr { border-color: #000; margin: 0 0 clamp(0.2px,1.0vw,20.0px); max-width: 60%; }
+#section-13 .text-1:nth-of-type(2) { transform: translateY(clamp(-100.0px,-5.0vw,100.0px)); }
+#section-13 .text-2 { flex-grow: 1; background-color: #FFF; padding: clamp(0.4px,2.0vw,40.0px) clamp(0.4px,2.0vw,40.0px) clamp(2.4px,12.0vw,240.0px); }
+#section-13 .text-2 .box { margin-bottom: clamp(0.4px,2.0vw,40.0px); }
+#section-13 .text-2 p.medium { margin-bottom: clamp(0.6px,3.0vw,60.0px); text-align: left; line-height: 1; color: #000; font-size: clamp(0.56px,2.8vw,56.0px); font-family: 'NB Architekt Std';}
+#section-13 .text-2 p {font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.5; color: #7D7D7D; }
+#section-13 .plus:first-of-type { left: clamp(0.9px,4.5vw,90.0px); top: clamp(0.9px,4.5vw,90.0px); }
+#section-13 .plus:nth-of-type(2) { right: clamp(0.9px,4.5vw,90.0px); top: clamp(0.9px,4.5vw,90.0px); }
+#section-13 .plus:nth-of-type(3) { left: clamp(0.9px,4.5vw,90.0px); top: clamp(4.6px,23.0vw,460.0px); }
+#section-13 .plus:nth-of-type(4) { right: clamp(0.9px,4.5vw,90.0px); top: clamp(4.6px,23.0vw,460.0px); }
+#section-13 .img-1 { position: absolute; left: 50%; transform: translate(-50%, 50%); z-index: 2; bottom: 0; }
+
+
+#section-14 {position: relative;background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/section-14-bg.jpg) no-repeat center top; background-size: cover; padding: clamp(2.0px,10.0vw,200.0px) 0 clamp(1.0px,5.0vw,100.0px); color: #FFF;}
+#section-14 .upper { padding: 0 clamp(0.5px,2.5vw,50.0px); }
+#section-14 .textlines:before { content: ''; width: clamp(1.0px,5.0vw,100.0px); height: clamp(1.0px,5.0vw,100.0px); position: absolute; left: 0; top: 0; transform: translate(-50%, -100%);  background-size: contain; background-repeat: no-repeat; }
+#section-14 .textlines:after { content: ''; width: clamp(1.0px,5.0vw,100.0px); height: clamp(1.0px,5.0vw,100.0px); position: absolute; right: 0; bottom: 0; transform: translate(50%, 30%) scale(-1); background-size: contain; background-repeat: no-repeat; }
+#section-14 .textlines {display: inline-flex; flex-direction: column;position: relative;margin: 0 auto;}
+#section-14 .textlines div {display: inline-block; background: #000; color: #FFF;  padding: clamp(0.0px,0.0vw,0.0px) clamp(0.3px,1.5vw,30.0px); font-family: 'NB Architekt Light'; font-size: clamp(0.5px,2.5vw,50.0px); margin-bottom: clamp(0.1px,0.5vw,10.0px)}
+#section-14 .textlines i { padding-left: clamp(0.4px,2.0vw,40.0px);line-height: 2; font-size: clamp(0.3px,1.5vw,30.0px); }
+#section-14 .lines { transform: translateX(clamp(-50.0px,-2.5vw,50.0px)); }
+#section-14 p.medium {width: 105%; line-height: 1.4;color: #7dea13;}
+#section-14 p:not(.medium) {line-height: 1.6;font-size: clamp(0.18px,0.9vw,18.0px)}
+#section-14 .plus:first-of-type { left: clamp(0.9px,4.5vw,90.0px); top: clamp(3.6px,18.0vw,360.0px); }
+#section-14 .plus:nth-of-type(2) { right: clamp(0.9px,4.5vw,90.0px); top: clamp(1.0px,5.0vw,100.0px); }
+#section-14 .plus:nth-of-type(3) { left: clamp(0.9px,4.5vw,90.0px); top: clamp(-740px,37vw,740px); }
+#section-14 .square:nth-of-type(4) { right: clamp(0.9px,4.5vw,90.0px); top: clamp(6.0px,30.0vw,600.0px); }
+#section-14 .big-button {backdrop-filter: blur(8.5px); font-size: clamp(0.24px,1.2vw,24.0px); background: rgba(255,255,255,0.2); color: #FFF; border-color: #FFF;}
+#section-14 .big-button:hover { background: rgba(255,255,255,0.5); }
+#section-14 .big-button .plus { left: unset; right: clamp(0.3px,1.5vw,30.0px); top: 50%; transform: translateY(-50%); }
+#section-14 .quote-1 {position: absolute; left: 2%; top: clamp(-100px,-5vw,100px)}
+#section-14 .quote-2 {position: absolute; right: 5%; top: clamp(-180px,9vw,180px); transform: rotate(180deg)}
+#section-14 .short-slash {left: clamp(-100px,5vw,100px); position: absolute; top: clamp(-1200px,58vw,1200px)}
+
+
+
+#section-15 {color: #FFF; padding-bottom: clamp(-680px,34vw,680px); background: #8f7350}
+#section-15 h2 {position: absolute; font-family: 'NB Architekt Light'; font-size: clamp(1.88px,9.4vw,188.0px); color: #FFF; text-align: right; right: 15%; top: clamp(1.4px,7.0vw,140.0px)}
+#section-15 .text-1 {position: absolute; top: clamp(6.0px,30.0vw,600.0px); width: 40%; right: clamp(1.6px,8.0vw,160.0px); color: #FFF;}
+#section-15 .text-1 p.medium {color: #ff7b31}
+#section-15 .text-1 p:not(.medium) {font-size: clamp(0.18px,0.9vw,18.0px);}
+#section-15 .text-2 {position: absolute; font-size: clamp(0.44px,2.2vw,44.0px); top: clamp(12.2px,61.0vw,1220.0px); width: 36%; color: #FFF; right: clamp(2.4px,12.0vw,240.0px);}
+#section-15 .text-2 span {font-family: 'Telegraf Bold'; color: #ff7b31}
+#section-15 .text-2 .arkitect {float: right; display: block; color: #FFF;}
+
+#section-15 .mid {position: absolute; top: clamp(-1440px,72vw,1440px); left: clamp(1.8px,9.0vw,180.0px); width: 83%}
+#section-15 .mid p.standard {font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.7}
+#section-15 .mid .big-button {background: #aa7448; border-color: #f37a35; color: #FFF; padding: clamp(0.6px,3.0vw,60.0px) clamp(1.2px,6.0vw,120.0px) clamp(0.6px,3.0vw,60.0px) clamp(0.8px,4.0vw,80.0px)}
+#section-15 .mid .big-button:hover {background: #f37a35}
+#section-15 .mid #news {background: transparent; color: #FFF;}
+#section-15 .mid #news .container-fluid.narrow {padding: 0;}
+#section-15 .mid #news .title-area {display: none}
+#section-15 .mid #news .news-item {margin-left: clamp(0.2px,1.0vw,20.0px); }
+
+#rhino .corner {position: absolute; width: 5%; right: 0; top: clamp(-85.0px,-4.25vw,85.0px);}
+#rhino {padding-top: 0; padding-bottom: 0; margin-top: clamp(-600px,3vw,600px)}
+#rhino .upper {background: #9696a0;}
+#rhino .upper h5 {color: #FFF; position: relative; z-index: 10}
+#rhino .upper p.large {color: #454555; font-size: clamp(0.5px,2.5vw,50.0px)}
+#rhino .img-2 {margin-top: clamp(0.68px,3.4vw,68.0px); margin-left: calc(-33% + clamp(1.0px,5.0vw,100.0px)); max-width: 133%; margin-top: clamp(-150.0px,-7.5vw,150.0px); position: relative; z-index: 9}
+#rhino .img-3 {position: relative; z-index: 10}
+#rhino .img-1 {position: relative; z-index: 5}
+#rhino .upper li {color: #FFF; border-color: #000}
+#rhino .upper ul {border-color: #000}
+#rhino .upper .square {background: #44464a; right: 8%}
+#rhino .upper .plus {color: #44464a; left: 8%; top: clamp(-800px,40vw,800px)}
+
+#rhino .lower {position: relative; padding-bottom: clamp(1.4px,7.0vw,140.0px);}
+#rhino .lower .vlines {mix-blend-mode: normal;}
+#rhino .lower .vlines .vline {border-color: #CCC}
+#rhino .lower .textlines div {font-size: clamp(0.26px,1.3vw,26.0px); white-space: nowrap; line-height: 1.8}
+#rhino .lower .text-2 span {color: #9940dd}
+#rhino .lower .text-2 .arkitect {color: #9940dd}
+#rhino .lower .img-3 {max-width: 120%; margin-left: clamp(-100.0px,-5.0vw,100.0px)}
+#rhino .lower p {line-height: 1.2; font-size: clamp(0.2px,1.0vw,20.0px)}
+#rhino .lower p.bold {font-family: 'Telegraf BOld'; font-size: clamp(0.4px,2.0vw,40.0px)}
+#rhino .cap {left: 48.3%; bottom: clamp(-140.0px,-7.0vw,140.0px)}
+#rhino .cap .disc {background: #8050dc;}
+
+
+
+
+
+
+
+#section-17 {}
+#section-17 h2 {position: absolute; color: #FFF;  font-family: 'NB Architekt Light'; font-size: clamp(1.6px,8.0vw,160.0px); top: clamp(2.0px,10.0vw,200.0px); left: clamp(1.6px,8.0vw,160.0px); line-height: 1.3}
+#section-17 .text {position: absolute; color: #FFF; width: 50%; top: clamp(2.4px,12.0vw,240.0px); right: clamp(1.6px,8.0vw,160.0px)}
+#section-17 .text .big-button {background: #ff7b31; border-color: #ff7b31; padding: clamp(0.4px,2.0vw,40.0px) clamp(2.0px,10.0vw,200.0px) clamp(0.4px,2.0vw,40.0px) clamp(0.4px,2.0vw,40.0px); float: right; margin-top: clamp(0.6px,3.0vw,60.0px)}
+#section-17 .quote {position: absolute; right: clamp(3.4px,17.0vw,340.0px); width: 35%; top: clamp(10.6px,53.0vw,1060.0px)}
+#section-17 .photo {position: absolute; width: 25%; left: clamp(2.4px,12.0vw,240.0px); top: clamp(10.4px,52.0vw,1040.0px)}
+#section-17 h3 { font-family: 'NB Architekt Std';}
+#section-17 small {color: #333; font-size: clamp(0.16px,0.8vw,16.0px); padding-top: clamp(0.2px,1.0vw,20.0px); display: block;}
+
+
+
+
+#section-18 {color: #FFF; background: #191d20; padding-bottom: clamp(28.6px,143.0vw,2860.0px)}
+#section-18 h2 {position: absolute; font-family: 'NB Architekt Light'; font-size: clamp(1.88px,9.4vw,188.0px); color: #FFF; text-align: left; left: clamp(1.8px,9.0vw,180.0px); top: clamp(1.56px,7.8vw,156.0px)}
+#section-18 .text-1 {position: absolute; top: clamp(6.0px,30.0vw,600.0px); width: 40%; left: clamp(1.8px,9.0vw,180.0px); color: #FFF;}
+#section-18 .text-1 p:not(.medium) {font-size: clamp(0.18px,0.9vw,18.0px);}
+#section-18 .text-2 {position: absolute; font-size: clamp(0.44px,2.2vw,44.0px); top: clamp(12.2px,61.0vw,1220.0px); width: 46%; color: #FFF; left: clamp(1.8px,9.0vw,180.0px); font-style: italic;}
+#section-18 .text-2 span {font-family: 'Telegraf Bold'; color: #FFF; font-size: 110%}
+#section-18 .text-2 .arkitect {font-style: normal; color: #FFF; top: clamp(-20px,-1vw,20px); position: relative;}
+
+#section-18 .mid {position: absolute; top: clamp(23.0px,115.0vw,2300.0px); left: clamp(1.8px,9.0vw,180.0px); width: 83%}
+#section-18 .mid p.standard {font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.7}
+#section-18 .mid .big-button {background: #32501d; border-color: #6ac316; color: #FFF; padding: clamp(0.6px,3.0vw,60.0px) clamp(1.2px,6.0vw,120.0px) clamp(0.6px,3.0vw,60.0px) clamp(0.8px,4.0vw,80.0px)}
+#section-18 .mid .big-button:hover {background: #6ac316}
+#section-18 .mid #news {background: transparent; color: #FFF;}
+#section-18 .mid #news .container-fluid.narrow {padding: 0;}
+#section-18 .mid #news .title-area {display: none}
+#section-18 .mid #news .news-item {margin-left: clamp(0.2px,1.0vw,20.0px); }
+
+
+
+
+
+
+
+#elephant-1 .corner {position: absolute; width: 5%; left: 25%; top: clamp(-85.0px,-4.25vw,85.0px);}
+#elephant-1 {padding-top: 0; padding-bottom: 0; margin-top: clamp(-740.0px,-37.0vw,740.0px)}
+#elephant-1 .upper {background: #ff7b31;}
+#elephant-1 .upper h5 {color: #FFF; position: relative; z-index: 10; white-space: nowrap; font-size: clamp(0.98px,4.9vw,98.0px)}
+#elephant-1 .upper p.large {color: #000; font-size: clamp(0.5px,2.5vw,50.0px)}
+#elephant-1 .upper .divider {width: calc(100% + clamp(1.0px,5.0vw,100.0px) + 15px); margin: 0 -15px clamp(0.6px,3.0vw,60.0px)}
+#elephant-1 .img-2 {margin-top: clamp(0.68px,3.4vw,68.0px); margin-left: calc(-30% + clamp(1.0px,5.0vw,100.0px)); max-width: 130%; margin-top: clamp(0.0px,0.0vw,0.0px); position: relative; z-index: 9}
+#elephant-1 .img-1 {position: relative; z-index: 5}
+#elephant-1 .upper li {color: #000; border-color: #000; font-size: clamp(0.2px,1.0vw,20.0px); padding: clamp(0.14px,0.7vw,14.0px)}
+#elephant-1 .upper ul {border-color: #000}
+#elephant-1 .vlines {mix-blend-mode: normal; opacity: 0.1}
+#elephant-1 .vline {border-color: #000;}
+#elephant-1 .vline:nth-child(1) {height: 30%}
+#elephant-1 .dot {background-color: #fea401;}
+#elephant-1 .circles {position: absolute; right: 0; width: 22%}
+
+
+
+
+#elephant-2 .corner {position: absolute; width: 5%; left: 35%; top: clamp(-85.0px,-4.25vw,85.0px);}
+#elephant-2 {padding-top: 0; padding-bottom: 0;}
+#elephant-2 .upper {background: #37a868;}
+#elephant-2 .upper h5 {color: #FFF; position: relative; z-index: 10; white-space: nowrap; width: 120%; float: right; font-size: clamp(0.98px,4.9vw,98.0px); text-align: right;}
+#elephant-2 .upper p.large {color: #454555; font-size: clamp(0.5px,2.5vw,50.0px)}
+#elephant-2 .upper .divider {width: calc(100% + clamp(1.0px,5.0vw,100.0px) + 15px); margin: 0 0 0 clamp(-100.0px,-5.0vw,100.0px)}
+#elephant-2 .img-2 {margin-top: clamp(0.68px,3.4vw,68.0px); margin-left:clamp(-100.0px,-5.0vw,100.0px); max-width: 110%; margin-top: clamp(0.0px,0.0vw,0.0px); position: relative; z-index: 9}
+#elephant-2 .img-3 {width: 94%; float: right;}
+#elephant-2 .img-1 {position: relative; z-index: 5}
+#elephant-2 .upper li {color: #FFF; border-color: #FFF; font-size: clamp(0.2px,1.0vw,20.0px); padding: clamp(0.14px,0.7vw,14.0px) 0 clamp(0.14px,0.7vw,14.0px) clamp(1.8px,9.0vw,180.0px)}
+#elephant-2 .upper ul {border-color: #FFF; width: 105%; background: #38a868; padding-top: clamp(0.6px,3.0vw,60.0px)}
+#elephant-2 .vlines {mix-blend-mode: normal; opacity: 0.3}
+#elephant-2 .vline {border-color: #FFF;}
+#elephant-2 .vline:nth-child(1) {height: 30%}
+#elephant-2 .circles {position: absolute; left: 2%; width: 25%; top: clamp(0.6px,3.0vw,60.0px)}
+#elephant-2 .side {position: relative;}
+
+#elephant-2 .upper .side .plus.a {background: #38a868; color: #fff; left: 2%; top:clamp(-400px,20vw,400px)}
+#elephant-2 .upper .side .plus.b {background: #38a868; color: #fff; top: clamp(-50px,2.5vw,50px); right: -5%;}
+
+
+#elephant-3 .corner {position: absolute; width: 6%; right: 10%; top: clamp(-80.0px,-4.0vw,80.0px);}
+#elephant-3 {padding-top: 0; padding-bottom: 0;}
+#elephant-3 .upper {background: #9940dd;}
+#elephant-3 .upper h5 {color: #FFF; position: relative; z-index: 10; white-space: nowrap; font-size: clamp(0.98px,4.9vw,98.0px)}
+#elephant-3 .upper p.large {color: #ff7b31; font-size: clamp(0.5px,2.5vw,50.0px)}
+#elephant-3 .upper .divider {width: calc(100% + clamp(1.0px,5.0vw,100.0px) + 15px); margin: 0 -15px clamp(0.6px,3.0vw,60.0px)}
+#elephant-3 .img-2 {margin-top: clamp(0.68px,3.4vw,68.0px); margin-left: calc(-30% + clamp(1.0px,5.0vw,100.0px)); max-width: 130%; margin-top: clamp(0.0px,0.0vw,0.0px); position: relative; z-index: 9}
+#elephant-3 .img-1 {position: relative; z-index: 5}
+#elephant-3 .upper li {color: #FFF; border-color: #FFF; font-size: clamp(0.2px,1.0vw,20.0px); padding: clamp(0.14px,0.7vw,14.0px)}
+#elephant-3 .upper ul {border-color: #FFF}
+#elephant-3 .vlines {mix-blend-mode: normal; opacity: 0.3}
+#elephant-3 .vline {border-color: #FFF;}
+#elephant-3 .vline:nth-child(1) {height: 35%}
+#elephant-3 .dot {background-color: #fea401;}
+#elephant-3 .circles {position: absolute; right: 0; width: 22%}
+#elephant-3 .upper .side .plus {background: #9940dd; color: #FFF;}
+
+#section-population-threats { position: relative; padding-bottom: clamp(0.6px,3.0vw,60.0px); }
+#section-population-threats .container { position: relative; }
+/*#section-population-threats .container:before { content: ''; position: absolute; left: 16.66%; top: 0; width: 1px; height: clamp(3.0px,15.0vw,300.0px); background: rgba(0, 0, 0, 0.15); }*/
+#section-population-threats .vlines {mix-blend-mode: normal;}
+#section-population-threats .vlines .vline {border-color: #CCC; height: clamp(-214px,10.7vw,214px)}
+#section-population-threats .upper { padding: clamp(0.5px,2.5vw,50.0px); }
+#section-population-threats .box { white-space: nowrap; }
+#section-population-threats h2 { padding: clamp(0.4px,2.0vw,40.0px) 0 clamp(0.2px,1.0vw,20.0px); font-size: clamp(0.6px,3.0vw,60.0px); font-weight: 800; font-family: 'Telegraf Bold';  position: relative; z-index: 5}
+#section-population-threats hr { border-color: #000; }
+#section-population-threats .text-1 { position: relative; border-left: 5px solid var(--bg); border-bottom: 1px solid #A5A5B1; }
+#section-population-threats .text-2 { padding: clamp(0.2px,1.0vw,20.0px); }
+#section-population-threats p.medium { line-height: 1;font-size: clamp(0.3px,1.5vw,30.0px); font-family: 'NB Architekt Std'; margin-bottom: clamp(0.1px,0.5vw,10.0px); color: #000; }
+#section-population-threats p { line-height: 1; color: #A5A5B1; }
+#section-population-threats .img-1 { position: absolute; right: 0; bottom: clamp(-20.0px,-1.0vw,20.0px); z-index: 1; padding-left: clamp(0.5px,2.5vw,50.0px); background-color: #FFF; }
+#section-population-threats .tr { margin-bottom: clamp(0.1px,0.5vw,10.0px); }
+#section-population-threats .td { line-height: 1; position: relative; color: var(--color); padding: clamp(0.1px,0.5vw,10.0px) clamp(0.2px,1.0vw,20.0px); font-size: clamp(0.24px,1.2vw,24.0px); border-left: 5px solid transparent; }
+#section-population-threats .td:before { content: ''; position: absolute; left: -17px; right: -18px; background-color: var(--bg); top: 0; bottom: 0;}
+#section-population-threats .td.bl:after { content: ''; position: absolute; width: 5px; height: 100%; left: clamp(-20.0px,-1.0vw,20.0px); top: 0; bottom: 0; background-color: var(--bg); }
+#section-population-threats .plus { z-index: 3; }
+#section-population-threats .plus:nth-of-type(2) { left: clamp(0.9px,4.5vw,90.0px); top: clamp(2.1px,10.5vw,210.0px); }
+#section-population-threats .plus:nth-of-type(3) { left: clamp(0.9px,4.5vw,90.0px); top: clamp(5.2px,26.0vw,520.0px); }
+#section-population-threats .plus:nth-of-type(4) { z-index: 3; right: clamp(0.9px,4.5vw,90.0px); top: clamp(6.0px,30.0vw,600.0px); }
+#section-population-threats .square:nth-of-type(5) { z-index: 3; bottom: unset; right: clamp(0.9px,4.5vw,90.0px); top: clamp(2.2px,11.0vw,220.0px); }
+#section-population-threats .square:nth-of-type(6) { z-index: 3; right: clamp(0.9px,4.5vw,90.0px); top: clamp(1.6px,8.0vw,160.0px); }
+
+
+#section-21 { position: relative; }
+#section-21 .container {position: absolute; left: 0; top: clamp(3.4px,17.0vw,340.0px); right: 0; color: #FFF;}
+#section-21 .text-1 { margin-left: 38%; }
+#section-21 .text-1 h5 { line-height: 1; color: #7DEA13; }
+#section-21 .img-1 { width: 100%; }
+#section-21 .text-2 p.medium { font-size: clamp(0.24px,1.2vw,24.0px); line-height: 1.7; letter-spacing: 0.9px; font-family: 'Telegraf'; }
+#section-21 .text-3 { text-transform: uppercase; font-family: 'NB Architekt Std'; font-size: clamp(0.5px,2.5vw,50.0px); position: absolute; left: clamp(0.5px,2.5vw,50.0px); top: clamp(10.6px,53.0vw,1060.0px); }
+#section-21 .text-3 .arkitect { line-height: 3; }
+#section-21 .text-4 { position:absolute; left: calc(clamp(0.5px,2.5vw,50.0px) + 10px); right: calc(clamp(0.5px,2.5vw,50.0px) + 10px); top: clamp(15.1px,75.5vw,1510.0px); }
+#section-21 .text-5 { position: absolute; left: clamp(1.0px,5.0vw,100.0px); right: clamp(1.0px,5.0vw,100.0px); top: clamp(19.6px,98.0vw,1960.0px); }
+#section-21 .text-5 p { color: #7DEA13; font-family: 'NB Architekt Std'; font-size: clamp(0.42px,2.1vw,42.0px); text-transform: uppercase; }
+#section-21 .big-button { font-size: clamp(0.24px,1.2vw,24.0px); background: #FF7B31; backdrop-filter: blur(8.5px); }
+
+
+#section-22 {padding-bottom: clamp(18.0px,90.0vw,1800.0px)}
+#section-22 h2 {position: absolute; font-family: 'NB Architekt Light'; font-size: clamp(1.88px,9.4vw,188.0px); text-align: left; left: clamp(2.0px,10.0vw,200.0px); top: clamp(1.6px,8.0vw,160.0px)}
+#section-22 .text-1 {position: absolute; top: clamp(-580px,29vw,580px); width: 45%; right: clamp(1.2px,6.0vw,120.0px); }
+#section-22 .text-1 p.medium {color: #d2100c; text-transform: uppercase;}
+#section-22 .text-1 p:not(.medium) { font-size: clamp(0.24px,1.2vw,24.0px); }
+#section-22 .text-2 {position: absolute; font-size: clamp(0.44px,2.2vw,44.0px); top: clamp(11.6px,58.0vw,1160.0px); width: 46%; right: clamp(1.2px,6.0vw,120.0px); font-style: italic;}
+#section-22 .text-2 strong {font-family: 'Telegraf Bold'; font-size: 110%}
+#section-22 .text-2 strong.red {color: #d2100c}
+#section-22 .text-2 span {font-family: 'Telegraf Bold'; color: #d2100c; font-size: 110%}
+#section-22 .text-2 .arkitect {font-style: normal; color: #000}
+
+
+#section-22 .mid {position: absolute; top: clamp(15.0px,75.0vw,1500.0px); left: clamp(1.8px,9.0vw,180.0px); width: 83%}
+#section-22 .mid p.standard {font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.7}
+#section-22 .mid .big-button {background: #e5e5e5; border-color: #000; color: #000; padding: clamp(0.6px,3.0vw,60.0px) clamp(1.2px,6.0vw,120.0px) clamp(0.6px,3.0vw,60.0px) clamp(0.8px,4.0vw,80.0px)}
+#section-22 .mid .big-button .plus {color: #000}
+#section-22 .mid .big-button:hover {background: #CCC}
+
+#section-22 .mid #news {background: transparent; color: #FFF;}
+#section-22 .mid #news .container-fluid.narrow {padding: 0;}
+#section-22 .mid #news .title-area {display: none}
+#section-22 .mid #news .news-item {margin-left: clamp(0.2px,1.0vw,20.0px); }
+#section-22 .mid #news {background: #FFF; color: #000; padding: 0}
+#section-22 .mid #news .news-item {color: #000; border-top: 2px solid #000}
+#section-22 .mid #news .plus.white {color: #000}
+#section-22 .mid #news .line {border-bottom-color: #000}
+#section-22 .mid #news .line .inner {position: absolute; border: 3px solid #000; width: 15%; top: -2.5px}
+#section-22 .mid #news h2 {font-size: clamp(0.6px,3.0vw,60.0px); text-transform: uppercase; margin-bottom: clamp(-20px,clamp(0.2px,1.0vw,20.0px),20px)}
+#section-22 .mid #news .item {padding-left: clamp(-40px,clamp(0.4px,2.0vw,40.0px),40px); padding-right: clamp(-40px,clamp(0.4px,2.0vw,40.0px),40px); }
+#section-22 .mid #news .news-row {margin-left: clamp(-40px,clamp(-40.0px,-2.0vw,40.0px),40px); margin-right: clamp(-40px,clamp(-40.0px,-2.0vw,40.0px),40px)}
+#section-22 .mid #news .news-item h4 {color: #555; font-size: clamp(-16px,clamp(0.16px,0.8vw,16.0px),16px); font-weight: 700}
+
+
+
+
+#pigeon .corner {position: absolute; width: 5%; left: -0; top: clamp(-85.0px,-4.25vw,85.0px);}
+#pigeon {padding-top: 1px; padding-bottom: 0; background: #000000; position: relative;}
+#pigeon .upper {background: #3b2191; position: relative; margin-top: clamp(-960.0px,-48.0vw,960.0px); }
+#pigeon .upper h5 {color: #FFF; position: relative; z-index: 10}
+#pigeon .upper p.large {color: #7dea13; font-size: clamp(0.5px,2.5vw,50.0px); position: relative; z-index: 10}
+#pigeon .img-2 {margin-left: calc(-31% + clamp(1.0px,5.0vw,100.0px)); max-width: 131%; position: relative; z-index: 9}
+#pigeon .img-1 {position: relative; z-index: 5;}
+#pigeon .upper .side .plus.a {background: #3c2191; color: #61b2ff}
+#pigeon .upper .side .plus.b {background: #3c2191; color: #61b2ff; top: clamp(-490px,24.5vw,490px)}
+#pigeon .upper li {color: #FFF; border-color: #61b1ff}
+#pigeon .upper ul {border-color: #61b1ff}
+#pigeon .divider {background: #5d9ef1}
+#pigeon .lower {position: relative; padding-bottom: clamp(7.6px,38.0vw,760.0px); color: #FFF; }
+#pigeon .upper .vlines {mix-blend-mode: normal; opacity: 1}
+#pigeon .upper .vlines .vline {border-color: #40319e}
+#pigeon .upper .img-3 {position: relative; z-index: 10}
+#pigeon .lower .vlines {mix-blend-mode: difference; opacity: 0.1}
+#pigeon .lower .vlines .vline {border-color: #FFF}
+#pigeon .lower .textlines div {font-size: clamp(0.36px,1.8vw,36.0px)}
+#pigeon .lower .text-2 span {color: #9940dd}
+#pigeon .lower .text-2 .arkitect {color: #9940dd}
+#pigeon .lower .img-3 {max-width: 115%; margin-left: clamp(-100.0px,-5.0vw,100.0px)}
+#pigeon .lower p {line-height: 1.5; font-size: clamp(0.2px,1.0vw,20.0px)}
+#pigeon .lower p.bold {font-family: 'Telegraf BOld'; font-size: clamp(0.4px,2.0vw,40.0px)}
+#pigeon .cap {left: 73.3%; bottom: clamp(5.4px,27.0vw,540.0px); z-index: 16;}
+#pigeon .cap .disc {background: transparent;}
+#pigeon .beach {width: 100%; z-index: 15; margin-top: clamp(-1000.0px,-50.0vw,1000.0px); position: relative;}
+#pigeon .gradient {background: linear-gradient(180deg, rgba(59, 33, 145, 0.00) 0%, #5F94AE 100%); position: absolute; bottom: 0; left: -20%; width: 140%; height: clamp(10.0px,50.0vw,1000.0px); z-index: 1;}
+#pigeon .plus.bot {bottom: clamp(-700px,35vw,700px); right: 0}
+
+
+
+
+#pigeon-2 {padding-top: 1px; padding-bottom: 0; background: #000000; position: relative; z-index: 20}
+#pigeon-2 .upper {background:#181c1f; position: relative; margin-top: clamp(-1280px,-64vw,1280px)}
+#pigeon-2 .upper .plus {right: 3%; top: clamp(-800px,40vw,800px)}
+#pigeon-2 .upper h5 {color: #FFF; position: relative; z-index: 5; width: 150%; font-size: clamp(1.2px,6.0vw,120.0px);}
+#pigeon-2 .upper p.large {color: #fe0000; font-size: clamp(0.5px,2.5vw,50.0px)}
+#pigeon-2 .img-2 {margin-left:clamp(-100.0px,-5.0vw,100.0px); max-width: 132%; position: relative; z-index: 9}
+#pigeon-2 .img-1 {position: relative; z-index: 5; margin-left: clamp(0.44px,2.2vw,44.0px); width: 90%; margin-top: clamp(0.7px,3.5vw,70.0px)}
+#pigeon-2 .upper li {color: #FFF; border-color: #FFF}
+#pigeon-2 .upper ul {border-color: #FFF}
+#pigeon-2 .lower {position: relative; padding-bottom:clamp(0.8px,4.0vw,80.0px); color: #FFF; }
+#pigeon-2 .upper .vlines {mix-blend-mode: normal; opacity: 1}
+#pigeon-2 .upper .vlines .vline {border-color: #323639}
+#pigeon-2 .upper .side {padding: 0 clamp(0.4px,2.0vw,40.0px) 0 0}
+#pigeon-2 p.bold {font-family: 'Telegraf BOld'; font-size: clamp(0.4px,2.0vw,40.0px) !important}
+#pigeon-2 .lower .vlines {mix-blend-mode: difference; opacity: 0.1}
+#pigeon-2 .lower .vlines .vline {border-color: #FFF}
+#pigeon-2 .lower .textlines div {font-size: clamp(0.36px,1.8vw,36.0px)}
+#pigeon-2 .lower .text-2 span {color: #9940dd}
+#pigeon-2 .lower .text-2 .arkitect {color: #9940dd}
+#pigeon-2 .lower .img-3 {max-width: 108%; width: 96%; margin-left: clamp(-140.0px,-7.0vw,140.0px); margin-top: clamp(-280.0px,-14.0vw,280.0px)}
+#pigeon-2 .lower p {line-height: 1.5; font-size: clamp(0.2px,1.0vw,20.0px)}
+
+
+
+#pigeon-3 {padding-top: 1px; padding-bottom: 0; background: #000000; position: relative; z-index: 20}
+#pigeon-3 .upper {background:#9940dd; position: relative;}
+#pigeon-3 .upper h5 {color: #FFF; position: relative; z-index: 5; width: 150%; font-size: clamp(1.2px,6.0vw,120.0px);}
+#pigeon-3 .upper .square {right: 5%; top:clamp(-400px,20vw,400px)}
+#pigeon-3 .upper .plus {right: 5%; top: clamp(-800px,40vw,800px)}
+#pigeon-3 .upper p.large {color: #ff7b31; font-size: clamp(0.5px,2.5vw,50.0px)}
+
+#pigeon-3 .upper .side .plus.a {top: clamp(-12px,-0.6vw,12px); right: 0; display: none}
+#pigeon-3 .upper .side .plus.b {top: clamp(-12px,-0.6vw,12px); right: 0; background: #9940dd; color: #FFF}
+
+#pigeon-3 .img-2 {margin-left:clamp(-140.0px,-7.0vw,140.0px); max-width: 124%; position: relative; z-index: 9}
+#pigeon-3 .img-1 {position: relative; z-index: 5; margin-left: clamp(0.44px,2.2vw,44.0px); width: 80%; margin-top: clamp(0.3px,1.5vw,30.0px)}
+#pigeon-3 .upper li {color: #FFF; border-color: #FFF}
+#pigeon-3 .upper ul {border-color: #FFF}
+#pigeon-3 .upper .vlines {mix-blend-mode: normal; opacity: 0.2}
+#pigeon-3 .upper .vlines .vline {border-color: #FFF}
+#pigeon-3 p.bold {font-family: 'Telegraf BOld'; font-size: clamp(0.4px,2.0vw,40.0px) !important}
+#pigeon-3 .lower {position: relative; padding-bottom: clamp(0.8px,4.0vw,80.0px); color: #FFF; }
+#pigeon-3 .lower .vlines {mix-blend-mode: difference; opacity: 0.1}
+#pigeon-3 .lower .vlines .vline {border-color: #FFF}
+#pigeon-3 .lower .textlines div {font-size: clamp(0.36px,1.8vw,36.0px)}
+#pigeon-3 .lower .text-2 span {color: #9940dd}
+#pigeon-3 .lower .text-2 .arkitect {color: #9940dd}
+#pigeon-3 .lower .img-3 {max-width: 108%; width: 96%; margin-left: clamp(0.2px,1.0vw,20.0px); margin-top: clamp(-280.0px,-14.0vw,280.0px)}
+#pigeon-3 .lower p {line-height: 1.5; font-size: clamp(0.2px,1.0vw,20.0px)}
+#pigeon-3 .cap {left: 0;}
+#pigeon-3 .disc {background: transparent;}
+
+
+
+
+
+
+#section-wolf-intro {color: #FFF; padding-bottom: clamp(9.6px,48.0vw,960.0px); background: #000}
+#section-wolf-intro  h2 {position: absolute; font-family: 'NB Architekt Light'; font-size: clamp(1.88px,9.4vw,188.0px); text-align: left; left: clamp(2.0px,10.0vw,200.0px); top: clamp(2.0px,10.0vw,200.0px)}
+#section-wolf-intro  .text-1 {position: absolute; top: clamp(7.0px,35.0vw,700.0px); width: 45%; left: clamp(2.0px,10.0vw,200.0px); }
+#section-wolf-intro  .text-1 p.medium {color: #7dea13; text-transform: uppercase;}
+#section-wolf-intro  .text-1 p:not(.medium) {font-size: clamp(0.18px,0.9vw,18.0px);}
+#section-wolf-intro  .text-2 {position: absolute; font-size: clamp(0.44px,2.2vw,44.0px); top: clamp(12.4px,62.0vw,1240.0px); width: 46%; left: clamp(2.0px,10.0vw,200.0px); font-style: italic;}
+#section-wolf-intro  .text-2 strong {font-family: 'Telegraf Bold'; font-size: 110%}
+#section-wolf-intro  .text-2 span {font-family: 'Telegraf Bold'; color: #9940dd; font-size: 110%}
+#section-wolf-intro .text-2 .arkitect {font-style: normal; color: #FFF;}
+#section-wolf-intro .partner {position: absolute; width: 30%; right: clamp(1.4px,7.0vw,140.0px); top: clamp(2.0px,10.0vw,200.0px)}
+
+
+#wolf .container {margin-top: clamp(-960.0px,-48.0vw,960.0px)}
+#wolf {padding-top: 1px; padding-bottom: 0; background: #FFF; position: relative; z-index: 20; }
+#wolf .upper {background:#1e1e28; position: relative; padding-bottom: clamp(0.2px,1.0vw,20.0px)}
+#wolf .upper .square {left: 5%; top: clamp(-460px,23vw,460px)}
+#wolf .upper .plus.a {left: 5%; top: clamp(-660px,33vw,660px)}
+#wolf .upper .plus.b {right: 5%; top: clamp(-660px,33vw,660px)}
+#wolf  .upper .side .plus.b {top: clamp(-10px,-0.5vw,10px); background: #1e1e28; color: #FFF;}
+#wolf .upper h5 {color: #FFF; position: relative; z-index: 5; padding-left: 20%; font-size: clamp(1.2px,6.0vw,120.0px); text-align: left; float: none}
+#wolf .upper p.large {color: #9940DD; font-size: clamp(0.5px,2.5vw,50.0px); text-align: left; padding-left: 20%}
+#wolf .img-2 {margin-left:clamp(-100.0px,-5.0vw,100.0px); max-width: 120%; position: relative; z-index: 9}
+#wolf .img-1 {position: relative; z-index: 5; margin-left: clamp(-40.0px,-2.0vw,40.0px); width: 100%; margin-top: clamp(0.74px,3.7vw,74.0px)}
+#wolf .upper li {color: #FFF; border-color: #FFF}
+#wolf .upper ul {border-color: #FFF}
+#wolf .lower {position: relative; padding-bottom:clamp(0.8px,4.0vw,80.0px); color: #FFF; }
+#wolf .upper .vlines {mix-blend-mode: normal; opacity: 1}
+#wolf .upper .vlines .vline {border-color: #323639}
+#wolf .upper .side {padding: 0 clamp(0.4px,2.0vw,40.0px) 0 0}
+#wolf p.bold {font-family: 'Telegraf BOld'; font-size: clamp(0.4px,2.0vw,40.0px) !important}
+#wolf .lower {color: #000; padding-bottom:clamp(1.6px,8.0vw,160.0px)}
+#wolf .lower .vlines {mix-blend-mode: difference; opacity: 0.1}
+#wolf .lower .vlines .vline {border-color: #FFF}
+#wolf .lower .textlines div {font-size: clamp(0.26px,1.3vw,26.0px); margin-left: clamp(-40.0px,-2.0vw,40.0px)}
+#wolf .lower .text-2 span {color: #9940dd}
+#wolf .lower .text-2 .arkitect {color: #9940dd}
+#wolf .lower .img-3 {max-width: 108%; width: 105%; margin-left: clamp(-140.0px,-7.0vw,140.0px); margin-top: clamp(-280.0px,-14.0vw,280.0px)}
+#wolf .lower p {line-height: 1.5; font-size: clamp(0.2px,1.0vw,20.0px)}
+
+
+
+
+
+#section-23 {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/section-23-bg.webp) no-repeat center top; background-size: 100% auto; color: #FFF; padding: clamp(1.2px,6.0vw,120.0px) 0 0; position: relative; z-index: 25}
+#section-23 .top {margin-left: clamp(-80.0px,-4.0vw,80.0px) }
+#section-23 .upper h3 {font-family: 'NB Architekt Light'; font-size: clamp(1.1px,5.5vw,110.0px)}
+#section-23 .upper .line {width: 50%; margin-left: clamp(-80.0px,-4.0vw,80.0px)}
+#section-23 .img-1 {margin-top: clamp(-200.0px,-10.0vw,200.0px);}
+#section-23 p {font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.5}
+#section-23 .mid-lower h3 {text-transform: uppercase; color: #FEA500; margin-bottom: clamp(0.4px,2.0vw,40.0px); font-size: clamp(0.36px,1.8vw,36.0px); line-height: 1.2}
+#section-23 .mid-lower ul {padding-left: 4%}
+#section-23 .mid-lower ul li {list-style: none; padding-left: clamp(0.4px,2.0vw,40.0px); position: relative; margin-bottom: clamp(0.2px,1.0vw,20.0px);}
+#section-23 .mid-lower ul li .dot {left: 0; top: clamp(0.06px,0.3vw,6.0px); }
+
+#section-23 .lower p.large {font-size: clamp(0.5px,2.5vw,50.0px); color: #7DEA13; position: relative;}
+#section-23 .lower p {font-size: clamp(0.26px,1.3vw,26.0px); margin-bottom: clamp(0.4px,2.0vw,40.0px)}
+#section-23 .lower .slashes {position: absolute; top: clamp(0.4px,2.0vw,40.0px); right: 0; width: 50%}
+#section-23 .lower .wolf { width:80% }
+
+#section-23 .box-3 {background: rgba(0,0,0,0.2); padding: clamp(0.2px,1.0vw,20.0px)}
+#section-23 .box-3 .beforeAfter {}
+#section-23 .box-3 .beforeAfter img {max-width: none;}
+#section-23 .box-3 small {display: block; text-align: right; font-weight: 700; text-transform: uppercase; padding-top: clamp( 7px,clamp(0.1px,0.5vw,10.0px),10px);}
+#section-23 .box-3 p {padding: clamp( 7px,clamp(0.2px,1.0vw,20.0px),20px) 0 clamp( 7px,clamp(0.2px,1.0vw,20.0px),20px) clamp( 7px,clamp(0.6px,3.0vw,60.0px),60px); margin-left: clamp( 7px,clamp(0.4px,2.0vw,40.0px),40px); border-left: clamp( 7px,clamp(0.06px,0.3vw,6.0px),6px) solid #FFF;}
+#section-23 .box-3 .corner-2 {position: absolute; width: clamp( 7px,clamp(2.0px,10.0vw,200.0px),200px); height: clamp( 7px,clamp(1.4px,7.0vw,140.0px),140px); left:clamp(0.06px,0.3vw,6.0px); top:clamp(-12px, clamp(-12.0px,-0.6vw,12.0px),12px); border-left:clamp( 7px,clamp(0.12px,0.6vw,12.0px),12px) solid #fea601; border-top: clamp( 7px,clamp(0.12px,0.6vw,12.0px),12px) solid #fea601; pointer-events: none;}
+
+
+
+#section-24 {padding-bottom: clamp(0.4px,2.0vw,40.0px)}
+#section-24 h3 {font-family: 'NB Architekt Std'; font-size: clamp(0.7px,3.5vw,70.0px); color: #FE0000;}
+#section-24 .big-button {background: #7dea13; border-color: #7dea13}
+#section-24 .big-button .plus {color: #000}
+#section-24 h4 {font-size: clamp(0.5px,2.5vw,50.0px); margin: 0 0 clamp(0.2px,1.0vw,20.0px)}
+#section-24 .pink {color: #FF27F6}
+#section-24 .plus.a {left: clamp(0.8px,4.0vw,80.0px); top: clamp(1.0px,5.0vw,100.0px)}
+#section-24 .square.a {right: clamp(0.8px,4.0vw,80.0px); top: clamp(1.0px,5.0vw,100.0px)}
+#section-24 .square.b {right: clamp(0.8px,4.0vw,80.0px); top: clamp(8.4px,42.0vw,840.0px)}
+#section-24 .plus.b {right: clamp(0.8px,4.0vw,80.0px); top: clamp(3.8px,19.0vw,380.0px)}
+#section-24 .plus.c {right: clamp(0.8px,4.0vw,80.0px); top: clamp(12.8px,64.0vw,1280.0px)}
+
+
+#marsupial-intro .text-2 {font-size: clamp(0.4px,2.0vw,40.0px)}
+#marsupial-intro {color: #FFF;}
+#marsupial-intro h2 {position: absolute; font-family: 'NB Architekt Light'; font-size: clamp(1.8px,9.0vw,180.0px); color: #FFF; text-align: right; right: clamp(1.6px,8.0vw,160.0px); top: clamp(2.8px,14.0vw,280.0px)}
+#marsupial-intro .text-1 {position: absolute; top: clamp(7.26px,36.3vw,726.0px); width: 40%; right: clamp(1.6px,8.0vw,160.0px); color: #FFF;}
+#marsupial-intro .text-1 p.medium {color: #ff7b31}
+#marsupial-intro .text-1 p:not(.medium) {font-size: clamp(0.18px,0.9vw,18.0px);}
+#marsupial-intro .text-2 {position: absolute; font-size: clamp(0.42px,2.1vw,42.0px); top: clamp(12.2px,61.0vw,1220.0px); width: 36%; color: #FFF; right: clamp(2.4px,12.0vw,240.0px); font-style: italic;}
+#marsupial-intro .text-2 span {font-family: 'Telegraf Bold'; color: #ff7b31; font-size: 120%}
+#marsupial-intro .text-2 .arkitect {color: #FFF;}
+#marsupial-intro .partner {position: absolute; color: #FFF; width: 25%; left:clamp(-100px,5vw,100px); top: clamp(-230px,11.5vw,230px)}
+#marsupial-intro .partner img {max-width: clamp(-180px,9vw,180px); max-height: clamp(-80px,4vw,80px); display: block; margin-bottom: clamp(-40px,2vw,40px)}
+#marsupial-intro .partner p {font-size: clamp(-30px,1.5vw,30px)}
+
+#marsupial .corner {position: absolute; width: 5%; left: 15px; top: clamp(-85.0px,-4.25vw,85.0px);}
+#marsupial {padding-top: 0; padding-bottom: 0; margin-top: clamp(-1134.0px,-56.7vw,1134.0px)}
+#marsupial .upper {background: #23140a; padding-bottom: clamp(0.5px,2.5vw,50.0px)}
+#marsupial .upper h5 {color: #FFF; position: relative; z-index: 10}
+#marsupial .upper .plus {top: clamp(-800px,40vw,800px); left: 10%}
+#marsupial .upper .side .plus.b {top: clamp(-10px,-0.5vw,10px); left: auto; background: #23140a; color: #FFF;}
+#marsupial .upper p.large {color: #E31CA8; font-size: clamp(0.5px,2.5vw,50.0px)}
+#marsupial .img-5 {width: clamp(6.0px,30.0vw,600.0px); left: 45%; position: absolute; top: clamp(2.6px,13.0vw,260.0px)}
+#marsupial .img-2 {margin-top: clamp(0.68px,3.4vw,68.0px); margin-left: calc(-30% + clamp(1.0px,5.0vw,100.0px)); max-width: 130%; margin-top: clamp(-120.0px,-6.0vw,120.0px); position: relative; z-index: 9}
+#marsupial .img-1 {position: relative; z-index: 5; margin-top: clamp(0.74px,3.7vw,74.0px)}
+#marsupial .upper li {color: #FFF; border-color: #FFF}
+#marsupial .upper ul {border-color: #FFF}
+#marsupial .lower {position: relative; padding-bottom: clamp(0.6px,3.0vw,60.0px);}
+#marsupial .lower .vlines {mix-blend-mode: normal;}
+#marsupial .lower .vlines .vline {border-color: #CCC}
+#marsupial .lower .textlines {margin-top: clamp(1.0px,5.0vw,100.0px)}
+#marsupial .lower .textlines div {font-size: clamp(0.3px,1.5vw,30.0px)}
+#marsupial .lower .textlines img {display: block; width: 15%; margin-left: clamp(0.4px,2.0vw,40.0px); margin-top: clamp(0.2px,1.0vw,20.0px)}
+#marsupial .lower .text-2 span {color: #9940dd}
+#marsupial .lower .text-2 .arkitect {color: #9940dd}
+#marsupial .lower .img-3 {max-width: 105%; float: right;}
+#marsupial .lower p {line-height: 1.2; font-size: clamp(0.2px,1.0vw,20.0px)}
+#marsupial .lower p.bold {font-family: 'Telegraf BOld'; font-size: clamp(0.4px,2.0vw,40.0px)}
+#marsupial .cap {left: 48.3%; bottom: clamp(-140.0px,-7.0vw,140.0px)}
+#marsupial .cap .disc {background: #8050dc;}
+#marsupial .img-6 {width: 105%; max-width: none; margin-left: -20%}
+#marsupial .img-7 {width: 110%; max-width: none; margin-left: -5%}
+#marsupial .bottom {position: relative; z-index: 10}
+#marsupial .vlines {height: 91%;}
+
+
+
+#indigenous {padding: clamp(-160px,8vw,160px) 0 clamp(-120px,6vw,120px); background: linear-gradient(180deg, rgba(106, 95, 64, 0.00) 0%, rgba(125, 234, 19, 0.64) 122.15%);}
+#indigenous h3 {color: #FF7B31; font-size: clamp(-80px,4vw,80px); line-height: 1.2; text-transform: uppercase;}
+#indigenous p:not(.large, .medium) {line-height: 1.5; margin-bottom: clamp(-60px,3vw,60px)}
+#indigenous .big-button {background: rgb(255, 123, 49); border-color: rgb(255, 123, 49)}
+#indigenous .big-button .plus {color: #000}
+#indigenous .quote {text-align: center; padding: 0 10%}
+#indigenous .square {top: clamp(-20px,1vw,20px); }
+#indigenous .square.b {right: 0;}
+
+#section-25 {position: relative; color: #FFF;}
+#section-25 .img-1 {position: absolute; width: 45%; top: clamp(10.8px,54.0vw,1080.0px)}
+#section-25 .big-button {position: absolute; top: clamp(18.1px,90.5vw,1810.0px); right: clamp(4.0px,20.0vw,400.0px); background: #ff7b31; padding: clamp(0.4px,2.0vw,40.0px) clamp(1.2px,6.0vw,120.0px) clamp(0.4px,2.0vw,40.0px) clamp(0.8px,4.0vw,80.0px)}
+#section-25 .text-1 {position: absolute; width: 80%; left: 10.5%; top: clamp(4.8px,24.0vw,480.0px)}
+#section-25 p {font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.6; margin-bottom: clamp(0.3px,1.5vw,30.0px)}
+#section-25 h3 {font-size:clamp(1.0px,5.0vw,100.0px); font-family: 'NB Architekt Light'; color: #7DEA13;}
+
+#section-25 .text-2 {position: absolute; left: 50%; width: 38%; top: clamp(11.0px,55.0vw,1100.0px)}
+#section-25 p.medium {font-size: clamp(0.6px,3.0vw,60.0px); color: #7DEA13}
+
+#section-26 {position: relative; color: #FFF;}
+#section-26 .intro {position: absolute; border-left:1px solid #ff7b31; padding:clamp(-120px,6vw,120px) 0 clamp(-120px,6vw,120px) clamp(0.8px,4.0vw,80.0px); width: 60%; left: 15%; top: clamp(-200.0px,-10.0vw,200.0px);}
+#section-26 .intro h2 {font-family: 'NB Architekt Light'; margin-bottom: clamp(0.4px,2.0vw,40.0px); font-size: clamp(1.2px,6.0vw,120.0px)}
+#section-26 p {font-size: clamp(0.24px,1.2vw,24.0px); line-height: 1.6}
+#section-26 .partners {position: absolute; top: clamp(5.4px,27.0vw,540.0px); left: 22%; width: 68%}
+#section-26 .text-2 {position: absolute; top: clamp(-2040px,102vw,2040px); left: 20%}
+#section-26 .text-2 h2 {margin-bottom: clamp(0.4px,2.0vw,40.0px); font-size: clamp(1.2px,6.0vw,120.0px); font-family: 'Telegraf';}
+#section-26 .text-2 p {color: #000; max-width: 74%; margin-bottom: clamp(-24px,1.2vw,24px)}
+#section-26 .text-2 p.large {font-size: clamp(0.6px,3.5vw,70.0px)}
+#section-26 .big-button {color: #FFF; background: rgba(255,255,255, 0.3); border-color: #FFF}
+
+.academic-partners {position: absolute; top:clamp(-420px,21vw,420px); left: 16%; width: 78%; font-size: clamp(-30px,1.5vw,30px); line-height: 1.4}
+.academic-partners img {display: block; margin: clamp(-80px,4vw,80px) auto clamp(-20px,1vw,20px); max-height: clamp(-160px,8vw,160px)}
+
+
+#section-27 {position: relative;}
+#section-27 .big-button {position: absolute; top: clamp(12.2px,61.0vw,1220.0px); background: #7dea13; left: clamp(0.6px,3.0vw,60.0px);}
+#section-27 .img-1 {position: absolute; right: 0; top: clamp(7.0px,35.0vw,700.0px); width: 35%}
+#section-27 .text-1 {position: absolute; font-family: 'NB Architekt Std'; font-size: clamp(0.6px,3.0vw,60.0px); top: clamp(5.4px,27.0vw,540.0px); left: clamp(0.6px,3.0vw,60.0px); color: #FFF;}
+#section-27 .text-1 span {color: #7dea13}
+#section-27 .text-2 {position: absolute; color: #FFF; top: clamp(9.6px,48.0vw,960.0px); width: 50%; left: clamp(0.6px,3.0vw,60.0px)}
+#section-27 .text-2 p {font-size: clamp(0.2px,1.0vw,20.0px); line-height: 1.5}
+#section-27  h2 {position: absolute; width: 100%; text-align: center; color: #FFF;  font-family: 'NB Architekt Light'; top: clamp(1.8px,9.0vw,180.0px)}
+
+.lower-news #news {background: #FFF; color: #000; padding: clamp(1.0px,5.0vw,100.0px) 0}
+.lower-news #news .news-item {color: #000; border-top: 2px solid #000}
+.lower-news #news .plus.white {color: #000}
+.lower-news #news .line {border-bottom-color: #000}
+.lower-news #news .line .inner {position: absolute; border: 3px solid #000; width: 15%; top: -2.5px}
+.lower-news #news h2 {font-size: clamp(0.6px,3.0vw,60.0px); text-transform: uppercase; margin-bottom: clamp(-20px,clamp(0.2px,1.0vw,20.0px),20px)}
+.lower-news #news .item {padding-left: clamp(-40px,clamp(0.4px,2.0vw,40.0px),40px); padding-right: clamp(-40px,clamp(0.4px,2.0vw,40.0px),40px); }
+.lower-news #news .news-row {margin-left: clamp(-40px,clamp(-40.0px,-2.0vw,40.0px),40px); margin-right: clamp(-40px,clamp(-40.0px,-2.0vw,40.0px),40px)}
+.lower-news #news .news-item h4 {color: #555; font-size: clamp(-16px,clamp(0.16px,0.8vw,16.0px),16px); font-weight: 700}
+
+
+
+
+#quote h1 {color: #FFF; position: absolute; font-size: clamp(-200px,10vw,200px); top: clamp(-340px,17vw,340px); left: 0; text-transform: uppercase; font-family:NB Architekt Light }
+#quote .box-1 {background: #FFF; position: absolute; top: clamp(-1400px,70vw,1400px); right: 0; width: clamp(-2040px,52vw,2040px); padding: clamp(-60px,3vw,60px); }
+#quote .box-1 .dot {top: clamp(-10px,-0.5vw,10px); left: clamp(-10px,-0.5vw,10px);}
+#quote .auth-1 {position: absolute; color: #FFF; top:clamp(-1766px, 88.3vw,1766px); width: clamp(-600px,30vw,600px);}
+#quote .auth-1 img {filter: invert(100%); width: clamp(-200px,10vw,200px); float: right;}
+
+
+#quote .box-1 {background: #FFF; position: absolute; top: clamp(-1400px,70vw,1400px); right: 0; width: clamp(-1040px,52vw,1040px); padding: clamp(-60px,3vw,60px); }
+#quote .box-1 .dot {top: clamp(-10px,-0.5vw,10px); left: clamp(-10px,-0.5vw,10px)}
+
+#quote .box-2 {background: #FFF; position: absolute; top: clamp(-2500px,125vw,2500px); left: 0; width: clamp(-960px,48vw,960px); padding: clamp(-60px,3vw,60px); }
+#quote .box-2 .dot {top: clamp(-10px,-0.5vw,10px); left: clamp(-10px,-0.5vw,10px);}
+
+#quote .auth-2 {position: absolute; color: #FFF; top: clamp(-3220px,151vw,3020px); width: clamp(-600px,30vw,600px); right: clamp(-60px,3vw,60px);}
+#quote .auth-2 img {width: clamp(-100px,5vw,100px); float: right;}
+
+#quote .box-3 {top: clamp(-3720px,186vw,3755px); color: #FFF; position: absolute; width: clamp(-1000px,50vw,1000px); left: clamp(-20px,1vw,20px);}
+#quote .box-3 h2 {line-height: 1.4;}
+#quote .box-3 {}
+#quote .box-3 .medium {max-width: clamp(-800px,40vw,800px);}
+#quote .box-3  .slashes-lower {margin-left: 60%; width: clamp(-300px,15vw,300px);}
+
+#quote h3 {font-family:NB Architekt Light; font-size: clamp(7px,1.5vw,30px)}
+#quote p:not(.large, .medium) {font-size: clamp(7px,1vw,20px);}
+
+#impact-series {position: relative; z-index: 2}
+#impact-series .blue {color: #61b0ff}
+#impact-series .square {width: clamp(-12px, 0.6vw, 12px); height: clamp(-12px, 0.6vw, 12px);}
+#impact-series .green {color: #7dea13; font-family: 'Telegraf'; font-size: clamp(-20px, 1vw, 20px);}
+#impact-series #head {background: #000; position: relative;}
+#impact-series #head h3 {font-size: clamp(-60px, 3vw, 60px);}
+#impact-series #head .plus {position: absolute; right: clamp(-170px, 8.5vw, 170px); top: 55%;}
+#impact-series #head .block {width: 10%; height: clamp(-120px, 6vw, 120px); background: #000; position: absolute; right: 0; bottom: clamp(-120px,-6vw,120px)}
+#impact-series .arkitect {font-size: inherit;}
+#impact-series .icon {max-width: clamp(-200px, 10vw, 200px); margin: 0 clamp(-60px, 2.3vw, 46px); opacity: 0.4; transition: all .3s ease; cursor: pointer}
+#impact-series .icon.active {opacity: 1;}
+#impact-series .icon:not(.active):hover {opacity: 0.9}
+#impact-series .icon.whales {height: clamp(-130px,6.5vw,130px)}
+#impact-series .icon.buffalo {height: clamp(-100px,5vw,100px)}
+#impact-series .icon.direwolf {height: clamp(-98px,4.9vw,98px)}
+#impact-series .switcher {display: flex; align-items: flex-end;}
+
+#impact-series #panel {position: relative;}
+#impact-series #panel .line {width: 50%; background: #000; height: 4px;}
+#impact-series #panel .line .innerline {height: 2px; background: #dbdbe0; right: 100%; top: 0px; width: 150%; position: absolute;}
+#impact-series #panel p {font-size: clamp(-20px, 1vw, 20px); line-height: 1.7;}
+#impact-series #panel .line .plus {right: 110%; top: -8px;}
+#impact-series #panel .ecosystem {width: 188%; max-width: none; margin-left: -51%;}
+#impact-series .whale-series #panel .ecosystem {margin-left: -20% !important; width: 170%}
+
+#impact-series #panel .island-overlay {position: fixed; top: 0; left: 0; z-index: 100000; background: rgba(0,0,0,0.8); backdrop-filter: blur(20px); height: 100%; width: 100%; display: none; padding-top: clamp(-100px,5vw,100px);}
+#impact-series #panel .island-overlay img {width: 95%; margin: 0; display: block;}
+
+#impact-series #panel .square.a {position: absolute; top: 0; left: -5%;}
+#impact-series #panel .square.b {position: absolute; bottom: clamp(-100px, 5vw, 100px); left: -5%;}
+#impact-series #panel h4 {text-transform: none;font-family: 'Telegraf'; font-size: clamp(-40px, 2vw, 40px);}
+
+#impact-series #panel h5 {font-family: 'Telegraf'; font-size: clamp(-22px, 1.1vw, 22px); margin: 0 0 clamp(-8px, 0.4vw, 8px); position: relative;}
+#impact-series #panel h5:before {content:" "; background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-purple-plus.jpg) no-repeat center center; background-size: cover; width: clamp(-24px, 1.2vw, 24px); height: clamp(-24px, 1.2vw, 24px); position: absolute; left: -9%; top: clamp(-20px,0.1vw,20px)}
+#impact-series .whale-series #panel h5:before {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-blue-plus.png) no-repeat center center; background-size: cover;}
+#impact-series #panel .stats p {font-size: clamp(-14px, 0.7vw, 14px); line-height: 1.6;}
+#impact-series .whale-series #panel .stats p {margin-bottom: clamp(-60px,3vw,60px)}
+
+#impact-series .whale-series .purple {color: #d76eff}
+#impact-series .whale-series .green {color: #3dea86}
+
+#impact-series #panel .stats img {margin-left: -10%; width: 100%; display: block;}
+#impact-series .whale-series #panel .stats img {height: clamp(-140px,7vw,140px); width: auto}
+#impact-series #panel .left .square {bottom: 0; right: 0;}
+#impact-series #panel .right {border-left: 1px solid #dbdbe0;}
+#impact-series #panel .right h5 {color: #dc2502;}
+#impact-series #panel .right h5:before {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-red-negative.jpg) no-repeat center center; background-size: cover;}
+#impact-series #panel .right.pl-md-5 {padding-left: clamp(-80px, 4vw, 80px) !important;}
+#impact-series #panel .right img {max-width: 125%; width: 108%;}
+#impact-series #panel .right .square {top: 0; left: 0;}
+#impact-series #panel .right .plus.c {position: relative; width: 20px; display: inline-block; float: right; margin-top: clamp(-20px, -1vw, 20px);}
+#impact-series #panel .right .plus.c .line {position: absolute; height: 2px; background: #dbdbe0; left: 50%; width: clamp(-200px, 10vw, 200px); top: 10px;}
+
+#impact-series #panel .outlay {position: absolute; top: clamp(-940px,47vw,940px); width: clamp(-1060px,55vw,1060px); left: clamp(-646px,32.3vw,646px); z-index: 4}
+#impact-series #panel .outlay img {width: clamp(-900px,30vw,900px)}
+#impact-series #panel .outlay .text {position: absolute; left: clamp(-686px,34.3vw,686px); top: clamp(-10px,0.5vw,10px); }
+#impact-series #panel .outlay .text p {font-size: clamp(-14px, 0.7vw, 14px);}
+#impact-series #panel .outlay h5 {font-family: Telegraf Bold; }
+#impact-series #panel .outlay-1 h5 {color: red}
+#impact-series #panel .outlay-1 h5:before {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-red-negative.jpg)} 
+
+#impact-series #panel .outlay-2 {left: clamp(-240px,12vw,240px); top: clamp(-1200px,58vw,1200px); width: clamp(-940px,47vw,940px)}
+#impact-series #panel .outlay-2 img {width: clamp(-360px,18vw,360px)}
+#impact-series #panel .outlay-2 .text {top: auto; bottom: clamp(-80px,4vw,80px); left: clamp(-360px,18vw,360px);}
+
+#impact-series #mid {background: #000 url(https://colossal.com/wp-content/themes/colossal/img/conservation/impact-mid-bg.jpg); background-size: 100% 100%; background-position: center top; color: #FFF; position: relative;}
+#impact-series #mid .line {width: clamp(-300px,15vw,300px); background: #000; height: 4px;}
+#impact-series #mid .line .innerline {height: 2px; background: #dbdbe0; right: 100%; top: 0px; width: 150%; position: absolute;}
+
+#impact-series #mid h3 {color: #000; font-family: 'NB Architekt Std'; font-size: clamp(-60px, 3vw, 60px);}
+#impact-series #mid .feat {height: clamp(-460px, 23vw, 460px);}
+#impact-series #mid .large {font-size: clamp(-32px, 1.6vw, 32px); white-space: nowrap;}
+#impact-series #mid .orange {color: #ff7b31;}
+
+#impact-series #mid p {font-size: clamp(-17.4px, 0.87vw, 17.4px); line-height: 1.7; max-width: 75%;}
+#impact-series #mid .square.a {bottom: clamp(-100px, 5vw, 100px); left: clamp(-80px, 4vw, 80px);}
+#impact-series #mid .square.b {top: 80%; right: clamp(-80px, 4vw, 80px); z-index: 5}
+#impact-series #mid .plus {left: clamp(-80px, 4vw, 80px); top: 80%; z-index: 5}
+#impact-series #mid .v-text {position: absolute; height: clamp(-300px, 15vw, 300px); right: clamp(-80px, 4vw, 80px); bottom: 0%; z-index: 10;}
+#impact-series .whale-series #mid .v-text {height: clamp(-200px,10vw,200px); bottom: 5%}
+#impact-series #mid #mask {width: 100%; height: 50%; background: #181c1e; position: absolute; bottom: 0; opacity:1; z-index: 4;}
+
+#impact-series #scroller {position: relative; z-index: 5; margin-top: clamp(-120px, -6vw, 120px);}
+#impact-series #scroller .circles {position: absolute; top: -32%; pointer-events: none; left: 2.4%; z-index: 15; opacity: 0.8; width: 110%; animation: rotate 54s linear infinite; max-width: none;}
+#impact-series #scroller .circles.outer {z-index: 2;}
+#impact-series #scroller .slide {padding: clamp(-180px, 9vw, 180px) 0; position: relative; z-index: 15; height: clamp(-1340px, 67vw, 1340px);}
+#impact-series #scroller .slide h2 {font-family: 'NB Architekt Std';}
+#impact-series #scroller .slide .plus {position: relative; font-size: clamp(-30px, 1.5vw, 30px); z-index: 10;}
+#impact-series #scroller .slide .line {background: #000; border-color: #000; position: absolute; left: clamp(-40px, 2vw, 40px); top: clamp(-16px, 0.8vw, 16px); height: 2px; width: clamp(-400px, 20vw, 400px);}
+#impact-series #scroller .slide p.medium {font-size: clamp(-40px, 2vw, 40px);} 
+#impact-series #scroller .slide p {font-size: clamp(-20px, 1vw, 20px); max-width: 90%;}
+#impact-series #scroller .button {background: #7dea13; font-size: clamp(-30px, 1.5vw, 30px); float: right; border: none; padding: clamp(-40px,2vw,40px) clamp(-80px,4vw,80px); border-radius: 100px; cursor: pointer; color: #000; margin-right: 10%;}
+#impact-series #scroller .button span {margin-left: clamp(-400px, 20px, 400px); position: relative; top: clamp(-4px, 0.2vw, 4px);}
+#impact-series #scroller .button:hover {background: #000 !important; color: #FFF;}
+#impact-series #species-slider-1,
+#impact-series #species-slider-2,
+#impact-series #species-slider-3,
+#impact-series #species-slider-4 {z-index: 9;}
+
+#impact-series #scroller .slide-1 {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-1-bg.webp) no-repeat center right; background-size: 77% auto;}
+#impact-series #scroller .slide-2 {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-2-bg.webp) no-repeat center right; background-size: 77% auto;}
+#impact-series #scroller .slide-2 .button {background: #ff7b31;}
+#impact-series #scroller .slide-3 {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-3-bg.webp) no-repeat center right; background-size: 77% auto;}
+#impact-series #scroller .slide-4 {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-4-bg.webp) no-repeat center right; background-size: 77% auto;}
+#impact-series #scroller .slide-4 .button {background: #ff7b31;}
+#impact-series #scroller .slide-5 {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-5-bg.webp) no-repeat center right; background-size: 77% auto;}
+#impact-series #scroller .slide-6 {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-6-bg.webp) no-repeat center right; background-size: 77% auto;}
+#impact-series #scroller .slide-7 {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-7-bg.webp) no-repeat center right; background-size: 77% auto;}
+#impact-series #scroller .slide-8 {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-8-bg.webp) no-repeat center right; background-size: 77% auto;}
+
+
+#impact-series .whale-series #scroller .slide-1 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-2-1.webp)}
+#impact-series .whale-series #scroller .slide-2 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-2-2.webp)}
+#impact-series .whale-series #scroller .slide-3 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-3-2.webp)}
+#impact-series .whale-series #scroller .slide-4 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-2-4.webp)}
+#impact-series .whale-series #scroller .slide-5 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-2-5.webp)}
+
+
+#impact-series .buffalo-series #panel {padding-bottom: clamp(-1000px,50vw,1000px)}
+#impact-series .buffalo-series #panel .right img {width: 98%}
+#impact-series .buffalo-series .orange {color: #ff7b31}
+#impact-series .buffalo-series #panel .left h5:before {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-orange-plus.png)}
+#impact-series .buffalo-series .diagram {position: absolute; width: clamp(-1860px,93vw,1860px); max-width: none; top: clamp(-600px,30vw,600px); left: clamp(-120px,-6vw,120px)}
+#impact-series .buffalo-series .fact-1 {position: absolute; top: clamp(-860px,43vw,860px); left: clamp(-260px,13vw,260px); width: clamp(-400px,20vw,400px); font-size: clamp(-14px,0.7vw,14px)}
+#impact-series .buffalo-series .fact-2 {position: absolute; top: clamp(-1460px,73vw,1460px); left: clamp(-1330px,66.5vw,1330px); width: clamp(-400px,20vw,400px); font-size: clamp(-14px,0.7vw,14px)}
+#impact-series .buffalo-series .fact-3 {position: absolute; top: clamp(-1840px,92vw,1840px); left: clamp(-260px,13vw,260px); width: clamp(-600px,30vw,600px); font-size: clamp(-14px,0.7vw,14px)}
+#impact-series .buffalo-series #panel .fact p {font-size: clamp(-14px,0.7vw,14px)}
+#impact-series .buffalo-series #panel .fact h5 {font-family: Telegraf Bold; color: #ff7b31}
+#impact-series .buffalo-series #panel .fact h5:before {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-orange-plus.png)}
+#impact-series .buffalo-series #panel .fact h5.red {color: red}
+#impact-series .buffalo-series #panel .fact h5.red:before {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-red-negative.jpg) no-repeat center center; background-size: cover}
+
+
+#impact-series .buffalo-series #scroller .slide-1 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-3-1.png)}
+#impact-series .buffalo-series #scroller .slide-2 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-3-2.png)}
+#impact-series .buffalo-series #scroller .slide-3 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-3-3.png)}
+#impact-series .buffalo-series #scroller .slide-4 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-3-4.png)}
+#impact-series .buffalo-series #scroller .slide-5 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-3-5.png)}
+#impact-series .buffalo-series #scroller .slide-6 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-3-6.png)}
+#impact-series .buffalo-series #scroller .slide-7 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-3-7.png)}
+
+
+
+#impact-series .direwolf-series #panel {padding-bottom: clamp(-1000px,50vw,1000px)}
+#impact-series .direwolf-series #panel .right img {width: 98%}
+#impact-series .direwolf-series .green {color: #37a868}
+#impact-series .direwolf-series #panel .left h5:before {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-green-plus.png)}
+#impact-series .direwolf-series .diagram {position: absolute; width: clamp(-1860px,93vw,1860px); max-width: none; top: clamp(-600px,30vw,600px); left: clamp(-120px,-6vw,120px)}
+#impact-series .direwolf-series .fact-1 {position: absolute; top: clamp(-860px,43vw,860px); left: clamp(-260px,15vw,300px); width: clamp(-400px,20vw,400px); font-size: clamp(-14px,0.7vw,14px)}
+#impact-series .direwolf-series .fact-2 {position: absolute; top: clamp(-1460px,73vw,1460px); left: clamp(-1330px,66.5vw,1330px); width: clamp(-400px,20vw,400px); font-size: clamp(-14px,0.7vw,14px)}
+#impact-series .direwolf-series .fact-3 {position: absolute; top: clamp(-1840px,94vw,1880px); left: clamp(-260px,13vw,260px); width: clamp(-600px,30vw,600px); font-size: clamp(-14px,0.7vw,14px)}
+#impact-series .direwolf-series .fact-3 {position: absolute; top: clamp(-1840px,94vw,1880px); left: clamp(-260px,13vw,260px); width: clamp(-600px,30vw,600px); font-size: clamp(-14px,0.7vw,14px)}
+#impact-series .direwolf-series #panel .fact p {font-size: clamp(-14px,0.7vw,14px)}
+#impact-series .direwolf-series #panel .fact h5 {font-family: Telegraf Bold; color: #37a868}
+#impact-series .direwolf-series #panel .fact h5:before {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-green-plus.png)}
+#impact-series .direwolf-series #panel .fact h5.red {color: red}
+#impact-series .direwolf-series #panel .fact h5.red:before {background: url(https://colossal.com/wp-content/themes/colossal/img/conservation/icon-red-negative.jpg) no-repeat center center; background-size: cover}
+
+
+#impact-series .direwolf-series #scroller .slide-1 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-4-1.webp)}
+#impact-series .direwolf-series #scroller .slide-2 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-4-2.webp)}
+#impact-series .direwolf-series #scroller .slide-3 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-4-3.webp)}
+#impact-series .direwolf-series #scroller .slide-4 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-4-4.webp)}
+#impact-series .direwolf-series #scroller .slide-5 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-4-5.webp)}
+#impact-series .direwolf-series #scroller .slide-6 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-4-6.webp)}
+#impact-series .direwolf-series #scroller .slide-7 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-4-7.webp)}
+#impact-series .direwolf-series #scroller .slide-8 {background-image: url(https://colossal.com/wp-content/themes/colossal/img/conservation/slide-4-8.webp)}
+
+#impact-series .direwolf-series #scroller .slide p {white-space: nowrap;}
+/*#impact-series .whale-series #scroller .slide-2 {background: url(img/conservation/slide-2-bg.webp) no-repeat center right; background-size: 77% auto;}*/
+/*#impact-series .whale-series #scroller .slide-2 .button {background: #ff7b31;}*/
+/*#impact-series .whale-series #scroller .slide-3 {background: url(img/conservation/slide-3-bg.webp) no-repeat center right; background-size: 77% auto;}*/
+/*#impact-series .whale-series #scroller .slide-4 {background: url(img/conservation/slide-4-bg.webp) no-repeat center right; background-size: 77% auto;}*/
+/*#impact-series .whale-series #scroller .slide-4 .button {background: #ff7b31;}*/
+/*#impact-series .whale-series #scroller .slide-5 {background: url(img/conservation/slide-5-bg.webp) no-repeat center right; background-size: 77% auto;}*/
+/*#impact-series .whale-series #scroller .slide-6 {background: url(img/conservation/slide-6-bg.webp) no-repeat center right; background-size: 77% auto;}*/
+
+
+#impact-series .steps {font-size: clamp(-30px, 1.5vw, 30px); background: #FFF; display: inline-block; font-family: 'NB Architekt Std'; padding: 0 0 0 clamp(-20px, 1vw, 20px); border-radius: 100px; overflow: hidden; margin-top: clamp(-660px, 33vw, 660px);}
+#impact-series .steps .arrows {display: inline-block; background: #ff7b31; margin-left: clamp(-60px, 3vw, 60px);}
+#impact-series .steps .arrows .arrow {display: inline-block; width: clamp(-50px, 2.5vw, 50px); text-align: center; cursor: pointer;}
+#impact-series .steps .arrows .arrow img {display: inline-block;}
+#impact-series .steps .arrows .arrow:hover {background: #ff6e20;}
+#impact-series .steps .arrows .arrow.left-arrow {border-right: 2px solid #ff5b0c; padding-left: clamp(-10px, 0.5vw, 10px);}
+#impact-series .steps .arrows .arrow.right-arrow {padding-right: clamp(-14px, 0.7vw, 14px); border-left: 2px solid #ffa149; width: clamp(-60px, 3vw, 60px);}
+
+#impact-series .textline {background: rgba(0,0,0,0.5); display: inline-block; color: #FFF; text-transform: uppercase; font-family: 'NB Architekt Std'; font-size: clamp(-30px, 1.5vw, 30px); padding: clamp(-6px, 0.3vw, 6px) clamp(-20px, 1vw, 20px); border-radius: 100px; white-space: nowrap;}
+#impact-series .spacer-xxs {height: clamp(-10px, 0.5vw, 10px);}
+
+#impact-series .slick-dots {display: inline-block; position: absolute; bottom: auto; top: 58%; width: 30%; left: 43.5%; text-align: left;}
+
+#impact-series .slick-dots li button:before {font-size: clamp(-11px,0.55vw,11px); color: #FFF;}
+#impact-series .slick-dots li button:before {opacity: 1;}
+
+#impact-series .slick-dots li.slick-active {border: 2px solid #FFF; border-radius: 100px;}
+#impact-series .slick-dots li.slick-active button:before {opacity: 1; color: #ffca42; padding: 0; margin-left: -px}
+
+#impact-series .whale-series .slick-dots li.slick-active button:before {color: #1ec9ae}
+
+#impact-series .slick-dots li {width: clamp(-24px,1.2vw,24px); height: clamp(-24px,1.2vw,24px); border: 2px solid transparent;}
+
+#impact-series .slick-dots li button {width: 100%; height: 100%;}
+
+
+
+
+
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+	.container {max-width: 100%}
+
+	.box {font-size: clamp(0.4px,2.0vw,40.0px);}
+
+	p.medium {font-size: clamp(0.6px,3.0vw,60.0px);}
+
+	.section-header .arkitect {font-size: clamp(0.2px,1.0vw,20.0px);}
+
+	.arkitect {font-size: clamp(0.4px,2.0vw,40.0px);}
+
+	p {margin-bottom: 1.5rem; font-size: clamp(0.6px,3.0vw,60.0px); text-align: left;}
+	p.medium {font-size: clamp(0.8px,4.0vw,80.0px)}
+	p.large {font-size: clamp(1.4px,7.0vw,140.0px);}
+
+	h4 {font-size: clamp(0.8px,4.0vw,80.0px);}
+
+	ul {padding-left: clamp(0.6px,3.0vw,60.0px); margin-bottom: clamp(2.0px,10.0vw,200.0px);}
+	ul li {font-size: clamp(0.6px,3.0vw,60.0px);}
+
+	.big-button {font-size: clamp(-90px,4.5vw,90px) !important; padding: clamp(-100px,5vw,100px) clamp(-160px,8vw,160px)}
+	.big-button .plus {display: none;}
+
+	#hero {overflow: hidden;}
+	#hero .dna .dna-3 {animation-name: none}
+	#hero .intro {top: 55vh;}
+	#hero .bg {object-position: right top;}
+	#hero h1 {line-height: 1; font-size: clamp(2.5px,12.5vw,250.0px);}
+	#hero .slashes {display: none;}
+	#hero h3 {font-size: clamp(0.8px,4.0vw,80.0px); max-width: clamp(14.0px,70.0vw,1400.0px);}
+	#hero h3 br {display: none;}
+	#hero p {max-width: 80%; font-size: clamp(0.6px,3.0vw,60.0px);}
+	
+	#hero .text.a {top: 45%; font-size: clamp(0.6px,3.0vw,60.0px);}
+	#hero .text.b {font-size: clamp(0.6px,3.0vw,60.0px);}
+
+	#hero .line {top: 45%; width: 84%; left: clamp(1.6px,8.0vw,160.0px);}
+	#hero .lower { top: 85vw; width: 100%}
+	#hero h3 {max-width: 100%;}
+	#hero p {max-width: 100%}
+	#hero .arkitect {font-size:2.4vw; text-align:center !important; padding: 0; margin: 0}
+	#hero .square {top: clamp(6.0px,30.0vw,600.0px)}
+	#hero .plus.a {display: none}
+	#hero .square {display: none}	
+
+	#section-0 {margin-bottom: 24vw}
+	#section-0 h1 {font-size: 14vw;}
+	#section-0 .text-1 { top: 25vw}
+	#section-0 h3 {font-size:5vw}
+	#section-0 .slashes {width: 28%}
+
+	#foundation {padding-bottom: 15vw}
+	#foundation h3 {text-align: center; font-size: 10vw; margin-top: -3vw}
+	#foundation .foundation-logo {width: 60%}
+	#foundation .tag {display: none}
+	#foundation p {font-size: 4vw; text-align: center; margin-top: 8vw}
+	#foundation .img-1 {margin-left: -10vw; width: 60%}
+	#foundation .img-2 {margin-right: -20vw; width: 70%; float: right;}
+	#foundation .img-3 {margin-top: 10vw; margin-bottom: 10vw}
+	#foundation .big-button {padding: 8vw 10vw; text-align: center; width: 105%}
+	#foundation .img-4 {display: none;}
+
+	#section-1 {background: transparent;}
+	#section-1 .text-1 {left: 3vw}
+	#section-1 h3 {margin-bottom: 0;}
+	#section-1 h3 .slashes {height: 2vw; top: 0}
+	#section-1 .mid {top: -5vw; left: 12vw}
+	#section-1 .mid h2 {font-size: 7vw}
+	#section-1 .img-1 {}
+	#section-1 .mid p {display: none;}	
+
+	#section-1 .text-2 {top: 90vw}
+	#section-1 .text-2 p {font-size: 2.4vw}
+	#section-1 .text-2 h4{font-size: 7vw; }
+	#section-1 .text-3 {font-size: 3.5vw; line-height: 1.6; padding-right: 8vw; left: 25vw; top: 105vw}
+	#section-1 {padding-bottom: 60vw; padding-top: 0; background: #efeff1}
+
+
+
+	#section-2 .box {display: none;}
+	#section-2 .text-1 {left: 4vw}
+	#section-2 p {font-size: 2.5vw}
+	#section-2 .quote {margin-bottom: -15vw; margin-top: 25vw; height: 30vw; background-size: cover; border-radius: 13vw; padding: 5vw}
+	#section-2 .quote p {font-size: 3.5vw; line-height: 1.5}
+	#section-2 .quote p span {font-size: 3vw}
+	#section-2 .bg {margin-right: -20vw; position: relative; z-index: -1}
+	#section-2 .upper img {display: none}
+
+	#section-3 {position: relative; background:rgb(13, 15, 17); padding-bottom: 1px}
+	#section-3 * {position: static !important;}
+	#section-3 .bg {position: absolute !important; top: 0; z-index: -1; width: 375%; max-width: none; left: -25%; height: 100%; object-fit: cover; object-position: top center}
+	#section-3 .box {display: none;}
+	#section-3 .text-1 {margin-left: 0; margin-top: 30vw}
+	#section-3 .text-2 {top: 55vw; width: 100%}
+	#section-3 .text-2 .medium {margin-bottom: 2vw}
+	#section-3 .text-4 {width: 100%}
+
+	#section-3 .text-3 div {font-size: 6vw}
+	#section-3 .text-4 .large {margin-top: 8vw; margin-bottom: 2vw}
+	#section-3 .text-4 p {color: #FFF;}
+	#section-3 .text-5 div {font-size: 3.3vw; padding: 1.8vw}
+
+	#section-3 .stat {color: #FFF; margin-top: 10vw; font-size: 12vw}
+	#section-3 .stat-2 p,
+	#section-3 .stat-1 p {color: #FFF; font-size: 5vw; line-height: 1.5}
+
+	#section-3 .quote {background-size: 300% auto; border-radius: 30vw; padding: 7vw; height: auto; margin-bottom: -17vw}
+	#section-3 .quote p {font-size: 4vw; line-height: 1.2; margin: 0}
+
+	#section-4 {padding: 1px 0; overflow: hidden;}
+	#section-4 * {position: static !important;}
+	#section-4 .bg {position: absolute !important; top: 0; z-index: -1; width: 450%; max-width: none; left: -120%; top: -150vw}
+	#section-4 .text-1 {color: #222; margin: 25vw 4vw 3vw; font-size: 7vw; color: #FFF;}
+	#section-4 br {display: none}
+	#section-4 .text-2 {width: 100%; max-width: 92%}
+	#section-4 .text-2 p {padding-left: 4vw}
+	#section-4 li strong {font-size: 3.2vw}
+	#section-4 li {font-size: 3vw; position: relative !important; width: 100%; margin-bottom: 10vw}
+	#section-4 li:before {position: absolute !important; top: 4vw; left: 3vw; font-size: 3vw}
+
+	#section-human-factor .box {font-size: 2.7vw}
+	#section-human-factor .container {max-width: 100%;}
+	#section-human-factor .line {width: 100%}
+	#section-human-factor .img-1 {right: -20vw; width: 60%; max-width: 200%; top:-5vw}
+	#section-human-factor .wrapper {padding: 0; margin-top: 5vw}
+	#section-human-factor .flourish {display: none;}
+
+	#section-human-factor .v2 .human-1 {height: 5vw}
+	#section-human-factor .v2 p.large {font-size: 9vw; margin-bottom: 2vw}
+	#section-human-factor .v2 p {max-width: 100%; width: 100%; white-space: normal; font-size: 4vw; line-height: 1.4}
+	#section-human-factor .factors > img {width: calc(100% + 15px); max-width: 200%; margin-left: -7px;}
+	#section-human-factor .v2 .human-1 {display: none;}
+	#section-human-factor .factors p.large {font-size: 4vw; margin-left: -7px; text-align: center; margin-bottom: 5vw; line-height: 1.2}
+	#section-human-factor .v2 p small {font-size: 3vw; display: block; white-space: normal;}
+
+	#section-human-factor p.medium {font-size: 7vw}
+	#section-human-factor .video p:not(.medium) {font-size: 4vw}
+
+	#section-6 {overflow: hidden; padding-left: 0;}
+	#section-6 .bg {height: auto; left: -50%; height: auto; width: 200%; max-width: none; display: none}
+	#section-6:before {display: none;}
+	#section-6 h2 {margin-top:3vw; margin-bottom: 7vw; color: rgb(153, 64, 221); font-size: 12vw}
+	#section-6 h2 span {color: rgb(153, 64, 221);}
+	#section-6 p.large {color: #000; margin-bottom: 3vw}
+	#section-6 p:not(.large) {color: #000; font-size: 3vw}
+
+	#section-6 .text-black .textline {color: #FFF !important; font-size: 4.8vw; margin-bottom: 3vw}
+	#section-6 .img-4 {max-width: 100%; margin-bottom: 5vw}
+
+	#section-6 .img-1 {display: none;}
+	#section-6 .img-2 {display: none;}
+	#section-6 .text-black * {color: #000 !important}
+
+
+	#section-7 h2 {font-size: 13vw; top: 17vw}
+	#section-7 .bg {width: 200%; margin-left: -5%; max-width: 200%}
+	#section-7 .text-1 {width: 75%;}
+	#section-7 .text-1 p {font-size: 4.5vw; line-height: 1.7}
+	#section-7 .text-1 p.large {font-size: 7vw; margin-bottom: 3vw; margin-top: 3vw; line-height: 1.4}
+	#section-7 .quote {padding: 4vw; text-align: center; height: auto; border-radius: 10vw; margin-bottom: -13vw}
+	#section-7 .quote img {display: none;}
+	#section-7 .quote p {font-size: 4vw; text-align: center; line-height: 1.2}
+
+	#section-8 .box {font-size: 3vw; padding: 1vw 2vw}
+	#section-8 .container {position: relative; z-index: 10; top: auto;}
+	#section-8 .bg {position: absolute; height: 100%; top: 0; left: 0; z-index: -1}
+	#section-8 h2 {position: static; margin: 19vw 3vw 5vw}
+	#section-8 .text-1 {position: static; margin: 3vw; width: 90%; display: block;}
+	#section-8 .text-1 p:not(.large) {font-size: 3.5vw}
+	#section-8 .text-1 p.large {font-size: 7vw}
+
+	#section-8 .container .w-100 {max-width: 200%; width: 115% !important; margin-left: -5%}
+	#section-8 .container p.medium {font-size: 7vw; margin-bottom: 3vw}
+	#section-8 .container .text-2 {padding: 0 3vw;}
+	#section-8 .container .img-1 {display: none;}
+	#section-8 .container p {font-size: 3.3vw}
+	#section-8 .container .flex-column {padding-bottom: 15vw}
+
+
+	#section-12 {overflow: hidden;}
+	#section-12 * {position: static !important; background: transparent;}
+	#section-12 .container {position: relative !important; z-index: 10}
+	#section-12 .bg {position: absolute !important; top: -39vw; right: -20%; z-index: 0; max-width:500%; width: 310%}
+	#section-12 .img-1 {width: 50% !important; display: none}
+	#section-12 h5 {margin-top: 15vw}
+	#section-12 h2 {font-size: 9vw}
+	#section-12 .textline {font-size:3.8vw; margin: 3vw 0}
+	#section-12 .text-1 {margin: 0;}
+	#section-12 p.medium {font-size: 6vw}
+	#section-12 p {font-size: 4vw}
+
+	#section-13 {overflow: hidden;}
+	#section-13 h5 {font-size: 9vw; padding: 10vw 5vw 0}
+	#section-13 p.medium {font-size: 5vw}
+	#section-13 hr {display: none;}
+	#section-13 .text-2 p.medium {font-size: 7vw; white-space: normal;}
+	#section-13 .text-2 br {display: none;}
+	#section-13 .text-2 p {font-size: 4vw}
+	#section-13 .text-2 {padding: 5vw}
+	#section-13 .flex-column {margin-bottom: 10vw}
+	#section-13 .text-1:nth-of-type(2) {transform:none}
+	#section-13 .text-2 .box {font-size: 3vw; margin-bottom: 5vw}
+
+
+	#section-13 .img-1 {display: none;}
+
+	#section-14 {background-position-x:10%; padding-top: 15vw}
+	#section-14 .divider {display: none;}
+	#section-14 .textlines div {font-size: 5vw}
+	#section-14 .quote-2 {width: 10%; top: 25vw}
+	#section-14 .plus {display: none;}
+	#section-14 .square  {display: none;}
+	#section-14 .quote-1 {width: 10%;  top: -6vw}
+	#section-14 .textlines i {font-size: 3.5vw}
+	#section-14 .short-slash {display: none;}
+	#section-14 p.medium {width: 100%; font-size: 6vw; margin-bottom: 3vw}
+	#section-14 p:not(.medium) {font-size: 4vw}
+
+
+	#section-15 {overflow: hidden; padding-bottom: 10vw}
+	#section-15 * {position: relative !important;}
+	#section-15 .bg {width: 240%; left: -15%; max-width: 500%; position: absolute !important; top: -30vw;}
+	#section-15 h2 {z-index: 10; text-align: left; left: 5vw;}
+	#section-15 .text-1 {z-index: 10; left: 4vw; top: auto}
+	#section-15 .text-2 {z-index: 10; left: 0; padding: 0 4vw; width: 100%; text-align: left; top: auto; font-size: 8vw}
+	#section-15 .text-2 .arkitect {float: left; font-size: 3vw}
+	#section-15 .mid {z-index: 10; top: auto; left: 0; padding: 0 4vw; width: 100%; clear: both; margin: 15vw 0 0 }
+
+	#section-15 .text-1 {margin-top: 120vw; width: 100%; padding: 0 4vw; left: 0}
+	#section-15 p.medium {font-size: 8vw; margin-bottom: 3vw}
+	#section-15 .text-1 p:not(.medium) {font-size: 4vw; line-height: 1.5}
+	#section-15 .partner {margin-top: 10vw}
+	#section-15 .partner img {width: 30%; margin-top:5vw; margin-bottom: 3vw}
+	#section-15 .mid p.standard {font-size: 4vw}
+
+
+	#rhino .corner {display: none;}
+
+	.specie .upper h5 {font-size: 12vw !important; white-space: normal !important; text-align: left !important; float: none !important; padding-left: 0 !important}
+	.specie .upper h5 br {}
+	.specie .upper p.large {font-size: 5vw !important; text-align: left !important; padding-left: 0 !important}
+	.specie .upper .img-1 {width: 100%; right: auto;}
+	.specie .vlines {opacity: 0.4; height: 30%}
+	.specie .upper .img-3 {display: none;}
+	.specie .upper ul {margin-bottom: 2vw; border-bottom: none; width: 100% !important}
+	.specie .upper li {font-size: 3.8vw !important; padding: 2vw 0 !important}
+	.specie .upper li:first-child {border-top: none;}
+	.specie .upper .iucn {font-size: 3.5vw}
+	.specie .upper .iucn .logo {width: 12vw;}
+	.specie .upper .iucn .dot {width: 2vw; height: 2vw; margin-left: -3vw}
+	.specie .box {font-size: 3vw}
+	.specie .upper .circles {display: none;}
+	.specie .upper .side .plus.a {display: none;}
+	.specie .upper .side .plus.b {display: none;}
+	.specie .upper .plus {display: none;}
+	.specie .upper .square {display: none;}
+
+	.specie .lower {padding-top: 10vw}
+	.specie .lower .slashes {width: 200%; max-width: 200%}
+	.specie .lower p.bold {font-size: 8vw !important;}
+	.specie .lower p {font-size: 4vw !important}
+	.specie .lower .textlines div {font-size: 2.8vw !important; padding: 2vw}
+	.specie .lower .textlines span {font-size: 3vw}
+	.specie .lower .img-3 {margin: 0 !important; width: 110%;}
+	.specie .lower .line {display: none;}
+	.specie .corner {display: none;}
+	.specie .cap {display: none;}
+
+	#section-17 {overflow: hidden; padding-bottom: 5vw}
+	#section-17 h2 {font-size: 6vw; position: relative; z-index: 10; left: 5vw}
+	#section-17 h2 br {display: none;}
+	#section-17 .text {position: relative; z-index: 10; width: 100%;  left: 5vw}
+	#section-17 .text .big-button {float: none; text-align: center; padding: 3vw 5vw; color: #000; margin: 13vw 0 0}
+	#section-17 .text .big-button .plus {display: none; }
+	#section-17 .quote {position: relative; z-index: 10; width: 100%;  left: 5vw; right: auto; top: auto; margin: 38vw 0 0; width: 90%; clear: both;}
+	#section-17 .bg {width: 200%; max-width: 540%; margin-top: -8vw; left: -25%; position: absolute; top: 0;}
+	#section-17 .photo {position: relative; left: 5vw; top: auto; width: 40%; height: auto; z-index: 10; float: right; margin-top: -4vw}
+	#section-17 h3 {font-size: 6vw; margin-bottom: 4vw !important; clear: both;}
+	#section-17 small {font-size: 3vw; margin-bottom: 5vw}
+
+	#section-18 {padding-bottom: 630vw; overflow: hidden; position: relative;}
+	#section-18 .bg {width: 120%; max-width: 200%; margin-top: -10vw; top: 0 !important;}
+	#section-18 .text-2 {width: 90%; font-size: 3vw; display: none;}
+	#section-18 .text-1 p:not(.medium) {font-size: 4vw; line-height: 1.4; width: 200%; margin-top: 80vw}
+	#section-18 .mid {top: 215vw;}
+	#section-18 .mid p.standard {font-size: 4vw; line-height: 1.4}
+	#section-18 p.medium {font-size: 6vw; line-height: 1.2}
+	#section-18 .img-5 {margin-bottom: 5vw}
+
+	#elephant-1 {margin-top: -20vw}
+	#elephant-1 .vlines {height: 50%}
+	#elephant-1 .vline:nth-child(1) {height: 60%}
+
+	#elephant-2 .vlines {height: 70%}
+	#elephant-2 .vline:nth-child(1) {height: 50%}
+
+	#elephant-3 .vlines {height: 50%}
+	#elephant-3 .vline:nth-child(1) {height: 50%}
+
+	#section-population-threats .box {font-size: 3vw; padding: 1vw}
+	#section-population-threats {padding-top: 10vw}
+	#section-population-threats .vlines {display: none;}
+	#section-population-threats .plus {display: none;}
+	#section-population-threats .square {display: none;}
+	#section-population-threats .upper {padding: 0;}
+	#section-population-threats h2 {font-size: 8vw}
+
+	#section-population-threats .bg-white .col-md-4 {margin-bottom: 10vw}
+	#section-population-threats p.medium {font-size: 5vw}
+	#section-population-threats .text-2 {padding: 3vw; border-right: 1px solid #AAA}
+	#section-population-threats p {font-size: 4vw}
+	#section-population-threats .img-1 {right: 3vw; bottom: 2vw; width: 20%}
+	#section-population-threats .tr {display: none;}
+	#section-population-threats .td {font-size: 5vw; padding: 3vw}
+	#section-population-threats .td.bl:after {display: none;}
+
+	#section-21 {padding-bottom: 220vw; background: rgb(116, 14, 140)}
+	#section-21 .text-1 h5 {font-size: 8vw; margin-top: -5vw;}
+	#section-21 .img-1 {margin-top:95vw}
+	#section-21 .text-2 {margin-top: 10vw; width: 95%}
+	#section-21 p,
+	#section-21 p.medium {font-size: 3.5vw !important; line-height: 1.6 !important}
+	#section-21 .text-3 {top: 77vw; width: 90%; font-size: 5vw; left: 5vw ; background: #000; padding: 3vw}
+	#section-21 .text-3 p {margin-bottom: 0; font-size: 2vw !important}
+	#section-21 .text-4 {top: 215vw; left: 4vw}
+	#section-21 .text-5 {top: 270vw}
+	#section-21 .text-5 p {font-size: 5vw !important; line-height: 1.6; margin-bottom: 2vw;}
+	#section-21 .big-button {color: #000; border:none;}
+
+
+	#section-22 {padding-bottom: 460vw; overflow: hidden; position: relative;}
+	#section-22 .bg {width: 198%; max-width: 200%; margin-left: -5%;  margin-top: -15vw; top: 0 !important;}
+	#section-22 .text-2 {width: 90%; font-size: 3vw; display: none;}
+	#section-22 .text-1 {width: 100%; left: 0; padding: 0 5vw; top:130vw}
+	#section-22 .text-1 p:not(.medium) {font-size: 4vw; line-height: 1.4; margin-top: 0;}
+	#section-22 .mid {top: 235vw; left: 5vw; width: 90%}
+	#section-22 h2 {font-size: 12vw; top:6vw}
+	#section-22 .mid p.standard {font-size: 4vw; line-height: 1.4}
+	#section-22 p.medium {font-size: 6vw; line-height: 1.2}
+	#section-22 .img-5 {margin-bottom: 5vw}
+	#section-22 .partner {max-width: 40%}
+
+	#pigeon .img-2 {max-width: 115%; float: right; margin-right: -5%; margin-top: -18vw}
+	#pigeon .lower {padding-top: 20vw}
+
+	#pigeon-2 .upper h5 {font-size: 10vw !important}
+	#pigeon-2 .img-1 {margin-left: 20%; width: 80%}
+	#pigeon-2 .img-2 {margin-top: -17vw}
+	#pigeon-2 p.bold {font-size: 5vw !important; white-space: nowrap;}
+
+	#pigeon-3 {padding-bottom: 20vw}
+	#pigeon-3 .square {display: none;}
+	#pigeon-3 .plus {display: none}
+	#pigeon-3 .img-1 {width: 94%}
+	#pigeon-3 .img-2 {margin-top: -32vw}
+	#pigeon-3 p.bold {font-size: 7vw !important; white-space: nowrap;}
+	#pigeon-3 .beach {display: none;}
+
+
+	#section-wolf-intro {padding-bottom: 140vw}
+	#section-wolf-intro .bg {width: 220%; max-width: 300%; margin-left: -90%;  margin-top: -15vw; top: 0 !important;}
+	#section-wolf-intro h2 {font-size: 11vw; left: 4vw; top: 33vw}
+	#section-wolf-intro .text-1 {width: 90%; left: 4vw; top: 110vw}
+	#section-wolf-intro .text-1 p:not(.medium) {font-size: 3.5vw; white-space: normal;}
+	#section-wolf-intro .text-2 {font-size: 6vw; width: 90%; left: 4vw; top: 220vw}
+	#section-wolf-intro .text-2 br {display: none}
+	#section-wolf-intro .partner {right: 20vw; text-align: center; top: 15vw}
+	#section-wolf-intro .partner img {max-width: 120%}
+
+	#wolf .img-1 {width: 80%; float: right;}
+	#wolf .img-2 {margin-top: -15vw}
+	#wolf .upper {padding-bottom: 8vw !important}
+	#wolf p.bold {font-size: 7vw !important; white-space: nowrap;}
+	#wolf .lower .textlines div {font-size: 3.5vw !important}
+
+	#section-23 {background-size: 120%}
+	#section-23 .arkitect {font-size: 3.3vw}
+	#section-23 .upper h3 {font-size: 9vw}
+	#section-23 .img-1 {margin: 5vw 0; width: 80%}
+	#section-23 p {color: #000; font-size: 3.5vw}
+	#section-23 .mid-lower ul li {color: #000; font-size: 4vw}
+
+	#section-23 .mid-lower h3 {font-size: 7vw; margin-top: 10vw}
+	#section-23 .mid-lower ul li .dot {top: 30%; width: 2vw; height: 2vw; left: -2.5vw}
+
+	#section-23 .lower .wolf {width: 60%}
+	#section-23 .lower p.large {font-size: 7vw; margin-bottom: 1vw}
+	#section-23 .lower p {font-size: 3.5vw; margin-bottom: 5vw}
+	#section-24 .square {display: none;}
+	#section-24 .plus {display: none;}
+	#section-24 h3 {font-size: 5.4vw}
+	#section-24 h3 br {display: none;}
+	#section-24 p {font-size: 3.5vw; line-height: 1.4}
+	#section-24 .bridgett {width: 70%}
+	#section-24 h4 {font-size: 6vw}
+
+
+
+	#marsupial-intro {padding-bottom: 10vw; overflow: hidden; background: rgb(83, 69, 34)}
+	#marsupial-intro .bg {width: 320%; max-width: 320%; margin-left: -52%;  margin-top: -35vw; top: 0 !important;}
+	#marsupial-intro h2 {font-size: 13vw; left: 4vw; top: 35vw; text-align: left;}
+
+	#marsupial-intro .text-1 {width: 90%; left: 4vw; top: 180vw}
+	#marsupial-intro .text-1 p:not(.medium) {font-size: 3.5vw; white-space: normal;}
+	#marsupial-intro .text-2 {font-size: 6vw; width: 90%; left: 4vw; top: 290vw}
+	#marsupial-intro .text-2 br {display: none}
+	#marsupial-intro .partner {right: auto; left: 4vw; text-align: center; top: 8vw; width: 40%}
+	#marsupial-intro .partner p {margin-bottom: 2vw !important}
+	#marsupial-intro .partner img {max-width: 120%}
+	#marsupial-intro .text-1 p.medium {font-size: 7vw; margin-bottom: 3vw}
+	#marsupial-intro {}
+
+	#marsupial-intro .partner {width: 80%}
+	#marsupial-intro .partner p {font-size: 6vw}
+	#marsupial-intro h2 {top: 52vw}
+	#marsupial-intro .partner img {max-width: none; max-height: 9vw; margin-bottom: 7vw; max-width: 100%}
+
+
+	#marsupial .img-2 {width: 120%; margin-left: -15%}
+	#marsupial .upper {padding-bottom: 5vw}
+	#marsupial .img-5 {display: none;}
+	#marsupial .lower .img-3 {max-width: 100%; float: none}
+	#marsupial .lower .textlines img {width: 40%;}
+	#marsupial .lower .arkitect {font-size: 3.4vw}
+	#marsupial .lower {padding-bottom: 15vw}
+
+
+	#indigenous h3 {font-size: 8vw}
+	#indigenous .grid {display: none}
+	#indigenous .box {margin-top: 10vw}
+	#indigenous .slashes {display: none}
+	#indigenous p.large {margin-bottom: 3vw}
+	#indigenous p:not(.large, .medium) {font-size: 4vw; margin-bottom: 8vw}
+	#indigenous .big-button {color: #000; margin-bottom: 8vw}
+	#indigenous .quote {padding: 10vw 5vw;}
+	#indigenous .square {top:5vw}
+
+
+	#section-9 {overflow: hidden;}
+	#section-9 .bg {width: 240%; max-width: 250%; margin-top: -20vw}
+	#section-9 .text-1 {left: 10vw}
+	#section-9 .text-2 {left: 10vw; right: auto; top: 47vw}
+	#section-9 .text-2 div {font-size: 5vw; }
+	#section-9 .spotlight {top: 70vw; left: 0}
+	#section-9 .spotlight img {width: auto; height: 40vw; max-height: 500vw; margin-bottom: 0; margin-left: 10vw; margin-bottom: 5vw}
+	#section-9 .spotlight img.bison {height: auto; height: 43vw}
+
+
+	#panther .img-1 {width: 88%; float: none;}
+	#panther .img-2 {margin-top: -10vw; width: 110%; max-width: none; margin-left: -7%; margin-top: -17vw}
+	#panther .vlines {height: 35%}
+	#panther .square,
+	#panther .plus {display: none !important;}
+	#panther .lower .textlines div {font-size: 4vw !important;}
+	#panther .lower .text-2 {font-size: 5vw}
+
+	#horse .img-1 {width: 85%; float: right;}
+	#horse .img-2 {margin-top: -22vw; width: 110%}
+	#horse .lower .textlines div {font-size: 2.95vw !important; margin-bottom: 2vw}
+	#horse .lower .text-2 {font-size: 5vw}
+	#horse .square,
+	#horse .plus {display: none !important;}
+
+	#bison .img-1 {width: 85%; float: left;}
+	#bison .img-2 {margin-top: -12vw; width: 115%; clear: both; float: right; margin-right: -5vw}
+	#bison  .upper {padding-bottom: 6vw}
+	#bison .lower .textlines div {font-size: 3.6vw !important; margin-bottom: 1vw}
+	#bison .lower .text-2 {font-size: 5vw}
+	#bison .square,
+	#bison .plus {display: none !important;}
+
+	#section-25 {padding-bottom: 150vw; background: rgb(135, 70, 221)}
+	#section-25 .bg {width: 180%; max-width: none; margin-left: -70%}
+	#section-25 .text-1 {width: 90%; left: 4vw; top: 48vw}
+	#section-25 p {font-size: 3.2vw; margin-bottom: 5vw}
+	#section-25 .img-1 {display: none}
+	#section-25 h3 {font-size: 7vw; margin-bottom: 0}
+
+	#section-25 .text-2 {width: 90%; left: 4vw; top: 188vw}
+	#section-25 p.medium {font-size: 6vw}
+	#section-25 .big-button {top: 310vw; left: 4vw; right: auto; color: #000; border:none; padding: 8vw}
+
+
+	#section-26 {padding-bottom: 49vw}
+	#section-26 .bg {width: 140%; max-width: none; margin-left: -20%}
+	#section-26 .intro {left: 5vw; padding-top: 0; width: 90%; padding-bottom: 0}
+	#section-26 .intro h2 {font-size: 12vw; padding-top: 0}
+	#section-26 p {font-size: 4vw; margin-bottom: 0;}
+	#section-26 .partners {left: 18%; top: 60vw; width: 75%}
+	#section-26 .text-2 {top: 135vw; left: 15%; z-index: 10}
+	#section-26 .text-2 h2 {font-size: 9vw}
+	#section-26 .text-2 p.large {font-size: 6vw}
+	#section-26 .text-2 p {max-width: 90%; text-shadow: 0 10px 25px #FFF, 0 10px 25px #FFF, 0 10px 25px #FFF, 0 10px 25px #FFF}
+	#section-26 .big-button {background: rgb(115, 197, 28)}
+	#section-26:after {position: absolute; content:" "; width: 50%; height: 30px; background: #FFF; bottom:70vw; }
+
+	.academic-partners {top:48vw; left: 9%; width: 90%; font-size: 2vw}
+	.academic-partners br {display: none;}
+	.academic-partners img {max-height: 17vw; margin-top: 5vw}
+
+	#section-27 {padding-bottom: 120vw}
+	#section-27 .plus {display: none;}
+	#section-27 .square {display: none}
+	#section-27 .bg {width: 100%; max-width: none;}
+	#section-27 .text-1 {font-size: 5.5vw; width: 50%; left: 6vw}
+	#section-27 .big-button {top: 164vw; left: 6vw}
+	#section-27 .text-2 {top: 87vw; color: #000; width: 90%; font-size: 4.5vw; left: 6vw}
+	#section-27 .text-2 p {font-size: 4.4vw}
+	#section-27 .img-1 {width: 35%; top: 28vw}
+
+
+	#quote {padding-bottom: 20vw; background-color: #000;}
+	
+	#quote .box-1 {padding: 3vw}
+	#quote .box-1 .large {font-size: 3vw; margin: 0;}
+	#quote .auth-1 {left: 2vw;}
+	#quote .auth-1 p {font-size: 2vw;}
+	#quote .auth-1 img {position: absolute; top: -3vw;}
+
+	#quote .box-2 {top: 115vw; left: -2vw; width: 55vw;}
+	#quote .box-2 .medium {font-size: 3vw; margin: 0; line-height: 1.2; }
+
+	#quote .auth-2 p {font-size: 2vw;}
+	#quote .auth-2 img {position: absolute; right: -2vw; top: -11vw;}
+
+	#quote .box-3 {top: 167vw; left: -1vw; z-index: 5; padding-left: 1vw; background: #000; margin: 0; padding-right: 0; width: 54vw;}
+	#quote .box-3 h2 {font-size: 3vw;}
+	#quote .box-3 .medium {background: #000; max-width: 90%; font-size: 3.4vw;}
+	#quote .box-3 p {margin-bottom: 1vw;}
+	#quote .box-3 p.grey {font-size: 2vw; width: 50vw;}
+
+
+	#impact-series .box.white {font-size: 3vw; margin-top: 1vw}
+	#impact-series .green {font-size: 4vw}
+	#impact-series #head h3 {font-size: 8vw;}
+	#impact-series #head .plus {display: none}
+	#impact-series .icon {max-width: 40vw; height: auto; margin: 0 1vw 8vw; }
+	#impact-series .icon.whales {height: 25vw}
+	#impact-series .icon.buffalo {height: 22vw; margin-left: 3vw}
+	#impact-series .icon.direwolf {height: 21vw; margin-left: 3vw}
+	#impact-series .switcher {margin: 5vw 0 0; flex-wrap: wrap; justify-content: space-around;}
+	#impact-series .bracket {max-width: 3vw; display: none}
+	#impact-series h2 {font-size: 12vw}
+	#impact-series #panel h4 {font-size: 5vw}
+	#impact-series #panel p {font-size: 3vw}
+	#impact-series #panel .ecosystem {margin-left: -40%; width: 170%; margin-top: 5vw}	
+	#impact-series #panel .stats img {margin-left: 0;}
+	#impact-series .whale-series #panel .stats img {height: auto; width: 90%}
+	#impact-series #panel .stats h5 {font-size: 5vw}
+	#impact-series #panel .stats p {font-size: 3vw}
+
+	#impact-series .whale-series #panel .ecosystem {display: none}
+	#impact-series #panel .outlay {position: relative; width: 100%; left: auto; top: auto; bottom: auto;}
+	#impact-series #panel .outlay .text {position: static; background: #FFF;}
+	#impact-series #panel .outlay .text p {font-size: 3vw}
+	#impact-series #panel .outlay h5 {font-size: 5vw}
+	#impact-series #panel .outlay img {width: 120%; margin-bottom: 5vw}
+	#impact-series #panel .outlay-1 img {margin-left: -40vw}
+	#impact-series #panel .outlay-2 img {transform: rotate(45deg); margin: -70vw 0 -10vw 35vw; width: 65%}
+	#impact-series #panel .outlay-2 {margin-bottom: 20vw}
+
+	#impact-series #panel .right img {width: 100%}
+	#impact-series #panel .plus,
+	#impact-series #panel .square {display: none !important}
+	#impact-series #mid h3 {font-size: 8vw}
+	#impact-series #mid .feat {height: auto}
+	#impact-series #mid .plus,
+	#impact-series #mid .square {display: none}
+	#impact-series #mid .large {font-size: 5vw; white-space: normal; line-height: 1.2; margin-bottom: 2vw}
+	#impact-series #mid p {font-size: 3vw; width: 100%; max-width: 100%}
+	#impact-series #scroller .slide p.medium {font-size: 3vw}
+	#impact-series .slick-slide img.corner {max-width: 60%}
+	#impact-series #scroller .slide {height: auto}
+	#impact-series #scroller .slide h2 {font-size: 12vw}
+	#impact-series #scroller .slide p {font-size: 3vw; line-height: 1.5; width: 100%; max-width: 100%; margin-bottom: 42vw}
+	#impact-series .steps .arrows .arrow {width: 8vw}
+	#impact-series .steps .arrows .arrow img {width: 50%}
+	#impact-series #scroller .slide p.medium {font-size: 6vw; margin-bottom: 1.5vw}
+	#impact-series .steps {font-size: 5vw; margin: 0}
+	#impact-series .textline {font-size: 4vw; padding: 1.5vw 4vw}
+	#impact-series .slick-dots {position: relative; width: 100%; left: auto; display: block; top: auto; text-align: center;}
+	#impact-series .slick-dots li button:before {color: #000;}
+	#impact-series .circles {display: none}
+	#impact-series .dig {display: none}
+	#impact-series #scroller .slide {background-position: right bottom; background-size: 90% auto; padding-bottom: 7vw}
+	#impact-series .steps .arrows .arrow.left-arrow {width: 12vw; padding-left: 2vw}
+	#impact-series .steps .arrows .arrow.right-arrow {width: 12vw; padding-right: 4vw}
+
+	#impact-series .buffalo-series .diagram {display: none;}
+	#impact-series .buffalo-series .fact {position: static; display: none}
+	#impact-series .buffalo-series #panel .stats img {margin-left: -15%;}
+	#impact-series .buffalo-series #panel {padding-bottom: 15vw}
+	#impact-series .buffalo-series #scroller .slide p.less-bottom {margin-bottom: 7vw}
+
+
+	#impact-series .direwolf-series .diagram {display: none;}
+	#impact-series .direwolf-series .fact {position: static; display: none}
+	#impact-series .direwolf-series #panel .stats img {margin-left: -15%;}
+	#impact-series .direwolf-series #panel {padding-bottom: 15vw}
+	#impact-series .direwolf-series #scroller .slide p.less-bottom {margin-bottom: 7vw}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

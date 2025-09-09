@@ -1,0 +1,555 @@
+/*
+Theme Name: Colossal
+Description: Template
+Version: 1.0
+Author: Maven Creative
+
+https://dixonandmoe.com/rellax/#Speed
+*/
+
+
+@import "https://colossal.com/wp-content/themes/colossal/css/bootstrap.min.css";
+
+
+@font-face {
+    font-family: 'NB Architekt Light';
+    src: url('https://colossal.com/wp-content/themes/colossal/fonts/NBArchitektStd-Light.woff2') format('woff2'),
+        url('https://colossal.com/wp-content/themes/colossal/fonts/NBArchitektStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NB Architekt Std';
+    src: url('https://colossal.com/wp-content/themes/colossal/fonts/NBArchitektStd-Regular.woff2') format('woff2'),
+        url('https://colossal.com/wp-content/themes/colossal/fonts/NBArchitektStd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Telegraf Light';
+    src: url('https://colossal.com/wp-content/themes/colossal/fonts/Telegraf-UltraLight.woff2') format('woff2'),
+        url('https://colossal.com/wp-content/themes/colossal/fonts/Telegraf-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Telegraf Bold';
+    src: url('https://colossal.com/wp-content/themes/colossal/fonts/Telegraf-UltraBold.woff2') format('woff2'),
+        url('https://colossal.com/wp-content/themes/colossal/fonts/Telegraf-UltraBold.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Telegraf';
+    src: url('https://colossal.com/wp-content/themes/colossal/fonts/Telegraf-Regular.woff2') format('woff2'),
+        url('https://colossal.com/wp-content/themes/colossal/fonts/Telegraf-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {max-width: 2000px; margin: 0 auto; background: #EEE;}
+body {position: relative; right: 0; font-family: 'Telegraf'; -webkit-font-smoothing: antialiased;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+body.no-scroll {overflow: hidden;}
+body.slide-out-open {right: 60%;}
+a {text-decoration: none; outline: none !important; color: #7733ad;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	transition: all .5s ease;
+}
+button {transition: all .5s ease; cursor: pointer; outline: none !important;}
+a:hover {text-decoration: none; color: #3e145f;}
+.clear {clear: both;}
+.alignleft {float: left; margin: 0 20px 20px 0;}
+.alignright {float: right; margin: 0 0 20px 20px;}
+.v-align {display: flex; align-items: center; align-content:center; flex-direction: column; justify-content: center}
+img {max-width: 100%;}
+
+#wrap {overflow-x: hidden; position: relative;}
+
+h1, h2, h3, h4, h5 {font-family: 'NB Architekt Light';}
+
+p {font-size:clamp(14px,1.5vw,29px)}
+p.large {font-size: clamp(10px,2.9vw,55px); line-height: 1.1em;}
+p.medium {font-size: clamp(10px,1.9vw,35px); line-height: 1.4em;}
+
+.nowrap {white-space: nowrap;}
+.z-10 {position: relative; z-index: 10;}
+
+
+.arkitect {font-family: 'NB Architekt Light'; font-size: clamp(10px,0.8vw,15px);}
+.box {font-family: 'NB Architekt Std'; font-size: clamp(10px,0.7vw,14px); border: 1px solid #000; display: inline-block; padding: 0 2%; text-align: center;}
+.box.white {border-color: #FFF;}
+
+.white {color: #FFF;}
+.grey {color: #838383;}
+.purple {color: #8e4bd5;}
+.transparent {opacity: 0;}
+
+section {position: relative;}
+.section-title {font-family: 'NB Architekt Light'; font-size:clamp(10px, 0.6vw,12px); position: relative; letter-spacing: 0.07vw;}
+.section-title .line {position: absolute; left:clamp(10px, 6vw,10px); top:clamp(10px, 0.5vw,10px); border-bottom: 1px solid #444;  width: 300%;}
+
+.spacer-xs {height: clamp(10px,1vw,20px)}
+.spacer-sm {height: clamp(10px,3vw,60px)}
+.spacer-md {height: clamp(10px,5vw,100px)}
+.spacer-lg {height: clamp(10px,8vw,160px)}
+.spacer-xl {height: clamp(10px,12vw,240px)}
+.spacer-xxl {height: clamp(10px,16vw,320px)}
+
+.hspacer-sm {width: clamp(10px,3vw,50px); display: inline-block;}
+.hspacer-md {width: clamp(10px,6vw,120px); display: inline-block;}
+
+.btn {border-radius: 100px; text-transform: uppercase; padding: clamp(10px,0.7vw,14px) clamp(10px,1vw,20px); font-size: clamp(10px,0.7vw,14px);}
+.btn-outline-light {border-color: #999; color: #CCC;}
+.btn-outline-light:hover {color: #000; background: #ad65d4; border-color: #ad65d4;}
+
+.big-button {border-radius: 1000px; border: 1px solid #838383; line-height: 1.1; padding: clamp(10px,3vw,60px) clamp(10px,5vw,120px) clamp(10px,3vw,60px) clamp(10px,3vw,60px); color: #222; font-size: clamp(10px,1.3vw,29px); display: inline-block; position: relative;}
+.big-button .plus {right: 12% !important; top: 40%; font-size: clamp(10px,2vw,40px); font-weight: 100;}
+.big-button:hover {background: #ad65d4; color: #FFF;}
+.big-button:hover .plus {color: #FFF;}
+.big-button.light {border-color: #FFF; color: #FFF;}
+.big-button.light .plus {color: #FFF;}
+.big-button.light:hover {background: #FFF; color: #fc6c4a;}
+.big-button.light:hover .plus {color: #fc6c4a;}
+
+.container {position: relative;}
+.container-fluid {padding-left: clamp(5px,2vw,40px); padding-right: clamp(5px,2vw,40px);}
+.container-fluid.narrow {padding-left: clamp(5px,8vw,120px); padding-right:  clamp(5px,8vw,120px);}
+
+.img-container {position: relative;}
+
+
+
+.line {border-bottom: 0.5px solid #FFF; position: relative;}
+.line.extends {width: 140%;}
+.line.dark {border-bottom: 0.5px solid #000;}
+.line.green {border-bottom-color: #8cfa59;}
+.line.grey {border-bottom-color: #777;}
+.line .thick {width: 15%; height: clamp(10px,0.3vw,6px); background: #000; margin-bottom:-0.2vw;}
+.vline {width: 1px; height: 100%; pointer-events: none; background: #000; position: absolute;}
+.square {width:clamp(4px, 0.4vw,8px); height: clamp(4px,0.4vw,8px); background: #FFF; position: absolute;}
+.square.dark {background: #000;}
+.square.grey {background: #777;}
+.plus {position: absolute; color: #FFF; font-family: 'NB Architekt Std'; font-size: clamp(10px,1.2vw,20px); line-height: 1; transition: all .3s ease;}
+.plus.dark {color: #000;}
+.plus.grey {color: #777;}
+.disc {width: clamp(10px,3vw,60px); height:clamp(10px,3vw,60px); border-radius: 1000px;  border: 1px solid #CCC; position: relative; }
+.disc.dark {border-color: #000;}
+.dot {width: clamp(3px,0.5vw,10px); height: clamp(3px,0.5vw,10px); background: #000; border-radius: 100px; position: absolute;}
+.dot.large {width: clamp(10px,1vw,20px); height: clamp(10px,1vw,20px);}
+.dot.green {background: #91ed0d;}
+.dot.orange {background: #ff7200;}
+.dot.purple {background: #9843db;}
+.dot.teal {background: #1dfde8;}
+.dot.grey {background: #d8d8d8;}
+.disc .dot {top: calc(50% - clamp(1px,0.25vw,5px)); left:calc(50% - clamp(1px,0.25vw,5px));}
+
+.section-header {margin-top: -0.8vw; font-size: clamp(10px,0.3vw,6px);}
+.section-header .arkitect { font-size: clamp(5px,0.8vw,15px);}
+.section-header .line {width: 200%; left: clamp(-140px,-7vw,10px); position: relative;}
+
+#main-menu {padding: 0; margin: clamp(5px,2vw,40px) 0 clamp(5px,2vw,40px) clamp(5px,2vw,40px); font-family: 'NB Architekt Std';  transition: all .5s ease; white-space: nowrap;}
+/*.site-header .menu-item-592 {display: none;}*/
+
+
+
+
+
+
+
+#logo {display: block;  }
+#logo img {width: clamp(-300px,15vw,300px)}
+
+
+
+/*.site-header .inside {max-width: 2000px; margin: 0 auto;}
+.site-header ul li {display: inline-block; padding: 0 clamp(5px,1.1vw,24px); border-radius: 100px; transition: all .5s ease;}
+.site-header ul li a {font-size: clamp(4px,0.7vw,14px); color: #FFF; letter-spacing: clamp(0px,0.03vw,1.1px); padding: clamp(3px,0.4vw,8px) 0 clamp(3px,0.3vw,8px); display: block; text-transform: uppercase; font-family: 'NB Architekt Std'; }
+.site-header ul li:hover {background: rgba(0,0,0,0.2);}
+.site-header ul li.current-menu-item {background: #000;}
+.site-header #sub {padding: clamp(10px,1.5vw,30px) 0 clamp(10px,0.5vw,10px); text-align: right;}
+.site-header #sub li:last-child {margin-right: 0;}
+.site-header #sub li:last-child a {padding-right: 0; margin-right: 0;}
+.site-header .line {width: calc(100% + clamp(5px,4vw,80px)); margin-left: -2vw;}*/
+
+
+.site-header {position: fixed; width: 100%; left: 0; z-index: 100; top: 0vw; transition: all 0.5s ease; font-family: "NB Architekt Std"; color: #FFF; font-size: clamp(-16px,0.9vw,16px); z-index: 10001; }
+.site-header .inside {max-width: 2000px; margin: 0 auto; border-bottom: 1px solid rgba(255,255,255,0.7); position: relative;}
+.site-header .inside .blur {transition: all 1s ease; backdrop-filter: blur(0);}
+.site-header .group {display: inline-block; border-left: 1px solid  rgba(255,255,255,0.7); padding: clamp(-28px,1.4vw,28px) clamp(-100px,5vw,100px) 0 clamp(-50px,2.5vw,50px); text-align: left; vertical-align: top; height:clamp(-84px,4.2vw,84px); transition: all 0.5s ease; overflow: hidden;}
+.site-header .group a {color: #FFF; display: block; margin-bottom: clamp(-6px,0.3vw,6px); position: relative;}
+.site-header .group a:last-child {margin-bottom: 0;}
+.site-header .group a .num {display: inline-block; color: rgba(255,255,255,0.5);}
+.site-header .group a:before {content:" "; position: absolute; width: clamp(-10px,0.5vw,10px); height: clamp(-10px,0.5vw,10px); background: #FFF; left: clamp(-66px,-3.3vw,66px); top: clamp(-8px,0.4vw,8px); opacity: 1; transition: all 0.5s ease;}
+.site-header .group a:hover:before {left: clamp(-20px,-1vw,20px)}
+.site-header .group.index {text-align: right; padding: 0 0 0 clamp(-50px,2.5vw,50px); height: clamp(-108px,5.4vw,108px)}
+.site-header .group.index a {text-align: right; line-height: clamp(-30px,1.5vw,30px)}
+.site-header .group.index a .icon {margin-left: clamp(-10px,0.5vw,10px); border: 1px solid #FFF; width: clamp(-24px,1.2vw,24px); height: clamp(-24px,1.2vw,24px); line-height: clamp(-24px,1.2vw,24px); display: inline-block; text-align: center;  transition: all 0.5s ease; }
+.site-header .group.index:hover a .icon {background: rgba(0,0,0,0.5);}
+.site-header .group.index a .icon span { transition: all 0.5s ease;  display: inline-block; top: clamp(-0.6px,-0.03vw,0.6px); position: relative;}
+.site-header .group.index.active a .icon span {transform:rotate(45deg);}
+.site-header .group.index a:before {display: none}
+.site-header .group.last.inactive {opacity: 0; pointer-events: none;}
+.site-header .v-align {height: 100%;}
+
+
+.site-header.affix .inside {border-bottom: none;}
+.site-header.affix .inside .blur {backdrop-filter: blur(20px); background: rgba(0,0,0,0.5);}
+.site-header.affix .group:not(.index) {opacity: 0; pointer-events:none;}
+.site-header.affix .group.index {height: clamp(-80px,4vw,80px)}
+
+.site-header.affix #menu-scroll {opacity: 1; pointer-events: all; transition-delay:0.3s;}
+#menu-scroll {position: absolute; top: 0; right: clamp(-260px,9vw,180px); height: clamp(-80px,4vw,80px); opacity: 0; pointer-events: none; transition: all 0.5s ease;  text-align: left;}
+#menu-scroll .v-align {flex-direction: row}
+#menu-scroll .icon {float: left; margin: clamp(-2px,0.1vw,2px) clamp(-20px,1vw,20px) 0 0; width: clamp(-42px,2.1vw,42px)}
+
+#menu-scroll .num {display: inline-block; color: #AAA;}
+#menu-scroll .line-1 {font-size: clamp(-14px,0.7vw,14px); line-height: 1}
+#menu-scroll .plus {position: absolute; right: clamp(-60px,3vw,60px); top:clamp(-1.5px,0.75vw,1.5px)}
+
+#menu-scroll .left {width: clamp(-390px,17vw,390px); border-right:1px solid rgba(255,255,255,0.7); border-left:1px solid rgba(255,255,255,0.7); position: relative; padding: clamp(-18px,0.9vw,18px) clamp(-30px,1.5vw,30px) clamp(-18px,0.9vw,18px)}
+#menu-scroll .right {width: clamp(-390px,19vw,390px); padding-left: clamp(-40px,2vw,40px); position: relative; padding: clamp(-18px,0.9vw,18px) clamp(-30px,1.5vw,30px)}
+#menu-scroll .right .icon {width: clamp(-36px,1.8vw,36px)}
+#menu-scroll .smaller {font-size:clamp(-12px, 0.6vw,12px); vertical-align: middle; padding-right: clamp(-6px,0.3vw,6px)}
+
+.dropdown {position: absolute; top: clamp(-110px,5.5vw,110px); z-index: 10; right:clamp(-1137px,60.5vw,1137px); font-family: "NB Architekt Std"; color: #FFF; font-size: clamp(-16px,0.9vw,16px); display: none}
+.dropdown .group {display: inline-block; border-left: 1px solid  rgba(255,255,255,0.7); padding: clamp(-28px,1.4vw,28px) clamp(-100px,5vw,100px) 0 clamp(-50px,2.5vw,50px); text-align: left; vertical-align: top; transition: all 0.5s ease; overflow: hidden; height: auto}
+.dropdown .group a {color: #FFF; display: block; margin-bottom: clamp(-6px,0.3vw,6px); position: relative;}
+.dropdown .group a:last-child {margin-bottom: 0;}
+.dropdown .group a .num {display: inline-block; color: rgba(255,255,255,0.5);}
+.dropdown .group a:before {content:" "; position: absolute; width: clamp(-10px,0.5vw,10px); height: clamp(-10px,0.5vw,10px); background: #FFF; left: clamp(-66px,-3.3vw,66px); top: clamp(-8px,0.4vw,8px); opacity: 1; transition: all 0.5s ease;}
+.dropdown .group a:hover:before {left: clamp(-20px,-1vw,20px)}
+.dropdown .group img {margin-left: clamp(-1px,0.5vw,1px)}
+
+
+.page-index {position: absolute; right: 0; top: clamp(-110px,5.5vw,110px); padding: clamp(-30px,1.5vw,30px); width: clamp(-458px,22.8vw,458px); backdrop-filter: blur(20px); background: rgba(0,0,0,0.5); opacity: 0; pointer-events: none; transition: all 0.5s ease; z-index: 10000; font-family: "NB Architekt Std"; color: #FFF; font-size: clamp(-16px,0.85vw,16px); max-height: calc(100vh - 4.2vw); overflow: scroll;}
+.page-index.active {opacity: 1; pointer-events: all;}
+.page-index .bg {}
+.page-index .sep {border-bottom: 1px solid rgba(255,255,255,0.7);}
+.page-index.affix {top: clamp(-84px,4.2vw,84px); padding-top: clamp(-20px,1vw,20px)}
+.page-index .title {font-family: Telegraf; font-size: clamp(-18px,0.9vw,18px); margin-bottom: clamp(-8px,0.4vw,8px)}
+.page-index .title span {text-transform: capitalize;}
+.page-index .title img {float: right; margin: clamp(-4px,0.2vw,4px) 0 0; width: clamp(-22px,1.1vw,22px)}
+.page-index .title-2 {font-size: clamp(-12px,0.6vw,12px); margin-bottom: clamp(-6px,0.3vw,6px)}
+.page-index #menu a {color: #FFF; background: rgba(255,255,255,0.05); display: block; padding: clamp(-4px,0.2vw,4px) clamp(-24px,1.2vw,24px); margin: 0 0 clamp(-3px,0.15vw,3px) 0; border-top-right-radius: 20px; border-top-left-radius: 20px; clear: both; line-height: 1}
+.page-index #menu a span:first-child {white-space: nowrap; padding-right: clamp(-14px,0.7vw,14px)}
+.page-index #menu a.noclick {pointer-events: none}
+.page-index #menu a.active,
+.page-index #menu a:hover {background: rgba(0,0,0,0.3);}
+.page-index #menu a img {width: clamp(-8px,0.4vw,8px); margin-right: clamp(-8px,0.4vw,8px)}
+
+
+
+/*.page-index-dropdown {position: fixed; left: 25vw; top: 4vw; padding: 1.2vw; width: 25vw; backdrop-filter: blur(20px); background: rgba(0,0,0,0.5); opacity:0; pointer-events: none; transition: all 0.5s ease; z-index: 10000; font-family: "NB Architekt Std"; color: #FFF; font-size: 0.85vw; }
+.page-index-dropdown.active {opacity: 1; pointer-events: all;}
+.page-index-dropdown .title-2 {font-size: 0.6vw; margin-bottom: 0.3vw}
+.page-index-dropdown #menu a {color: #FFF; background: rgba(255,255,255,0.05); display: block; padding: 0vw 1.2vw; margin: 0 0 0.15vw 0; border-top-right-radius: 100px; border-top-left-radius: 100px;}
+.page-index-dropdown #menu a.noclick {pointer-events: none}
+.page-index-dropdown #menu a.active,
+.page-index-dropdown #menu a:hover {background: rgba(0,0,0,0.3);}
+.page-index-dropdown #menu a img {width: 0.4vw; margin-right: 0.4vw}*/
+
+
+/*.page-section-dropdown {position: fixed; left: 50vw; top: 4vw; padding: 1.2vw; width: 22vw; backdrop-filter: blur(20px); background: rgba(0,0,0,0.5); opacity:0; pointer-events: none; transition: all 0.5s ease; z-index: 10000; font-family: "NB Architekt Std"; color: #FFF; font-size: 0.85vw; }
+.page-section-dropdown.active {opacity: 1; pointer-events: all;}
+.page-section-dropdown .title-2 {font-size: 0.6vw; margin-bottom: 0.3vw}
+.page-section-dropdown #menu a {color: #FFF; background: rgba(255,255,255,0.05); display: block; padding: 0vw 1.2vw; margin: 0 0 0.15vw 0; border-top-right-radius: 100px; border-top-left-radius: 100px;}
+.page-section-dropdown #menu a.noclick {pointer-events: none}
+.page-section-dropdown #menu a.active,
+.page-section-dropdown #menu a:hover {background: rgba(0,0,0,0.3);}
+.page-section-dropdown #menu a img {width: 0.4vw; margin-right: 0.4vw}
+*/
+
+
+/*
+#static-header {position: absolute;}
+#site-header {width: 100%; z-index: 100; transition: all 1s ease; opacity: 0; top: -10vw; backdrop-filter: blur(20px); box-shadow: 0 5px 12px 0 rgba(0,0,0,0.14); background: rgba(0,0,0,0.2);}
+#site-header.affix .inside {overflow: hidden;}
+#site-header.affix .effects {}
+#site-header.affix {top: 0vw; opacity: 1; border-bottom: 0;}
+#site-header.affix #main-menu {margin: clamp(5px,1vw,20px) 0 clamp(5px,1vw,40px) 0;}
+#site-header.affix #sub {padding: clamp(10px,1vw,20px) 0 clamp(10px,0.25vw,5px);}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hero {height: 100vh; width: 100%; position: relative; overflow: hidden; background: #000;}
+#hero .bg {width: 100%; object-fit: cover; height: 100vh; object-position: center top;}
+#hero h1 {position: absolute; top: 22vh; text-align: center; width: 100%; font-size: clamp(10px,13vw,260px); line-height: 0.8;}
+#hero .circles {position: absolute; bottom: clamp(10px,2vw,40px); right: clamp(40px,2vw,10px); z-index: 999;}
+#hero .text {font-family: 'NB Architekt Light'; font-size: clamp(10px,0.6vw,12px); letter-spacing: clamp(0px,0.05vw,2px); position: absolute; color: #FFF}
+#hero .line {position: absolute; top:64vh; left: clamp(10px,10vw,200px); width: calc(100% - clamp(10px,20vw,400px)); opacity: 0.6;}
+#hero .lower {position: absolute; top: 70vh; width: 100%;}
+#hero p {color: #FFF; text-transform: uppercase; letter-spacing: 0.04; font-size: clamp(10px,1vw,20px);}
+
+#hero .fade-1  {opacity: 0; animation: fadein 2s; animation-fill-mode: forwards; animation-delay: 0.1s; animation-iteration-count: 1;}
+#hero .fade-2 {opacity: 0; animation: fadein 2s; animation-fill-mode: forwards; animation-delay: 0.3s; animation-iteration-count: 1;}
+
+#hero .square {left: 3vw; top: 11vw;}
+#hero .plus.a {left: 3vw; top: 32vh;}
+#hero .text.a {left: 7vw; top: 32.25vh;}
+#hero .plus.b {left: 3vw; top: 66vh;}
+#hero .plus.c {left: 3vw; top: 92vh;}
+#hero .text.b {bottom: 2vh; left: 50%; text-align: center;}
+
+
+
+
+#footer {background: #000; padding: clamp(10px,8vw,110px) 0 clamp(10px,2vw,30px);}
+#footer .line {margin: clamp(10px,4vw,80px) 0 clamp(10px,1vw,20px); border-color: #444;}
+#footer .lower {color: #888; font-size: clamp(10px,0.8vw,16px); padding:0 clamp(-40px,2vw,40px) 0;}
+#footer .lower li {display: inline-block; width: 30%; margin: 0;}
+#footer .lower a {color: #888; display:block; padding: 0 0 clamp(-10px,1vw,10px);}
+#footer .lower a:hover {color: #FFF;}
+#footer .lower .copy {padding-top: clamp(-30px,1.5vw,30px);}
+#footer #newsletter .title {color: #FFF; font-size: clamp(10px,1vw,20px); text-transform: uppercase;}
+#footer input[type="email"] {background: transparent; border: none; border-bottom: 1px solid #2d2d2d; display: block; height: clamp(10px,3vw,60px); outline: none !important; color: #FFF; font-size: clamp(10px,1.5vw,30px);}
+#footer ::placeholder {color: #2d2d2d; opacity: 1; font-size: clamp(10px,2vw,40px); font-family: Telegraf;}
+#footer #field_1_1 {display: inline-block; width: 75%;}
+#footer input[type="submit"] {position: absolute; right: 0; top: 0; color: #FFF; font-size: clamp(10px,1vw,20px); padding:2% 6%;}
+#footer .gform_wrapper {position: relative;}
+#footer .inquiries a {font-family: 'NB Architekt Std'; font-size: clamp(7px,0.9vw,18px); color: #888;}
+#footer .inquiries a:hover{ color: #FFF; border-bottom: 2px solid #FFF; }
+#footer .footer-logo img {width: 33%;  filter: invert(100%);}
+
+#menu-footer {padding: 0; margin:0; font-family: 'NB Architekt Std'; }
+#menu-footer li {display: inline-block; margin: 0 clamp(10px,1vw,20px);}
+#menu-footer li:first-child {margin-left: 0;}
+#menu-footer li a {font-size: clamp(10px,0.6vw,12px); color: #888; letter-spacing: 0.07vw; padding: clamp(10px,0.4vw,8px) 0 clamp(10px,0.4vw,8px); display: block; border-bottom: 2px solid transparent;}
+#menu-footer li a:hover {border-bottom: 2px solid #FFF; color: #FFF;}
+#menu-footer li.current-menu-item a {}
+
+
+
+
+#news {background: #000; color: #FFF; padding-bottom: 4%; position: relative;}
+#news h2 {font-size: clamp(10px,2.5vw,50px);}
+#news .news-item {color: #FFF; border-top: 2px solid #FFF; display: block; padding-top: 4%; padding-bottom: 14%;}
+#news .news-item:hover h3 {color: #c167f4;}
+#news .news-item .meta {margin-bottom: 2%; position: relative; text-transform: uppercase; font-size: clamp(10px,1vw,20px);} 
+#news .news-item h3 {font-family: 'Telegraf'; margin-bottom: 4%; transition: all .3s ease; font-size: clamp(10px,1.6vw,36px); height: clamp(10px,6vw,120px);}
+#news .news-item h4 {font-family: 'Telegraf Light'; font-size: clamp(10px,1vw,20px); text-align: left; margin: 0; padding: 0;}
+#news .news-item img {height: 15vw; display: block; width: 100%; object-fit: cover; margin-bottom: 0.5vw;}
+#news .news-item .publication-logo {max-width: 80%; height: auto; display: inline-block; margin: 0; max-height: 1.5vw; width: auto;}
+#news .plus {right: 15px}
+
+.home #news .news-item .publication-logo {-webkit-filter: invert(100%); filter: invert(100%);}
+
+
+.item.hidden {display: none !important;}
+.big-button.medium {padding: 2vw 4vw 2vw 3v; margin-bottom: 3vw;}
+.big-button .plus {top: 36%; right: 10%;}
+
+
+
+#press {background: #000; color: #FFF; padding-bottom: 4%;}
+#press h2 {font-size: clamp(10px,2.5vw,50px);}
+#press .news-item {color: #FFF; border-top: 2px solid #FFF; display: block; padding-top: 4%;}
+#press .news-item .meta {margin-bottom: 2%;}
+#press .news-item h3 {font-family: 'Telegraf'; margin-bottom: 10%; margin-top: 9%; width: 80%; font-size: clamp(10px,1.5vw,30px);}
+#press .news-item.featured h3 {margin-top: 10%; font-size: clamp(10px,3vw,60px); line-height: 1.1;}
+
+
+
+
+
+
+::placeholder {color: #000; opacity: 1;}
+:-ms-input-placeholder {color: #000; }
+::-ms-input-placeholder {color: #000;}
+
+/* GRAVITY FORMS ERROR STYLING */
+
+.gform_wrapper .validation_error {color: #FFF;}
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required {margin: 0 !important; padding: 0 !important; border: none; background: transparent;}
+.gfield_label {margin: 4px 0 !important;}
+.gform_wrapper .ginput_container + .gfield_description.validation_message {margin: 3px 0 !important;}
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label,
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container {margin: 0 !important;}
+.gform_wrapper .gform_validation_errors {display: none;}
+.gform_confirmation_message_1 {color: #FFF;}
+/* END GRAVITY FORMS ERROR STYLING */
+
+
+.modal {z-index: 10002 !important}
+.modal-body {padding: 0; margin: 0;}
+.modal-dialog {max-width: 100%; margin: 0; height: 100vh; max-height: 100vh;}
+.modal-content {min-height: 100%; background: #000; color: #FFF; padding: 1% 4%; border-radius: 0;}
+.modal-content .bio-title {font-size: clamp(10px,2vw,40px); padding-top: 4%;}
+.modal-content .bio-image {display: block; width: 90%; margin-left: 0%; margin-bottom: 10%; max-height: 55%; object-fit: cover;}
+.modal-content .big-button {background: transparent; text-align: right; width: 55%; position: relative; color: #666; padding-top: 5%; padding-bottom: 5%;}
+.modal-content .big-button .icon {position: absolute; left: 10%; top: 33%; width: 12%; }
+.modal-content .square.a {position: absolute; top: 0; left: 0;}
+.modal-content .square.b {position: absolute; top: 0; right: 0;}
+.modal-content .plus.a {top: 11%; left: 0;}
+.modal-content .plus.b {top: 11%; right: 0;}
+.modal-content .bio-circles {position: absolute; right: 0; width: 15%; top: 0;}
+.modal-content p.medium {line-height: 1;}
+.modal-content p {font-size: clamp(10px,0.9vw,18px);}
+
+
+
+
+
+#modal-menu {opacity: 1;}
+#modal-menu .modal-body {position: relative;}
+#modal-menu .modal-content {width: 92.5%; margin-left: 7.5%; padding-right: 0;}
+#modal-menu .container-fluid {height: 96vh !important; position: relative;}
+#modal-menu .close {position: absolute; right: 3vw; top: 0.5vw; float: none; width: 30px;} 
+#modal-menu #footer {position: absolute; bottom: 0; width: 100%; left: 0; padding: 0;}
+#modal-menu #logo {margin-bottom: clamp(10px,1.75vw,30px); display: block;}
+#modal-menu .square {position: absolute; top: clamp(7px,10vw,200px); left: clamp(7px,2vw,40px);}
+#modal-menu .plus.a {position: absolute; top: clamp(7px,31vw,620px); left: clamp(7px,2vw,40px);}
+#modal-menu .plus.b {position: absolute; top: clamp(7px,25vw,500px); left: clamp(7px,2vw,40px);}
+#modal-menu #main-menu {padding: clamp(7px,5vw,10px) 0 0 0; margin: 0; width: calc(100% + clamp(-40px,2vw,40px));}
+#modal-menu #main-menu li {list-style: none;}
+#modal-menu #main-menu li a {font-family: 'NB Architekt Std'; color: #FFF; font-size: clamp(7px,3vw,19px); padding: clamp(-19px,1.5vw,15px) 0; letter-spacing: clamp(-6px,0.3vw,6px); margin-left: -6.2vw; padding-left: 6.2vw; border-bottom: 1px solid #333;}
+#modal-menu #main-menu li a:hover {background: #d9d9d9; color: #000 !important;}
+#modal-menu #sub ul {padding: clamp(7px,2vw,40px) 0 0 clamp(7px,5vw,100px); margin: 0;}
+#modal-menu #sub ul li {list-style: none; }
+#modal-menu #sub ul li a {font-family: 'NB Architekt Std'; color: #FFF; line-height: 2;}
+#modal-menu ul li a {display: block; border-bottom: none;}
+#modal-menu ul li a:hover {color: #FFF !important; border-bottom: none;}
+
+
+.close, .close:focus, .close:hover {opacity: 1;}
+
+
+
+.single {background: #000; color: #FFF;}
+.single #static-header {position: static;}
+.single .big-button {background: transparent; text-align: right; width: 75%; position: relative; color: #666; padding-top: 5%; padding-bottom: 5%;}
+.single .big-button .icon {position: absolute; left: 10%; top: 33%; width: 7%; }
+.single .featurd-image {width: 120%; max-width: 200%; margin-left: -25%; margin-bottom: 10%;}
+.single p {font-size: 1rem /*clamp(10px,0.9vw,18px)*/;}
+.single  h1 {font-family: "Telegraf"; margin-bottom: 5%; font-size: 2.8vw; font-weight:700; line-height: 1;}
+.single  h1.blogtitle {font-family: "Telegraf"; margin-bottom: 2%; font-size: 40px; font-weight:700; line-height: 1;}
+
+.single  h2 {font-family: "Telegraf Light"; font-size:1.7vw; margin-bottom: 5%;}
+
+.single  h3 {font-family: "Telegraf Light"; font-size:1.5vw; margin-bottom: 5%;}
+
+.single .seo  h2 {margin: 5% 0 .5em !important;}
+.single .author {border-bottom: 1px solid #777; margin-bottom: 4%; font-family: "Telegraf Light";}
+.single .author-has-bio {font-family: "Telegraf Light";}
+.single .author-has-bio span {font-weight: bold;}
+.single .author-has-bio span a {font-family: "Telegraf";font-weight: bold;}
+.single .date {font-family: "Telegraf Light";border-bottom: 1px solid #777;border-top: 1px solid #777;margin-bottom:3%;width: 230px;}
+.single .references {font-family: "Telegraf Light";font-size:12px;}
+.single .author span {font-family: "Telegraf"; font-weight: 700;}
+.single #content h1,
+.single #content h2,
+.single #content h3 {font-family: "Telegraf"; padding: 0; margin:0 0 1em;}
+.single #content a {color: #b771ef;}
+.single .square.a {left: 50%;}
+.single .plus.a {left: 48.5%; top: 10%;}
+.single #site-header {display: none;}
+.single .seo p, .single .seo li {font-size: 18px;}
+.single .seo li {padding-bottom:15px;}
+.single .seo b { font-weight:bold;}
+.single .seo h2 {
+    font-size: 30px;
+}
+.single .subheader {
+	font-weight:bold;
+	font-style:italic;
+	margin-bottom:50px;
+	font-size:22px;
+}
+
+
+.page-template-default {background: #000; color: #FFF;}
+.page-template-default #static-header {position: static;}
+.page-template-default .big-button {background: transparent; text-align: right; width: 75%; position: relative; color: #666; padding-top: 5%; padding-bottom: 5%;}
+.page-template-default .big-button .icon {position: absolute; left: 10%; top: 33%; width: 7%; }
+.page-template-default .featurd-image {width: 120%; max-width: 200%; margin-left: -25%; margin-bottom: 10%;}
+.page-template-default p,
+.page-template-default li {font-size: clamp(10px,0.9vw,18px);}
+.page-template-default  h1 {font-family: "Telegraf"; margin-bottom: 5%; font-size: 2.8vw; font-weight:700; line-height: 1;}
+.page-template-default  h2 {font-family: "Telegraf Light"; font-size:1.7vw; margin-bottom: 5%;}
+.page-template-default .author {border-bottom: 1px solid #777; margin-bottom: 4%; font-family: "Telegraf Light";}
+.page-template-default .author span {font-family: "Telegraf"; font-weight: 700;}
+.page-template-default #content {max-width: 80%;}
+.page-template-default #content h1,
+.page-template-default #content h2,
+.page-template-default #content h3 {font-family: "Telegraf"; padding: 0; margin:0 0 1em;}
+.page-template-default #content a {color: #b771ef;}
+.page-template-default .square.a {left: 50%;}
+.page-template-default .plus.a {left: 48.5%; top: 10%;}
+.page-template-default #site-header {display: none;}
+
+
+
+
+.img-scroll-container {position: relative;}
+.img-scroll-container > img {width: 100%;}
+.img-scroll-container .inner {position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden;}
+.img-scroll-container .inner img {height: 140%; width: 125%; max-width: 200%; margin-left: -10%; margin-top: -30%; object-fit: cover;}
+.img-scroll-container .dot {width: clamp(10px,1.5vw,30px); height:clamp(10px,1.5vw,30px); position: absolute; right: clamp(-15px,-0.75vw,0px); top: clamp(-15px,-0.75vw,0px);}
+
+
+.page-template-default.page-id-50 #content {padding: 0; margin: 0; max-width: 100% !important;}
+
+
+
+.embed-responsive {max-height: 95vh;}
+.embed-responsive iframe {max-height: 100% !important}
+.close-modal {background: transparent; border: none; position: absolute; right: -4vw; top: 0; width: 3.5vw;}
+
+
+.modal.fade .modal-dialog {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: all .3s ease;
+}
+
+.modal.show .modal-dialog {
+    opacity: 1;
+    transform: scale(1);
+    transition: all .5s ease;
+}
+.modal-backdrop {display: none !important;}
+
+
+
+
+@keyframes fadein {
+    0% { opacity: 0; transform: translateY(1vw);}
+    100%   { opacity: 1;  transform: translateY(0);}
+}
+
+
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

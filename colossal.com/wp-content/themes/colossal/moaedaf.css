@@ -1,0 +1,4915 @@
+/* @font-face { font-family: 'NB Architekt Light'; src: url('fonts/NBArchitektStd-Light.woff2') format('woff2'), url('fonts/NBArchitektStd-Light.woff') format('woff'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'NB Architekt Std'; src: url('fonts/NBArchitektStd-Regular.woff2') format('woff2'), url('fonts/NBArchitektStd-Regular.woff') format('woff'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Telegraf Light'; src: url('fonts/Telegraf-UltraLight.woff2') format('woff2'), url('fonts/Telegraf-UltraLight.woff') format('woff'); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Telegraf Bold'; src: url('fonts/Telegraf-UltraBold.woff2') format('woff2'), url('fonts/Telegraf-UltraBold.woff') format('woff'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Telegraf'; src: url('fonts/Telegraf-Regular.woff2') format('woff2'), url('fonts/Telegraf-Regular.woff') format('woff'); font-weight: normal; font-style: normal; font-display: swap; }
+ */
+
+
+#wrap {max-width: 2000px; background: #FFF; margin: 0 auto;}
+
+.page-sections,
+#menu-scroll .right,
+.page-index .sep,
+.page-index .spacer-xs,
+.page-index .title {display: none}
+#menu-scroll .left {border-right: none;}
+
+#quote-1 {position: relative; margin-bottom: -2px; z-index: 2;}
+#quote-1 .quote-1 {position: absolute; right: 0; top: -5vw; width: 48.4%;}
+#quote-1 .text {position: absolute; left: 5vw; top: 5vw; width: 40%;}
+#quote-1 .quote {margin-top: 2vw; font-size: 1.5vw; margin-bottom: 4vw}
+#quote-1 .author {display: flex; align-items: center; justify-content: space-between}
+#quote-1 .author h3 {font-family: 'Telegraf Bold'}
+#quote-1 .author span {font-family: 'NB Architekt Std'; font-size: 1.1vw;}
+
+.moa img {
+    max-width: 100%;
+	display: block;
+}
+.moa{
+	overflow: hidden;
+}
+.rst-section-hero{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/bg_hero.jpg) no-repeat top center / cover;
+	position: relative;
+	padding-bottom: 8.781vw;
+	padding-top: 17.361vw;
+}
+.rst-section-hero .rst-line1{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/line1.png) repeat-x left center;
+	height: 8px;
+	width: 50vw;
+	position: absolute;
+	left: 0;
+	bottom: 22.569vw;
+}
+.rst-section-hero .rst-img-right{
+	position: absolute;
+	right: 1.944vw;
+	bottom: 2.708vw;
+	
+}
+
+.rst-hero-title{
+	margin-left: 8.819vw;
+	width: 77.361vw;
+	margin-bottom: 8.958vw;
+}
+.rst-hero-title h1{
+	color: #fff;
+	font-size: 14.444vw;
+    line-height: 0.875;
+	letter-spacing: 0.01846em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	    justify-content: space-between
+}
+.rst-section-hero .rst-img-left{
+	position: absolute;
+	left: 0vw;
+	bottom: -8.222vw;
+	width: 52.319vw;
+	z-index: 2;
+}
+
+
+.rst-section-hero .rst-square{
+	position: absolute;
+	left: 2.5vw;
+	top: 9.444vw;
+}
+
+
+.rst-section-hero .rst-plus1{
+	position: absolute;
+	left: 2.5vw;
+	top: 17.222vw;
+}
+
+.rst-section-hero .rst-plus2{
+	position: absolute;
+	left: 2.5vw;
+	top: 45.972vw;
+}
+.rst-section-hero .rst-plus3{
+	position: absolute;
+	left: 2.5vw;
+	bottom: 3.056vw;
+}
+.rst-hero-container{
+	width: 88.889vw;
+	margin: 0px auto;
+	position: relative;
+	z-index: 1;
+}
+.rst-hero-sub{
+	padding-bottom: 1.736vw;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 6.111vw;
+}
+.rst-hero-sub span{
+	font-size: 0.694vw;
+	line-height: 1;
+	letter-spacing: 0.148em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	display: block;
+	text-align: right;
+}
+
+.rst-hero-content{
+	width: 33.125vw;
+	margin-left: 48.611vw;
+}
+.rst-hero-content h4{
+	font-size: 1.458vw;
+	line-height: 1.5;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 0.01em;
+	margin: 0 0 1.458vw 0;
+	text-transform: uppercase;
+}
+.rst-hero-content p{
+	font-size: 1.111vw;
+	line-height: 1.5;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 0em;
+	margin: 0 0 1.667vw 0;
+}
+.rst-hero-content p:last-child{
+	margin-bottom: 0;
+}
+
+
+.rst-section-moa-species{
+	position: relative;
+	padding-top: 6.736vw;
+	padding-bottom: 0;
+	margin-bottom: -0.694vw;
+	z-index: 1;
+	    
+}
+.rst-section-moa-species:before{
+	height: 55.556vw;
+	position: absolute;
+	top: 0;
+	content:"";
+	left: 0;
+	width: 100%;
+	background: #fff;
+}
+.rst-section-moa-species-inner{
+	background: #fff;
+}
+.rst-section-moa-species .rst-square{
+	position: absolute;
+	left: 2.5vw;
+	bottom: 6.736vw;
+}
+.rst-section-moa-species .rst-plus1{
+	position: absolute;
+	left: 2.431vw;
+	top: 6.75vw;
+}
+.rst-section-moa-species .rst-plus2{
+	position: absolute;
+	right: 36.319vw;
+	top: 2.978vw;
+}
+.rst-section-moa-species .rst-line1{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/line2.png) repeat-x left center;
+	height: 12px;
+	width: 27.639vw;
+	position: absolute;
+	right: 6.458vw;
+	top: 2.978vw;
+}
+.rst-moa-species-container{
+	width: 88.889vw;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.rst-moa-species-title{
+	width: 88.889vw;
+	margin: 0px auto;
+	position: absolute;
+	top: 10.486vw;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	mix-blend-mode: exclusion;
+    color: #fff;
+	    
+}
+/* .rst-moa-species-left:before{
+	width: 41.597vw;
+	height: 1px;
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	top: 0.486vw;
+	left: 0;
+	content:"";
+} */
+.rst-moa-species-title h2{
+	font-size: 11.111vw;
+    line-height: 1;
+	letter-spacing: 0.0375em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	text-align: center;
+	margin-left: -10px;
+    margin-right: -10px;
+}
+.rst-moa-species-left{
+	width: 52.1%;
+	padding-right: 3.472vw;
+	position: relative;
+	padding-top: 26.042vw;
+}
+.rst-moa-species-left span{
+	display: inline-block;
+	height: 1.94vw;
+	line-height: 1.94vw;
+	border: 1px solid #FF6B00;
+	padding: 0 0.556vw;
+	font-size: 1.111vw;
+	letter-spacing: 0.02em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #FF6B00;
+	margin-bottom: 1.9vw
+}
+.rst-moa-species-left p{
+	font-size: 1.111vw;
+	line-height: 1.6;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #7D7D7D;
+	letter-spacing: 0em;
+	margin: 0 0 5.018vw 0;
+}
+.rst-moa-species-left img{
+	width: 41.626vw;
+	display: block;
+}
+.rst-moa-species-right{
+	width: 47.9%;
+	position: relative;
+}
+.rst-moa-species-right img{
+	width: 100%;
+	display: block;
+}
+.rst-moa-species-right video{
+	width: 100%;
+	display: block;
+}
+.rst-moa-species-right span.circle{
+	width: 3.542vw;
+	height: 3.542vw;
+	border: 1px solid #D9D9D9;
+	border-radius: 50%;
+	position: absolute;
+	top: -1.736vw;
+	left: -1.736vw;
+	z-index: 1;
+}
+.rst-moa-species-right span.circle:after{
+	width: 0.694vw;
+	height: 0.694vw;
+	content:"";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: #FF7B31;
+	border-radius: 50%;
+	margin-left: -0.347vw;
+	margin-top: -0.347vw;
+}
+.rst-moa-species-right span.text-bottom{
+	display: inline-block;
+	height: 2.431vw;
+	line-height: 2.431vw;
+	border: none;
+	background: #000000;
+	padding: 0 3.056vw 0 3.542vw;
+	font-size: 1.217vw;
+	letter-spacing: 0;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.rst-section-dinornithiformes{
+	position: relative;
+	padding-top: 6.111vw;
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/Dinornithiformes_bg.jpg) no-repeat top center / cover;
+}
+.rst-section-dinornithiformes:before{
+	content:"";
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #fff;
+	height: 8.333vw;
+	width: 64.792vw;
+}
+.rst-dinornithiformes-left .rst-line1{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/line3.png) repeat-x left center;
+	height: 8px;
+	width: 19.444vw;
+	margin-bottom: 2.283vw;
+
+}
+.rst-line-vertical{
+	background: rgba(120,120,120,0.2);
+    width: 1px;
+    top: 0;
+    height: 100%;
+    left: 50vw;
+    position: absolute;
+}
+.rst-line-vertical.rst-line-bg-1{
+	left: 25vw;
+}
+.rst-line-vertical.rst-line-bg-3{
+	left: 75vw;
+}
+.rst-section-dinornithiformes .rst-line-vertical.rst-line-bg-2,.rst-section-dinornithiformes .rst-line-vertical.rst-line-bg-3{
+	 height: calc( 100% - 20.069vw );
+	 top: 20.069vw;
+}
+
+.rst-section-dinornithiformes .box-label{
+	display: inline-block;
+	height: 2.327vw;
+	line-height: 2.327vw;
+	border: 1px solid #fff;
+	padding: 0 0.869vw;
+	font-size: 1.111vw;
+	letter-spacing: 0;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	margin-left: 5.607vw;
+}
+
+.rst-section-dinornithiformes .rst-square{
+	position: absolute;
+	left: 2.5vw;
+	bottom: 21.042vw;
+}
+.rst-section-dinornithiformes .rst-plus1{
+	position: absolute;
+	left: 2.5vw;
+	top: 3.333vw;
+}
+
+.rst-section-dinornithiformes .rst-plus2{
+	position: absolute;
+	left: 2.5vw;
+	top: 44.306vw;
+}
+
+
+
+.rst-title-dinornithiformes{
+	margin-top: 6.377vw;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 3.27vw;
+}
+.rst-title-dinornithiformes img{
+	width: 100%;
+}
+.rst-title-dinornithiformes h2{
+	font-size: 9.741vw;
+    line-height: 0.9553em;
+	letter-spacing: -0.37px;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	z-index: 10;
+	position: relative;
+	margin-top: -4.306vw;
+}
+
+.rst-row-dinornithiformes{
+	display: flex;
+	padding-bottom: 13vw;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 1;
+}
+
+.rst-dinornithiformes-left{
+	width: 50%;
+	padding-left: 5.556vw;
+	padding-right: 3.472vw;
+	padding-top: 1.181vw;
+}
+.rst-dinornithiformes-right{
+	width: 50%;
+}
+.rst-dinornithiformes-right img{
+	width: 140%;
+	margin-right: -4px;
+	max-width: none;
+	margin-top: -4.603vw;
+	float: right;
+	margin-bottom: -15.125vw;
+
+}
+
+.rst-dinornithiformes-left p{
+	font-size: 1.111vw;
+	line-height: 1.5625em;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: -0.2px;
+	margin: 0 0 5.694vw 0;
+}
+.rst-dinornithiformes-right .extinction-date{
+	border: 1px solid #404040;
+	border-radius: 1.667vw;
+	background: rgba(14,14,14,0.3);
+	max-width: 30.236vw;
+	width: 100%;
+	padding-top: 3.75vw;
+	padding-left: 3.653vw;
+	padding-right: 3.236vw;
+	padding-bottom: 3.264vw;
+	margin: 0px auto;
+}
+.rst-dinornithiformes-right .extinction-date > span{
+	line-height: 1;
+	font-size: 1.25vw;
+	letter-spacing: 0.2em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin-bottom: 1.35vw;
+}
+.rst-dinornithiformes-right .extinction-date p{
+	color: #7DEA13;
+	font-size: 3.88vw;
+    line-height: 1.14em;
+	letter-spacing: 0.09em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	text-align: center;
+
+}
+.rst-dinornithiformes-right .extinction-date p span{
+	padding: 0 0.833vw 0 1.042vw;
+}
+
+.rst-dinornithiformes-right .extinction-date p sup{
+	font-size: 2.222vw;
+}
+.family-tree-title{
+	display: flex;
+	border-top: 1px solid #3F3F3F;
+	padding-top: 4px;
+	line-height: 2.431vw;
+	font-size: 1.111vw;
+	letter-spacing: 0.13em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	gap: 0.486vw;
+	align-items: center;
+	margin-bottom: 1.2vw;
+}
+.family-tree-title span{
+	width: 0.903vw;
+	height: 0.903vw;
+	display: block;
+	background: #FF6B00;
+}
+.rst-list-vitals .rst-item-vitals{
+	line-height: 1;
+	font-size: 0.972vw;
+	letter-spacing: 0.13em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	gap: 1.319vw;
+	margin-bottom: 1.181vw;
+}
+.rst-list-vitals .rst-item-vitals:last-child{
+	margin: 0;
+}
+.rst-list-vitals .rst-item-vitals span{
+	height: 1.319vw;
+	background: #FF6B00;
+	padding-left: 0.694vw;
+	padding-right: 0.833vw;
+	line-height: 1.319vw;
+	font-size: 0.694vw;
+	letter-spacing: 0.148em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #fff;
+}
+.rst-list-vitals{
+	margin-bottom: 3.542vw;
+}
+.family-tree-title.family-tree-title2 span {
+    background: #7DEA13;
+}
+.family-tree-title.family-tree-title2{
+	margin-bottom: 1.736vw;
+}
+.family-tree{
+	overflow: hidden;
+	background: rgba(14,14,14, 0.5);
+	border-radius: 1.667vw;
+	border: 1px solid #404040;
+	padding-top: 2.5vw;
+	padding-bottom: 3.472vw;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	position: relative;
+}
+.rst-section-investor-profile:before {
+	content: " ";
+	background: #FFF;
+	width: 50%;
+	top: 0;
+	height: 8vw;
+	display: block;
+}
+.rst-section-investor-profile .mask {
+	width: 100%;
+	position: absolute;
+	background: #FFF; 
+	height: 10vw;	
+	left: 0;
+	top: 5vw;
+	z-index: 0;
+}
+
+.rst-section-investor-profile{
+	position: relative;
+	z-index: 10;
+	/* padding-top: 2.292vw; */
+	padding-bottom: 9.167vw;
+	overflow: hidden;
+	margin-top: -8vw;
+}
+.rst-section-investor-profile .rst-square1{
+	position: absolute;
+	top: 108.333vw;
+	left: 2.5vw;
+}
+.rst-section-investor-profile .rst-square2{
+	position: absolute;
+	top: 45.764vw;
+	right: 2.5vw;
+}
+.rst-section-investor-profile .rst-plus1{
+	position: absolute;
+	top: 8.681vw;
+	left: 2.5vw;
+}
+.rst-section-investor-profile .rst-plus2{
+	position: absolute;
+	top: 32.5vw;
+	right: 2.5vw;
+}
+.rst-section-investor-profile .rst-plus3{
+	position: absolute;
+	top: 80.347vw;
+	right: 2.5vw;
+}
+
+.rst-right-bottom{
+	position: absolute;
+	right: 0;
+	bottom: -1.806vw;
+	width: 2.778vw;
+	display: block;
+}
+.rst-section-investor-profile .top-label{
+	line-height: 1;
+	font-size: 0.694vw;
+	letter-spacing: 0.09em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #000;
+	display: block;
+	margin-left: 2.778vw;
+	margin-top: -6vw;
+}
+.rst-title-investor-profile{
+	text-align: center;
+	padding-top: 11.344vw;
+	padding-bottom: 5.788vw;
+	position: relative;
+	z-index: 10;
+}
+.rst-title-investor-profile h2{
+	text-align: center;
+	color: #9940DD;
+	font-size: 11.069vw;
+    line-height: 0.62735em;
+	letter-spacing: 0.05em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	margin-bottom: 4.861vw;
+	text-align: center;
+}
+.rst-title-investor-profile div{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0;
+	align-items: center;
+	justify-content: center;
+}
+.rst-title-investor-profile div span{
+	border: 1px solid #3D3D3D;
+	height: 2.514vw;
+	border-radius: 3.333vw;
+	padding: 0 1.042vw;
+	line-height: 2.514vw;
+	font-size: 1.333vw;
+	letter-spacing: 2.4px;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #000;
+}
+.rst-wrap-investor-profile{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 1;
+}
+.rst-investor-profile-left{
+	width: 50%;
+}
+.rst-investor-profile-right{
+	width: 50%;
+}
+.img-investor-profile1{
+	width: 20.347vw;
+	display: block;
+}
+.img-investor-profile2{
+	position: relative;
+	width: 43.299vw;
+	margin-bottom: 8.542vw;
+}
+/* .img-investor-profile2:after{
+	content:"";
+	background: #FF6B00;
+	position: absolute;
+	width: 1.667vw;
+	height: 1.667vw;
+	right: -0.972vw;
+	bottom: -0.833vw;
+	border-radius: 50%;
+} */
+.rst-investor-profile-left .rst-text{
+	width: 32.639vw;
+	margin-left: 10.972vw;
+	margin-bottom: 14.306vw;
+}
+
+.rst-investor-profile-left .rst-text p{
+	font-size: 1.389vw;
+	line-height: 1.4em;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #414141;
+	letter-spacing: 0px;
+	margin: 0 0 1.875vw 0;
+}
+.rst-investor-profile-left .rst-text p:last-child{
+	margin: 0;
+}
+.rst-investor-profile-left .box-circle-text-label{
+	width: 45.808vw;
+	position: relative;
+}
+.rst-investor-profile-left .box-circle-text-label .circle{
+	width: 2.372vw;
+	height: 2.372vw;
+	border-radius: 50%;
+	border: 1px solid #D9D9D9;
+	position: absolute;
+	top: -1.181vw;
+	right: -1.181vw;
+}	
+.rst-investor-profile-left .box-circle-text-label .circle:after{
+	width: 0.695vw;
+	height: 0.695vw;
+	border-radius: 50%;
+	background: #7DEA13;
+	position: absolute;
+	top: 50%;
+	content:"";
+	left: 50%;
+	margin-left: -0.347vw;
+	margin-top: -0.347vw;
+}	
+.rst-investor-profile-left .box-circle-text-label .text-label{
+	height: 2.431vw;
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	line-height: 2.431vw;
+	font-size: 1.217vw;
+	letter-spacing: 0;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	padding: 0 2.118vw;
+	color: #fff;
+	background: #000;
+}
+.rst-investor-profile-left .box-circle-text-label img{
+	display: block;
+}
+
+.rst-investor-profile-right{
+	padding-top: 8.75vw;
+	padding-right: 2.778vw;
+}
+.rst-investor-profile-right-quote{
+	width: 41.034vw;
+	
+}
+.rst-investor-profile-right-img{
+	padding-left: 4.583vw;
+	margin-top: 10.764vw;
+}
+.rst-investor-profile-right-quote span{
+	height: 1.65vw;
+	background: #7DEA13;
+	border-radius: 2.205vw;
+	padding: 0 0.717vw;
+	line-height: 1.65vw;
+
+	font-size: 0.882vw;
+	letter-spacing: 0.125em;
+	font-family: 'NB Architekt Std';
+	font-weight: 400;
+	color: #000;
+	margin-bottom: 1.906vw;
+	display: inline-block;
+}
+.rst-investor-profile-right-quote p{
+	font-size: 2.222vw;
+	line-height: 1.3em;
+	font-family: 'Telegraf';
+	font-weight: 400;
+	color: #000;
+	letter-spacing: 0px;
+	margin: 0;
+}
+.rst-investor-profile-right .rst-text{
+	width: 35.069vw;
+    margin-left: 4.479vw;
+    margin-bottom: 0;
+    margin-top: 8.333vw;
+}
+.rst-investor-profile-right .rst-text p{
+	font-size: 1.389vw;
+    line-height: 1.4em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #414141;
+    letter-spacing: 0px;
+    margin: 0 0 1.875vw 0;
+}
+.img-investor-profile4{
+	width: 100%;
+}
+.img-investor-profile5{
+	width: 27.264vw;
+	display: block;
+	margin-top: -6.528vw;
+}
+.rst-investor-profile-right .rst-text p:last-child{
+	margin: 0;
+}
+
+.rst-investor-profile-right-img span{
+	height: 2.431vw;
+    display: inline-block;
+    line-height: 2.431vw;
+    font-size: 1.217vw;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    padding: 0 1.042vw 0 1.389vw;
+    color: #fff;
+    background: #000;
+}
+.rst-moa-mones-jewelry-top{
+	border-bottom: 1px solid #BCBCBC;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 1.458vw;
+	padding-left: 42.708vw;
+	height: 4.028vw;
+}
+.rst-moa-mones-jewelry-top span{
+	line-height: 1;
+    font-size: 0.694vw;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    padding: 0;
+	letter-spacing: 0.129em;
+    color: #838383;
+}
+.rst-moa-mones-jewelry-top .rst-line1{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/line7.png) repeat-x left center;
+	height: 13px;
+	width: 9.792vw;
+	margin-bottom: 0;
+
+}
+.rst-moa-mones-jewelry-left img{
+	width: 100%;
+}
+.rst-moa-mones-jewelry-left img.img-mones-jewelry2{
+	margin-top: 2.639vw;
+}
+.rst-moa-mones-jewelry{
+	padding-bottom: 9.653vw;
+}
+.rst-moa-mones-jewelry-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #BCBCBC;
+}
+.rst-moa-mones-jewelry-left{
+	width: 45.8%;
+	border-right: 1px solid #BCBCBC;
+	padding-bottom: 4.822vw;
+	padding-right: 5.028vw;
+	padding-left: 5.556vw;
+}
+.rst-moa-mones-jewelry-right{
+	width: 54.2%;
+	position: relative;
+	padding-left: 9.167vw;
+	padding-right: 9.097vw;
+	padding-bottom: 3.472vw;
+	padding-top: 8.125vw;
+}
+.rst-moa-mones-jewelry-right .plus_green{
+	width: 1.206vw;
+	position: absolute;
+	top: 8.125vw;
+	left: 2.778vw;
+}
+.rst-moa-mones-jewelry-right p{
+	font-size: 1.667vw;
+    line-height: 1.33333333em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: -0.2px;
+    margin: 0 0 1.667vw 0;
+}
+.rst-moa-mones-jewelry-right p:last-child{
+	margin: 0;
+}
+.rst-section-treasures{
+	position: relative;
+	background: #000;
+	/* background: url(img/moa/treasures_bg.jpg) no-repeat center center; */
+	padding-top: 16.806vw;
+	position: relative;
+	padding-bottom: 20.486vw;
+}
+.rst-section-treasures .inner {
+	position: relative;
+	z-index: 5;
+}
+.rst-section-treasures video {
+	position: absolute; 
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	left: 0; top: 0;
+	opacity: 0.7;
+}
+.rst-section-treasures .label-index{
+	position: relative; 
+	z-index: 10;
+	line-height: 1.1415;
+    font-size: 1.217vw;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    padding: 0;
+	letter-spacing: 0.129em;
+    color: #FFF;
+	position: absolute;
+	top: 4.167vw;
+	right: 2.778vw;
+	display: inline-block;
+}
+.img-mones-jewelry1{
+	margin-top: -21.92vw;
+	position: relative;
+}
+.rst-section-treasures h2{
+	max-width: 76.591vw;
+	margin: 0px auto;
+	font-size: 6.667vw;
+    line-height: 0.95em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #fff;
+	text-transform: uppercase;
+    letter-spacing: 0px;
+	text-align: center;
+}
+.rst-section-treasures .rst-plus1{
+	position: absolute;
+	left: 2.5vw;
+	top: 38.542vw;
+}
+.rst-section-treasures .rst-text-soure{
+	position: absolute;
+	left: 2.5vw;
+	top: 23.264vw;
+}
+.rst-section-treasures .rst-plus2{
+	position: absolute;
+	right: 2.5vw;
+	top: 14.931vw;
+}
+.rst-section-maori{ position: relative; }
+.rst-section-maori .bg {}
+.rst-section-maori .img-container {position: absolute; left: 1vw; top: -1.5vw; width: 28%; color: #FFF;}
+.rst-section-maori .img-container h3 {font-size: 2.4vw; margin: 1vw 0}
+.rst-section-maori .img-container span {font-size: 1.3vw; line-height: 1; text-transform: uppercase;}
+.rst-section-maori .text {position: absolute; width: 50%; right: 5vw; top: 6vw}
+.rst-section-maori .text img {margin-bottom: 2vw}
+
+
+
+.rst-maori2{
+	bottom: -5.647vw;
+	left: 0;
+	position: absolute;
+	width: 47.596vw;
+	display: block;
+	z-index: 9;
+}
+.rst-section-maori-img{
+	width: 47.596vw;
+	position: relative;
+	margin-top: -7.778vw;
+}
+.rst-section-maori-content{
+	width: calc( 100% - 47.596vw );
+	padding-top: 6.714vw;
+	padding-left: 5.694vw;
+	padding-right: 3.333vw;
+	padding-bottom: 0;
+}
+.rst-section-maori-img img{
+	width: 101.8%;
+	max-width: none;
+	position: relative;
+    z-index: 9;
+}
+/* .rst-section-maori-img:after{
+	background: #9940DD;
+	height: 1.667vw;
+	width: 1.667vw;
+	border-radius: 50%;
+	position: absolute;
+	right: -0.833vw;
+	top: -0.833vw;
+	content:"";
+	z-index: 10;
+} */
+
+.rst-section-maori-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.rst-section-maori-content .box-label{
+	line-height: 1.099vw;
+	height: 1.099vw;
+	border: 1px solid #000;
+    font-size: 0.518vw;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    padding: 0 0.347vw;
+    color: #000;
+	display: inline-block;
+	margin-bottom: 1.836vw;
+}
+.rst-section-maori-content h2{
+	
+	color: #000;
+	font-size: 5.278vw;
+    line-height: 1.1em;
+	letter-spacing: 0.05em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	margin-bottom: 2.396vw;
+}
+.rst-section-maori-content h2 span{
+	font-size: 1.111vw;
+    line-height: 1em;
+	letter-spacing: 0.02em;
+	 font-family: 'Telegraf Bold';
+    font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 2.778vw;
+}
+.rst-section-maori-content p{
+	font-size: 2.1vw;
+    line-height: 1.4em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000000;
+	max-width: 38.854vw;
+	margin: 0 0 2.5vw 0;
+}
+
+.rst-section-maori-content .box-text {
+	width: 3vw;
+	margin-bottom: 3vw
+}
+
+.rst-section-maori-content .rst-line1{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/line5.png) repeat-x left center;
+	height: 13px;
+	width: 14.792vw;
+	margin-bottom: 2.167vw;
+}
+
+.rst-section-maori-name{
+	display: flex;
+	align-items: center;
+}
+.rst-section-maori-name h3{
+	font-size: 1.9vw;
+    line-height: 1em;
+    font-family: 'Telegraf Bold';
+    font-weight: 700;
+    color: #000000;
+	margin: 0;
+}
+.rst-section-maori-name span{
+	line-height: 1.6;
+    font-size: 1.042vw;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    padding: 0;
+	letter-spacing: 0.07em;
+    color: #000;
+	margin-left: 7.986vw;
+}
+.rst-mao-culture-container{
+	max-width: 88.889vw;
+	margin: 0px auto;
+}
+.rst-mao-culture-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.rst-mao-culture-left{
+	width: 52.81%;
+	padding-right: 4.931vw;
+}
+.rst-mao-culture-right img{
+	width: 100%;
+}
+.rst-mao-culture-right .circle{
+	width: 3.542vw;
+    height: 3.542vw;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.136vw;
+    right: -1.736vw;
+    z-index: 1;
+}
+.rst-mao-culture-right .circle:after {
+    width: 0.694vw;
+    height: 0.694vw;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #7DEA13;
+    border-radius: 50%;
+    margin-left: -0.347vw;
+    margin-top: -0.347vw;
+}
+.rst-mao-culture-right{
+	width: 47.19%;
+	position: relative;
+}
+.rst-section-mao-culture{
+	position: relative;
+	padding-bottom: 14.375vw;
+	background: #FFF;
+}
+.rst-section-mao-culture .rst-square{
+	width: 10px;
+	position: absolute;
+	top: 14.444vw;
+	left: 2.361vw;
+}
+.rst-section-mao-culture .rst-plus1{
+	position: absolute;
+	top: 29.167vw;
+	left: 2.361vw;
+}
+.rst-mao-culture-left p{
+	margin-bottom: 7.292vw;
+	font-size: 1.667vw;
+    line-height: 1.3333em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000;
+	width: 40.583vw;
+}
+.rst-mao-culture-left-img{
+	position: relative;
+}
+.rst-mao-culture-title{
+	width: 63.516vw;
+	margin: 0px auto;
+}
+.rst-mao-culture-title p{
+	line-height: 1;
+    font-size: 2.778vw;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    padding: 0;
+	text-align: center;
+	letter-spacing: 0.18em;
+    color: #000;
+	margin-bottom: 2.206vw;
+}
+.rst-mao-culture-title h2{
+	line-height: 0.9090909em;
+    font-size: 6.111vw;
+    letter-spacing: 0;
+    font-family: 'Telegraf Bold';
+    font-weight: 700;
+    padding: 0;
+	text-align: center;
+	letter-spacing: -0.01em;
+    color: #000;
+	text-transform: uppercase;
+	margin-bottom: 6.181vw;
+}
+.rst-mao-culture-container .top-label{
+	margin-bottom: 7.122vw;
+	display: flex;
+	align-items: center;
+}
+.rst-mao-culture-container .top-label span{
+	display: inline-block;
+    height: 2.327vw;
+    line-height: 2.327vw;
+    /* border: 1px solid #000; */
+    padding: 0 0.869vw;
+    font-size: 1.111vw;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000;
+    margin-right: 3.331vw;
+}
+.rst-mao-culture-container .top-label span img {
+	width: 17vw;
+}
+.rst-mao-culture-container .top-label div{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/line5.png) repeat-x left center;
+    height: 13px;
+    width: 14.792vw;
+  
+}
+.rst-mao-culture-left-img img{
+	width: 100%;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+.rst-mao-culture-left-img:after{
+	content:"";
+	width: 100%;
+	height: 100%;
+	top: 1.111vw;
+	left: -1.042vw;
+	border: 1px solid #7DEA13;
+	position: absolute;
+}
+.rst-section-mao-culture .rst-plus2{
+	position: absolute;
+	bottom: 14.583vw;
+	left: 2.361vw;
+	
+}
+.rst-distribution-habitat{
+	position: relative;
+	background: #FF6B00;
+}
+.rst-distribution-habitat .rst-square1{
+	position: absolute;
+	left: 2.917vw;
+	top: 22.708vw;
+	
+}
+.rst-distribution-habitat .rst-plus1{
+	position: absolute;
+	left: 2.917vw;
+	top: 5.903vw;
+}
+.rst-distribution-habitat .rst-square2{
+	position: absolute;
+	right: 2.335vw;
+	top: 22.708vw;
+}
+.rst-distribution-habitat .rst-plus2{
+	position: absolute;
+	right: 2.335vw;
+	top: 5.903vw;
+}
+
+.rst-distribution-habitat .top-label span{
+	display: inline-block;
+    height: 2.327vw;
+    line-height: 2.327vw;
+    border: 1px solid #000;
+    padding: 0 0.833vw;
+    font-size: 1.111vw;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000;
+	margin-left: 2.778vw;
+}
+.rst-distribution-habitat .circle-line{
+	width: 16.806vw;
+	position: absolute;
+	left: 0;
+	top: 9.725vw;
+	display: flex;
+	justify-content: flex-end;
+	z-index: 1;
+}
+.rst-distribution-habitat-map{
+	width: 58.024vw;
+	margin: 0px auto;
+	position: absolute;
+	z-index: 1;
+	top: 19.464vw;
+	left: 0;
+	right: 0;
+}
+.rst-distribution-habitat-wrap{
+	display: flex;
+	width: 94.41vw;
+	margin: 0px auto;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.rst-distribution-habitat .circle-line:before{
+	height: 1px;
+	background: #000;
+	content:"";
+	position: absolute;
+	right: 1.736vw;
+	width: calc( 100% - 1.736vw );
+	top: 50%;
+}
+.rst-distribution-habitat h2{
+	
+	color: #fff;
+	font-size: 10vw;
+    line-height: 1em;
+	letter-spacing: 0.02em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	margin-top: 4.415vw;
+	margin-bottom: 3.403vw;
+	text-align: center;
+}
+.rst-distribution-habitat .circle-line span{
+	width: 3.542vw;
+    height: 3.542vw;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+.rst-distribution-habitat .circle-line span:after{
+	width: 0.694vw;
+    height: 0.694vw;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #000;
+    border-radius: 50%;
+    margin-left: -0.347vw;
+    margin-top: -0.347vw;
+}
+.rst-distribution-habitat:before{
+	position: absolute;
+	bottom: 100%;
+	left: 0;background: #FF6B00;
+	width: 45.808vw;
+	height: 4.722vw;
+	content:"";
+}
+.rst-distribution-habitat-center{
+	border-left: 1px solid rgba(0, 0, 0,0.2);
+	border-right: 1px solid rgba(0, 0, 0,0.2);
+	width: 44%;
+	padding-left: 4.895vw;
+	padding-right: 4.895vw;
+	padding-bottom: 38.194vw;
+	padding-top: 73.958vw;
+}
+.rst-distribution-habitat-center span{
+	display: inline-block;
+    height: 1.65vw;
+    line-height: 1.65vw;
+    padding: 0 0.717vw;
+    font-size: 1.111vw;
+	background: #7DEA13;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000;
+	border-radius: 2.205vw;
+	margin-bottom: 1.736vw;
+}
+.rst-distribution-habitat-center p{
+	font-size: 1.389vw;
+    line-height: 1.5em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000;
+	letter-spacing: -0.01em;
+    margin: 0 0 1.667vw 0;
+}
+.rst-distribution-habitat-center p:last-child{
+	margin-bottom: 0;
+}
+.rst-distribution-habitat-one{
+	width: 28%;
+	padding-top: 4.421vw;
+	padding-right: 2.917vw;
+	padding-bottom: 49.222vw;
+}
+.rst-distribution-habitat-center + .rst-distribution-habitat-one{
+	padding-right: 0;
+	padding-left: 2.917vw;
+}
+.rst-distribution-habitat-location .number{
+	line-height: 1.4em;
+    padding: 0;
+    font-size: 1.389vw;
+	
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+	display: block;
+	margin-bottom: 1.667vw;
+}
+.rst-distribution-habitat-location-title{
+	border-top: 1px solid #000;
+	padding-top: 2px;
+	padding-bottom: 20px;
+}
+.rst-distribution-habitat-location-title span{
+	line-height: 1.556em;
+    padding: 0;
+    font-size: 0.467vw;
+    letter-spacing: 0.14em;
+    font-family: 'NB Architekt Std';
+    font-weight: 700;
+    color: #000;
+	display: block;
+	margin-bottom: 0.417vw;
+}
+.rst-distribution-habitat-location-banner{
+	width: 15.078vw;
+}
+.rst-distribution-habitat-location-map{
+	width: calc( 100% - 15.078vw );
+	padding-left: 0.857vw;
+}
+.rst-distribution-habitat-location-map span{
+	line-height: 1.556em;
+    padding: 0;
+    font-size: 0.467vw;
+	border-top: 1px solid #000;
+    letter-spacing: 0.14em;
+    font-family: 'NB Architekt Std';
+    font-weight: 700;
+    color: #000;
+	display: block;
+	margin-bottom: 0.417vw;
+	padding-top: 2px;
+}
+.rst-distribution-habitat .rst-bg{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: block;
+}
+.rst-distribution-habitat:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 45.808vw;
+    height: 7.639vw;
+    content: "";
+}
+.rst-distribution-habitat-location-map img{
+	width: 6.25vw;
+	margin: 0px auto;
+	mix-blend-mode: multiply;
+}
+.rst-distribution-habitat-location-banner img{
+	width: 100%;
+	border-radius: 0.342vw;
+}
+.rst-distribution-habitat-location-img{
+	display: flex;
+	margin-bottom: 1.667vw;
+}
+
+.rst-distribution-habitat-location-info{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.25vw 0.857vw;
+}
+.rst-distribution-habitat-location-column span{
+	line-height: 1.556em;
+    padding: 0;
+    font-size: 0.467vw;
+	
+    letter-spacing: 0.14em;
+    font-family: 'NB Architekt Std';
+    font-weight: 700;
+    color: #000;
+	display: block;
+	margin-bottom: 0.486vw;
+}
+.rst-distribution-habitat-location-column.full-100 p{
+	width: 20.154vw;
+}
+.rst-distribution-habitat-location-column p{
+	font-size: 0.63vw;
+    line-height: 1.4em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000;
+	letter-spacing: -0.01em;
+    margin:  0;
+}
+.rst-distribution-habitat-location{
+	margin-bottom: 1.806vw;
+}
+.rst-distribution-habitat-location:last-child{
+	margin-bottom: 0;
+	/* position: relative; */
+	z-index: 10;
+}
+
+.rst-distribution-habitat-location-column{
+	width: calc( 33.3333% - calc( calc(0.857vw * 2) / 3 ) );
+	border-top: 1px solid #000;
+	padding-top: 2px;
+}
+.rst-distribution-habitat-location-column.full-100{
+	width: 100% !important;
+}
+.rst-distribution-habitat-location-title h3{
+	color: #000;
+	font-size: 2.083vw;
+    line-height: 1em;
+	letter-spacing: 0.08em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+}
+.rst-our-process{
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/process_bg.jpg) no-repeat top center;
+	background-size: 100%;
+	background-color: #0aa854;
+	position: relative;
+	padding-top: 9.236vw;
+	
+}
+.rst-our-process .icon-process{
+	position: absolute;
+	top: 4.778vw;
+	left: 28.472vw;
+	width: 9.167vw;
+	
+}
+.rst-our-process-title{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	top: 0.944vw;
+	left: 0;
+}
+.rst-our-process-title h2{
+	line-height: 1em;
+    padding: 0;
+    font-size: 14.583vw;
+    letter-spacing: 0em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: -0.694vw;
+	margin-right: -0.694vw;
+}
+.rst-our-process > h3{
+	line-height: 1.125em;
+    padding: 0;
+    font-size: 4.444vw;
+    letter-spacing: 0.1em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+	margin: 0px auto;
+	width: 66.667vw;
+	text-align: center;
+	margin-top: 5vw;
+	margin-bottom: 10.278vw;
+}
+.rst-list-process{
+	position: relative;
+}
+.line-process{
+	width: 35.226vw;
+	display: block;
+	position: absolute;
+	top: 3.308vw;
+	left: 9.436vw;
+}
+.rst-item-process {
+	position: relative;
+	padding-top: 1.736vw;
+	padding-left: 8.125vw;
+	width: 46.111vw;
+	
+	margin-bottom: 6.667vw;
+}
+.rst-item-process:last-child{
+	margin: 0;
+}
+.rst-list-process .number {
+	height: 9.027vw;
+	position: absolute;
+	line-height: 1em;
+	display: flex;
+	align-items: center;
+    padding: 0 2.315vw;
+    font-size: 7.778vw;
+    letter-spacing: -0.02em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+	z-index: 1;
+}
+.rst-list-process .number:after{
+	width: 7.092vw;
+	height: 100%;
+	background: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	content:"";
+	z-index: -1;
+}
+.rst-list-process .number.number1{
+	top: -0.694vw;
+	left: 0;
+}
+.rst-list-process .number.number2{
+	top: 55.417vw;
+	right: 0;
+}
+.rst-list-process .number.number2:after{
+	left: auto;
+	right: 0;
+}
+.rst-list-process .number.number3{
+	top: 111.667vw;
+	left: 0;
+}
+.rst-item-process ul:after{
+	height: 1.389vw;
+	bottom: -0.694vw;
+	right: 0;
+	width: 1px;
+	background: #fff;
+	content:"";
+	right: 0;
+	position: absolute;
+}
+.rst-item-process span{
+	width: 5.109vw;
+	height: 5.109vw;
+	border-radius: 50%;
+	background: #fff;
+	line-height: 1em;
+    padding: 0;
+    font-size: 2.592vw;
+    letter-spacing: 0em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.rst-item-process h3{
+	font-size: 1.5vw;
+    line-height: 1em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #fff;
+	letter-spacing: 0em;
+    margin:  0;
+	text-transform: uppercase;
+	margin-bottom: 1.667vw;
+}
+.rst-item-process ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-left: 1.736vw;
+	padding-bottom: 1.806vw;
+	border-bottom: 1px solid #fff;
+}
+.rst-item-process ul li{
+	padding-left: 1.042vw;
+	font-size: 1vw;
+    line-height: 1.5em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #fff;
+	letter-spacing: 0em;
+    margin: 0 0 1.042vw 0;
+	position: relative;
+}
+.rst-item-process ul li:before{
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	content:"";
+	top: 0.486vw;
+}
+.rst-item-process ul li:last-child{
+	margin: 0;
+}
+.rst-item-process.rst-item-process1,.rst-item-process.rst-item-process2{
+	margin-left: 41.875vw;
+}
+.rst-item-process.rst-item-process3,.rst-item-process.rst-item-process4{
+	margin-left: 6.681vw;
+}
+.rst-item-process.rst-item-process5,.rst-item-process.rst-item-process6{
+	margin-left: 41.875vw;
+}
+.rst-item-process ul{
+	position: relative;
+}
+.rst-item-process.rst-item-process2 {
+	margin-bottom: 10.861vw;
+}
+.rst-item-process.rst-item-process3 ul:after,.rst-item-process.rst-item-process4 ul:after{
+	right: auto;
+	left: 0;
+}
+.rst-item-process.rst-item-process3{
+	margin-bottom: 6.25vw;
+}
+.rst-item-process.rst-item-process4{
+	margin-bottom: 18.333vw;
+}
+.rst-item-process.rst-item-process5{
+	margin-bottom: 4.194vw;
+}
+.rst-item-process.rst-item-process5 ul {
+	padding-bottom: 5vw
+}
+
+.rst-item-process.rst-item-process6 {
+	margin-bottom: 6vw;
+}
+
+.rst-item-process.rst-item-process6 ul {
+	padding-bottom: 5vw
+}
+
+.rst-item-process-end{
+	position: relative;
+	margin-left: 5.331vw;
+	padding-left: 19.444vw;
+	padding-top: 4.406vw;
+}
+.rst-item-process-end > span{
+	font-size: 1.5vw;
+    line-height: 1em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #3DEA86;
+	letter-spacing: 0em;
+	position: absolute;
+	top: -2.5vw;
+	left: 44.444vw;
+}
+.end-process{
+	margin-top: 6.697vw;
+}
+.rst-item-process-end .num-end{
+	width: 16.838vw;
+	height: 16.838vw;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1em;
+    padding: 0;
+    font-size: 7.097vw;
+    letter-spacing: 0em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000000;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.rst-item-process-end .num-end:after{
+	position: absolute;
+	background: #fff;
+	position: absolute;
+	top: 1.389vw;
+	bottom: 1.389vw;
+	left: 1.389vw;
+	right: 1.389vw;
+	border-radius: 50%;
+	content:"";
+}
+.rst-item-process-end .num-end span{
+	position: relative;
+	z-index: 1;
+}
+.rst-item-process-end .rst-item-process-end-text1{
+	font-size: 8vw;
+    line-height: 1em;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #fff;
+	margin: 0;
+	letter-spacing: 0em;
+}
+.rst-item-process-end .rst-item-process-end-text2{
+	font-size: 9vw;
+    line-height: 0.8em;
+	margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000000;
+	letter-spacing: 0em;
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	    margin-top: -5px;
+    margin-left: 10.069vw;
+}
+.rst-item-process-end .rst-item-process-end-text2:after{
+	position: absolute;
+	content:"";
+	left: 0;
+	bottom: 0;
+	z-index: 0;
+	background: #21B87A;
+	height: 6.199vw;
+	    width: 100%;
+}
+.rst-item-process.rst-item-process6 {
+    margin-bottom: 9.444vw;
+}
+.rst-item-process-end .rst-item-process-end-text2 span{
+	position: relative;
+	z-index: 1;
+}
+.rst-modern-mothers{
+	position: relative;
+	margin-top: -14.306vw;
+}
+.rst-modern-mothers-title{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	padding: 0 8.194vw;
+	z-index: 1;
+}
+.rst-modern-mothers-title span{
+	line-height: 1.142em;
+    padding: 0;
+    font-size: 3.083vw;
+    letter-spacing: 0.09em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #804FDB;
+	display: block;
+}
+.rst-modern-mothers-title h2{
+	color: #000;
+	font-size: 9.681vw;
+    line-height: 1em;
+	letter-spacing: 0em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+}
+.rst-modern-mothers p{
+	position: absolute;
+	width: 38.021vw;
+	font-size: 2.4vw;
+	text-transform: uppercase;
+	line-height: 1.1;
+	margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #212529;
+	left: 10vw;
+	top: 20.903vw;
+	z-index: 1;
+}
+.rst-modern-mothers .rst-btn{
+	display: flex;
+	background: #9566E0;
+	border: 1px solid #838383;
+	border-radius: 69.444vw;
+	font-size: 1.299vw;
+	line-height: 1.1016em;
+	margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #fff;
+	padding: 3.025vw 2.5vw 3.025vw 2.856vw;
+	max-width: 20.721vw;
+	position: absolute;
+	left: 10vw;
+	bottom: 14.417vw;
+	text-decoration: none !important;
+}
+.rst-modern-mothers .rst-btn:hover {
+	background: #fc9509;
+	border-color: #fc9509;
+}
+.rst-modern-mothers .rst-btn span + span{
+	font-size: 2vw;
+	line-height: 1;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+	margin-left: 1.389vw;
+}
+.rst-paul-scofield{
+	position: relative;
+	background: #000000;
+}
+.rst-paul-scofield .rst-plus{
+	position: absolute;
+	right: 2.396vw;
+	top: 3.056vw;
+}
+.rst-paul-scofield .rst-square{
+	position: absolute;
+	right: 2.396vw;
+	bottom: 5.903vw;
+}
+.rst-paul-scofield:after{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #F6F6F6;
+	width: 50.139vw;
+	height: 4.778vw;
+	content:"";
+}
+.rst-paul-scofield-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.rst-paul-scofield-img{
+	width: 43.4%;
+}
+.rst-paul-scofield-img img{
+	width: 100%;
+	margin-top: -10.778vw;
+}
+.rst-paul-scofield-content{
+	width: 56.6%;
+	padding-left: 6.875vw;
+	padding-right: 6.875vw;
+	padding-top: 5.903vw;
+	padding-bottom: 10.733vw;
+}
+.rst-paul-scofield-content p{
+	font-size: 1.367vw;
+	line-height: 1.5em;
+    letter-spacing: 0.14em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+	margin-bottom: 3.428vw;
+}
+.rst-paul-scofield-content h3{
+	font-size: 2.778vw;
+	line-height: 1.25em;
+	margin: 0;
+    font-family: 'Telegraf Bold';
+	color: #7DEA13;
+	font-weight: 700;
+	margin-bottom: 0.764vw;
+	text-transform: uppercase;
+}
+.rst-paul-scofield-content span{
+	width: 32.765vw;
+	font-size: 1.042vw;
+	line-height: 1.6em;
+    letter-spacing: 0.07em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+	margin: 0;
+	display: block;
+}
+.rst-ecological-impact{
+	background: #FF6B00;
+	position: relative;
+}
+/* .rst-ecological-impact:before{
+	content:"";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 49.931vw;
+	height: 5.694vw;
+	background: #fff;
+} */
+.rst-ecological-impact h2{
+	color: #fff;
+	font-size: 12.3vw;
+    line-height: 0.9em;
+	letter-spacing: -0.0169em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0 0 1.875vw 0;
+	text-align: center;
+	position: absolute;
+	left: 5.5vw;
+	top: 12vw;
+}
+
+.rst-ecological-impact h2 span {
+	padding-left: 60%
+}
+
+.rst-ecological-impact .content {
+	position: absolute;
+	right: 5vw;
+	color: #FFF;
+	width: 40%;
+	top: 42vw;
+}
+
+.rst-ecological-impact .content h3 {
+
+}
+
+.rst-ecological-impact .content p.large {
+	font-size: 2vw;
+	text-transform: uppercase;
+	margin-bottom: 3vw
+}
+.rst-ecological-impact .content p {
+	font-size: 1.3vw;
+	line-height: 1.4;
+}
+
+.rst-ecological-impact  .bird-eating {
+	position: absolute;
+	top: 12vw;
+	left: -5%;
+	width: 65%;
+}
+
+.rst-ecological-impact .bg {
+	width: 100%;
+}
+.graphic-here-box{
+	background: #D9D9D9;
+	height: 33.765vw;
+	border-radius: 1.111vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 3.181vw;
+}
+.graphic-here-box span{
+	color: #000000;
+	font-size: 7.639vw;
+    line-height: 0.9em;
+	letter-spacing: -0.0169em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	text-align: center;
+}
+.rst-ecological-impact-text{
+	display: flex;
+	padding-left: 2.778vw;
+	padding-right: 1.528vw;
+	gap: 1.806vw;
+}
+.rst-ecological-impact-text p{
+	width: 50%;
+	font-size: 1.667vw;
+	line-height: 1.2em;
+	letter-spacing: -0.01em;
+	margin: 0;
+    font-family: 'Telegraf';
+    font-weight:  400;
+	color: #fff;
+}
+.rst-3d-footprints{
+	background: #F6F6F6;
+	padding-top: 7.639vw;
+}
+
+.rst-3d-footprints-sub-container{
+	padding-right: 20px;
+	position: relative;
+	width: 91.111vw;
+	margin: 0px auto;
+	margin-bottom: 3.425vw;
+}
+.rst-3d-footprints-title img{
+	margin-top: -10px;
+	width: 10vw;
+	filter: saturate(0%);
+	opacity: 0.5;
+	margin-right: 6vw;
+}
+.rst-3d-footprints-sub{
+	position: relative;
+	
+	overflow: hidden;
+	
+	text-align: center;
+	
+	line-height: 10px;
+}
+.rst-3d-footprints-sub-container img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.rst-3d-footprints-sub span{
+	font-size: 0.833vw;
+	line-height: 1em;
+    letter-spacing: 0.08em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000000;
+	padding: 0 1.042vw;
+	display: inline-block;
+	    position: relative;
+}
+.rst-3d-footprints-sub span:after{
+	left: 100%;
+}
+.rst-3d-footprints-sub span:before{
+	right: 100%;
+}
+.rst-3d-footprints-sub span:after,.rst-3d-footprints-sub span:before{
+	width: 1000px;
+	top: 50%;
+	position: absolute;
+	content:"";
+	background: #000;
+	height: 1px;
+	opacity: 0.5;
+}
+.rst-3d-footprints{
+	position: relative;
+}
+.rst-3d-footprints:after{
+	width: 50.069vw;
+	height: 5.671vw;
+	content:"";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+}
+.rst-3d-footprints-title{
+	width: 88.889vw;
+	margin: 0px auto;
+	margin-bottom: 1.297vw;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rst-3d-footprints-title h2{
+	font-size: 5.556vw;
+	line-height: 1em;
+	letter-spacing: -0.04em;
+	margin: 0;
+    font-family: 'Telegraf Bold';
+    font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+}
+.rst-3d-footprints-title h2 span{
+	color: #FF6B00;
+}
+.rst-3d-footprints-detail{
+	width: 88.889vw;
+	margin: 0px auto;
+	display: flex;
+}
+.rst-3d-footprints-title .mouse{
+	width: 16.482vw;
+	margin-right: 0;
+}
+.rst-3d-footprints{
+	padding-bottom: 9.49vw;
+}
+.rst-3d-footprints-detail-text{
+	width: 14.722vw;
+	border-top: 1px solid #000000;
+	padding-top: 7px;
+	    margin-top: 1.944vw;
+}
+.rst-3d-footprints-detail-text span{
+	font-size: 0.694vw;
+	line-height: 1em;
+    letter-spacing: 0.07em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000000;
+	display: block;
+	margin-bottom: 1.597vw;
+}
+.rst-3d-footprints-detail-text p{
+	font-size: 1.111vw;
+	line-height: 1.4em;
+	letter-spacing: 0em;
+	margin: 0 0 1.042vw 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+	color: #000;
+}
+.rst-3d-footprints-detail-3d{
+	width: calc( 100% - 14.722vw - 14.722vw );
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+.rst-3d-footprints-detail-3d iframe {
+	width: 100%;
+	height: 30vw
+}
+.rst-3d-footprints-detail-text p:last-child{
+	margin: 0;
+}
+.rst-sudden-vanishing{
+	position: relative;
+	padding-bottom: 7.708vw;
+}
+.rst-sudden-vanishing .rst-plus1{
+	position: absolute;
+	left: 2.083vw;
+	top: 1.2vw;
+}
+.rst-sudden-vanishing .rst-plus2{
+	position: absolute;
+	left: 2.083vw;
+	top: 7.839vw;
+}
+.rst-sudden-vanishing .rst-plus3{
+	position: absolute;
+	right: 10.889vw;
+	bottom: 19.306vw;
+	display: none;
+}
+.rst-sudden-vanishing .rst-square{
+	position: absolute;
+	left: 2.708vw;
+	top: 38.333vw;
+}
+.rst-sudden-vanishing-top{
+	padding-left: 5.208vw;
+	padding-right: 5vw;
+	display: flex;
+}
+.rst-sudden-vanishing-top-right-circle span{
+	width: 3.194vw;
+	height: 3.194vw;
+	border-radius: 50%;
+	display: block;
+	border: 1px solid #979797;
+	position: relative;
+}
+.rst-sudden-vanishing-top-right-circle{
+	position: relative;
+	margin-top: 4.722vw;
+	margin-bottom: 2.5vw;
+}
+.rst-sudden-vanishing-top-right-circle:after{
+	height: 1px;
+	width: calc( 100% + 5vw - 3.194vw );
+	background: #000;
+	content:"";
+	position: absolute;
+	left: 3.194vw;
+	top: 50%;
+}
+.rst-sudden-vanishing-top-right-circle span:after{
+	content:"";
+	width: 0.625vw;
+	height: 0.625vw;
+	border-radius: 50%;
+	background: #91ED0D;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -0.313vw;
+	margin-top: -0.313vw;
+}
+.rst-sudden-vanishing-top-left{
+	width: 61%;
+	padding-right: 2.708vw;
+	padding-top: 4px;
+}
+.rst-sudden-vanishing-top-right{
+	width: 39%;
+}
+.rst-sudden-vanishing-top-left .label-top{
+	display: flex;
+	gap: 1.736vw;
+	align-items: center;
+	margin-bottom: 4.236vw;
+}
+.rst-sudden-vanishing-top-left h2{
+	color: #000000;
+	font-size: 6.528vw;
+    line-height: 1.04255em;
+	letter-spacing: 0.01em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0 0 4.236vw 0;
+}
+.rst-sudden-vanishing-top-left-img{
+	padding-left: 5px;
+}
+.rst-sudden-vanishing-top-left img{
+	width: 100%;
+	
+}
+.label-process1{
+	left: 29.514vw;
+	top: 39.417vw;
+}
+.label-process2{
+	right: 17.528vw;
+	top: 90.569vw;
+}
+.label-process1,.label-process2{
+	padding: 0;
+	display: block;
+    font-size: 0.694vw;
+    letter-spacing: 0.07em;
+	line-height: 2.4em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+	position: absolute;
+	z-index: 2;
+}
+.rst-sudden-vanishing-top-left .label-top span{
+	display: inline-block;
+    height: 2.327vw;
+    line-height: 2.327vw;
+    border: 1px solid #FF6B00;
+    padding: 0 0.869vw;
+    font-size: 1.217vw;
+    letter-spacing: 0;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #FF6B00;
+    margin-right: 1.042vw;
+}
+.rst-sudden-vanishing-top-left .label-top p{
+	font-size: 0.694vw;
+    letter-spacing: 0.148em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000;
+	line-height: 1;
+	margin: 0;
+	
+}
+.rst-sudden-vanishing-top-left .label-top div {
+    background: url(https://colossal.com/wp-content/themes/colossal/img/moa/line8.png) repeat-x left center;
+    height: 8px;
+    width: 16.944vw;
+}
+.rst-sudden-vanishing-top-right p{
+	font-size: 2.778vw;
+	line-height: 1.06em;
+	letter-spacing: 0em;
+	margin: 0 0 2.153vw 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+	color: #979797;
+	padding-left: 4.722vw;
+}
+.rst-sudden-vanishing-top-right-img{
+	width: 34.792vw;
+	border: 1px solid #7DEA13;
+	padding: 1.597vw 1.528vw;
+	margin-top: -3.472vw;
+	
+}
+.rst-sudden-vanishing-top-right-img img{
+	width: 100%;
+}
+.rst-sudden-vanishing-top-right p span{
+	color: #000;
+}
+.rst-sudden-vanishing-top-right p:last-child{
+	margin: 0;
+}
+
+.rst-sudden-vanishing-bottom{
+	display: flex;
+	padding-left: 5.556vw;
+	padding-right: 6.458vw;
+	margin-top: 2.778vw;
+}
+.rst-sudden-vanishing-bottom-colum1{
+	width: 32.5%;
+	padding-right: 2.083vw;
+}
+.rst-sudden-vanishing-bottom-colum2{
+	padding-right: 4.167vw;
+	width: 34.2%;
+}
+.rst-sudden-vanishing-bottom-colum3{
+	width: 33.3%;
+}
+
+.rst-sudden-vanishing-bottom span{
+	color: #979797;
+	font-size: 1.389vw;
+    line-height: 1em;
+	letter-spacing: 0em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0 0 0.972vw 0;
+	display: block;
+}
+.rst-sudden-vanishing-bottom h4{
+	font-size: 1.25vw;
+	line-height: 1.33333333em;
+	letter-spacing: 0em;
+	margin:  0;
+    font-family: 'Telegraf Bold';
+    font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+.rst-sudden-vanishing-bottom p{
+	font-size: 1.25vw;
+	line-height: 1.33333333em;
+	letter-spacing: 0em;
+	margin: 0 0 1.111vw 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+	color: #979797;
+}
+.rst-sudden-vanishing-bottom p:last-child{
+	margin: 0;
+}
+.rst-field-lab{
+	position: relative;
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/field-lab-bg.jpg) no-repeat bottom center;
+	background-size: 100%;
+	background-color: #000;
+	padding-top: 18.056vw;
+	padding-bottom: 8.889vw;
+}
+.field-lab-icon{
+	width: 10.278vw;
+	position: absolute;
+	top: 3.247vw;
+	right: 2.5vw;
+}
+.field-lab1{
+	width: 50.069vw;
+	position: absolute;
+	left: 0;
+	top: 17.5vw;
+}
+.rst-field-lab h2{
+	width: 53.958vw;
+	color: #fff;
+	font-size: 11.597vw;
+    line-height: 1.3772455em;
+	letter-spacing: 0em;
+    font-family: 'NB Architekt Light';
+    font-weight: 300;
+	margin: 0;
+	z-index: 1;
+	left: 4.306vw;
+	top: 7.083vw;
+	position: absolute;
+	display: block;
+}
+.field-lab2{
+	width: 37.505vw;
+	position: absolute;
+	left: 7.96vw;
+	top: 57.639vw;
+	border: 1px solid #7DEA13;
+	padding: 1.736vw 1.875vw;
+}
+.rst-field-lab-sub {
+	display: flex;
+	align-items: center;
+	gap: 2.708vw;
+	margin-left: 46.458vw;
+	margin-bottom: 3.333vw;
+}
+.rst-field-lab-sub span{
+	display: inline-block;
+	width: 8.889vw;
+    height: 1.458vw;
+    line-height: 1.458vw;
+    border: 1px solid #fff;
+    padding: 0;
+    font-size: 0.694vw;
+    letter-spacing: 0.045em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+    margin-right: 0;
+	text-align: center;
+}
+.rst-field-lab-sub div{
+	    background: url(https://colossal.com/wp-content/themes/colossal/img/moa/line9.png) repeat-x left center;
+    height: 8px;
+    width: 29.028vw;
+}
+.rst-field-lab-content{
+	display: flex;
+	    align-items: end;
+	flex-direction: column;
+	position: relative;
+	z-index: 1;
+}
+.rst-field-lab-content div{
+	width: 41.944vw;
+}
+.rst-field-lab-content p{
+	width: 36.389vw;
+	font-size: 2vw;
+	line-height: 1.0625em;
+	letter-spacing: 0em;
+	margin: 0 0 6.319vw 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+	color: #fff;
+}
+.rst-field-lab-content img{
+	width: 100%;
+	display: block;
+}
+.field-lab2 img{
+	width: 100%;
+}
+.rst-field-lab-bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 7.917vw;
+	padding-right: 7.222vw;
+	margin-top: 7.258vw;
+}
+.rst-field-lab-bottom > span{
+	line-height: 1.2em;
+    margin: 0;
+    font-size: 1.389vw;
+    letter-spacing: 0.1em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+}
+.rst-field-lab-bottom a{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid #fff;
+    border-radius: 7.49vw;
+    font-size: 1.965vw;
+    line-height: 1.04984em;
+	letter-spacing: -0.016967em;
+    margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #fff;
+    padding: 0 4.167vw 0 5.347vw;
+    width: 34.693vw;
+	text-decoration: none !important;
+	height: 9.494vw;
+}
+.rst-beth-shapiro-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	    align-items: flex-end;
+}
+.rst-beth-shapiro-left{
+	width: 43.48%;
+}
+.rst-beth-shapiro-right-label{
+	background: #7DEA13;
+	border-radius: 2.205vw;
+	height: 1.597vw;
+	line-height: 1.597vw;
+	font-size: 0.882vw;
+    letter-spacing: 0.125196em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000;
+	padding: 0 0.717vw;
+	display: inline-block;
+	margin-bottom: 1.111vw;
+}
+.rst-beth-shapiro-sub{
+	width: 94.444vw;
+	margin: 0px auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 3.294vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1;
+	border-bottom: 1px solid #FFFFFF;
+	padding-bottom: 1.181vw;
+}
+.process_img1{
+	position: absolute;
+	top: 8.333vw;
+	left: 0;
+	width: 40.756vw;
+	z-index: 1;
+}
+.process_img2{
+	position: absolute;
+	top: 51.6vw;
+	right: 0;
+	width: 52.5vw;
+	z-index: 1;
+}
+.rst-item-process.rst-item-process4 ul{
+	border: none;
+}
+.rst-item-process.rst-item-process4 ul:after{
+	display: none;
+}
+.process_img3{
+	position: absolute;
+	top: 119.792vw;
+	left: 0;
+	width: 40.707vw;
+	z-index: 1;
+}
+.rst-beth-shapiro{
+	position: relative;
+	margin-top: -10.625vw;
+	overflow: hidden;
+}
+.rst-beth-shapiro-sub span{
+	line-height: 1.25;
+	font-size: 0.556vw;
+    letter-spacing: 0em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+}
+.rst-beth-shapiro-left img{
+	width: 100%;
+}
+.rst-beth-shapiro-right p{
+	font-size: 2.222vw;
+    line-height: 1.2em;
+	letter-spacing: 0em;
+    margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #fff;
+	margin-bottom: 4.7vw;
+}
+.rst-beth-shapiro-name{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 1.25vw
+}
+.rst-beth-shapiro-name h4{
+	font-size: 2.222vw;
+    line-height: 1em;
+	letter-spacing: -0.01em;
+    margin: 0;
+    font-family: 'Telegraf Bold';
+    font-weight: 700;
+    color: #fff;
+	
+}.rst-beth-shapiro-name span{
+	line-height: 1em;
+    margin: 0;
+    font-size: 1.042vw;
+    letter-spacing: 0.07em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+}
+.rst-beth-shapiro-right{
+	width: 56.52%;
+	padding-top: 13.333vw;
+	padding-left: 6.494vw;
+	padding-bottom: 8.665vw;
+	background: url(https://colossal.com/wp-content/themes/colossal/img/moa/beth-shapiro-bg.jpg) no-repeat center center / cover;
+	padding-right: 4.097vw;
+	position: relative;
+	bottom: -2vw;
+}
+.show-mb{
+	display: none !important;
+}
+
+
+
+/*new css*/
+.rst-field-lab-sub-mb{
+	display: none;
+	padding: 0;
+    font-size: 1.538vw;
+    letter-spacing: 0.2px;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #fff;
+	margin: 0;
+}
+.rst-section-video-moa{
+	padding-top: 7.083vw;
+	padding-bottom: 5.417vw;
+	padding-left: 7.465vw;
+	padding-right: 7.465vw;
+}
+.rst-video-moa-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.rst-video-moa-left{
+	width: 79.67%;
+	position: relative;
+}
+.rst-video-moa-left-circle{
+	width: 2.5vw;
+	height: 2.5vw;
+	border-radius: 50%;
+	border: 1px solid #979797;
+	position: absolute;
+	right: -1.25vw;
+	top: -1.25vw;
+	z-index: 1;
+	
+}
+.rst-video-moa-left-circle:after{
+	width: 0.625vw;
+	height: 0.625vw;
+	border-radius: 50%;
+	background: #FF7200;
+	content:"";
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin-top: -0.313vw;
+	margin-left: -0.313vw;
+}
+.rst-video-moa-caption{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.rst-video-moa-caption p{
+	font-size: 0.833vw;
+    line-height: 1em;
+	letter-spacing: 0.54px;
+    margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #838383;
+	text-transform: uppercase;
+	
+}
+.rst-video-moa-caption span{
+	line-height: 1em;
+    margin: 0;
+    font-size: 0.694vw;
+    letter-spacing: 0.148em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000000;
+}
+.rst-video-moa-left img{
+	display: block;
+	width: 100%;
+}
+.rst-video-moa-right{
+	width: 20.33%;
+	padding-left: 35px;
+}
+.rst-video-moa-right span{
+	border: 1px solid #000000;
+	height: 1.458vw;
+	line-height: 1.458vw;
+	width: 3.819vw;
+	text-align: center;
+	font-size: 0.694vw;
+    letter-spacing: 0.045em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000000;
+	display: inline-block;
+	margin-bottom: 1.528vw;
+}
+.rst-video-moa-right-arrow{
+	width: 1.111vw;
+	height: 3.889vw;
+	margin-bottom: 1.25vw;
+	border-top:1px solid #979797;
+	border-right:1px solid #979797;
+}
+.rst-video-moa-right h3{
+	font-size: 1.181vw;
+    line-height: 1.4117647em;
+	letter-spacing: -0.017058em;
+    margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000;
+	text-decoration: underline;
+	padding-bottom: 1.389vw;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 0.972vw
+}
+.rst-video-moa-right p{
+	font-size: 0.903vw;
+    line-height: 1.53846em;
+	letter-spacing: -0.0146154em;
+    margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #838383;
+	margin-bottom: 1.528vw
+}
+.rst-video-moa-right a{
+	line-height: 1em;
+    margin: 0;
+    font-size: 0.694vw;
+    letter-spacing: 0.148em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000000 !important;
+	text-decoration: none !important;
+}
+.rst-out-partner{
+	padding-left: 5.556vw;
+	padding-right: 5.556vw;
+	background: #F6F6F6;
+}
+.rst-out-partner-inner > span{
+	border: 1px solid #000000;
+	height: 2.327vw;
+	line-height: 2.327vw;
+	width: 9.514vw;
+	text-align: center;
+	font-size: 1.111vw;
+    letter-spacing: 0em;
+    font-family: 'NB Architekt Std';
+    font-weight: 400;
+    color: #000000;
+	display: inline-block;
+	margin-bottom: 5.347vw;
+	margin-left: -2.778vw;
+}
+.rst-out-partner-top{
+	font-size: 2.222vw;
+    line-height: 1.0625em;
+	letter-spacing: 0em;
+    margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000;
+	padding-bottom: 3.194vw;
+	border-bottom: 1px solid rgba(162, 162, 162, 0.5);
+}
+.rst-out-partner-bottom{
+	display: flex;
+	padding-top: 1.389vw;
+	padding-bottom: 2.014vw;
+	border-bottom: 1px solid rgba(162, 162, 162, 0.5);
+	align-items: flex-end;
+}
+.rst-out-partner-bottom-left{
+	
+	width: 42.81%;
+	padding-bottom: 5px;
+}
+.rst-out-partner-bottom-right{
+	width: 57.19%;
+}
+.rst-out-partner-bottom-right p{
+	font-size: 1.25vw;
+    line-height: 1.0555555em;
+	letter-spacing: 0em;
+    margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #979797;
+}
+.rst-out-partner-bottom-left img{
+	width: 18.413vw;
+}
+.rst-out-partner-bottom-heading{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4.375vw;
+}
+.rst-out-partner-bottom-heading h3{
+	font-size: 2.222vw;
+    line-height: 1.0625em;
+	letter-spacing: 0em;
+    margin: 0;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000;
+}
+.rst-out-partner-bottom-heading a{
+	border-radius: 1.667vw;
+	height: 2.431vw;
+	border: 1px solid #000000;
+	background: #FF7B31;
+	font-family: 'Telegraf';
+    font-weight: 400;
+    color: #000 !important;
+	font-size: 1.111vw;
+	line-height: 1;
+	padding-left: 1.736vw;
+	padding-right: 1.25vw;
+	display: flex;
+	align-items: center;
+	width: fit-content;
+    text-decoration: none !important;
+	margin-top: 7px;
+}
+.rst-out-partner-bottom-heading a svg{
+	display: block;
+	margin-left: 2.292vw;
+}
+
+
+
+@media (max-width: 767px){	
+	
+	.show-mb{
+		display: block !important;
+	}
+	.hidden-mb{
+		display: none !important;
+	}
+	
+	.rst-section-hero .rst-plus2,.rst-section-hero .rst-plus3{
+		display: none;
+	}
+	.rst-section-hero {
+		background: url(https://colossal.com/wp-content/themes/colossal/img/moa/mb/bg_hero.jpg) no-repeat top center / cover;
+		position: relative;
+		padding-bottom: 0;
+		padding-top: 43.333vw;
+	}
+	.rst-hero-title h1 {
+		color: #fff;
+		font-size: 20.513vw;
+		line-height: 0.975em;
+		letter-spacing: 0.0185em;
+	}
+	.rst-hero-title {
+		margin-left: 0;
+		width: 100%;
+		padding-left: 7.179vw;
+		padding-right: 7.179vw;
+		margin-bottom: 10.256vw;
+	}
+	.rst-section-hero .rst-square {
+		position: absolute;
+		left: 2.564vw;
+		top: 30vw;
+		width: 6px;
+		height: 6px;
+	}
+	.rst-section-hero .rst-square2 {
+		position: absolute;
+		right: 2.564vw;
+		top: 30vw;
+		width: 6px;
+		height: 6px;
+	}
+	.rst-section-hero .rst-img-left {
+		position: relative;
+		
+		width: 100%;
+		z-index: 2;
+		margin-bottom: -16.792vw;
+        bottom: 0;
+	}
+	.rst-hero-sub span {
+		font-size: 2.051vw;
+		line-height: 1;
+		letter-spacing: 0.06em;
+	}
+	.rst-hero-sub {
+		padding-bottom: 1.282vw;
+		margin-bottom: 11.282vw;
+	}
+	.rst-hero-container {
+		width: 83.6vw;
+	}
+	.rst-hero-content {
+		width: 100%;
+		margin-left: 0;
+	}
+	.rst-section-hero .rst-plus1 {
+		position: absolute;
+		left: 2.564vw;
+		top: 90.769vw;
+	}
+	.rst-hero-content h4 {
+		font-size: 4.103vw;
+		margin: 0 0 3.59vw 0;
+	}
+	.rst-hero-content p {
+		font-size: 3.077vw;
+		margin: 0 0 4.103vw 0;
+	}
+	.rst-section-hero .rst-img-right {
+		position: absolute;
+		right: 4.162vw;
+		bottom: 22.564vw;
+		width: 4.005vw;
+	}
+	.rst-section-hero .rst-line1{
+		display: none;
+	}
+	.rst-section-moa-species {
+		padding-top: 17.692vw;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		z-index: 1;
+	}
+	.rst-section-moa-species .rst-square{
+		display: none;
+	}
+	.rst-section-moa-species .rst-line1 {
+		background: #4A4A4A;
+		height: 1px;
+		width: 83.59vw;
+		position: absolute;
+		right: 0;
+		left: 0;
+		margin: 0px auto;
+		top: 16.792vw;
+	}
+	.rst-moa-species-title {
+		width: 100%;
+		margin: 0px auto;
+		position: relative;
+		mix-blend-mode: exclusion;
+		color: #fff;
+		margin-top: 13.59vw;
+		top: auto;
+		overflow: hidden;
+	}
+	.rst-section-moa-species .rst-plus2 {
+		position: absolute;
+		right: auto;
+		left: 2.564vw;
+		top: 16.923vw;
+		width: 7px;
+	}
+	.rst-moa-species-title h2 {
+		font-size: 20.921vw;
+
+		margin-left: -5px;
+        margin-right: -8px;
+	}
+	.rst-moa-species-container {
+		width: 62.128vw;
+		margin-top: -29.487vw;
+	}
+	.rst-moa-species-right {
+		width: 100%;
+		position: relative;
+	}
+	.rst-moa-species-right span.circle {
+		width: 5.2vw;
+		height: 5.2vw;
+		top: auto;
+		left: -2.6vw;
+		bottom: -2.6vw;
+		z-index: 1;
+	}
+	.rst-moa-species-right span.circle:after {
+		width: 1.026vw;
+		height: 1.026vw;
+		margin-left: -0.513vw;
+		margin-top: -0.513vw;
+	}
+	.rst-moa-species-right span.text-bottom {
+		display: inline-block;
+		height: 3.59vw;
+		line-height: 3.59vw;
+		border: none;
+		background: #000000;
+		padding: 0 4.359vw 0 5.128vw;
+		font-size: 1.795vw;
+	}
+	.rst-video-moa-wrap {
+		flex-direction: column-reverse;
+	}
+	.rst-video-moa-right {
+		width: 83.59vw;
+		margin: 0px auto;
+		padding-left: 0px;
+	}
+	.rst-moa-species-left {
+		width: 100%;
+		padding-right: 2.051vw;
+		padding-left: 2.051vw;
+		position: relative;
+		padding-top: 12.308vw;
+	}
+	.rst-moa-species-left span {
+		height: 5.897vw;
+		line-height: 5.897vw;
+		padding: 0;
+		font-size: 3.367vw;
+		color: #FF6B00;
+		margin-bottom: 5.641vw;
+		display: block;
+		text-align: center;
+		width: 34.013vw;
+		margin-left: 4.103vw;
+	}
+	.rst-moa-species-left p {
+		font-size: 4.103vw;
+		line-height: 1.38;
+		margin: 0 0 13.077vw 0;
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+	}
+	.rst-moa-species-left img {
+		width: 100%;
+		display: block;
+	}
+	.rst-video-moa-right span{
+		height: 4.615vw;
+		line-height: 4.615vw;
+		width: 11.795vw;
+		text-align: center;
+		font-size: 2.136vw;
+		letter-spacing: 0.045em;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000000;
+		display: block;
+		margin-bottom: 4.128vw;
+	}
+	.rst-video-moa-right h3 {
+		font-size: 5.128vw;
+		line-height: 1.2em;
+		letter-spacing: 0em;
+		margin: 0;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #000;
+		text-decoration: none;
+		padding-bottom: 2.333vw;
+		border-bottom: 1px solid #D5D5D5;
+		margin-bottom: 4.103vw;
+	}
+	.rst-video-moa-right a{
+		display: none;
+	}
+	.rst-video-moa-right p {
+		font-size: 3.077vw;
+		line-height: 1.4em;
+		letter-spacing: 0em;
+		margin: 0;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #838383;
+		margin-bottom: 5.385vw;
+	}
+	.rst-video-moa-right-arrow{
+		display: none;
+	}
+	.rst-video-moa-caption{
+		display: none;
+	}
+	.rst-investor-profile-right .rst-text span{
+		height: 2.864vw;
+        border-radius: 4.5vw;
+        padding: 0;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000;
+		border: 1px solid #000;
+        text-align: center;
+        line-height: 2.864vw;
+        font-size: 1.538vw;
+        letter-spacing: 0.125em;
+        margin-bottom: 4.103vw;
+        display: block;
+        width: 23.513vw;
+	}
+	.rst-video-moa-left-circle{
+		display: none;
+	}
+	.rst-video-moa-left {
+		width: 100%;
+		position: relative;
+	}
+	.rst-section-video-moa {
+		padding-top: 9.328vw;
+		padding-bottom: 14.7vw;
+		padding-left: 2.051vw;
+		padding-right: 2.051vw;
+	}
+	.rst-section-dinornithiformes {
+		position: relative;
+		padding-top: 7.179vw;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/moa/mb/Dinornithiformes_bg.jpg) no-repeat top center / cover;
+	}
+	.rst-section-dinornithiformes:before {
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: #fff;
+		height: 9.744vw;
+		width: 46.154vw;
+	}
+	.rst-title-dinornithiformes h2 {
+		font-size: 9.744vw;
+		line-height: 0.9553em;
+		margin-top: -1.282vw;
+	}
+	.rst-section-dinornithiformes .rst-plus1{
+		display: none;
+	}
+	.dinornithiformes1-img{
+		width: 100%;
+		position: absolute;
+		left: 0;
+		z-index: 1;
+		top: 45.808vw;
+	}
+	.rst-title-dinornithiformes {
+		margin-top: 14.103vw;
+		position: relative;
+		z-index: 1;
+		margin-bottom: 47.436vw;
+	}
+	.rst-section-dinornithiformes .box-label {
+		display: block;
+		height: 3.59vw;
+		line-height: 3.59vw;
+		padding: 0;
+		text-align: center;
+		font-size: 1.985vw;
+		margin-left: 4.103vw;
+		width: 31.521vw;
+	}
+	.rst-row-dinornithiformes {
+		flex-direction: column-reverse;
+		padding-bottom: 32.308vw;
+	}
+	.rst-dinornithiformes-right {
+		width: 100%;
+	}
+	.rst-dinornithiformes-right .extinction-date {
+		border-radius: 3.003vw;
+		max-width: 54.49vw;
+		padding-top: 6.81vw;
+		padding-left: 3.653vw;
+		padding-right: 3.236vw;
+		padding-bottom: 5.897vw;
+		margin: 0 0 20.513vw 12.821vw;
+	}
+	.rst-dinornithiformes-left {
+		width: 100%;
+		padding-left: 8.205vw;
+		padding-right: 8.205vw;
+		padding-top: 0;
+	}
+	.rst-dinornithiformes-left .rst-line1 {
+		background: url(https://colossal.com/wp-content/themes/colossal/img/moa/line3.png) repeat-x left center;
+		height: 8px;
+		width: 22.195vw;
+		margin-bottom: 3.077vw;
+	}
+	.family-tree {
+		border-radius: 3.395vw;
+		border: 1px solid #404040;
+		padding-top: 5.128vw;
+		padding-bottom: 7.179vw;
+		padding-left: 5.128vw;
+		padding-right: 5.128vw;
+		position: relative;
+	}
+	.family-tree-title {
+
+		padding-top: 2px;
+		line-height: 4.949vw;
+		font-size: 2.262vw;
+		
+		gap: 1.026vw;
+		align-items: center;
+		margin-bottom: 2.051vw;
+	}
+	.rst-list-vitals .rst-item-vitals {
+		line-height: 1;
+		font-size: 2.051vw;
+		gap: 2.564vw;
+		margin-bottom: 2.308vw;
+	}
+	.rst-list-vitals .rst-item-vitals span {
+		height: 2.687vw;
+		padding-left: 1.41vw;
+		padding-right: 1.692vw;
+		line-height: 2.687vw;
+		font-size: 1.413vw;
+	}
+	.rst-section-dinornithiformes .rst-square {
+		position: absolute;
+		left: 2.564vw;
+		bottom: 140.513vw;
+		width: 6px;
+	}
+	.family-tree-title span {
+		width: 1.838vw;
+		height: 1.838vw;
+	}
+	.rst-list-vitals {
+		margin-bottom: 7.179vw;
+	}
+	.rst-section-dinornithiformes .rst-plus2 {
+		position: absolute;
+		left: 2.564vw;
+		top: 157.949vw;
+		width: 7px;
+		        z-index: 9;
+	}
+	.rst-dinornithiformes-left p {
+		font-size: 3.077vw;
+		line-height: 1.5em;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #fff;
+		letter-spacing: 0px;
+		margin: 0 0 8.428vw 0;
+	}
+	.rst-dinornithiformes-right .extinction-date > span {
+		line-height: 1;
+		font-size: 2.308vw;
+		margin-bottom: 2.308vw;
+	}
+	.rst-dinornithiformes-right .extinction-date p {
+		font-size: 6.992vw;
+	}
+	.rst-dinornithiformes-right .extinction-date p sup {
+		font-size: 4.003vw;
+	}
+	.rst-section-investor-profile .rst-square2,.rst-section-investor-profile .rst-plus2,.rst-section-investor-profile .rst-plus3{
+		display: none;
+	}
+	.rst-section-investor-profile .mask{
+		display: none;
+	}
+	.rst-section-investor-profile:before {
+		width: 53.669vw;
+		height: 11.136vw;
+	}
+	.rst-section-investor-profile {
+		padding-bottom: 27.764vw;
+		overflow: hidden;
+		margin-top: -11.136vw;
+	}
+	.rst-section-investor-profile .top-label {
+		line-height: 1;
+		font-size: 1.438vw;
+		letter-spacing: 0.09em;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000;
+		display: block;
+		margin-left: 8.205vw;
+		margin-top: -1.538vw;
+	}
+	.rst-section-investor-profile .rst-plus1 {
+		position: absolute;
+		top: 85.385vw;
+		left: 2.564vw;
+		width: 7px;
+	}
+	.rst-title-investor-profile {
+		text-align: center;
+		padding-top: 15.385vw;
+		padding-bottom: 13.59vw;
+		position: relative;
+		z-index: 10;
+	}
+	.rst-title-investor-profile h2 {
+		text-align: center;
+		color: #9940DD;
+		font-size: 20.59vw;
+		line-height: 1.1em;
+		letter-spacing: 0.04em;
+		font-family: 'NB Architekt Light';
+		font-weight: 300;
+		margin: 0;
+		margin-bottom: 4.872vw;
+		text-align: center;
+	}
+	.rst-title-investor-profile div span {
+		height: 4.615vw;
+		border-radius: 6.195vw;
+		padding: 0 1.795vw;
+		line-height: 4.615vw;
+		font-size: 2.564vw;
+		letter-spacing: 1.21px;
+	
+	}
+	.rst-title-investor-profile div{
+		width: 80vw;
+		margin: 0px auto;
+	}
+	.rst-wrap-investor-profile {
+		flex-direction: column;
+	}
+	.rst-investor-profile-left {
+		width: 83.59vw;
+		margin: 0px auto;
+	}
+	.rst-investor-profile-right {
+		width: 100%;
+	}
+	.img-investor-profile1 {
+		width: 38.387vw;
+		display: block;
+	}
+	.img-investor-profile2 {
+		width: 100%;
+		margin-bottom: 10.513vw;
+	}
+	.rst-investor-profile-right-quote {
+		width: 100%;
+	}
+	.rst-investor-profile-right {
+		padding-top: 0;
+		padding-right: 0;
+	}
+	.rst-investor-profile-right-img {
+		padding-left: 0;
+		margin-top: 0;
+	}
+	.rst-investor-profile-left .rst-text {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 5.641vw;
+	}
+	.rst-section-investor-profile .rst-square1 {
+		position: absolute;
+		top: 135.897vw;
+		left: 2.564vw;
+		width: 6px;
+	}
+	.rst-investor-profile-right-quote span {
+		height: 3.59vw;
+		border-radius: 4.5vw;
+		padding: 0;
+		text-align: center;
+		line-height: 3.59vw;
+		font-size: 1.8vw;
+		letter-spacing: 0.125em;
+		margin-bottom: 4.103vw;
+		display: block;
+		width: 23.182vw;
+	}
+	.rst-investor-profile-right-quote p {
+		font-size: 5.128vw;
+		line-height: 1.3em;
+		letter-spacing: 0px;
+		margin: 0 0 4.103vw 0;
+	}
+	.rst-investor-profile-left .rst-text p {
+		font-size: 3.077vw;
+		line-height: 1.5em;
+		margin: 0 0 4.615vw 0;
+	}
+	.rst-right-bottom {
+		bottom: -9.806vw;
+		width: 4.121vw;
+		display: block;
+		z-index: 999;
+	}
+	.rst-investor-profile-right-img span {
+		height: 4.872vw;
+		display: inline-block;
+		line-height: 4.872vw;
+		font-size: 2.308vw;
+		letter-spacing: 0;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		padding: 0 2.564vw 0 2.564vw;
+		color: #fff;
+		background: #000;
+		display: flex;
+        width: fit-content;
+	}
+	.rst-investor-profile-right-img{
+		padding-left: 8.205vw;
+		padding-right: 4.103vw;
+	}
+	.img-investor-profile5 {
+		width: 53.569vw;
+		display: block;
+		margin-top: -12.821vw;
+	}
+	.rst-investor-profile-right .rst-text {
+		width: 83.59vw;
+		margin: 0px auto;
+		margin-top: 9.936vw;
+		padding-bottom: 13.846vw;
+	}
+	.rst-investor-profile-right .rst-text p {
+		font-size: 3.077vw;
+		line-height: 1.2em;
+		margin: 0 0 4.615vw 0;
+	}
+	.box-circle-text-label{
+		padding-left: 8.205vw;
+		padding-right: 4.103vw
+	}
+	.box-circle-text-label .circle{
+		display: none;
+	}
+	.box-circle-text-label .text-label{
+		height: 4.777vw;
+		position: static;
+		bottom: 100%;
+		left: 0;
+		line-height: 4.777vw;
+		font-size: 2.308vw;
+		letter-spacing: 0;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		padding: 0 2.705vw;
+		color: #fff;
+		background: #000;
+		display: flex;
+		width: fit-content;
+	}
+	.img-investor-profile3{
+		width: 100%;
+	}
+	.rst-mao-culture-container .top-label div{
+		display: none;
+	}
+	.rst-mao-culture-wrap {
+		flex-direction: column;
+	}
+	.rst-distribution-habitat:after {
+		width: 53.669vw;
+		height: 10.513vw;
+	}
+	.rst-section-mao-culture .rst-square,.rst-section-mao-culture .rst-plus1,.rst-section-mao-culture .rst-plus2{
+		display: none;
+	}
+	.rst-mao-culture-container .top-label span img {
+		width: 34vw;
+	}
+	.rst-mao-culture-container {
+		max-width: 83.59vw;
+		margin: 0px auto;
+	}
+	.rst-mao-culture-container .top-label{
+		margin-left: -10px;
+		margin-top: -8px;
+        position: relative;
+        z-index: 99;
+	}
+	.rst-mao-culture-container .top-label span {
+		display: flex;
+		height: 3.59vw;
+		line-height: 3.59vw;
+		border: 1px solid #000;
+		padding: 0 2vw;
+		font-size: 1.985vw;
+		letter-spacing: 0;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000;
+		margin-right: 0;
+		width: fit-content;
+	}
+	.rst-mao-culture-container .top-label {
+		margin-bottom: 17.692vw;
+	}
+	.rst-mao-culture-title p {
+		line-height: 1;
+		font-size: 4.103vw;
+		margin-bottom: 8.205vw;
+	}
+	.rst-mao-culture-title {
+		width: 100%;
+		margin: 0px auto;
+	}
+	.rst-mao-culture-title h2 {
+		line-height: 1em;
+		font-size: 12.308vw;
+		margin-bottom: 10.513vw;
+	}
+	.rst-mao-culture-left {
+		width: 100%;
+		padding-right: 0vw;
+	}
+	.rst-mao-culture-right .circle{
+		display: none;
+	}
+	.rst-section-mao-culture {
+		padding-bottom: 36.869vw;
+		background: #FFF;
+	}
+	.rst-mao-culture-left-img:after {
+		top: 2.308vw;
+		left: -2.051vw;
+	}
+	.rst-section-treasures {
+	
+		padding-top: 40.513vw;
+		position: relative;
+		padding-bottom: 40.513vw;
+	}
+	.rst-section-treasures h2 {
+		max-width: 100%;
+		padding-left: 5.503vw;
+		padding-right: 5.503vw;
+		margin: 0px auto;
+		font-size: 12.308vw;
+	}
+	.rst-section-treasures .rst-plus1,.rst-section-treasures .rst-plus2,.rst-section-treasures .rst-text-soure,.rst-section-treasures .label-index{
+		display: none;
+	}
+	.rst-mao-culture-right {
+		width: 62.879vw;
+		margin: 0px auto;
+		position: relative;
+	}
+	.rst-mao-culture-left p {
+		margin-top: 12.821vw;
+		margin-bottom: 10.572vw;
+		font-size: 4.103vw;
+		line-height: 1.5em;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #000;
+		width: 100%;
+	}
+	.rst-section-maori-wrap {
+		flex-direction: column;
+	}
+	.rst-section-maori-img {
+		width: 51.01vw;
+		position: relative;
+		margin-top: -17.692vw;
+	}
+	.rst-section-maori-img img {
+		width: 100%;
+	}
+	.rst-section-maori {
+		padding-bottom: 10.195vw;
+		padding-top: 0;
+	}
+	.rst-section-maori:after{
+		top: 100%;
+		left: 0;
+		height: 8.974vw;
+		width: 50vw;
+		content:"";
+		background: #7DEA13;
+		position: absolute;
+		z-index: 9;
+	}
+	.rst-section-maori-content {
+		width: 100%;
+		padding-top: 9.231vw;
+		padding-left: 4.103vw;
+		padding-right: 9.487vw;
+		padding-bottom: 0;
+	}
+	.rst-section-maori-content p {
+		font-size: 6.154vw;
+		line-height: 1.1em;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #000000;
+		max-width: 100%;
+		margin: 0 0 4.654vw 0;
+	}
+	.rst-section-maori-name h3 {
+		font-size: 5.128vw;
+
+	}
+	.rst-section-maori-content .box-text {
+		width: 9.351vw;
+		margin-bottom: 6.154vw;
+	}
+	.rst-moa-mones-jewelry-right .plus_green{
+		display: none;
+	}
+	.rst-moa-mones-jewelry-left {
+		width: 64.495vw;
+		margin: 0px auto;
+		border-right: 0px solid #BCBCBC;
+		padding-bottom: 15.385vw;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.rst-moa-mones-jewelry-wrap {
+		border-bottom: 0px solid #BCBCBC;
+	}
+	.rst-moa-mones-jewelry-left img.img-mones-jewelry2 {
+		margin-top: 4.615vw;
+	}
+	.rst-moa-mones-jewelry-right p {
+		font-size: 4.103vw;
+		line-height: 1.5em;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #000000;
+		letter-spacing:0px;
+		margin: 0 0 3vw;
+	}
+	.rst-moa-mones-jewelry-right {
+		width: 83.59vw;
+		margin: 0px auto;
+		position: relative;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	.rst-moa-mones-jewelry {
+		padding-bottom: 22.051vw;
+	}
+	.rst-moa-mones-jewelry-top{
+		display: none;
+	}
+	.rst-section-maori-name span {
+		line-height: 1.2;
+		font-size: 2.564vw;
+		letter-spacing: 0.07em;
+		color: #000;
+		margin-left: 19.744vw;
+	}
+	.rst-section-maori:after{
+		width: 50vw;
+		height: 8.974vw;
+		content:"";
+		position: absolute;
+		top: 100%;
+		left: 0;
+		    background: #7DEA13;
+	}
+	.rst-maori2 {
+		bottom: auto;
+		left: 0;
+		top: 0;
+		position: absolute;
+		width: 100%;
+		display: block;
+		z-index: 9;
+		mix-blend-mode: multiply;
+	}
+	.rst-distribution-habitat:before {
+		width: 53.669vw;
+		height: 14.213vw;
+		content: "";
+		        z-index: 999;
+	}
+	
+	.rst-distribution-habitat:after {
+       
+        z-index: 2;
+    }
+	.rst-distribution-habitat .top-label{
+		position: absolute;
+		left: 0;
+		top: -6.667vw;
+		z-index: 9999;
+	}
+	.rst-distribution-habitat h2 {
+		color: #fff;
+		font-size: 12.308vw;
+		margin-top: 0;
+		padding-top: 6.923vw;
+		margin-bottom: 11.487vw;
+		text-align: center;
+		line-height: 1.1em;
+	}
+	.rst-distribution-habitat .circle-line {
+		width: 8.718vw;
+		position: absolute;
+		left: 0;
+		top: 11.725vw;
+	}
+	.rst-distribution-habitat .circle-line span {
+		width: 3.59vw;
+		height: 3.59vw;
+	}
+	.rst-distribution-habitat-map {
+		width: 100%;
+		margin: 0px auto;
+		position: absolute;
+		z-index: 1;
+		top: 15.464vw;
+		left: 0;
+		right: 0;
+	}
+	.rst-distribution-habitat-center {
+		border-left: 0px solid rgba(0, 0, 0, 0.2);
+		border-right: 0px solid rgba(0, 0, 0, 0.2);
+		width: 100%;
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		padding-bottom: 0;
+		padding-top: 109.487vw;
+		order: 1;
+		position: relative;
+        z-index: 1;
+		padding-bottom: 12.821vw;
+	}
+	.rst-distribution-habitat-one {
+		width: 100%;
+		order: 2;
+		padding-top: 4.421vw;
+		padding-right: 2.917vw;
+		padding-bottom: 0;
+	}
+	.rst-distribution-habitat {
+		padding-bottom:  37.231vw;
+	}
+	.rst-distribution-habitat-center span {
+		display: flex;
+		width: fit-content;
+		height: 3.59vw;
+		line-height: 3.59vw;
+		padding: 0 1.538vw;
+		font-size: 1.795vw;
+		border-radius: 4.5vw;
+		margin-bottom: 4.103vw;
+	}
+	.rst-distribution-habitat-center p {
+		font-size: 4.103vw;
+		margin: 0 0 4.103vw 0;
+	}
+	.rst-distribution-habitat-wrap {
+		
+		width: 91.874vw;
+		position: relative;
+		        flex-direction: column;
+		border-top: 0px solid rgba(120, 0, 0, 0.2);
+		border-left: 1px solid rgba(120, 120, 120, 0.4);
+		border-right: 1px solid rgba(120, 120, 120, 0.4);
+	}
+	.rst-distribution-habitat-wrap:after{
+		top: 0;
+		left: -4.103vw;
+		width: 100vw;
+		position: absolute;
+		background: rgba(120, 120, 120, 0.4);
+		height: 1px;
+		
+		content:"";
+	}
+	.rst-distribution-habitat .rst-square1 {
+		position: absolute;
+		left: 2.564vw;
+		top: 37.949vw;
+		width: 6px;
+	}
+	.rst-distribution-habitat .rst-plus1 {
+		position: absolute;
+		left: 2.564vw;
+		top: 3.846vw;
+		width: 7px;
+	}
+	.rst-distribution-habitat .top-label span {
+		display: inline-block;
+		height: 3.59vw;
+		line-height: 3.59vw;
+		padding: 0 1.026vw;
+		font-size: 2.051vw;
+		margin-left: 5.641vw;
+		display: flex;
+        width: fit-content;
+	}
+	.rst-distribution-habitat .rst-plus2,.rst-distribution-habitat .rst-square2{
+		display: none;
+	}
+	.rst-distribution-habitat-one{
+		border-top: 1px solid rgba(120, 120, 120, 0.4);
+		padding-top: 11.026vw;
+		padding-right: 7.692vw;
+		padding-left: 7.692vw;
+	}
+	.rst-distribution-habitat-location .number {
+		line-height: 1.42em;
+		padding: 0;
+		font-size: 4.723vw;
+		letter-spacing: 0.01em;
+		margin-bottom: 5.385vw;
+	}
+	.rst-distribution-habitat-location-title {
+		padding-top: 2px;
+		padding-bottom: 20px;
+	}
+	.rst-distribution-habitat-location-title span {
+		font-size: 1.795vw;
+		margin-bottom: 1.564vw;
+	}
+	.rst-distribution-habitat-location-title h3 {
+		font-size: 7.033vw;
+	}
+	
+	.rst-distribution-habitat-location-banner {
+		width: 49.054vw;
+		position: relative;
+	}
+	.rst-distribution-habitat-location-map {
+		width: calc(100% - 49.054vw);
+		padding-left: 2.821vw;
+	}
+	.rst-distribution-habitat-location-banner img {
+		width: 100%;
+		border-radius: 1.115vw;
+		
+	}
+	.rst-distribution-habitat-wrap{
+		        padding-bottom: 25.641vw;
+	}
+	.rst-distribution-habitat .rst-bg{
+		z-index: 1;
+	}
+	.rst-distribution-habitat-location-map span {
+		
+		font-size: 1.795vw;
+		
+		margin-bottom: 2.051vw;
+		padding-top: 2px;
+	}
+	.rst-distribution-habitat-location-map img {
+		width: auto;
+		height: 29.487vw;
+		margin: 0px auto;
+		mix-blend-mode: multiply;
+	}
+	.rst-distribution-habitat-location-column span {
+		font-size: 1.795vw;
+		margin-bottom: 1.295vw;
+	}
+	.rst-distribution-habitat-location-column p {
+		font-size: 2.564vw;
+	}
+	.rst-distribution-habitat-location-img {
+	
+		margin-bottom: 5.385vw;
+	}
+	.rst-distribution-habitat-location {
+		margin-bottom: 5.128vw;
+	}
+	.rst-distribution-habitat-location-column.full-100 p {
+		width: 100%;
+	}
+	.rst-distribution-habitat-center + .rst-distribution-habitat-one {
+		        padding-right: 7.692vw;
+        padding-left: 7.692vw;
+		border-top: none;
+	}
+	.rst-distribution-habitat-center:after{
+		top: 98vw;
+		left: 0;
+		width: 100%;
+		position: absolute;
+		background: rgba(120, 120, 120, 0.4);
+		height: 1px;
+		
+		content:"";
+	}
+	.rst-distribution-habitat-wrap:before{
+		top: 0;
+		left: 50%;
+		width: 1px;
+		position: absolute;
+		background: rgba(120, 120, 120, 0.4);
+		height: 332.969vw;
+		
+		content:"";
+	}
+	
+	.rst-modern-mothers {
+		position: relative;
+		margin-top: -30.769vw;
+		padding-left: 2.564vw;
+		padding-right: 2.564vw;
+	}
+	.rst-modern-mothers-title {
+		
+		padding: 0 0 0 9vw;
+	}
+	.rst-modern-mothers-title span {
+		line-height: 1em;
+		margin-bottom: 1.538vw;
+	}
+	.rst-modern-mothers-title h2 {
+		font-size: 9.744vw;
+		line-height: 1.079em;
+	}
+	.rst-modern-mothers-content{
+		background: #1A2020;
+		padding-top: 8.994vw;
+		padding-bottom: 37.692vw;
+		padding-left: 8.462vw;
+		padding-right: 8.462vw;
+		position: relative;
+		width: 91.933vw;
+		margin: 0px auto;
+		margin-top: -4.615vw;
+	}
+	.rst-modern-mothers-content span{
+		line-height: 1em;
+		        display: block;
+		padding: 0;
+		font-size: 1.903vw;
+		letter-spacing: -0.08em;
+		font-family: 'NB Architekt Light';
+		font-weight: 300;
+		color: #fff;
+		width: 100%;
+		text-align: left;
+		margin-bottom: 2.564vw;
+	}
+	.rst-modern-mothers-content p{
+		font-size: 3.59vw;
+		text-transform: uppercase;
+		line-height: 1.23;
+		margin: 0;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #fff;
+		z-index: 1;
+		width: 100%;
+		        position: static;
+	}
+	.rst-paul-scofield-img {
+		width: 49%;
+	}
+	.rst-paul-scofield-img img {
+		width: 100%;
+		margin-top: -26.923vw;
+	}
+	.rst-paul-scofield-content {
+		width: 100%;
+		padding-left: 4.103vw;
+		padding-right: 7.128vw;
+		padding-top: 9.231vw;
+		padding-bottom: 15.128vw;
+	}
+	.rst-paul-scofield .rst-plus {
+		position: absolute;
+		right: auto;
+		left: 3.846vw;
+		top: auto;
+		bottom: 8.974vw;
+		width: 7px;
+	}
+	.rst-paul-scofield .rst-square {
+		position: absolute;
+		right: 3.333vw;
+		width: 6px;
+		bottom: auto;
+		top: 6.667vw;
+	}
+	.rst-paul-scofield-wrap {
+		flex-direction: column;
+	}
+	.rst-paul-scofield:after{
+		display: none;
+	}
+	.modern-mothers-icon{
+		width: 20.782vw;
+		position: absolute;
+		right: 4.103vw;
+		bottom: 5.641vw;
+		display: block;
+	}
+	.rst-paul-scofield-content p {
+		font-size: 4.103vw;
+		line-height: 1.7em;
+		letter-spacing: 0.1em;
+		margin-bottom: 5.154vw;
+	}
+	.rst-paul-scofield-content div{
+		display: flex;
+		justify-content: space-between;
+	}
+	.rst-paul-scofield-content h3 {
+		font-size: 5.128vw;
+		line-height: 1em;
+		width: 41.538vw;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
+	.rst-paul-scofield-content span {
+		width: 42.308vw;
+		font-size: 2.564vw;
+		line-height: 1.4em;
+	}
+	.rst-out-partner-inner > span {
+		height: 3.59vw;
+		line-height: 3.59vw;
+		font-size: 1.985vw;
+		letter-spacing: 0em;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000000;
+		display: flex;
+		padding: 0 2.018vw;
+		width: fit-content;
+		margin-bottom: 8.205vw;
+		margin-left: 0;
+	}
+	.rst-out-partner {
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		padding-top: 7.949vw;
+		padding-bottom: 13.033vw;
+	}
+	.rst-out-partner-top {
+		font-size: 6.154vw;
+		line-height: 1.04166666em;
+		letter-spacing: 0em;
+		margin: 0;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #000;
+		padding-bottom: 8.974vw;
+		border-bottom: 1px solid rgba(162, 162, 162, 0.5);
+	}
+	.rst-out-partner-bottom-heading {
+		margin-bottom: 8.462vw;
+	}
+	.rst-out-partner-bottom-heading a {
+		border-radius: 2.954vw;
+		height: 4.359vw;
+		font-size: 2.051vw;
+		line-height: 1;
+		padding-left: 1.795vw;
+		padding-right: 1.795vw;
+		margin-top: 0px;
+	}
+	.rst-out-partner-bottom-heading a svg {
+		display: block;
+		margin-left: 2px;
+		width: 5px;
+		height: auto;
+	}
+	.rst-out-partner-bottom {
+		
+		padding-top: 2.564vw;
+		padding-bottom: 0;
+		border-bottom: 0px solid rgba(162, 162, 162, 0.5);
+		align-items: flex-end;
+		flex-direction: column;
+	}
+	.rst-out-partner-bottom-right p {
+		font-size: 3.077vw;
+		line-height: 1.3em;
+		color: #636363;
+	}
+	.rst-out-partner-bottom-right > img{
+		width: 34.651vw;
+		margin-bottom: 2.564vw;
+	}
+	.rst-out-partner-bottom-heading h3 {
+		font-size: 5.128vw;
+		
+	}
+	.rst-out-partner-bottom-left{
+		display: none;
+	}
+	.rst-out-partner-bottom-right {
+		width: 100%;
+	}
+	.rst-3d-footprints-title .mouse{
+		display: none;
+	}
+	.rst-3d-footprints {
+		background: #F6F6F6;
+		padding-top: 0;
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+	}
+	.rst-3d-footprints-title {
+		width: 100%;
+		margin: 0px auto;
+		margin-bottom: 5.092vw;
+		flex-direction: column;
+	}
+	.rst-3d-footprints {
+		padding-bottom: 15.897vw;
+	}	
+	.rst-3d-footprints:after {
+		width: 53.59vw;
+		height: 11.538vw;
+		
+	}
+	.rst-3d-footprints-detail {
+		width: 100%;
+		margin: 0px auto;
+		display: flex;
+		        flex-direction: column;
+	}
+	.rst-3d-footprints-detail-text p {
+		font-size: 3.464vw;
+		line-height: 1.4em;
+		letter-spacing: 0em;
+		margin:  0;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #000;
+	}
+	.rst-3d-footprints-detail-3d{
+		margin-top: 10.256vw;
+	}
+	.rst-3d-footprints-detail-text {
+		width: 100%;
+		border-top: 1px solid #000000;
+		padding-top: 7px;
+		margin-top: 1.944vw;
+	}
+	
+	.rst-3d-footprints-detail-3d {
+		width: 100%;
+		padding-left: 0vw;
+		padding-right: 0vw;
+	}
+	.rst-3d-footprints-sub span {
+		font-size: 2.051vw;
+		line-height: 1em;
+		letter-spacing: 0.1em;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000000;
+		padding: 0 2.564vw;
+		display: inline-block;
+		position: relative;
+	}
+	.rst-3d-footprints-sub-container {
+		padding-right: 0px;
+		position: relative;
+		width: 100%;
+		margin: 0px auto;
+		margin-bottom: 8.205vw;
+	}
+	.rst-3d-footprints-title img {
+		margin-top: 0px;
+		width: 100%;
+		filter: none;
+		opacity: 1;
+		margin-right: 0vw;
+	}
+	.rst-3d-footprints-title h2 {
+		font-size: 11.282vw;
+		line-height: 1em;
+		letter-spacing: -0.03em;
+		margin-top: 7.692vw;
+	}
+	.rst-3d-footprints-detail-text span {
+		font-size: 2.308vw;
+		line-height: 1em;
+		letter-spacing: 0.07em;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000000;
+		display: block;
+		margin-bottom: 0;
+	}	
+	.rst-3d-footprints-detail-text-heading{
+		margin-bottom: 4.872vw;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.rst-3d-footprints-detail-text-heading a{
+		font-size: 2.308vw;
+		line-height: 1em;
+		letter-spacing: 0.07em;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #A8A8A8 !important;
+		display: block;
+		margin-bottom: 0;
+		text-decoration: none !important;
+	}
+	.rst-our-process > h3 {
+		line-height: 1.1111111em;
+		padding: 0;
+		font-size: 4.615vw;
+
+		width: 71.795vw;
+		text-align: center;
+		margin-bottom: 12.821vw;
+		
+	}
+	.rst-our-process-title h2 {
+		margin-bottom: 0;
+	}
+	.rst-our-process {
+		background: url(https://colossal.com/wp-content/themes/colossal/img/moa/mb/process_bg.jpg) no-repeat top center;
+		padding-top: 11.538vw;
+		background-size: cover;
+	}
+	.rst-item-process {
+		position: relative;
+		padding-top: 0;
+		padding-left: 7.179vw;
+		width: 56.41vw;
+		margin-bottom: 6.41vw;
+		z-index: 9;
+	}
+	.rst-item-process.rst-item-process1, .rst-item-process.rst-item-process2 {
+		margin-left: 39.3vw;
+	}	
+	.rst-item-process.rst-item-process3, .rst-item-process.rst-item-process4 {
+		margin-left: 4.681vw;
+		    width: 54vw;
+	}
+	.process_img3 {
+		position: absolute;
+		top: 124.792vw;
+		
+	}
+	.rst-list-process .number.number3 {
+		top: 116.667vw;
+		left: 0;
+	}
+	.process_img1 {
+		position: absolute;
+		top: 5.333vw;
+		left: 0;
+		width: 40.756vw;
+		z-index: 1;
+	}
+	.process_img2 {
+		position: absolute;
+		top: 60.692vw;
+		right: 0;
+		width: 52.5vw;
+		z-index: 1;
+	}
+	.rst-item-process.rst-item-process4 {
+		margin-bottom: 10vw;
+	}
+	
+	.rst-item-process-end .rst-item-process-end-text2 {
+		
+		margin-top: -5px;
+		margin-left: 10vw;
+	}
+	.rst-item-process.rst-item-process2 {
+		margin-bottom: 2.308vw;
+	}
+	.end-process {
+		margin-top: -10px;
+	}
+	.rst-item-process.rst-item-process3 {
+		margin-bottom: 3.25vw;
+	}
+	.rst-item-process.rst-item-process6 {
+		margin-bottom: 10.444vw;
+	}
+	.rst-item-process ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-left: 0;
+		padding-bottom: 0 !important;
+		border-bottom: 0px solid #fff;
+	}
+	.rst-item-process-end {
+		margin-left: 3.077vw;
+		padding-left: 21.538vw;
+		padding-top: 4.103vw;
+	}
+	.rst-item-process.rst-item-process5, .rst-item-process.rst-item-process6 {
+		margin-left: 42.875vw;
+		    width: 51vw;
+	}
+	.rst-item-process h3 {
+		font-size: 2.564vw;
+		line-height: 1.1em;
+		margin-bottom: 1.282vw;
+	}
+	.rst-item-process-end > span {
+		font-size: 3.077vw;
+		line-height: 1.1em;
+		position: absolute;
+		top: -2.5vw;
+		left: 22.444vw;
+	}
+	.rst-item-process.rst-item-process2 h3{
+		margin-right: -10px;
+		
+	}
+	.rst-item-process span {
+		width: 5.128vw;
+		height: 5.128vw;
+		font-size: 2.821vw;
+	}	
+	.line-process {
+		width: 38.815vw;
+		display: block;
+		position: absolute;
+		top: 1.538vw;
+		left: 6.923vw;
+	}
+	.rst-item-process ul li:before {
+		width: 2px;
+		height: 2px;
+	}
+	.rst-item-process ul li {
+		padding-left: 1.538vw;
+		font-size: 1.795vw;
+		line-height: 1.1em;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #fff;
+		letter-spacing: 0em;
+		margin: 0 0 1.282vw 0;
+		position: relative;
+	}
+	.rst-item-process ul:after{
+		display: none;
+	}
+	.rst-sudden-vanishing-top {
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		display: flex
+	;
+		flex-direction: column;
+	} 
+	.rst-sudden-vanishing {
+		position: relative;
+		padding-bottom: 20.108vw;
+	}
+	.rst-sudden-vanishing-bottom {
+		display: flex
+	;
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		margin-top: 2.778vw;
+		flex-direction: column;
+	}
+	.rst-sudden-vanishing-top-left {
+		width:100%;
+		padding-right: 0vw;
+		padding-top: 7.21vw;
+	}
+	.rst-sudden-vanishing-top-left .label-top.show-mb{
+		display: flex !important;
+		justify-content: space-between;
+		align-items: center;
+		    margin-bottom: 8.462vw;
+	}
+	.rst-sudden-vanishing-top-left .label-top div{
+		background: none !important;
+		width: auto !important;
+		height: auto !important;
+		font-size: 2.608vw	;
+		line-height: 1em;
+		letter-spacing: 0.46px;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000000;
+	}
+	.rst-sudden-vanishing-top-left .label-top p {
+		font-size: 2.608vw;
+		letter-spacing: 1.51px;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000;
+		line-height: 1;
+		margin: 0;
+	}
+	.rst-sudden-vanishing-top-left > span{
+		display: flex;
+		width: fit-content;
+		height: 8.833vw;
+		line-height:8.833vw;
+		border: 1px solid #FF6B00;
+		padding: 0 1.795vw;
+		font-size: 3.723vw;
+		letter-spacing: 0.02em;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #FF6B00;
+		margin-right: 0;
+		margin-bottom: 9.487vw;
+	}
+	.rst-sudden-vanishing-top-left h2 {
+		color: #000000;
+		font-size: 14.359vw;
+		line-height: 1.11em;
+		letter-spacing: 0em;
+		font-family: 'NB Architekt Light';
+		font-weight: 300;
+		margin: 0 0 6.154vw 0;
+	}
+	.rst-sudden-vanishing-top-right {
+		width: 100%;
+	}
+	.rst-sudden-vanishing-top-right p {
+		font-size: 6.154vw;
+		line-height: 1.1em;
+		letter-spacing: -0.01em;
+		margin: 0;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #A7A7A7;
+		padding-left: 0;
+	}
+	.rst-sudden-vanishing-bottom h4 {
+		font-size: 4.103vw;
+		line-height: 1.4em;
+		letter-spacing: 0em;
+		margin: 0;
+		font-family: 'Telegraf Bold';
+		font-weight: 700;
+		color: #000000;
+		margin: 0 0 4.103vw 0;
+		text-transform: uppercase;
+	}
+	.rst-sudden-vanishing-bottom p {
+		font-size: 4.103vw;
+		line-height: 1.4em;
+		letter-spacing: 0em;
+		margin: 0 0 4.403vw 0;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #373737;
+	}
+	.rst-sudden-vanishing-bottom span{
+		display: none;
+	}
+	.rst-sudden-vanishing-top-left-img {
+		padding-left: 0px;
+	}
+	.rst-sudden-vanishing-bottom-colum1 {
+		width: 100%;
+		padding-right: 0;
+	}
+	.rst-sudden-vanishing-bottom-colum3 {
+		width: 100%;
+		margin-top: 4.403vw;
+	}
+	.rst-sudden-vanishing-bottom-colum2 {
+		padding-right: 0vw;
+		width: 100%;
+	}
+	.rst-sudden-vanishing-bottom{
+		margin-top: 6.154vw;
+	}
+	.rst-sudden-vanishing-top-right-circle {
+		margin-top: 6.154vw;
+		margin-bottom: 6.154vw;
+	}
+	.rst-sudden-vanishing-top-right-circle span {
+		width: 5.815vw;
+		height: 5.815vw;
+	}
+	.rst-sudden-vanishing-top-right-circle span:after {
+		content: "";
+		width: 1.99vw;
+		height: 1.99vw;
+		border-radius: 50%;
+		background: #91ED0D;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -1.026vw;
+		margin-top: -1.026vw;
+	}
+	.rst-sudden-vanishing-top-right-circle:after {
+		width: calc(100% - 5.815vw);
+		left: 5.815vw;
+	}
+	.rst-sudden-vanishing-top-right{
+		padding-top: 6.154vw;
+	}
+	.rst-ecological-impact {
+		background: #FF6B00;
+		position: relative;
+		padding-top: 19.487vw;
+		padding-bottom: 30.115vw;
+	}
+	.rst-ecological-impact:before{
+		width: 46.41vw;
+		height: 14.103vw;
+		content:"";
+		position: absolute;
+		right: 0;
+		top: 0;
+		
+		background: #fff;
+	}
+	.rst-ecological-impact > span{
+		display: flex;
+		height: 3.59vw;
+		line-height: 3.59vw;
+		border: 1px solid #fff;
+		padding: 0 1.282vw;
+		font-size: 2.051vw;
+		letter-spacing: 0.02em;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #fff;
+		width: fit-content;
+		margin-bottom: 4.615vw;
+		margin-left: 4.103vw;
+	}
+	.rst-ecological-impact h2 {
+		color: #fff;
+		font-size: 16.154vw;
+		line-height: 0.9em;
+		letter-spacing: 0em;
+		font-family: 'NB Architekt Light';
+		font-weight: 300;
+		margin: 0 0 92.308vw 3.333vw;
+		text-align: left;
+		position: static;
+		left: 0;
+		top: 0;
+	}
+	.rst-ecological-impact .bird-eating {
+		position: absolute;
+		top: 43vw;
+		left: 0%;
+		width: 100%;
+	}
+	.rst-ecological-impact .content p {
+		font-size: 3.59vw;
+		line-height: 1.4;
+		margin: 0 0 5.154vw 0;
+		color: #fff;
+		font-family: 'Telegraf';
+		font-weight: 400;
+	}
+	.rst-ecological-impact .content p.large {
+		font-size: 5.128vw;
+		text-transform: uppercase;
+		margin-bottom: 5.154vw;
+		line-height: 1.1em;
+	}
+	.rst-ecological-impact .content {
+		position: static;
+		right: 0;
+		color: #FFF;
+		width: 83.59vw;
+		top: 0;
+		margin: 0px auto;
+	}
+	.rst-ecological-impact h2 span {
+		padding-left: 0%;
+	}
+	.bird-eating1{
+		position: absolute;
+		left: 0;
+		width: 54.359vw;
+		left:6.41vw;
+		top: -5.128vw;
+	}
+	.bird-eating2{
+		position: absolute;
+		width: 39.487vw;
+		right:0;
+		top: 0;
+	}
+	.bird-eating3{
+		position: absolute;
+		width: 38.462vw;
+		left:3.077vw;
+		top: 54.359vw;
+	}
+	.bird-eating4{
+		position: absolute;
+		width: 63.077vw;
+		left: 14.615vw;
+		top: 113.846vw;
+	}
+	.bird-eating5{
+		position: absolute;
+		width: 56.41vw;
+		bottom: -21px;
+		right: 0;
+	}
+	.field-lab-icon{
+		display: none !important;
+	}
+	.bird-eating6{
+		position: absolute;
+		width: 56.41vw;
+		bottom: -17.179vw;
+		left: 8.462vw;
+		z-index: 2;
+	}
+	.rst-field-lab h2{
+		width: 100%;
+		color: #fff;
+		font-size: 18.462vw;
+		line-height: 1.2em;
+		letter-spacing: 0em;
+		font-family: 'NB Architekt Light';
+		font-weight: 300;
+		margin: 0;
+		position: relative;
+		left: 3.077vw;
+		top: auto;
+	}
+	.field-lab1 {
+		width: 72.821vw;
+		position: absolute;
+		left: 0;
+		top: 32.564vw;
+	}
+	.rst-field-lab-sub {
+		display: flex
+	;
+		align-items: center;
+		gap: 2.708vw;
+		width: 100%;
+		justify-content: space-between;
+		margin-left: 0;
+		margin-bottom: 0;
+		position: absolute;
+		top: 12.051vw;
+		left: 0;
+		padding-left: 3.077vw;
+		padding-right: 3.077vw;
+		
+	}
+	.rst-field-lab-sub span {
+		display: inline-block;
+		width: 14.872vw;
+		height: 2.821vw;
+		line-height: 2.821vw;
+		border: 1px solid #fff;
+		padding: 0;
+		font-size: 1.538vw;
+		letter-spacing: 0.2px;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #fff;
+		margin-right: 0;
+		text-align: center;
+	}
+	.rst-field-lab {
+		position: relative;
+		background: url(https://colossal.com/wp-content/themes/colossal/img/moa/mb/field-lab-bg.jpg) no-repeat top center;
+		background-size: 100%;
+		background-color: #000;
+		padding-top: 23.333vw;
+		padding-bottom: 20.513vw;
+	}
+	.visua_science-box {
+		display: flex !important;
+		align-items: center;
+		justify-content: space-between;
+		opacity: 0.5;
+		        width: 100%;
+	}
+	.rst-3d-footprints-detail-text-content{
+		/* height: 95px; */
+		overflow: hidden;
+	}
+	.rst-3d-footprints-detail-text-content.show{
+		height: auto;
+	}
+	.visua_science-box img{
+		width: 38.205vw;
+		display: block;
+	}
+	.visua_science-box span{
+		font-size: 1.282vw;
+		line-height: 1em;
+		letter-spacing: 0.15em;
+		font-family: 'NB Architekt Std';
+		font-weight: 400;
+		color: #000;
+		display: block;
+	}
+	.visua_science-box img{
+		
+	}
+	.rst-field-lab-sub-mb{
+		display: block;
+	}
+	.rst-field-lab-sub div{
+		display: none;
+	}
+	.rst-field-lab-content div {
+		width: 100%;
+	}
+	.rst-field-lab-content {
+		padding-left: 4.103vw;
+		padding-right: 4.103vw;
+		width: 100%;
+		padding-top: 10.256vw;
+	}
+	.rst-field-lab-content p {
+		width: 100%;
+		font-size: 6.154vw;
+		line-height: 1.1em;
+		letter-spacing: 0em;
+		margin: 0 0 10.256vw 0;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #fff;
+	}
+	.rst-field-lab-content div > img {
+		width: 77.236vw;
+		margin: 0px auto;
+		display: block;
+	}
+	.field-lab2 {
+		width: 69.169vw !important;
+		margin: 0px auto;
+		position: relative;
+		left: 0;
+		top: 0;
+		border: 1px solid #7DEA13;
+		padding: 3.077vw 3.333vw;
+		margin-top: -6.154vw;
+	}
+	.rst-field-lab-bottom {
+		flex-direction: column;
+		margin-top: 8.974vw;
+	}
+	.rst-field-lab-bottom > span {
+		line-height: 1.6em;
+		margin: 0;
+		font-size: 3.077vw;
+		width: 50.256vw;
+		margin: 0px auto;
+		text-align: center;
+	
+	}
+	.rst-sudden-vanishing-top-right p:last-child{
+		padding-right: 13px;
+	}
+	.rst-field-lab-bottom a {
+	
+		border-radius: 13.185vw;
+		font-size: 4.103vw;
+		line-height: 0.875;
+		letter-spacing: -0.23px;
+		margin: 0;
+		font-family: 'Telegraf';
+		font-weight: 400;
+		color: #fff;
+		padding: 0 7.179vw 0 9.487vw;
+		width: 61.069vw;
+		text-decoration: none !important;
+		height: 16.713vw;
+		margin-top: 10.256vw;
+	}
+	.rst-field-lab-bottom a svg{
+		width: 13px;
+		height: 13px;
+	}
+
+	#quote-1 {background: #ff6b00; }
+	#quote-1 .quote-1 {position: relative; right: auto; top: auto; width: 100%;}
+	#quote-1 .text {position: static; width: 100%; padding: 4vw 8vw 8vw}
+	#quote-1 .bg {display: none;}
+	#quote-1 .quote {font-size: 4vw;}
+	#quote-1 .author h3 {font-size: 4.5vw;}
+	#quote-1 .author span {font-size: 2.5vw;}
+	#quote-1 .quote {margin: 8vw 0}
+
+	.rst-section-maori .bg {position: absolute; top: 0;}
+	.rst-section-maori .img-container {z-index: 5; position: relative; z-index: 2 ; width: 60%; left: -5vw; margin-top: -8vw}
+	.rst-section-maori .img-container h3 {position: absolute; left: 104%; font-size: 6vw; color: #000; width: 70%; top: 15vw}
+	.rst-section-maori .img-container span {position: absolute; left: 104%; font-size: 4vw; color: #000; width: 70%; top: 35vw}
+	.rst-section-maori .text {position: relative; width: 100%; z-index: 2; padding: 0 5vw 0; left: 0; }
+	.rst-section-maori .text img {width: 200%; max-width: none; margin-bottom: 5vw}
+	.rst-section-maori { background: #7bea13; padding-top: 1px}
+
+	.rst-3d-footprints-detail-3d iframe {height: 70vw}
+	.rst-section-mao-culture {padding-bottom: 25vw}
+}

@@ -1,0 +1,465 @@
+.head {margin-top: 7%; margin-bottom: 25%;}
+.head .box {width: 100%; display: block; text-align: center; white-space: nowrap;}
+.head .slashes {width: 100%;}
+.head .arkitect {display: inline-block; white-space: nowrap;}
+
+#hero {overflow: hidden;}
+#hero h1 {color: #FFF; line-height: 1.2em; font-size: clamp(10px,1.8vw,36px); letter-spacing: 0.1vw; top: 44%; text-align: left; left:clamp(10px, 4vw,80px);}
+#hero .logo {position: absolute; width: 92%; bottom: clamp(-30px,1.5vw,30px); right: 2%;  mix-blend-mode: difference;}
+#hero .logo img {width: 100%; filter: invert(100%);}
+#hero .subhead {position: absolute; top:45%; left: 40%; color: #FFF; font-size: clamp(10px,1vw,20px); white-space: nowrap;}
+#hero .subhead .slashes {width: 55%;  margin-left: 4%; vertical-align: text-top; margin-top: 0.5%;}
+#hero video {position: absolute; left: 0; top: 0; width: 100%; height: 100vh; object-fit: cover;}
+/*#hero .bg {position: fixed;}*/
+#hero #parallax1 > div{position: relative; height: 100vh;}
+#hero .circles {width: clamp(-36px,1.5vw,30px)}
+
+
+#section-1 {padding:6vw 0 20%; background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(239,122,55,1) 100%); position: relative; overflow: hidden}
+#section-1 .disc.a {left:clamp(10px,1.7vw,34px); top: clamp(10px,2vw,40px); position: absolute;}
+#section-1 .square.a {top:8%; left: clamp(10px,3vw,60px) ;}
+#section-1 .plus.a {top: 12%; left: clamp(10px,2.8vw,56px);}
+#section-1 .plus.b {top: 0; left: clamp(-40px,-4vw,10px);}
+
+#section-1 .logo {position: relative; z-index: 5; width: 30%; margin-bottom: 27%; margin-top:7%;}
+#section-1 .circle-mark {position: absolute; left: 0%; top: -35%; width: 115%; max-width: 120%;}
+#section-1 h2 {position: relative; z-index: 5; font-size: clamp(10px,5.8vw,125px);}
+#section-1 h3 {margin-bottom: 2%; font-family: 'Telegraf'; font-size: clamp(10px,3.3vw,80px); text-transform: uppercase; line-height: 1;}
+#section-1 p {font-size: clamp(10px,1.1vw,20px); font-family: 'Telegraf';}
+#section-1 p.strong {font-size: 1; }
+#section-1 .banner {max-width: 200%; width: 110%;}
+#section-1 .head {margin-bottom: 15%;}
+#section-1 .vline {width: 1px; background: #000; position: absolute; right: 0; height: 100%; bottom: 0;}
+#section-1 .right .inside {padding: 0 6%;}
+#section-1 .disc.b {position: absolute; left:calc(100% - clamp(10px,1.5vw,30px)); top: clamp(-16px,-0.8vw,1px); background: #FFF;}
+#section-1 .adjuster {position: relative; left: -13%;}
+
+
+
+
+
+#section-2 {background: #FFF; padding:clamp(10px,4vw,80px) 0; position: relative; overflow-x:hidden;}
+#section-2 .square.a {left: clamp(5px,-4.5vw,50px); top: 30%}
+#section-2 .square.c {left: clamp(-70px,-4.5vw,10px); top: 30%;}
+#section-2 .plus.a {left: clamp(-70px,-4.5vw,10px); top:-0.5vw;}
+#section-2 .plus.b {left:clamp(-70px,-4.5vw,10px); top: 0;}
+#section-2 .plus.c {right: 15px; left: auto; top: 0; position: static;}
+#section-2 .plus.d {right: 100%; top: 0; position: static; float: right;}
+#section-2 .container-fluid {position: relative;}
+#section-2 .head {font-family: 'Telegraf Light'; font-size: clamp(10px,1vw,20px); margin-bottom: 5%; position: relative;}
+#section-2  h2 {font-family: 'Telegraf'; font-size: clamp(10px,4.8vw,96px); margin-bottom: 3.2%;}
+#section-2 h4 {position: relative; font-family: 'Telegraf'; text-transform: uppercase; font-size: clamp(10px,2.3vw,50px);}
+#section-2 .big-button {padding-top: 10%; padding-bottom: 10%;}
+#section-2 p {font-size: clamp(10px,1vw,20px); color: #222; padding-top: 5%;}
+#section-2 p.large {font-size: clamp(10px,2.9vw,55px);}
+#section-2 p.constrained {max-width: clamp(10px,21vw,420px);}
+#section-2 .big-button {padding: 7% 20% 7% 10%; margin-left: -10%;}
+
+
+
+#section-3 {background: #f1f1f1;  overflow: hidden; padding-bottom: clamp(10px,5vw,100px);}
+#section-3 .container-fluid {position: relative; z-index: 4;}
+#section-3 .bg {position: absolute; width: 100%; height: 100%; left: 0; top:0;}
+#section-3 .mammoth {position: absolute; left: 0; width: 45%;}
+#section-3 .title {font-family: 'NB Architekt Light'; color: #FFF; font-size: clamp(10px,10vw,200px); white-space: nowrap; line-height: 2em; margin-top: -15%;}
+#section-3 .adjuster {}
+#section-3 .adjuster p {margin-top: 100%;}
+#section-3 .subhead {margin-bottom: 20%; color: #FFF; font-size: clamp(10px,2vw,40px);}
+#section-3 p {color: #FFF; font-size: clamp(10px,1vw,20px); margin-bottom: 20%;}
+#section-3 .big-button {padding: 7% 20% 7% 10%;}
+
+
+
+#purple-gradient {background: linear-gradient(180deg, rgba(255,255,255,1) 0%, #c167f4 50%); ;}
+
+#thinking .head {margin-bottom: 5%;}
+#thinking .square.a {left: clamp(-70px,-4.5vw,10px); top: 30%;}
+#thinking .plus.a {left: clamp(-80px,-5.2vw,10px); top: -0.5vw;}
+#thinking h2 {font-family: 'NB Architekt Std'; font-size: clamp(10px, 5.32vw,106px); white-space: nowrap;}
+#thinking .item {display: block; padding: clamp(10px,2vw,40px); color: #FFF; position: relative; background-size: cover; background-color: #222;}
+#thinking .item .dot {width: clamp(10px,2vw,30px); height: clamp(10px,2vw,30px); top: clamp(-15px,-1vw,20px); right:  clamp(-15px,-1vw,20px); display: none;}
+#thinking .item .title {font-size: clamp(10px,1.8vw,36px); margin: clamp(5px,15vw,290px) 0 0; height: clamp(5px,5vw,100px); display: block; line-height: 1.2;}
+#thinking .item .slashes {height: 10px; object-fit: cover;}
+#thinking .item p {text-transform: uppercase; margin-bottom: 30%; font-size: clamp(10px,2.1vw,40px); display: none;}
+#thinking .item .more {font-size: clamp(10px,1.3vw,26px); text-transform: uppercase; font-family: 'NB Architekt Std';}
+#thinking .item .qr {width: clamp(10px,2.4vw,48px);}
+#thinking .item.featured p {display: block;}
+#thinking .item.featured .title {font-size: clamp(10px,2.8vw,50px); margin: clamp(10px,5vw,100px) 0 clamp(10px,8vw,160px);}
+#thinking .item.featured .dot {display: block;}
+#thinking .item:hover {transform:scale(1.02);}
+#thinking .controls {margin-top: clamp(-460px,-23vw,1px); height: clamp(10px,23vw,460px); position: relative;}
+#thinking .controls .circles {position: absolute; left: 55%; width: 3%; bottom: 0;}
+#thinking .controls p {line-height: 1; color: #575757; font-size: clamp(10px,1vw,20px); position: absolute; right: 0; text-align: right; top: 11%;}
+#thinking .square.b {bottom: 20%; left: 15px;}
+#thinking .plus.b {bottom: 0; left: 15px;}
+
+
+
+#section-4 {color: #FFF; background-size: cover; padding-bottom: clamp(10px,15vw,300px);}
+#section-4 .square.a {left: calc(-4.5vw + 15px); top: 40%}
+#section-4 .plus.a {left: -4.5vw; top:-0.6vw;}
+#section-4 .plus.b {left:-4.5vw; top: 3vw;}
+#section-4 .head {margin-bottom: 12%;}
+#section-4 .leaf {position: absolute; width: 45%; right: 0; top:-3%;}
+#section-4 h2 {font-size: clamp(10px,6vw,120px); white-space: nowrap; line-height: 1.8em; margin: 6% 0 8%; position: relative;}
+#section-4 h4 {margin: 9% 0; font-size: clamp(10px,3vw,60px); font-family: 'NB Architekt Std'; fz}
+#section-4 .slashes.b {width: 70%;}
+#section-4 p {margin: 9% 0; font-size: clamp(10px,1.8vw,32px);}
+#section-4 .outline-image {width: 70%; border: 1px solid #a5ea42; padding: 4% 4% 1%; margin-top: 25%; margin-bottom: 20%;}
+#section-4 .big-button {padding: 10% 20% 10% 10%; text-align: left; width: 100%;}
+
+#section-4 .vline {position: absolute; width: 1px; bottom: 0; background: #222;}
+#section-4 .vline {left: 25%; height:clamp(10px,50vw,1000px); opacity: 0.2;}
+#section-4 .vline.b {left: 50.8%;}
+#section-4 .vline.c {left: 76.3%;}
+
+#section-5 {background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(239,122,55,1) 100%); padding: 0 0 clamp(10px,18vw,360px); position: relative;}
+#section-5 .square.a {margin-top: 9%; left: -4.5vw;}
+#section-5 .plus.a {left: 2.5vw; top: 12vw;}
+#section-5 .plus.b {left: 2.5vw; top: 25vw;}
+#section-5 .plus.c {left: -4.5vw; top: -0.6vw}
+#section-5 .arkitect.a {position: absolute; transform: rotate(90deg); transform-origin: bottom left; left: -5vw; top: -9vw;}
+#section-5 .head {margin-bottom:15%;}
+#section-5 h2 {font-size: clamp(10px,10vw,200px); font-family: 'NB Architekt Std'; margin-bottom: 7vw;}
+#section-5 h4 {font-family: 'Telegraf'; font-size: 4vw; margin-bottom: 2vw;}
+#section-5 .subhead {font-size: 1.8vw; line-height: 1.4;}
+
+
+
+#section-6 {background: url(img/section-6-bg.webp); background-size: cover; color: #FFF; padding: 0 0 clamp(10px,4vw,80px); position: relative;}
+#section-6 .head {color: #000; margin-bottom: 0vw;}
+#section-6 .head p {font-size: clamp(10px, 1.5vw,30px); padding: 0;}
+#section-6 .head .icon-un {width:clamp(10px, 3.5vw,70px); display: block; margin: 0 auto;}
+#section-6 .container-fluid {margin-top: clamp(-400px,-19vw,10px);}
+#section-6 .title {font-size: clamp(10px,16vw,340px); font-family: 'NB Architekt Light'; text-align: center; white-space: nowrap; line-height: 1; margin-bottom: 3vw;}
+#section-6 .text-1 {margin-top: clamp(5px,2vw,40px); margin-bottom: 2vw; font-size: 2.4vw; text-transform: uppercase; line-height: 1;}
+#section-6 .text-2 {font-size: clamp(10px,3vw,60px); font-family: 'NB Architekt Std'; line-height: 1;}
+#section-6 .text-4 {font-size: clamp(10px,4vw,80px); font-family: 'NB Architekt Light'; display: inline-block; line-height: 1;}
+#section-6 .icon {vertical-align: middle; display: inline-block; margin: -1.5vw 0 0 1vw; width: 27%; height: 50%;}
+#section-6 p {font-size: clamp(10px,1vw,20px); padding-top: clamp(10px,1vw,20px);}
+#section-6 .text-3 {font-size: clamp(10px,5vw,100px); font-family: 'NB Architekt Light'; line-height: 1.2; margin: 4vw 0;}
+#section-6 .bg {width: 130%; height: 130%; margin-left: -15%; max-width: 130%;}
+#section-6 .bg-container {position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden;}
+
+
+#section-7 {padding: clamp(10px,4vw,80px) 0; overflow: hidden;}
+#section-7 .title {font-size: clamp(10px,7.5vw,150px); text-transform: uppercase; line-height: 1; margin-bottom: clamp(10px,3vw,60px); position: relative;}
+#section-7 .title span {font-size: clamp(10px,3vw,60px); }
+#section-7 p.intro {font-size: clamp(10px,2.5vw,40px); line-height: 1.2; margin-bottom: clamp(10px,8vw,160px);}
+#section-7 .line-container {position: relative;}
+#section-7 .vline {left: 25%; height: 98.5%; opacity: 0.2;}
+#section-7 .vline.b {left: 50%;}
+#section-7 .vline.c {left: 75%;}
+#section-7 .slashes {position: absolute; right: clamp(10px,3vw,60px); bottom: clamp(10px,3vw,60px); transform: rotate(90deg); transform-origin: bottom right; width: 10.1vw; height: 0.8vw; object-fit: cover;}
+#section-7 .head {margin-bottom: 0;}
+#section-7 .head .disc {position: absolute; left: -30%; top: -60%;}
+#section-7 .head .line {margin-left: -7%;}
+#section-7 .rainforest {margin-top: -60%; right: -17.5%; max-width: 150%; width: 103%; position: relative;}
+#section-7 .img-2 {position: absolute; width: clamp(-500px,25vw,500px); right: clamp(-80px,4vw,80px); bottom:clamp(-100px, -5vw,100px)}
+#section-7 p {font-size: clamp(10px, 1.2vw,24px);}
+#section-7 p.medium {font-size: clamp(10px,1.4vw,28px);}
+#section-7 p.large {font-size: clamp(10px,2.5vw,50px);}
+#section-7 .bubbles {max-width: 200%; width: 110%;}
+#section-7 .square.a {position: absolute; left: 0; top: 27%; left: -4%;}
+#section-7 .square.b {position: absolute; left: 0; top: 4%; left: -7%;}
+#section-7 .plus.a {left: -4%; top: -0.5vw;}
+#section-7 .plus.b {left: -9%; top: 3%; }
+
+
+
+#section-8 {background: url(img/dawn.webp) no-repeat center bottom; background-size: cover; padding: 8vw 0 12vw;}
+#section-8 .logo {width: 14vw;}
+#section-8 h2 {font-size: 8vw; font-family: 'NB Architekt Std'; color: #FFF; line-height: 2; margin: 6vw 0 0;}
+#section-8 .square.a {left: calc(-4.5vw + 15px); top: 40%;}
+#section-8 .square.b {bottom: 7vw; left: 4vw;}
+#section-8 .plus.a {top: 21.5vw; left: 4vw;}
+#section-8 .plus.b {bottom: 6.5vw; left: 14vw;}
+
+
+
+
+#section-9 {background: #000; background-size: 100% 100%; padding-top: 5vw;}
+#press,
+#news {background: transparent;}
+
+#section-9 {position: relative; overflow: hidden;}
+#section-9 .bg {position: absolute; bottom:0%; left: 0; width: 100%; height: 100%}
+#section-9  .bg img {width: 100%; height: 100%; object-fit: cover;}
+
+
+
+
+.stats .v-align {position: absolute; left: 0; top: 0; height: 100%; width: 100%;}
+.stats .graph {width: 100%;}
+.stats .text-1 {font-size: clamp(10px,1.7vw,34px); color: #000;}
+.stats .inside {display: inline-block;}
+.stats .stat {font-family: 'NB Architekt Std'; font-size: clamp(10px,3vw,80px); border-bottom: 1px solid #000; margin-bottom: 1vw;}
+.stats p {font-size: 1vw; margin-bottom: 0;}
+.stats sup {position: absolute; font-size: 1vw;}
+.stats .stat-icons {width: 5vw;}
+.stats .text-2 {font-size: clamp(10px,8vw,160px); font-family: 'NB Architekt Std';}
+.stats .text-3 {font-size: clamp(10px,3.5vw,70px); line-height: 1;}
+
+
+
+
+#conservation-partners {background: #000; padding: clamp(-400px,20vw,400px) 0 clamp(-80px,4vw,80px); color: #FFF; position: relative;}
+#conservation-partners .rhino {position: absolute; width: 70vw; right: clamp(-140px,7vw,140px); top: clamp(-200px,-10vw,200px);}
+#conservation-partners .head {text-transform: uppercase; margin: 0 0 clamp(-160px,8vw,160px); position: relative;}
+#conservation-partners h2 {font-size: clamp(-200px,10vw,200px);  line-height: 1; font-family: 'NB Architekt Std'; margin-bottom: clamp(-100px,5vw,100px);}
+#conservation-partners .disc {position: absolute; left: clamp(-86px,-4.3vw,86px); top: clamp(-18px,-0.9vw,18px);}
+#conservation-partners .affiliates {text-align: center;}
+#conservation-partners .affiliates img {display: inline-block; margin: clamp(-30px,1.5vw,30px) 0; max-width: 100%; max-height: clamp(-60px,3vw,60px);}
+#conservation-partners .affiliates .extra-height {max-height:5vw}
+#conservation-partners .large {font-size: clamp(-48px,2.4vw,48px);}
+#conservation-partners .plus.a {left: clamp(-100px,5vw,100px); bottom: clamp(-100px,5vw,100px); position: absolute;}
+#conservation-partners .plus.b {right: clamp(-80px,4vw,80px); bottom: clamp(-100px,5vw,100px); position: absolute;}
+#conservation-partners .plus.c {right: clamp(-80px,4vw,80px); top: clamp(-1080px,54vw,1080px); position: absolute;}
+
+.science-images img {width: 100%;}
+/*.science-images .img-1 {margin-left: clamp(-100px,-5vw,100px); width: calc(100% + clamp(-100px,5vw,100px)); max-width: none;}
+.science-images .img-2 {margin-top: clamp(-200px,-10vw,200px);}
+.science-images .img-3 {max-width: none; width: calc(100% + clamp(-200px,10vw,200px)); float: right; margin-top: clamp(-260px,-13vw,260px);}
+.science-images .img-5 {width: clamp(-600px,30vw,600px); margin-left: clamp(-40px,2vw,40px);}*/
+.science-images .img-1 {max-width: 97%}
+.science-images .img-2 {max-width: 85%}
+.science-images .img-3 {max-width: 93%}
+.science-images .img-4 {max-width: 120%; width: 120%}
+.science-images .square.dark {bottom: 0; right: 0;}
+.science-images {text-transform: uppercase; color: #838383}
+.science-images .plus.b {position: static; margin-bottom: clamp(-20px,1vw,20px)}
+
+
+
+
+
+#quote-slider {position: relative; padding: clamp(-80px,4vw,80px) 0; background: #f1f1f1; overflow-x: hidden;}
+#quote-slider h2 {font-family: Telegraf; text-transform: uppercase; font-size: clamp(-60px,3vw,60px); position: relative;}
+#quote-slider h2 .square {left: clamp(-60px,-3vw,60px); top: 20%}
+#quote-slider .mask {position: absolute; width: 33%; background: #000; height: clamp(-60px,3vw,60px); top: 0; right: 0;}
+#quote-slider .left {max-width: 95%}
+#quote-slider .left .plus {right: 3%}
+#quote-slider .left h3 {font-family: 'NB Architekt Std';}
+#quote-slider img {height: clamp(-620px,31vw,620px); object-fit: cover}
+#quote-slider .tag {position: absolute; text-transform: uppercase; transform: rotate(-90deg); transform-origin: top left; left: clamp(-30px,-1.5vw,30px); top: 51%; font-size:clamp(-16px, 0.8vw,16px); color: #838383}
+#quote-slider .slider {}
+#quote-slider .slider .slide .inside {padding: 0 clamp(-20px,1vw,20px)}
+
+
+#quote-slider .slick-dots {position: absolute; width: 25%; right: 0; bottom: 0vw}
+#quote-slider .slick-dots li {margin-right: clamp(-44px,2.2vw,44px); }
+#quote-slider .slick-dots li.slick-active button{background:#d0d0d0 }
+#quote-slider .slick-dots li button {background:transparent; width: clamp(-40px,2vw,40px); height: clamp(-40px,2vw,40px); border-radius: 100vw; display: inline-block; color: transparent; position: relative; border: 2px solid #d0d0d0}
+#quote-slider .slick-dots li button:before {content:"-"; width: clamp(-20px,1vw,20px); border-bottom: 2px solid #BBB; left: clamp(-42px,2.1vw,42px); opacity: 1; top: clamp(-20px,-0.2vw,10px)}
+#quote-slider .slick-dots li:last-child button:before {display: none}
+
+
+#quote-slider.v2 {background: transparent;}
+#quote-slider.v2 .left {padding: 3vw 3vw 2vw 0; background: #FFF; position: relative; margin-top: 4vw; width: 100%; max-width: none}
+#quote-slider.v2 img {width: 110%; max-width: none; float: right; margin-right: 10%}
+#quote-slider.v2 .left .plus {right: auto; left:0%}
+#quote-slider.v2 .left .dot {right: -0.75vw; top: -0.75vw; width: 1.5vw; height: 1.5vw;}
+#quote-slider.v2 .tag {right: 2vw; left: auto; transform-origin: top right; top: auto;}
+
+
+
+@media (min-width: 2000px) {
+/*	#section-2 .plus.d {display: none;}*/
+}
+
+
+
+
+@media only screen and (max-width:992px) and (min-width: 768px) {
+
+/*	#hero .logo {top: 45%;}*/
+/*	#hero .subhead {top: 55%;}*/
+	
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+
+
+	#hero .logo {width:95%; right: 2.5%; bottom: 3vw}
+	#hero .subhead {top: 50%; font-size: 3.4vw; left: 7%; }
+	#hero .subhead .slashes {width: 200%; margin-top: 1.5vw;}
+	#hero .plus.c {display: none}
+
+
+	#section-1 {padding: 0 0 40vw;}
+	#section-6 .container-fluid {margin-top: -39vw;}
+	#section-1 .disc.a {display: none;}
+
+	.head .box {}
+
+	#section-1 {background: linear-gradient(180deg, rgba(255,255,255,1) 30%, rgba(239,122,55,1) 100%);}
+	#section-1 .head {margin-bottom: 10%;}
+	#section-1 h2 {font-size: 11vw;}
+	#section-1 h3 {font-size: 4vw; margin-top: 37vw;}
+	#section-1 h3 br {display: none;}
+	#section-1 p {font-size: 3vw; line-height: 1.3;}
+	#section-1 .circle-mark {left: -20%; width: 60%; pointer-events: none;}
+	#section-1 .disc.b {display: none;}
+	#section-1 .plus.b {display: none;}
+
+	#section-1 .plus.a {left: 5vw;}
+	#section-1 .square.a {left: 5vw; top: 105vw;}
+
+	.stats .disc {display: none;}
+	.stats .text-1 {font-size: 6vw; line-height: 1.1; padding: 3vw 0;}
+	.stats .stat-icons {width: 30vw; margin-bottom: 8vw;}
+	.stats .stat {font-size: 10vw;}
+	.stats sup {font-size: 4vw;}
+	.stats p {font-size: 4vw !important; margin-bottom: 10vw;}
+
+	#section-1 .adjuster {left: 0; max-width: 80%; margin: 8vw auto;}
+	.stats .text-2 {font-size: 30vw;}
+	.stats .text-3 {font-size: 6vw;}
+
+	#section-6 .head p {font-size: 6vw;}
+	#section-6 .head .icon-un {width: 140%; max-width: 200%;}
+	#section-6 .text-1 {font-size: clamp(10px,5vw,10px); margin-bottom: clamp(10px,4vw,80px);}
+	#section-6 .text-2 {font-size: clamp(10px,8vw,160px); margin-bottom: clamp(10px,5vw,100px);}
+	#section-6 .text-4 {font-size: clamp(10px,14vw,280px);}
+	#section-6 .icon {margin: -3vw 0 4vw 3vw; width: clamp(10px,10vw,200px); height: clamp(10px,15vw,300px);}
+	#section-6 p {font-size: clamp(10px,4vw,80px);}
+	.braille {width: 50%; margin-left: 17vw; margin-bottom: 5vw;}
+	#section-6 .text-3 {font-size: 7vw;}
+
+	#section-7 {padding: 8vw 0 3vw;}
+	#section-7 .square.a {left: 0vw; top: 0;}
+	#section-7 .title span {font-size: 6vw;}
+	#section-7 .title {font-size: 11vw;}
+	#section-7 .plus.a {display: none;}
+	#section-7 p.intro {font-size: 4.5vw;}
+	#section-7 .vline {display: none;}
+	#section-7 .rainforest {width: 120%; right: 0%; margin-top: -8vw;}
+	#section-7 .big-button {}
+	#section-7 p.large {font-size: 7vw; padding-top: 2vw;}
+	#section-7 p.medium {font-size: 5vw;}
+	#section-7 p {font-size: 4vw;}
+
+	#section-3 {padding-bottom: 100vw;}
+	#section-3 .title {font-size: 11vw; line-height: 1.2; margin-top: 4vw;}
+	#section-3 .subhead {font-size: 3vw; margin-top: 7vw; line-height: 1;}
+	#section-3 .mammoth {width: 67%;}
+	#section-3 .adjuster p {position: absolute; width: 75vw; left: -40vw; font-size: 4vw; line-height: 1.3; margin: 30vw 0 0;}
+	#section-3 .big-button {position: absolute; width: 85vw; left: -50vw; top: 114vw; font-size: 4vw; padding: 3vw 8vw;}
+
+
+	#section-2 {padding: 10vw 0;}
+	#section-2 p {font-size: 5vw;}
+	#section-2 p small {font-size: 3vw;}
+	#section-2 .plus.b {display: none;}
+	#section-2 .founders p {font-size: 3vw;}
+	#section-2 h4 {font-size: 5.5vw; padding-top: 10vw;}
+	#section-2 p.constrained {max-width: 70vw; font-size: 4vw;}
+	#section-2 .big-button {margin: 0;}
+	#section-2 .arkitect {font-size: 5.5vw; font-family: 'Telegraf'; text-transform: uppercase;}
+
+
+	#thinking h2 {font-size: 8.5vw;}
+	#thinking .plus.a {display: none;}
+	#thinking .item {margin-top: 4vw; padding: 4vw;}
+	#thinking .item.featured {width: 110%;}
+	#thinking .item .qr {width: 120%; max-width: 150%; margin-left: 30%;}
+	#thinking .item .slashes {height: 4px;}
+	#thinking .item .title,
+	#thinking .item.featured .title {font-size: 5vw; height: 14vw;}
+	#thinking .item p {font-size: 3vw;}
+	#thinking .item .more {font-size: 3vw;}
+	#thinking .controls {display: none;}
+	#section-4 h2 {font-size: 8vw;}
+	#section-4 .leaf {height: 70vw; object-fit: cover;}
+
+	#section-4 .outline-image {width: 100%; margin-right: -30%; margin-top: -5vw;}
+	#section-4 h4 {font-size: 5vw; white-space: nowrap;}
+	#section-4 .slashes.b {width: 100%;}
+	#section-4 p {font-size: 3vw;}
+	#section-4 .big-button {width: 145%; margin-left: -35%;}
+
+	#section-7 .img-2 {width: 50vw; right: 20vw;}
+
+	#conservation-partners {padding: 30vw 0 0;}
+	#conservation-partners .disc {top: -2.5vw;}
+	#conservation-partners .large {font-size: 5vw;}
+	#conservation-partners .affiliates img {max-height: 15vw; height: 15vw; max-width: 70%; object-fit: contain; display: block; margin: 0 auto 10vw;}
+/*	#conservation-partners  .affiliates .extra-height {max-height: 20vw}*/
+
+	/*.science-images .img-1 {margin-left: -20vw;}
+	.science-images .img-2 {margin-top: 5vw;}
+	.science-images .img-3 {margin-top: -50vw; max-width: none; width: 150%; float: none; position: relative; z-index: 5;}
+	.science-images .img-4 {margin-top: -60vw; width: 100%; margin-left: 0;}
+	.science-images .img-5 {margin-top: -20vw; width: 100%;}*/
+
+	.science-images .img-1 {max-width: 160%; width: 160%; margin-left: -60%}
+	.science-images .img-2 {max-width: 140%; width: 140%}
+	.science-images .img-3 {max-width: 110%; width: 110%}
+	.science-images .img-5 {margin-top: 20%; width: 220%; max-width: 300%; margin-left: -100%}
+	.science-images .plus.b {display: block !important;}
+	.science-images {padding-bottom: 10vw;}
+
+
+	#quote-slider {padding: 12vw 0}
+	#quote-slider .mask {display: none}
+	#quote-slider h2 {font-size: 10vw}
+	#quote-slider img {height: auto; width: 60%}
+	#quote-slider .arkitect {display: none}
+	#quote-slider p.medium {font-size: 4.5vw}
+	#quote-slider .text-right {font-size: 4vw}
+
+	#quote-slider .slick-dots {position: relative; width: 100%;}
+	#quote-slider .slick-dots li {margin-right: 8vw}
+	#quote-slider .slick-dots li button {width: 10vw; height: 10vw}
+	#quote-slider .slick-dots li button:before {display: none}
+	#quote-slider .text-right {text-align: left !important; margin-top: 5vw}
+	#quote-slider .box {display: none}
+	#quote-slider .tag {font-size: 3vw; white-space: nowrap; left: 0; display: none}
+	#quote-slider h2 .square {display: none}
+	#quote-slider .left {max-width: 100%}
+
+
+	#quote-slider.v2 img {width: 60%; float: none}
+	#quote-slider.v2 .left {padding: 0}
+	#quote-slider.v2 .dot {display: none}
+
+	#conservation-partners .affiliates .extra-height {height: 16vw; max-height: none; max-width: none}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
